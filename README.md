@@ -24,5 +24,5 @@ Framester schema: https://raw.githubusercontent.com/framester/schema/master/onto
 
 Contents of the repository so far:
 - VG Reconstruction folder: 
--- "Old" model: an image and a graph.ml of the reconstructed ("old") underlying model of VG, based on the JSON files to be queried. It also contains three images of the kinds of repetitions/complications found in the model (e.g., depending on which jkson file is queried, the same conceptual entity (eg., image id) has different names/dict values ("id" and "image_id")
--- "New" model: an image and a graph.ml of a cleaner version ("new") underlying model of VG, that attempts to take care of the repetitive situations (basically, trying to replace two different names referring to the same entity with just one entity)
+  * "Old" model: an image and a graph.ml of the reconstructed ("old") underlying model of VG, based on the JSON files to be queried. It also contains three images of the kinds of repetitions/complications found in the model (e.g., depending on which jkson file is queried, the same conceptual entity (eg., image id) has different names/dict values ("id" and "image_id")
+  * "New" model: an image and a graph.ml of a cleaner version ("new") underlying model of VG, that attempts to take care of the repetitive situations (basically, trying to replace two different names referring to the same entity with just one entity)
