@@ -1,0 +1,110 @@
+CQ1: Are there objects of a specific type (e.g, man) depicted in an image?
+SPARQL1: PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> SELECT ?imageObject ?depictedObject WHERE { ?imageObject a :ImageObject. ?depictedObject a :VGDepictedObject. ?imageObject :depicts ?depictedObject. ?depictedObject rdfs:label ?label FILTER regex(?label, "man") }
+
+CQ2: How many objects of a specific type (e.g., man) are depicted in this image?
+SPARQL2: PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> SELECT ?imageObject ?depictedObject (COUNT(distinct ?depictedObject) as ?count) WHERE {
+?imageObject a :ImageObject. ?depictedObject a :VGDepictedObject. ?imageObject :depicts ?depictedObject. ?depictedObject rdfs:label ?label FILTER regex(?label, "man") }
+
+CQ3: Give me the broadest (biggest surface) region of some image, and what it represents (give me the region description/label).
+SPARQL3: PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> SELECT ?imageObject ?depictedRegion (MAX( MAX(?width)*MAX(?height) as ?maxRegion) ?label WHERE {
+?imageObject a :ImageObject. ?depictedRegion a :VGDepictedRegion. ?boundingBox a :VGBoundingBox. ?imageObject :depicts ?depictedRegion. ?depictedRegion :hasLocation ?boundingBox. ?boundingBox :hasHeight ?height. ?boundingBox :hasWidth ?width. ?depictedRegion rdfs:label ?label}
+
+CQ4: What are the coordinates of a depicted object in an image?
+SPARQL4: PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> SELECT ?imageObject ?depictedObject ?xCoordinate ?yCoordinate WHERE {?imageObject a :ImageObject. ?depictedObject a :VGDepictedObject. ?imageObject :depicts ?depictedObject. ?depictedObject :hasLocation ?boundingBox. ?boundingBox :hasXCoordinate ?xCoordinate; :hasYCoordinate ?yCoordinate.}
+
+CQ5: Which percentage of the image does a depicted object occupy?
+SPARQL5: PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>SELECT ?imageObject ?depictedObject ((?objectWidth*?objectHeight)/(?imageWidth*?imageHeight)*100 as ?percentage) WHERE {?imageObject a :ImageObject. ?imageRegion a :ImageRegion. ?depictedObject a :VGDepictedObject. ?imageObject :depicts ?depictedObject. ?depictedObject :hasLocation ?objectBoundingBox. ?objectBoundingBox :hasWidth ?objectWidth; :hasHeight ?objectHeight. ?imageobject :hasPart ?imageBoundingBox. ?imageBoundingBox :hasWidth ?imageWidth; :hasHeight ?imageHeight.}
+
+CQ6: Are there relationships between two objects of the same type in some image?
+SPARQL6: PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> SELECT ?imageObject ?depictedObject1 ?depictedObject2 ?objectRel WHERE {?imageObject a :ImageObject. ?depictedObject a :VGDepictedObject. ?imageObject :depicts ?depictedObject1. ?depictedObject1 rdfs:label ?label1. ?imageObject :depicts ?depictedObject2. ?depictedObject2 rdfs:label ?label2. {?depictedObject1 :isRelObjectOf ?objectRel. ?depictedObject2 :isRelSubjectOf ?objectRel. AND 
+?depictedObject2 :isRelObjectOf ?objectRel. ?depictedObject1 :isRelSubjectOf ?objectRel.} FILTER (?label1== ?label2)}
+
+CQ7: Give me all images where a policeman is holding another man.
+SPARQL7: PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> SELECT ?imageObject ?depictedObject WHERE {?imageObject a :ImageObject. ?depictedObject1 a :VGDepictedObject. ?depictedObject2 a :VGDepictedObject. ?imageObject :depicts ?depictedObject1. ?imageObject :depicts ?depictedObject2. ?depictedObject1 rdfs:label ?label1. ?depictedObject2 rdfs:label ?label2. {?depictedObject1 :isRelObjectOf ?objectRel. ?depictedObject2 :isRelSubjectOf ?objectRel. AND ?depictedObject2 :isRelObjectOf ?objectRel. ?depictedObject1 :isRelSubjectOf ?objectRel.} ?ObjectRel rdfs:label ?labelRel. FILTER regex(?label1, “police”) FILTER regex(?label2, “man”) FILTER regex(?labelRel, “holding”)}
+
+CQ8: Which are the depicted objects of an image object?
+SPARQL8: PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> SELECT ?imageObject ?depictedObject WHERE {?imageObject a :ImageObject. ?depictedObject a :VGDepictedObject. ?imageObject :depicts ?depictedObject.}
+
+CQ9: Which are the depicted regions of an image?
+SPARQL9: PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> SELECT ?image ?depictedRegion WHERE {?image a :ImageObject. ?depictedRegion a :VGDepictedRegion. ?image :depicts ?depictedRegion.}
+
+CQ10: Which are the bounding boxes of an image?
+SPARQL10: SELECT ?image ?boundingBox WHERE {?image a :ImageRegion. ?boundingBox a :VGBoundingbox. ?image DUL:hasPart ?boundingBox.}
+
+CQ11: How many bounding boxes does an image have?
+SPARQL11:PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> SELECT ?image ?boundingBox (COUNT(distinct ?boundingBox) as ?count) WHERE { ?image a :ImageRegion. ?boundingBox a :boundingBox. ?image DUL:hasPart ?boundingBox.}
+
+CQ12: What is the width of a bounding box?
+SPARQL12: PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> SELECT  ?image ?boundingBox ?width WHERE {?image a :ImageRegion. ?boundingBox a :VGBoundingbox. ?image DUL:hasPart ?boundingBox. ?boundingBox :hasWidth ?width.}
+
+CQ13: What is the height of a bounding box?
+SPARQL13: PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> SELECT ?image ?boundingBox ?height WHERE { ?image a :ImageRegion. ?boundingBox a :VGBoundingbox. ?image DUL:hasPart ?boundingBox. ?boundingBox :hasHeight ?height.}
+
+CQ14: What is the x coordinate of the bounding box?
+SPARQL14: PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> SELECT  ?image ?boundingBox ?xCoordinate WHERE {?image a :ImageRegion. ?boundingBox a :VGBoundingbox. ?image DUL:hasPart ?boundingBox. ?boundingBox :hasXCoordinate ?xCoordinate.}
+
+CQ15: What is the y coordinate of the bounding box?
+SPARQL15: PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> SELECT  ?image ?boundingBox ?yCoordinate WHERE {?image a :ImageRegion. ?boundingBox a :VGBoundingbox. ?image DUL:hasPart ?boundingBox. ?boundingBox :hasYCoordinate ?yCoordinate.}
+
+CQ16: What depicted objects does a bounding box cover?
+SPARQL16: PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> SELECT  ?imageObject ?imageRegion ?boundingBox ?depictedObject WHERE { ?imageObject a :ImageObject. ?imageRegion a :imageRegion. ?boundingBox a :VGBoundingBox. ?depictedObject a :VGDepictedObject. ?imageRegion :hasPart ?boundingBox. ?imageObject :depicts ?depictedObject. ?boundingBox :isLocationOf ?depictedObject.}
+
+CQ17:Which depicted objects does a depicted region involve?
+SPARQL17: PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> SELECT  ?image ?depictedRegion ?depictedObject WHERE { ?image a :ImageObject. ?depictedRegion a :VGDepictedRegion. ?depictedObject a :VGDepictedObject. ?image :depicts ?depictedRegion. ?image :depicts ?depictedObject. ?depictedRegion :involvesDepictedObject ?depictedObject.}
+
+CQ18: Which object relations does a depicted region involve?
+SPARQL18: PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> SELECT  ?image ?depictedRegion ?objectRel WHERE {?image a :ImageObject. ?depictedRegion a :VGDepictedRegion. ?objectRel a :VGObjectRel. ?image :depicts ?depictedRegion. ?depictedRegion :involvesObjectRel ?objectRel.}
+
+CQ19: Which synsets are the related meaning of a depicted region?
+SPARQL19: PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> SELECT  ?image ?depictedRegion ?wnSynset WHERE { ?image a :ImageObject. ?depictedRegion a :VGDepictedRegion. ?wnSynset a :WnSynset. ?image :depicts ?depictedRegion. ?depictedRegion fnschema:relatedMeaning ?wnSynset.}
+
+CQ20: Which conceptual frame does a depicted region evoke?
+SPARQL20: PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> SELECT  ?image ?depictedRegion ?conceptualFrame WHERE {?image a :ImageObject. ?depictedRegion a :VGDepictedRegion. ?conceptualFrame a fschema:ConceptualFrame. ?image :depicts ?depictedRegion. ?depictedRegion :evokesFREDFrame ?conceptualFrame.}
+
+CQ21: Which is the label of the depicted region?
+SPARQL21: PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> SELECT  ?image ?depictedRegion ?label WHERE { ?image a :ImageObject. ?depictedRegion a :VGDepictedRegion. ?image :depicts ?depictedRegion. ?depictedRegion rdfs:label ?label.}
+
+CQ22: Which is the label of an object relation?
+SPARQL22: PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> SELECT  ?objectRel ?label WHERE {?objectRel a :VGObjectRel. ?objectRel rdfs:label ?label.}
+
+CQ23: Which is the label of a synset?
+SPARQL23: PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> SELECT  ?wnSynset ?label WHERE {?wnSynset a :WnSynset. ?wnSynset rdfs:label ?label.}
+
+CQ24: Which is the label of a depicted object?
+SPARQL24: PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> SELECT  ?image ?depictedObject ?label WHERE { ?image a :ImageObject. ?depictedObject a :VGDepictedObject. ?image :depicts ?depictedObject. ?depictedObject rdfs:label ?label.}
+
+CQ25: Which is the relation object of a relation?
+SPARQL25: PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> SELECT  ?image ?depictedObject ?objectRel WHERE {?image a :ImageObject. ?depictedObject a :VGDepictedObject. ?objectRel a :VGObjectRel. ?image :depicts ?depictedObject. ?depictedObject :isRelObjectOf ?objectRel.}
+
+CQ26: Which is the relation subject of a relation?
+SPARQL26: SELECT ?image ?depictedObject ?objectRel WHERE { ?image a :ImageObject. ?depictedObject a :VGDepictedObject. ?objectRel a :VGObjectRel. ?image :depicts ?depictedObject. ?depictedObject :isRelSubjectOf ?objectRel.}
+
+CQ27: Which is the location of an image object?
+SPARQL27: SELECT ?imageObject ?imageRegion WHERE {?imageRegion a :ImageRegion. ?imageObject a :ImageObject. ?imageObject :hasLocation ?imageRegion.}
+
+CQ28: Which synsets does a conceptual frame subsume?
+SPARQL28: SELECT ?wnSynset ?conceptualFrame WHERE {?wnSynset a :WnSynset. ?conceptualFrame a fschema:ConceptualFrame. ?wnSynset fschema:subsumedUnder ?conceptualFrame.}
+
+CQ29: Which bounding boxes are the location of a depicted region?
+SPARQL29: SELECT ?image ?boundingBox ?depictedRegion WHERE { ?imageRegion a :ImageRegion. ?imageObject a :ImageObject. ?boundingBox a :VGBoundingBox. ?depictedRegion a :VGDepictedRegion. ?imageObject :depicts ?depictedRegion. ?imageRegion :hasPart :VGBoundingBox. ?boundingBox :isLocationOf ?depictedRegion.}
+
+CQ30: Which is the height of an image region?
+SPARQL30: SELECT ?imageObject ?imageRegion ?height WHERE {?imageRegion a :ImageRegion. ?imageObject a :ImageObject. ?imageObject :hasLocation ?imageRegion. ?imageRegion :hasHeight ?height.}
+
+CQ31: Which is the width of an image region?
+SPARQL31: SELECT ?imageObject ?imageRegion ?width WHERE {?imageRegion a :ImageRegion. ?imageObject a :ImageObject. ?imageObject :hasLocation ?imageRegion. ?imageRegion :hasHeight ?width.}
+
+CQ32: Which are the object attributes of a depicted object?
+SPARQL32: SELECT ?imageObject ?depictedObject ?objectAttribute WHERE {?imageObject a :ImageObject. ?depictedObject a :VGDepictedObject. ?objectAttribute a :VGObjectAttribute. ?imageObject :depicts ?depictedObject. ?depictedObject :hasObjectAttribute ?objectAttribute.}
+
+CQ33: Which conceptual frames does an image object evoke?
+SPARQL33: SELECT ?imageObject ?conceptualFrame WHERE {?imageObject a :ImageObject. ?conceptualFrame a fschema:ConceptualFrame. ?imageObject fschema:evokes ?conceptualFrame.}
+
+CQ34: Which depicted object is related to a depicted object?
+SPARQL34: SELECT ?imageObject ?depictedObject WHERE {?imageObject a :ImageObject. ?depictedObject a :VGDepictedObject. ?imageObject :depicts ?depictedObject. ?depictedObject :hasVGRel ?depictedObject}
+
+CQ35: Which synset is the related meaning of a depicted object?
+SPARQL35: SELECT ?imageObject ?depictedObject ?wnSynset WHERE {?imageObject a :ImageObject. ?depictedObject a :VGDepictedObject. ?wnSynset a :WnSynset. ?imageObject :depicts ?depictedObject. ?depictedObject fnschema:relatedMeaning ?wnSynset}
+
+CQ36: Which synset is the related meaning of an object relation?
+SPARQL36: SELECT ?objectRel ?wnSynset WHERE {?objectRel a :VGObjectRel. ?wnSynset a :WnSynset. ?objectRel fnschema:relatedMeaning ?wnSynset}
