@@ -1,3 +1,4 @@
+
 # Visual Sense: Automatically Making Sense of the Visual World
 
 This project aims at integrating a (part of a) resource of annotated images (Visual Genome) in Framester, a linked data knowledge graph that contains factual, linguistic, and visual knowledge.
@@ -21,6 +22,9 @@ Framester SPARQL Endpoint: http://etna.istc.cnr.it/framester2/sparql
 Framester API: http://etna.istc.cnr.it/framester_web/
 
 Framester schema: https://raw.githubusercontent.com/framester/schema/master/ontology.owl
+
+
+![photo_2021-09-14 15 40 49](https://user-images.githubusercontent.com/44606644/133268469-8b77821d-af7e-466c-88f7-ff9a221e3ada.jpeg)
 
 Contents of the repository so far:
 - VG Reconstruction folder: 
