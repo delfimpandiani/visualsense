@@ -1,0 +1,418 @@
+@prefix : <http://www.example.org/ns/r2rml#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix ex: <http://ex.com/> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix cpv: <https://w3id.org/italia/onto/CPV/> .
+@prefix visense: <https://w3id.org/visualsense#> .
+@prefix fschema: <https://w3id.org/framester/schema/> .
+
+
+:ImageObjectTriplesMap 
+    rml:logicalSource :ImageSource ;
+    rr:subjectMap [
+        rr:template "http://w3id.org/visense/resource/ImageObject/image_object_{image_id}";
+        rr:class visense:ImageObject
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate visense:hasLocation;
+        rr:objectMap [
+            rr:template "http://w3id.org/visense/resource/ImageRegion/image_region_{image_id}"  
+        ]
+    ] .
+
+:ImageRegionTriplesMap 
+    rml:logicalSource :ImageSource ;
+    rr:subjectMap [
+        rr:template "http://w3id.org/visense/resource/ImageRegion/image_region_{image_id}";
+        rr:class visense:ImageRegion
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate visense:isLocationOf;
+        rr:objectMap [
+            rr:template "http://w3id.org/visense/resource/ImageObject/image_object_{image_id}"  
+        ]
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate visense:hasHeight;
+        rr:objectMap [
+            rml:reference "height";
+            rr:datatype xs:decimal;
+        ]
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate visense:hasWidth;
+        rr:objectMap [
+            rml:reference "width";
+            rr:datatype xs:decimal;
+        ]
+    ] .
+            
+
+
+:BBRegionTriplesMap 
+    rml:logicalSource :RegionSource ;
+    rr:subjectMap [
+        rr:template "https://w3id.org/visense/resource/BoundingBox/bb_region_{region_id}";
+        rr:class visense:BoundingBox
+    ] ;
+
+
+    rr:predicateObjectMap [
+        rr:predicate visense:hasXCoordinate;
+        rr:objectMap [
+            rml:reference "x";
+            rr:datatype xs:decimal;
+        ]
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate visense:hasYCoordinate;
+        rr:objectMap [
+            rml:reference "y";
+            rr:datatype xs:decimal;
+        ]
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate visense:hasWidth;
+        rr:objectMap [
+            rml:reference "width";
+            rr:datatype xs:decimal;
+        ]
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate visense:hasHeight;
+        rr:objectMap [
+            rml:reference "height";
+            rr:datatype xs:decimal;
+        ]
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate visense:isLocationOf;
+        rr:objectMap [
+            rr:template "https://w3id.org/visense/resource/DepictedRegion/depicted_region_{region_id}"  
+        ]
+    ] ;
+
+        rr:predicateObjectMap [
+        rr:predicate visense:isPartOf;
+        rr:objectMap [
+            rr:template "http://w3id.org/visense/resource/ImageRegion/image_region_{image_id}"
+        ]
+    ] .
+
+
+:RegionTriplesMap 
+    rml:logicalSource :RegionSource ;
+    rr:subjectMap [
+        rr:template "https://w3id.org/visense/resource/DepictedRegion/depicted_region_{region_id}";
+        rr:class visense:DepictedRegion
+    ] ;
+
+
+    rr:predicateObjectMap [
+        rr:predicate visense:hasLocation;
+        rr:objectMap [
+            rr:template "https://w3id.org/visense/resource/BoundingBox/bb_region_{region_id}"
+        ]
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate rdfs:label;
+        rr:objectMap [
+            rml:reference "phrase";
+            rr:datatype xs:string;
+        ]
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate visense:isDepictedIn;
+        rr:objectMap [
+            rr:template "http://w3id.org/visense/resource/ImageObject/image_object_{image_id}"
+        ]
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate visense:includesDepictedObject;
+        rr:objectMap [
+            rr:template "http://w3id.org/visense/resource/DepictedObject/depicted_object_{.objects[*]}"
+            
+        ]
+    ] .
+
+
+:BBDepictedObjectTriplesMap 
+    rml:logicalSource :DepictedObjectSource ;
+    rr:subjectMap [
+        rr:template "https://w3id.org/visense/resource/BoundingBox/bb_dep_object_{object_id}";
+        rr:class visense:BoundingBox
+    ] ;
+
+
+    rr:predicateObjectMap [
+        rr:predicate visense:hasXCoordinate;
+        rr:objectMap [
+            rml:reference "x";
+            rr:datatype xs:decimal;
+        ]
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate visense:hasYCoordinate;
+        rr:objectMap [
+            rml:reference "y";
+            rr:datatype xs:decimal;
+        ]
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate visense:hasWidth;
+        rr:objectMap [
+            rml:reference "w";
+            rr:datatype xs:decimal;
+        ]
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate visense:hasHeight;
+        rr:objectMap [
+            rml:reference "h";
+            rr:datatype xs:decimal;
+        ]
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate visense:isLocationOf;
+        rr:objectMap [
+            rr:template "https://w3id.org/visense/resource/DepictedObject/depicted_object_{object_id}"  
+        ]
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate visense:isPartOf;
+        rr:objectMap [
+            rr:constant "http://w3id.org/visense/resource/ImageRegion/image_region_2384656"
+        ]
+    ] .
+
+:DepictedObjectTriplesMap 
+    rml:logicalSource :DepictedObjectSource ;
+    rr:subjectMap [
+        rr:template "https://w3id.org/visense/resource/DepictedObject/depicted_object_{object_id}";
+        rr:class visense:DepictedObject
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate visense:hasLocation;
+        rr:objectMap [
+            rr:template "https://w3id.org/visense/resource/BoundingBox/bb_dep_object_{object_id}"
+        ]
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate visense:isTypedBy;
+        rr:objectMap [
+            rr:template "https://w3id.org/visense/resource/WnSynsetFrame/{synsets}"
+        ]
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate rdfs:label;
+        rr:objectMap [
+            rml:reference "names";
+            rr:datatype xs:string;
+        ]
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate visense:hasObjAttribute;
+        rr:objectMap [
+            rml:reference "attributes";
+            rr:datatype xs:string;
+        ]
+    ] ;
+
+
+    rr:predicateObjectMap [
+        rr:predicate visense:isDepictedIn;
+        rr:objectMap [
+            rr:constant "http://w3id.org/visense/resource/ImageObject/image_object_2384656"
+        ]
+    ] .
+
+
+:ObjSynsetTriplesMap 
+    rml:logicalSource :ObjSynsetSource ;
+    rr:subjectMap [
+        rr:template "https://w3id.org/visense/resource/WnSynsetFrame/{synsets}";
+        rr:class visense:WnSynsetFrame
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate rdfs:label;
+        rr:objectMap [
+            rml:reference "synsets";
+            rr:datatype xs:string;
+        ]
+    ] .
+
+:RelationshipTriplesMap 
+    rml:logicalSource :RelationshipSource ;
+    rr:subjectMap [
+        rr:template "https://w3id.org/visense/resource/ObjectRelationship/object_relationship_{relationship_id}";
+        rr:class visense:ObjectRelationship
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate rdfs:label;
+        rr:objectMap [
+            rml:reference "predicate";
+            rr:datatype xs:string;
+        ]
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate visense:hasRelSubject;
+        rr:objectMap [
+            rr:template "https://w3id.org/visense/resource/DepictedObject/depicted_object_{subject_id}"
+        ]
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate visense:hasRelObject;
+        rr:objectMap [
+            rr:template "https://w3id.org/visense/resource/DepictedObject/depicted_object_{object_id}"
+        ]
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate visense:isTypedBy;
+        rr:objectMap [
+            rr:template "https://w3id.org/visense/resource/WnSynsetFrame/{synsets}"
+        ]
+    ] ;
+
+
+    rr:predicateObjectMap [
+        rr:predicate visense:isDepictedIn;
+        rr:objectMap [
+            rr:template "http://w3id.org/visense/resource/ImageObject/#image_object_{image_id}"
+        ]
+    ] .
+
+
+:RelSynsetTriplesMap 
+    rml:logicalSource :RelSynsetSource ;
+    rr:subjectMap [
+        rr:template "https://w3id.org/visense/resource/WnSynsetFrame/{synsets}";
+        rr:class visense:WnSynsetFrame
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate rdfs:label;
+        rr:objectMap [
+            rml:reference "synsets";
+            rr:datatype xs:string;
+        ]
+    ] .
+
+:FrameTriplesMap 
+    rml:logicalSource :FrameSource ;
+    rr:subjectMap [
+        rml:reference "frame";
+        rr:class visense:ConceptualFrame;
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate visense:hasFrequency;
+        rr:objectMap [
+            rml:reference "frequency";
+            rr:datatype xs:decimal;
+        ]
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate visense:isEvokedBy;
+        rr:objectMap [
+            rr:template "http://w3id.org/visense/resource/ImageObject/image_object_{image_id}";
+        ]
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate visense:isFREDFrameEvokedBy;
+        rr:objectMap [
+            rr:template "https://w3id.org/visense/resource/DepictedRegion/depicted_region_{region_id}";
+        ]
+    ] .
+
+:ObjInRegionTriplesMap 
+    rml:logicalSource :ObjInRegionSource ;
+    rr:subjectMap [
+        rr:template "https://w3id.org/visense/resource/DepictedObject/depicted_object_{object_id}";
+        rr:class visense:DepictedObject
+    ] ;
+
+
+    rr:predicateObjectMap [
+        rr:predicate visense:XXXXDEPICTEDINNN;
+        rr:objectMap [
+            rr:template "https://w3id.org/visense/resource/DepictedRegion/depicted_region_XXXXX";
+        ]
+    ] .
+
+
+
+
+:ImageSource rml:source "./sources/image_data.json";
+    rml:referenceFormulation ql:JSONPath ;
+    rml:iterator "$" .
+
+:RegionSource rml:source "./sources/regions2.json";
+    rml:referenceFormulation ql:JSONPath ;
+    rml:iterator "$.regions[*]" .
+
+:ObjInRegionSource rml:source "./sources/regions3.json";
+    rml:referenceFormulation ql:JSONPath ;
+    rml:iterator "$.regions[*].objects[*]" .
+
+:DepictedObjectSource rml:source "./sources/scenegraphs.json";
+    rml:referenceFormulation ql:JSONPath ;
+    rml:iterator "$.objects[*]" .
+
+:ObjSynsetSource rml:source "./sources/scenegraphs2.json";
+    rml:referenceFormulation ql:JSONPath ;
+    rml:iterator "$.objects[*]" .
+
+:RelationshipSource rml:source "./sources/scenegraphs3.json";
+    rml:referenceFormulation ql:JSONPath ;
+    rml:iterator "$.relationships[*]" .
+
+:RelSynsetSource rml:source "./sources/scenegraphs4.json";
+    rml:referenceFormulation ql:JSONPath ;
+    rml:iterator "$.relationships[*]" .
+
+
+
+:FrameSource rml:source "./sources/frames.json";
+    rml:referenceFormulation ql:JSONPath ;
+    rml:iterator "$.frames_evoked[*]" .
+
+
+
+
+
+
+:RegionSynsetSource rml:source "./sources/regions.json";
+    rml:referenceFormulation ql:JSONPath ;
+    rml:iterator "$.regions[*].synsets[*]" .
