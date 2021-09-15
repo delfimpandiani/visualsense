@@ -1,0 +1,1459 @@
+@prefix ns1: <https://w3id.org/visualsense#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://etna.istc.cnr.it/framester2/data/framestersyn/[]> a ns1:WnSynsetFrame ;
+    rdfs:label "[]"^^xsd:string .
+
+<http://etna.istc.cnr.it/framester2/data/framestersyn/[alongr01]> a ns1:WnSynsetFrame ;
+    rdfs:label "['along.r.01']"^^xsd:string .
+
+<http://etna.istc.cnr.it/framester2/data/framestersyn/[asphaltn01]> a ns1:WnSynsetFrame ;
+    rdfs:label "['asphalt.n.01']"^^xsd:string .
+
+<http://etna.istc.cnr.it/framester2/data/framestersyn/[backpackn01]> a ns1:WnSynsetFrame ;
+    rdfs:label "['backpack.n.01']"^^xsd:string .
+
+<http://etna.istc.cnr.it/framester2/data/framestersyn/[bicyclen01]> a ns1:WnSynsetFrame ;
+    rdfs:label "['bicycle.n.01']"^^xsd:string .
+
+<http://etna.istc.cnr.it/framester2/data/framestersyn/[bootn01]> a ns1:WnSynsetFrame ;
+    rdfs:label "['boot.n.01']"^^xsd:string .
+
+<http://etna.istc.cnr.it/framester2/data/framestersyn/[gym_shoen01]> a ns1:WnSynsetFrame ;
+    rdfs:label "['gym_shoe.n.01']"^^xsd:string .
+
+<http://etna.istc.cnr.it/framester2/data/framestersyn/[hairn01]> a ns1:WnSynsetFrame ;
+    rdfs:label "['hair.n.01']"^^xsd:string .
+
+<http://etna.istc.cnr.it/framester2/data/framestersyn/[havev01]> a ns1:WnSynsetFrame ;
+    rdfs:label "['have.v.01']"^^xsd:string .
+
+<http://etna.istc.cnr.it/framester2/data/framestersyn/[headn01]> a ns1:WnSynsetFrame ;
+    rdfs:label "['head.n.01']"^^xsd:string .
+
+<http://etna.istc.cnr.it/framester2/data/framestersyn/[jeann01]> a ns1:WnSynsetFrame ;
+    rdfs:label "['jean.n.01']"^^xsd:string .
+
+<http://etna.istc.cnr.it/framester2/data/framestersyn/[linen01]> a ns1:WnSynsetFrame ;
+    rdfs:label "['line.n.01']"^^xsd:string .
+
+<http://etna.istc.cnr.it/framester2/data/framestersyn/[mann01]> a ns1:WnSynsetFrame ;
+    rdfs:label "['man.n.01']"^^xsd:string .
+
+<http://etna.istc.cnr.it/framester2/data/framestersyn/[mouthn01]> a ns1:WnSynsetFrame ;
+    rdfs:label "['mouth.n.01']"^^xsd:string .
+
+<http://etna.istc.cnr.it/framester2/data/framestersyn/[policen01]> a ns1:WnSynsetFrame ;
+    rdfs:label "['police.n.01']"^^xsd:string .
+
+<http://etna.istc.cnr.it/framester2/data/framestersyn/[seev10]> a ns1:WnSynsetFrame ;
+    rdfs:label "['see.v.10']"^^xsd:string .
+
+<http://etna.istc.cnr.it/framester2/data/framestersyn/[shirtn01]> a ns1:WnSynsetFrame ;
+    rdfs:label "['shirt.n.01']"^^xsd:string .
+
+<http://etna.istc.cnr.it/framester2/data/framestersyn/[sockn01]> a ns1:WnSynsetFrame ;
+    rdfs:label "['sock.n.01']"^^xsd:string .
+
+<http://etna.istc.cnr.it/framester2/data/framestersyn/[stomachn01]> a ns1:WnSynsetFrame ;
+    rdfs:label "['stomach.n.01']"^^xsd:string .
+
+<http://etna.istc.cnr.it/framester2/data/framestersyn/[tattoon01]> a ns1:WnSynsetFrame ;
+    rdfs:label "['tattoo.n.01']"^^xsd:string .
+
+<http://etna.istc.cnr.it/framester2/data/framestersyn/[tiren01]> a ns1:WnSynsetFrame ;
+    rdfs:label "['tire.n.01']"^^xsd:string .
+
+<http://etna.istc.cnr.it/framester2/data/framestersyn/[wearv01]> a ns1:WnSynsetFrame ;
+    rdfs:label "['wear.v.01']"^^xsd:string .
+
+<http://etna.istc.cnr.it/framester2/data/framestersyn/[wheeln01]> a ns1:WnSynsetFrame ;
+    rdfs:label "['wheel.n.01']"^^xsd:string .
+
+<http://etna.istc.cnr.it/framester2/data/framestersyn/badgen01> a ns1:WnSynsetFrame ;
+    rdfs:label "badge.n.01"^^xsd:string .
+
+<http://etna.istc.cnr.it/framester2/data/framestersyn/uniformn01> a ns1:WnSynsetFrame ;
+    rdfs:label "uniform.n.01"^^xsd:string .
+
+<http://w3id.org/visualsense/resource/ImageObject/image_object_2384656> a ns1:ImageObject ;
+    ns1:hasLocation "http://w3id.org/visualsense/resource/ImageRegion/image_region_2384656" .
+
+<http://w3id.org/visualsense/resource/ImageRegion/image_region_2384656> a ns1:ImageRegion ;
+    ns1:hasHeight 333.0 ;
+    ns1:hasWidth 500.0 ;
+    ns1:isLocationOf "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" .
+
+<https://w3id.org/framester/data/framestercore/Artifact> a ns1:ConceptualFrame ;
+    ns1:hasFrequency 7.0 ;
+    ns1:isEvokedBy "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" ;
+    ns1:isFREDFrameEvokedBy "https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_11100001",
+        "https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891498" .
+
+<https://w3id.org/framester/data/framestercore/Clothing> a ns1:ConceptualFrame ;
+    ns1:hasFrequency 6.0 ;
+    ns1:isEvokedBy "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" ;
+    ns1:isFREDFrameEvokedBy "https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891545" .
+
+<https://w3id.org/framester/data/framestercore/CommerceScenario> a ns1:ConceptualFrame ;
+    ns1:hasFrequency 4.0 ;
+    ns1:isEvokedBy "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" ;
+    ns1:isFREDFrameEvokedBy "https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1243524" .
+
+<https://w3id.org/framester/data/framestercore/Containers> a ns1:ConceptualFrame ;
+    ns1:hasFrequency 2.0 ;
+    ns1:isEvokedBy "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" ;
+    ns1:isFREDFrameEvokedBy "https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891542" .
+
+<https://w3id.org/framester/data/framestercore/InherentPurpose> a ns1:ConceptualFrame ;
+    ns1:hasFrequency 3.0 ;
+    ns1:isEvokedBy "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" ;
+    ns1:isFREDFrameEvokedBy "https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891547" .
+
+<https://w3id.org/framester/data/framestercore/PartWhole> a ns1:ConceptualFrame ;
+    ns1:hasFrequency 3.0 ;
+    ns1:isEvokedBy "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" ;
+    ns1:isFREDFrameEvokedBy "https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891540" .
+
+<https://w3id.org/visualsense/resource/BoundingBox/bb_dep_object_691251> a ns1:BoundingBox ;
+    ns1:hasHeight 128.0 ;
+    ns1:hasWidth 156.0 ;
+    ns1:hasXCoordinate 82.0 ;
+    ns1:hasYCoordinate 5.0 ;
+    ns1:isLocationOf "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691251" ;
+    ns1:isPartOf "http://w3id.org/visualsense/resource/ImageRegion/image_region_2384656" .
+
+<https://w3id.org/visualsense/resource/BoundingBox/bb_dep_object_691252> a ns1:BoundingBox ;
+    ns1:hasHeight 31.0 ;
+    ns1:hasWidth 30.0 ;
+    ns1:hasXCoordinate 121.0 ;
+    ns1:hasYCoordinate 15.0 ;
+    ns1:isLocationOf "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691252" ;
+    ns1:isPartOf "http://w3id.org/visualsense/resource/ImageRegion/image_region_2384656" .
+
+<https://w3id.org/visualsense/resource/BoundingBox/bb_dep_object_691253> a ns1:BoundingBox ;
+    ns1:hasHeight 26.0 ;
+    ns1:hasWidth 19.0 ;
+    ns1:hasXCoordinate 9.0 ;
+    ns1:hasYCoordinate 145.0 ;
+    ns1:isLocationOf "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691253" ;
+    ns1:isPartOf "http://w3id.org/visualsense/resource/ImageRegion/image_region_2384656" .
+
+<https://w3id.org/visualsense/resource/BoundingBox/bb_dep_object_691254> a ns1:BoundingBox ;
+    ns1:hasHeight 30.0 ;
+    ns1:hasWidth 35.0 ;
+    ns1:hasXCoordinate 130.0 ;
+    ns1:hasYCoordinate 194.0 ;
+    ns1:isLocationOf "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691254" ;
+    ns1:isPartOf "http://w3id.org/visualsense/resource/ImageRegion/image_region_2384656" .
+
+<https://w3id.org/visualsense/resource/BoundingBox/bb_dep_object_691255> a ns1:BoundingBox ;
+    ns1:hasHeight 44.0 ;
+    ns1:hasWidth 56.0 ;
+    ns1:hasXCoordinate 80.0 ;
+    ns1:hasYCoordinate 110.0 ;
+    ns1:isLocationOf "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691255" ;
+    ns1:isPartOf "http://w3id.org/visualsense/resource/ImageRegion/image_region_2384656" .
+
+<https://w3id.org/visualsense/resource/BoundingBox/bb_dep_object_691256> a ns1:BoundingBox ;
+    ns1:hasHeight 39.0 ;
+    ns1:hasWidth 27.0 ;
+    ns1:hasXCoordinate 457.0 ;
+    ns1:hasYCoordinate 120.0 ;
+    ns1:isLocationOf "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691256" ;
+    ns1:isPartOf "http://w3id.org/visualsense/resource/ImageRegion/image_region_2384656" .
+
+<https://w3id.org/visualsense/resource/BoundingBox/bb_dep_object_691257> a ns1:BoundingBox ;
+    ns1:hasHeight 55.0 ;
+    ns1:hasWidth 28.0 ;
+    ns1:hasXCoordinate 315.0 ;
+    ns1:hasYCoordinate 14.0 ;
+    ns1:isLocationOf "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691257" ;
+    ns1:isPartOf "http://w3id.org/visualsense/resource/ImageRegion/image_region_2384656" .
+
+<https://w3id.org/visualsense/resource/BoundingBox/bb_dep_object_691258> a ns1:BoundingBox ;
+    ns1:hasHeight 15.0 ;
+    ns1:hasWidth 21.0 ;
+    ns1:hasXCoordinate 346.0 ;
+    ns1:hasYCoordinate 1.0 ;
+    ns1:isLocationOf "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691258" ;
+    ns1:isPartOf "http://w3id.org/visualsense/resource/ImageRegion/image_region_2384656" .
+
+<https://w3id.org/visualsense/resource/BoundingBox/bb_dep_object_691259> a ns1:BoundingBox ;
+    ns1:hasHeight 58.0 ;
+    ns1:hasWidth 64.0 ;
+    ns1:hasXCoordinate 260.0 ;
+    ns1:hasYCoordinate 68.0 ;
+    ns1:isLocationOf "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691259" ;
+    ns1:isPartOf "http://w3id.org/visualsense/resource/ImageRegion/image_region_2384656" .
+
+<https://w3id.org/visualsense/resource/BoundingBox/bb_dep_object_691260> a ns1:BoundingBox ;
+    ns1:hasHeight 13.0 ;
+    ns1:hasWidth 19.0 ;
+    ns1:hasXCoordinate 262.0 ;
+    ns1:hasYCoordinate 64.0 ;
+    ns1:isLocationOf "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691260" ;
+    ns1:isPartOf "http://w3id.org/visualsense/resource/ImageRegion/image_region_2384656" .
+
+<https://w3id.org/visualsense/resource/BoundingBox/bb_dep_object_691261> a ns1:BoundingBox ;
+    ns1:hasHeight 55.0 ;
+    ns1:hasWidth 90.0 ;
+    ns1:hasXCoordinate 58.0 ;
+    ns1:hasYCoordinate 3.0 ;
+    ns1:isLocationOf "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691261" ;
+    ns1:isPartOf "http://w3id.org/visualsense/resource/ImageRegion/image_region_2384656" .
+
+<https://w3id.org/visualsense/resource/BoundingBox/bb_dep_object_691262> a ns1:BoundingBox ;
+    ns1:hasHeight 41.0 ;
+    ns1:hasWidth 72.0 ;
+    ns1:hasXCoordinate 316.0 ;
+    ns1:hasYCoordinate 80.0 ;
+    ns1:isLocationOf "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691262" ;
+    ns1:isPartOf "http://w3id.org/visualsense/resource/ImageRegion/image_region_2384656" .
+
+<https://w3id.org/visualsense/resource/BoundingBox/bb_dep_object_691263> a ns1:BoundingBox ;
+    ns1:hasHeight 64.0 ;
+    ns1:hasWidth 406.0 ;
+    ns1:hasXCoordinate 2.0 ;
+    ns1:hasYCoordinate 162.0 ;
+    ns1:isLocationOf "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691263" ;
+    ns1:isPartOf "http://w3id.org/visualsense/resource/ImageRegion/image_region_2384656" .
+
+<https://w3id.org/visualsense/resource/BoundingBox/bb_dep_object_691264> a ns1:BoundingBox ;
+    ns1:hasHeight 40.0 ;
+    ns1:hasWidth 65.0 ;
+    ns1:hasXCoordinate 6.0 ;
+    ns1:hasYCoordinate 179.0 ;
+    ns1:isLocationOf "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691264" ;
+    ns1:isPartOf "http://w3id.org/visualsense/resource/ImageRegion/image_region_2384656" .
+
+<https://w3id.org/visualsense/resource/BoundingBox/bb_dep_object_691265> a ns1:BoundingBox ;
+    ns1:hasHeight 25.0 ;
+    ns1:hasWidth 28.0 ;
+    ns1:hasXCoordinate 49.0 ;
+    ns1:hasYCoordinate 80.0 ;
+    ns1:isLocationOf "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691265" ;
+    ns1:isPartOf "http://w3id.org/visualsense/resource/ImageRegion/image_region_2384656" .
+
+<https://w3id.org/visualsense/resource/BoundingBox/bb_dep_object_691266> a ns1:BoundingBox ;
+    ns1:hasHeight 30.0 ;
+    ns1:hasWidth 35.0 ;
+    ns1:hasXCoordinate 327.0 ;
+    ns1:hasYCoordinate 30.0 ;
+    ns1:isLocationOf "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691266" ;
+    ns1:isPartOf "http://w3id.org/visualsense/resource/ImageRegion/image_region_2384656" .
+
+<https://w3id.org/visualsense/resource/BoundingBox/bb_dep_object_691267> a ns1:BoundingBox ;
+    ns1:hasHeight 33.0 ;
+    ns1:hasWidth 26.0 ;
+    ns1:hasXCoordinate 188.0 ;
+    ns1:hasYCoordinate 199.0 ;
+    ns1:isLocationOf "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691267" ;
+    ns1:isPartOf "http://w3id.org/visualsense/resource/ImageRegion/image_region_2384656" .
+
+<https://w3id.org/visualsense/resource/BoundingBox/bb_dep_object_691268> a ns1:BoundingBox ;
+    ns1:hasHeight 71.0 ;
+    ns1:hasWidth 120.0 ;
+    ns1:hasXCoordinate 170.0 ;
+    ns1:hasYCoordinate 15.0 ;
+    ns1:isLocationOf "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691268" ;
+    ns1:isPartOf "http://w3id.org/visualsense/resource/ImageRegion/image_region_2384656" .
+
+<https://w3id.org/visualsense/resource/BoundingBox/bb_dep_object_691269> a ns1:BoundingBox ;
+    ns1:hasHeight 28.0 ;
+    ns1:hasWidth 84.0 ;
+    ns1:hasXCoordinate 324.0 ;
+    ns1:hasYCoordinate 121.0 ;
+    ns1:isLocationOf "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691269" ;
+    ns1:isPartOf "http://w3id.org/visualsense/resource/ImageRegion/image_region_2384656" .
+
+<https://w3id.org/visualsense/resource/BoundingBox/bb_dep_object_691270> a ns1:BoundingBox ;
+    ns1:hasHeight 14.0 ;
+    ns1:hasWidth 27.0 ;
+    ns1:hasXCoordinate 381.0 ;
+    ns1:hasYCoordinate 118.0 ;
+    ns1:isLocationOf "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691270" ;
+    ns1:isPartOf "http://w3id.org/visualsense/resource/ImageRegion/image_region_2384656" .
+
+<https://w3id.org/visualsense/resource/BoundingBox/bb_dep_object_691271> a ns1:BoundingBox ;
+    ns1:hasHeight 19.0 ;
+    ns1:hasWidth 17.0 ;
+    ns1:hasXCoordinate 27.0 ;
+    ns1:hasYCoordinate 208.0 ;
+    ns1:isLocationOf "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691271" ;
+    ns1:isPartOf "http://w3id.org/visualsense/resource/ImageRegion/image_region_2384656" .
+
+<https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891498> a ns1:BoundingBox ;
+    ns1:hasHeight 105.0 ;
+    ns1:hasWidth 228.0 ;
+    ns1:hasXCoordinate 28.0 ;
+    ns1:hasYCoordinate 4.0 ;
+    ns1:isLocationOf "https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891498" ;
+    ns1:isPartOf "http://w3id.org/visualsense/resource/ImageRegion/image_region_2384656" .
+
+<https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891499> a ns1:BoundingBox ;
+    ns1:hasHeight 32.0 ;
+    ns1:hasWidth 32.0 ;
+    ns1:hasXCoordinate 118.0 ;
+    ns1:hasYCoordinate 16.0 ;
+    ns1:isLocationOf "https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891499" ;
+    ns1:isPartOf "http://w3id.org/visualsense/resource/ImageRegion/image_region_2384656" .
+
+<https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891500> a ns1:BoundingBox ;
+    ns1:hasHeight 136.0 ;
+    ns1:hasWidth 497.0 ;
+    ns1:hasXCoordinate 0.0 ;
+    ns1:hasYCoordinate 97.0 ;
+    ns1:isLocationOf "https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891500" ;
+    ns1:isPartOf "http://w3id.org/visualsense/resource/ImageRegion/image_region_2384656" .
+
+<https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891501> a ns1:BoundingBox ;
+    ns1:hasHeight 105.0 ;
+    ns1:hasWidth 103.0 ;
+    ns1:hasXCoordinate 131.0 ;
+    ns1:hasYCoordinate 143.0 ;
+    ns1:isLocationOf "https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891501" ;
+    ns1:isPartOf "http://w3id.org/visualsense/resource/ImageRegion/image_region_2384656" .
+
+<https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891502> a ns1:BoundingBox ;
+    ns1:hasHeight 75.0 ;
+    ns1:hasWidth 100.0 ;
+    ns1:hasXCoordinate 66.0 ;
+    ns1:hasYCoordinate 90.0 ;
+    ns1:isLocationOf "https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891502" ;
+    ns1:isPartOf "http://w3id.org/visualsense/resource/ImageRegion/image_region_2384656" .
+
+<https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891503> a ns1:BoundingBox ;
+    ns1:hasHeight 92.0 ;
+    ns1:hasWidth 115.0 ;
+    ns1:hasXCoordinate 383.0 ;
+    ns1:hasYCoordinate 88.0 ;
+    ns1:isLocationOf "https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891503" ;
+    ns1:isPartOf "http://w3id.org/visualsense/resource/ImageRegion/image_region_2384656" .
+
+<https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891504> a ns1:BoundingBox ;
+    ns1:hasHeight 94.0 ;
+    ns1:hasWidth 75.0 ;
+    ns1:hasXCoordinate 300.0 ;
+    ns1:hasYCoordinate 0.0 ;
+    ns1:isLocationOf "https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891504" ;
+    ns1:isPartOf "http://w3id.org/visualsense/resource/ImageRegion/image_region_2384656" .
+
+<https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891505> a ns1:BoundingBox ;
+    ns1:hasHeight 62.0 ;
+    ns1:hasWidth 65.0 ;
+    ns1:hasXCoordinate 227.0 ;
+    ns1:hasYCoordinate 7.0 ;
+    ns1:isLocationOf "https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891505" ;
+    ns1:isPartOf "http://w3id.org/visualsense/resource/ImageRegion/image_region_2384656" .
+
+<https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891506> a ns1:BoundingBox ;
+    ns1:hasHeight 80.0 ;
+    ns1:hasWidth 207.0 ;
+    ns1:hasXCoordinate 236.0 ;
+    ns1:hasYCoordinate 44.0 ;
+    ns1:isLocationOf "https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891506" ;
+    ns1:isPartOf "http://w3id.org/visualsense/resource/ImageRegion/image_region_2384656" .
+
+<https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891507> a ns1:BoundingBox ;
+    ns1:hasHeight 140.0 ;
+    ns1:hasWidth 487.0 ;
+    ns1:hasXCoordinate 4.0 ;
+    ns1:hasYCoordinate 190.0 ;
+    ns1:isLocationOf "https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891507" ;
+    ns1:isPartOf "http://w3id.org/visualsense/resource/ImageRegion/image_region_2384656" .
+
+<https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891508> a ns1:BoundingBox ;
+    ns1:hasHeight 313.0 ;
+    ns1:hasWidth 466.0 ;
+    ns1:hasXCoordinate 12.0 ;
+    ns1:hasYCoordinate 1.0 ;
+    ns1:isLocationOf "https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891508" ;
+    ns1:isPartOf "http://w3id.org/visualsense/resource/ImageRegion/image_region_2384656" .
+
+<https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891509> a ns1:BoundingBox ;
+    ns1:hasHeight 53.0 ;
+    ns1:hasWidth 177.0 ;
+    ns1:hasXCoordinate 35.0 ;
+    ns1:hasYCoordinate 3.0 ;
+    ns1:isLocationOf "https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891509" ;
+    ns1:isPartOf "http://w3id.org/visualsense/resource/ImageRegion/image_region_2384656" .
+
+<https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891510> a ns1:BoundingBox ;
+    ns1:hasHeight 80.0 ;
+    ns1:hasWidth 74.0 ;
+    ns1:hasXCoordinate 298.0 ;
+    ns1:hasYCoordinate 181.0 ;
+    ns1:isLocationOf "https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891510" ;
+    ns1:isPartOf "http://w3id.org/visualsense/resource/ImageRegion/image_region_2384656" .
+
+<https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891511> a ns1:BoundingBox ;
+    ns1:hasHeight 98.0 ;
+    ns1:hasWidth 99.0 ;
+    ns1:hasXCoordinate 398.0 ;
+    ns1:hasYCoordinate 95.0 ;
+    ns1:isLocationOf "https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891511" ;
+    ns1:isPartOf "http://w3id.org/visualsense/resource/ImageRegion/image_region_2384656" .
+
+<https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891512> a ns1:BoundingBox ;
+    ns1:hasHeight 72.0 ;
+    ns1:hasWidth 102.0 ;
+    ns1:hasXCoordinate 59.0 ;
+    ns1:hasYCoordinate 85.0 ;
+    ns1:isLocationOf "https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891512" ;
+    ns1:isPartOf "http://w3id.org/visualsense/resource/ImageRegion/image_region_2384656" .
+
+<https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891513> a ns1:BoundingBox ;
+    ns1:hasHeight 89.0 ;
+    ns1:hasWidth 47.0 ;
+    ns1:hasXCoordinate 2.0 ;
+    ns1:hasYCoordinate 148.0 ;
+    ns1:isLocationOf "https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891513" ;
+    ns1:isPartOf "http://w3id.org/visualsense/resource/ImageRegion/image_region_2384656" .
+
+<https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891514> a ns1:BoundingBox ;
+    ns1:hasHeight 24.0 ;
+    ns1:hasWidth 32.0 ;
+    ns1:hasXCoordinate 44.0 ;
+    ns1:hasYCoordinate 80.0 ;
+    ns1:isLocationOf "https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891514" ;
+    ns1:isPartOf "http://w3id.org/visualsense/resource/ImageRegion/image_region_2384656" .
+
+<https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891515> a ns1:BoundingBox ;
+    ns1:hasHeight 98.0 ;
+    ns1:hasWidth 102.0 ;
+    ns1:hasXCoordinate 287.0 ;
+    ns1:hasYCoordinate 4.0 ;
+    ns1:isLocationOf "https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891515" ;
+    ns1:isPartOf "http://w3id.org/visualsense/resource/ImageRegion/image_region_2384656" .
+
+<https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891516> a ns1:BoundingBox ;
+    ns1:hasHeight 73.0 ;
+    ns1:hasWidth 51.0 ;
+    ns1:hasXCoordinate 169.0 ;
+    ns1:hasYCoordinate 160.0 ;
+    ns1:isLocationOf "https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891516" ;
+    ns1:isPartOf "http://w3id.org/visualsense/resource/ImageRegion/image_region_2384656" .
+
+<https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891517> a ns1:BoundingBox ;
+    ns1:hasHeight 75.0 ;
+    ns1:hasWidth 457.0 ;
+    ns1:hasXCoordinate 26.0 ;
+    ns1:hasYCoordinate 254.0 ;
+    ns1:isLocationOf "https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891517" ;
+    ns1:isPartOf "http://w3id.org/visualsense/resource/ImageRegion/image_region_2384656" .
+
+<https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891518> a ns1:BoundingBox ;
+    ns1:hasHeight 307.0 ;
+    ns1:hasWidth 467.0 ;
+    ns1:hasXCoordinate 7.0 ;
+    ns1:hasYCoordinate 9.0 ;
+    ns1:isLocationOf "https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891518" ;
+    ns1:isPartOf "http://w3id.org/visualsense/resource/ImageRegion/image_region_2384656" .
+
+<https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891519> a ns1:BoundingBox ;
+    ns1:hasHeight 182.0 ;
+    ns1:hasWidth 453.0 ;
+    ns1:hasXCoordinate 6.0 ;
+    ns1:hasYCoordinate 98.0 ;
+    ns1:isLocationOf "https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891519" ;
+    ns1:isPartOf "http://w3id.org/visualsense/resource/ImageRegion/image_region_2384656" .
+
+<https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891520> a ns1:BoundingBox ;
+    ns1:hasHeight 268.0 ;
+    ns1:hasWidth 360.0 ;
+    ns1:hasXCoordinate 23.0 ;
+    ns1:hasYCoordinate 0.0 ;
+    ns1:isLocationOf "https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891520" ;
+    ns1:isPartOf "http://w3id.org/visualsense/resource/ImageRegion/image_region_2384656" .
+
+<https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891521> a ns1:BoundingBox ;
+    ns1:hasHeight 95.0 ;
+    ns1:hasWidth 222.0 ;
+    ns1:hasXCoordinate 220.0 ;
+    ns1:hasYCoordinate 120.0 ;
+    ns1:isLocationOf "https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891521" ;
+    ns1:isPartOf "http://w3id.org/visualsense/resource/ImageRegion/image_region_2384656" .
+
+<https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891522> a ns1:BoundingBox ;
+    ns1:hasHeight 105.0 ;
+    ns1:hasWidth 84.0 ;
+    ns1:hasXCoordinate 151.0 ;
+    ns1:hasYCoordinate 140.0 ;
+    ns1:isLocationOf "https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891522" ;
+    ns1:isPartOf "http://w3id.org/visualsense/resource/ImageRegion/image_region_2384656" .
+
+<https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891523> a ns1:BoundingBox ;
+    ns1:hasHeight 81.0 ;
+    ns1:hasWidth 120.0 ;
+    ns1:hasXCoordinate 360.0 ;
+    ns1:hasYCoordinate 105.0 ;
+    ns1:isLocationOf "https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891523" ;
+    ns1:isPartOf "http://w3id.org/visualsense/resource/ImageRegion/image_region_2384656" .
+
+<https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891524> a ns1:BoundingBox ;
+    ns1:hasHeight 105.0 ;
+    ns1:hasWidth 125.0 ;
+    ns1:hasXCoordinate 368.0 ;
+    ns1:hasYCoordinate 85.0 ;
+    ns1:isLocationOf "https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891524" ;
+    ns1:isPartOf "http://w3id.org/visualsense/resource/ImageRegion/image_region_2384656" .
+
+<https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891525> a ns1:BoundingBox ;
+    ns1:hasHeight 38.0 ;
+    ns1:hasWidth 52.0 ;
+    ns1:hasXCoordinate 22.0 ;
+    ns1:hasYCoordinate 69.0 ;
+    ns1:isLocationOf "https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891525" ;
+    ns1:isPartOf "http://w3id.org/visualsense/resource/ImageRegion/image_region_2384656" .
+
+<https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891526> a ns1:BoundingBox ;
+    ns1:hasHeight 60.0 ;
+    ns1:hasWidth 44.0 ;
+    ns1:hasXCoordinate 2.0 ;
+    ns1:hasYCoordinate 185.0 ;
+    ns1:isLocationOf "https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891526" ;
+    ns1:isPartOf "http://w3id.org/visualsense/resource/ImageRegion/image_region_2384656" .
+
+<https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891527> a ns1:BoundingBox ;
+    ns1:hasHeight 102.0 ;
+    ns1:hasWidth 106.0 ;
+    ns1:hasXCoordinate 285.0 ;
+    ns1:hasYCoordinate 0.0 ;
+    ns1:isLocationOf "https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891527" ;
+    ns1:isPartOf "http://w3id.org/visualsense/resource/ImageRegion/image_region_2384656" .
+
+<https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891528> a ns1:BoundingBox ;
+    ns1:hasHeight 77.0 ;
+    ns1:hasWidth 108.0 ;
+    ns1:hasXCoordinate 171.0 ;
+    ns1:hasYCoordinate 253.0 ;
+    ns1:isLocationOf "https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891528" ;
+    ns1:isPartOf "http://w3id.org/visualsense/resource/ImageRegion/image_region_2384656" .
+
+<https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891529> a ns1:BoundingBox ;
+    ns1:hasHeight 97.0 ;
+    ns1:hasWidth 95.0 ;
+    ns1:hasXCoordinate 246.0 ;
+    ns1:hasYCoordinate 64.0 ;
+    ns1:isLocationOf "https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891529" ;
+    ns1:isPartOf "http://w3id.org/visualsense/resource/ImageRegion/image_region_2384656" .
+
+<https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891530> a ns1:BoundingBox ;
+    ns1:hasHeight 260.0 ;
+    ns1:hasWidth 282.0 ;
+    ns1:hasXCoordinate 1.0 ;
+    ns1:hasYCoordinate 0.0 ;
+    ns1:isLocationOf "https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891530" ;
+    ns1:isPartOf "http://w3id.org/visualsense/resource/ImageRegion/image_region_2384656" .
+
+<https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891531> a ns1:BoundingBox ;
+    ns1:hasHeight 102.0 ;
+    ns1:hasWidth 490.0 ;
+    ns1:hasXCoordinate 0.0 ;
+    ns1:hasYCoordinate 119.0 ;
+    ns1:isLocationOf "https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891531" ;
+    ns1:isPartOf "http://w3id.org/visualsense/resource/ImageRegion/image_region_2384656" .
+
+<https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891532> a ns1:BoundingBox ;
+    ns1:hasHeight 112.0 ;
+    ns1:hasWidth 187.0 ;
+    ns1:hasXCoordinate 43.0 ;
+    ns1:hasYCoordinate 3.0 ;
+    ns1:isLocationOf "https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891532" ;
+    ns1:isPartOf "http://w3id.org/visualsense/resource/ImageRegion/image_region_2384656" .
+
+<https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891533> a ns1:BoundingBox ;
+    ns1:hasHeight 313.0 ;
+    ns1:hasWidth 466.0 ;
+    ns1:hasXCoordinate 17.0 ;
+    ns1:hasYCoordinate 18.0 ;
+    ns1:isLocationOf "https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891533" ;
+    ns1:isPartOf "http://w3id.org/visualsense/resource/ImageRegion/image_region_2384656" .
+
+<https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891534> a ns1:BoundingBox ;
+    ns1:hasHeight 79.0 ;
+    ns1:hasWidth 108.0 ;
+    ns1:hasXCoordinate 50.0 ;
+    ns1:hasYCoordinate 94.0 ;
+    ns1:isLocationOf "https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891534" ;
+    ns1:isPartOf "http://w3id.org/visualsense/resource/ImageRegion/image_region_2384656" .
+
+<https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891535> a ns1:BoundingBox ;
+    ns1:hasHeight 89.0 ;
+    ns1:hasWidth 90.0 ;
+    ns1:hasXCoordinate 282.0 ;
+    ns1:hasYCoordinate 178.0 ;
+    ns1:isLocationOf "https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891535" ;
+    ns1:isPartOf "http://w3id.org/visualsense/resource/ImageRegion/image_region_2384656" .
+
+<https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891536> a ns1:BoundingBox ;
+    ns1:hasHeight 85.0 ;
+    ns1:hasWidth 259.0 ;
+    ns1:hasXCoordinate 194.0 ;
+    ns1:hasYCoordinate 131.0 ;
+    ns1:isLocationOf "https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891536" ;
+    ns1:isPartOf "http://w3id.org/visualsense/resource/ImageRegion/image_region_2384656" .
+
+<https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891537> a ns1:BoundingBox ;
+    ns1:hasHeight 82.0 ;
+    ns1:hasWidth 125.0 ;
+    ns1:hasXCoordinate 371.0 ;
+    ns1:hasYCoordinate 107.0 ;
+    ns1:isLocationOf "https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891537" ;
+    ns1:isPartOf "http://w3id.org/visualsense/resource/ImageRegion/image_region_2384656" .
+
+<https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891538> a ns1:BoundingBox ;
+    ns1:hasHeight 159.0 ;
+    ns1:hasWidth 430.0 ;
+    ns1:hasXCoordinate 13.0 ;
+    ns1:hasYCoordinate 90.0 ;
+    ns1:isLocationOf "https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891538" ;
+    ns1:isPartOf "http://w3id.org/visualsense/resource/ImageRegion/image_region_2384656" .
+
+<https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891539> a ns1:BoundingBox ;
+    ns1:hasHeight 316.0 ;
+    ns1:hasWidth 319.0 ;
+    ns1:hasXCoordinate 4.0 ;
+    ns1:hasYCoordinate 3.0 ;
+    ns1:isLocationOf "https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891539" ;
+    ns1:isPartOf "http://w3id.org/visualsense/resource/ImageRegion/image_region_2384656" .
+
+<https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891540> a ns1:BoundingBox ;
+    ns1:hasHeight 265.0 ;
+    ns1:hasWidth 247.0 ;
+    ns1:hasXCoordinate 53.0 ;
+    ns1:hasYCoordinate 20.0 ;
+    ns1:isLocationOf "https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891540" ;
+    ns1:isPartOf "http://w3id.org/visualsense/resource/ImageRegion/image_region_2384656" .
+
+<https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891541> a ns1:BoundingBox ;
+    ns1:hasHeight 97.0 ;
+    ns1:hasWidth 112.0 ;
+    ns1:hasXCoordinate 101.0 ;
+    ns1:hasYCoordinate 5.0 ;
+    ns1:isLocationOf "https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891541" ;
+    ns1:isPartOf "http://w3id.org/visualsense/resource/ImageRegion/image_region_2384656" .
+
+<https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891542> a ns1:BoundingBox ;
+    ns1:hasHeight 77.0 ;
+    ns1:hasWidth 102.0 ;
+    ns1:hasXCoordinate 371.0 ;
+    ns1:hasYCoordinate 97.0 ;
+    ns1:isLocationOf "https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891542" ;
+    ns1:isPartOf "http://w3id.org/visualsense/resource/ImageRegion/image_region_2384656" .
+
+<https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891543> a ns1:BoundingBox ;
+    ns1:hasHeight 100.0 ;
+    ns1:hasWidth 162.0 ;
+    ns1:hasXCoordinate 58.0 ;
+    ns1:hasYCoordinate 86.0 ;
+    ns1:isLocationOf "https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891543" ;
+    ns1:isPartOf "http://w3id.org/visualsense/resource/ImageRegion/image_region_2384656" .
+
+<https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891544> a ns1:BoundingBox ;
+    ns1:hasHeight 231.0 ;
+    ns1:hasWidth 157.0 ;
+    ns1:hasXCoordinate 203.0 ;
+    ns1:hasYCoordinate 63.0 ;
+    ns1:isLocationOf "https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891544" ;
+    ns1:isPartOf "http://w3id.org/visualsense/resource/ImageRegion/image_region_2384656" .
+
+<https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891545> a ns1:BoundingBox ;
+    ns1:hasHeight 104.0 ;
+    ns1:hasWidth 77.0 ;
+    ns1:hasXCoordinate 395.0 ;
+    ns1:hasYCoordinate 93.0 ;
+    ns1:isLocationOf "https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891545" ;
+    ns1:isPartOf "http://w3id.org/visualsense/resource/ImageRegion/image_region_2384656" .
+
+<https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891547> a ns1:BoundingBox ;
+    ns1:hasHeight 249.0 ;
+    ns1:hasWidth 281.0 ;
+    ns1:hasXCoordinate 24.0 ;
+    ns1:hasYCoordinate 15.0 ;
+    ns1:isLocationOf "https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891547" ;
+    ns1:isPartOf "http://w3id.org/visualsense/resource/ImageRegion/image_region_2384656" .
+
+<https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691251> a ns1:DepictedObject ;
+    rdfs:label "['uniform']"^^xsd:string ;
+    ns1:hasLocation "https://w3id.org/visualsense/resource/BoundingBox/bb_dep_object_691251" ;
+    ns1:hasObjAttribute "['police']"^^xsd:string ;
+    ns1:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" ;
+    ns1:isTypedBy "http://etna.istc.cnr.it/framester2/data/framestersyn/['uniform.n.01']" .
+
+<https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691252> a ns1:DepictedObject ;
+    rdfs:label "['badge']"^^xsd:string ;
+    ns1:hasLocation "https://w3id.org/visualsense/resource/BoundingBox/bb_dep_object_691252" ;
+    ns1:hasObjAttribute "['silver']"^^xsd:string ;
+    ns1:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" ;
+    ns1:isTypedBy "http://etna.istc.cnr.it/framester2/data/framestersyn/['badge.n.01']" .
+
+<https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691253> a ns1:DepictedObject ;
+    rdfs:label "['hair']"^^xsd:string ;
+    ns1:hasLocation "https://w3id.org/visualsense/resource/BoundingBox/bb_dep_object_691253" ;
+    ns1:hasObjAttribute "['white']"^^xsd:string ;
+    ns1:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" ;
+    ns1:isTypedBy "http://etna.istc.cnr.it/framester2/data/framestersyn/['hair.n.01']" .
+
+<https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691254> a ns1:DepictedObject ;
+    rdfs:label "['shirt']"^^xsd:string ;
+    ns1:hasLocation "https://w3id.org/visualsense/resource/BoundingBox/bb_dep_object_691254" ;
+    ns1:hasObjAttribute "['pulled up']"^^xsd:string ;
+    ns1:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" ;
+    ns1:isTypedBy "http://etna.istc.cnr.it/framester2/data/framestersyn/['shirt.n.01']" .
+
+<https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691255> a ns1:DepictedObject ;
+    rdfs:label "['backpack']"^^xsd:string ;
+    ns1:hasLocation "https://w3id.org/visualsense/resource/BoundingBox/bb_dep_object_691255" ;
+    ns1:hasObjAttribute "['beige', 'brown']"^^xsd:string ;
+    ns1:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" ;
+    ns1:isTypedBy "http://etna.istc.cnr.it/framester2/data/framestersyn/['backpack.n.01']" .
+
+<https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691256> a ns1:DepictedObject ;
+    rdfs:label "['sneakers']"^^xsd:string ;
+    ns1:hasLocation "https://w3id.org/visualsense/resource/BoundingBox/bb_dep_object_691256" ;
+    ns1:hasObjAttribute "['black', 'white']"^^xsd:string ;
+    ns1:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" ;
+    ns1:isTypedBy "http://etna.istc.cnr.it/framester2/data/framestersyn/['gym_shoe.n.01']" .
+
+<https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691257> a ns1:DepictedObject ;
+    rdfs:label "['wheel']"^^xsd:string ;
+    ns1:hasLocation "https://w3id.org/visualsense/resource/BoundingBox/bb_dep_object_691257" ;
+    ns1:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" ;
+    ns1:isTypedBy "http://etna.istc.cnr.it/framester2/data/framestersyn/['wheel.n.01']" .
+
+<https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691258> a ns1:DepictedObject ;
+    rdfs:label "['bike']"^^xsd:string ;
+    ns1:hasLocation "https://w3id.org/visualsense/resource/BoundingBox/bb_dep_object_691258" ;
+    ns1:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" ;
+    ns1:isTypedBy "http://etna.istc.cnr.it/framester2/data/framestersyn/['bicycle.n.01']" .
+
+<https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691259> a ns1:DepictedObject ;
+    rdfs:label "['line']"^^xsd:string ;
+    ns1:hasLocation "https://w3id.org/visualsense/resource/BoundingBox/bb_dep_object_691259" ;
+    ns1:hasObjAttribute "['yellow']"^^xsd:string ;
+    ns1:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" ;
+    ns1:isTypedBy "http://etna.istc.cnr.it/framester2/data/framestersyn/['line.n.01']" .
+
+<https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691260> a ns1:DepictedObject ;
+    rdfs:label "['asphalt']"^^xsd:string ;
+    ns1:hasLocation "https://w3id.org/visualsense/resource/BoundingBox/bb_dep_object_691260" ;
+    ns1:hasObjAttribute "['paved', 'black', 'grey']"^^xsd:string ;
+    ns1:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" ;
+    ns1:isTypedBy "http://etna.istc.cnr.it/framester2/data/framestersyn/['asphalt.n.01']" .
+
+<https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691261> a ns1:DepictedObject ;
+    rdfs:label "['police']"^^xsd:string ;
+    ns1:hasLocation "https://w3id.org/visualsense/resource/BoundingBox/bb_dep_object_691261" ;
+    ns1:hasObjAttribute "['uniform']"^^xsd:string ;
+    ns1:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" ;
+    ns1:isTypedBy "http://etna.istc.cnr.it/framester2/data/framestersyn/['police.n.01']" .
+
+<https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691262> a ns1:DepictedObject ;
+    rdfs:label "['boot']"^^xsd:string ;
+    ns1:hasLocation "https://w3id.org/visualsense/resource/BoundingBox/bb_dep_object_691262" ;
+    ns1:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" ;
+    ns1:isTypedBy "http://etna.istc.cnr.it/framester2/data/framestersyn/['boot.n.01']" .
+
+<https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691263> a ns1:DepictedObject ;
+    rdfs:label "['man']"^^xsd:string ;
+    ns1:hasLocation "https://w3id.org/visualsense/resource/BoundingBox/bb_dep_object_691263" ;
+    ns1:hasObjAttribute "['lying']"^^xsd:string ;
+    ns1:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" ;
+    ns1:isTypedBy "http://etna.istc.cnr.it/framester2/data/framestersyn/['man.n.01']" .
+
+<https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691264> a ns1:DepictedObject ;
+    rdfs:label "['head']"^^xsd:string ;
+    ns1:hasLocation "https://w3id.org/visualsense/resource/BoundingBox/bb_dep_object_691264" ;
+    ns1:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" ;
+    ns1:isTypedBy "http://etna.istc.cnr.it/framester2/data/framestersyn/['head.n.01']" .
+
+<https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691265> a ns1:DepictedObject ;
+    rdfs:label "['tattoo']"^^xsd:string ;
+    ns1:hasLocation "https://w3id.org/visualsense/resource/BoundingBox/bb_dep_object_691265" ;
+    ns1:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" ;
+    ns1:isTypedBy "http://etna.istc.cnr.it/framester2/data/framestersyn/['tattoo.n.01']" .
+
+<https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691266> a ns1:DepictedObject ;
+    rdfs:label "['tire']"^^xsd:string ;
+    ns1:hasLocation "https://w3id.org/visualsense/resource/BoundingBox/bb_dep_object_691266" ;
+    ns1:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" ;
+    ns1:isTypedBy "http://etna.istc.cnr.it/framester2/data/framestersyn/['tire.n.01']" .
+
+<https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691267> a ns1:DepictedObject ;
+    rdfs:label "['stomach']"^^xsd:string ;
+    ns1:hasLocation "https://w3id.org/visualsense/resource/BoundingBox/bb_dep_object_691267" ;
+    ns1:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" ;
+    ns1:isTypedBy "http://etna.istc.cnr.it/framester2/data/framestersyn/['stomach.n.01']" .
+
+<https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691268> a ns1:DepictedObject ;
+    rdfs:label "['blurry']"^^xsd:string ;
+    ns1:hasLocation "https://w3id.org/visualsense/resource/BoundingBox/bb_dep_object_691268" ;
+    ns1:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" ;
+    ns1:isTypedBy "http://etna.istc.cnr.it/framester2/data/framestersyn/[]" .
+
+<https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691269> a ns1:DepictedObject ;
+    rdfs:label "['jeans']"^^xsd:string ;
+    ns1:hasLocation "https://w3id.org/visualsense/resource/BoundingBox/bb_dep_object_691269" ;
+    ns1:hasObjAttribute "['blue']"^^xsd:string ;
+    ns1:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" ;
+    ns1:isTypedBy "http://etna.istc.cnr.it/framester2/data/framestersyn/['jean.n.01']" .
+
+<https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691270> a ns1:DepictedObject ;
+    rdfs:label "['socks']"^^xsd:string ;
+    ns1:hasLocation "https://w3id.org/visualsense/resource/BoundingBox/bb_dep_object_691270" ;
+    ns1:hasObjAttribute "['white']"^^xsd:string ;
+    ns1:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" ;
+    ns1:isTypedBy "http://etna.istc.cnr.it/framester2/data/framestersyn/['sock.n.01']" .
+
+<https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691271> a ns1:DepictedObject ;
+    rdfs:label "['mouth']"^^xsd:string ;
+    ns1:hasLocation "https://w3id.org/visualsense/resource/BoundingBox/bb_dep_object_691271" ;
+    ns1:hasObjAttribute "['open']"^^xsd:string ;
+    ns1:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" ;
+    ns1:isTypedBy "http://etna.istc.cnr.it/framester2/data/framestersyn/['mouth.n.01']" .
+
+<https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891498> a ns1:DepictedRegion ;
+    rdfs:label "top of police uniform"^^xsd:string ;
+    ns1:evokes "http://etna.istc.cnr.it/framester2/data/framestersyn/" ;
+    ns1:hasLocation "https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891498" ;
+    ns1:includesDepictedObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691251" ;
+    ns1:includesObjectRel "https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_" ;
+    ns1:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" .
+
+<https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891499> a ns1:DepictedRegion ;
+    rdfs:label "silver police badge"^^xsd:string ;
+    ns1:evokes "http://etna.istc.cnr.it/framester2/data/framestersyn/" ;
+    ns1:hasLocation "https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891499" ;
+    ns1:includesDepictedObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691252" ;
+    ns1:includesObjectRel "https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_" ;
+    ns1:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" .
+
+<https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891500> a ns1:DepictedRegion ;
+    rdfs:label "mnan with white hair is taken down"^^xsd:string ;
+    ns1:evokes "http://etna.istc.cnr.it/framester2/data/framestersyn/hair.n.01" ;
+    ns1:hasLocation "https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891500" ;
+    ns1:includesDepictedObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691253" ;
+    ns1:includesObjectRel "https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_" ;
+    ns1:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" .
+
+<https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891501> a ns1:DepictedRegion ;
+    rdfs:label "shirt is pulled up from jeans"^^xsd:string ;
+    ns1:evokes "http://etna.istc.cnr.it/framester2/data/framestersyn/jean.n.01",
+        "http://etna.istc.cnr.it/framester2/data/framestersyn/shirt.n.01" ;
+    ns1:hasLocation "https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891501" ;
+    ns1:includesDepictedObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_",
+        "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691254" ;
+    ns1:includesObjectRel "https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_" ;
+    ns1:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" .
+
+<https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891502> a ns1:DepictedRegion ;
+    rdfs:label "a light beige backpack "^^xsd:string ;
+    ns1:evokes "http://etna.istc.cnr.it/framester2/data/framestersyn/backpack.n.01" ;
+    ns1:hasLocation "https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891502" ;
+    ns1:includesDepictedObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691255" ;
+    ns1:includesObjectRel "https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_" ;
+    ns1:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" .
+
+<https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891503> a ns1:DepictedRegion ;
+    rdfs:label "black sneakers with white socks"^^xsd:string ;
+    ns1:evokes "http://etna.istc.cnr.it/framester2/data/framestersyn/gym_shoe.n.01",
+        "http://etna.istc.cnr.it/framester2/data/framestersyn/sock.n.01" ;
+    ns1:hasLocation "https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891503" ;
+    ns1:includesDepictedObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_",
+        "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691256" ;
+    ns1:includesObjectRel "https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_" ;
+    ns1:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" .
+
+<https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891504> a ns1:DepictedRegion ;
+    rdfs:label "motorcycle wheel on a bike that is upright"^^xsd:string ;
+    ns1:evokes "http://etna.istc.cnr.it/framester2/data/framestersyn/",
+        "http://etna.istc.cnr.it/framester2/data/framestersyn/bicycle.n.01" ;
+    ns1:hasLocation "https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891504" ;
+    ns1:includesDepictedObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691257",
+        "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691258" ;
+    ns1:includesObjectRel "https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_",
+        "https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_1831845" ;
+    ns1:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" .
+
+<https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891505> a ns1:DepictedRegion ;
+    rdfs:label "motorcycle wheel on a bike that is lying down"^^xsd:string ;
+    ns1:evokes "http://etna.istc.cnr.it/framester2/data/framestersyn/",
+        "http://etna.istc.cnr.it/framester2/data/framestersyn/bicycle.n.01" ;
+    ns1:hasLocation "https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891505" ;
+    ns1:includesDepictedObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691257",
+        "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691258" ;
+    ns1:includesObjectRel "https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_",
+        "https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_1831846" ;
+    ns1:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" .
+
+<https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891506> a ns1:DepictedRegion ;
+    rdfs:label "a double yellow line"^^xsd:string ;
+    ns1:evokes "http://etna.istc.cnr.it/framester2/data/framestersyn/line.n.01" ;
+    ns1:hasLocation "https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891506" ;
+    ns1:includesDepictedObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691259" ;
+    ns1:includesObjectRel "https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_" ;
+    ns1:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" .
+
+<https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891507> a ns1:DepictedRegion ;
+    rdfs:label "asphalt paving the street"^^xsd:string ;
+    ns1:evokes "http://etna.istc.cnr.it/framester2/data/framestersyn/asphalt.n.01",
+        "http://etna.istc.cnr.it/framester2/data/framestersyn/street.n.01" ;
+    ns1:hasLocation "https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891507" ;
+    ns1:includesDepictedObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_",
+        "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691260" ;
+    ns1:includesObjectRel "https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_" ;
+    ns1:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" .
+
+<https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891508> a ns1:DepictedRegion ;
+    rdfs:label "This is police brutality "^^xsd:string ;
+    ns1:evokes "http://etna.istc.cnr.it/framester2/data/framestersyn/" ;
+    ns1:hasLocation "https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891508" ;
+    ns1:includesDepictedObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_" ;
+    ns1:includesObjectRel "https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_" ;
+    ns1:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" .
+
+<https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891509> a ns1:DepictedRegion ;
+    rdfs:label "This is the shirt of a police officer "^^xsd:string ;
+    ns1:evokes "http://etna.istc.cnr.it/framester2/data/framestersyn/policeman.n.01",
+        "http://etna.istc.cnr.it/framester2/data/framestersyn/shirt.n.01" ;
+    ns1:hasLocation "https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891509" ;
+    ns1:includesDepictedObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691254",
+        "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691261" ;
+    ns1:includesObjectRel "https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_",
+        "https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_1831847" ;
+    ns1:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" .
+
+<https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891510> a ns1:DepictedRegion ;
+    rdfs:label "The boot of a police officer "^^xsd:string ;
+    ns1:evokes "http://etna.istc.cnr.it/framester2/data/framestersyn/boot.n.01",
+        "http://etna.istc.cnr.it/framester2/data/framestersyn/policeman.n.01" ;
+    ns1:hasLocation "https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891510" ;
+    ns1:includesDepictedObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691261",
+        "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691262" ;
+    ns1:includesObjectRel "https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_",
+        "https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_1831848" ;
+    ns1:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" .
+
+<https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891511> a ns1:DepictedRegion ;
+    rdfs:label "The shoes of the man on the ground "^^xsd:string ;
+    ns1:evokes "http://etna.istc.cnr.it/framester2/data/framestersyn/land.n.04",
+        "http://etna.istc.cnr.it/framester2/data/framestersyn/man.n.01",
+        "http://etna.istc.cnr.it/framester2/data/framestersyn/shoe.n.01" ;
+    ns1:hasLocation "https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891511" ;
+    ns1:includesDepictedObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_",
+        "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691256",
+        "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691263" ;
+    ns1:includesObjectRel "https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_",
+        "https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_1831849" ;
+    ns1:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" .
+
+<https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891512> a ns1:DepictedRegion ;
+    rdfs:label "The man has a backpack on "^^xsd:string ;
+    ns1:evokes "http://etna.istc.cnr.it/framester2/data/framestersyn/backpack.n.01",
+        "http://etna.istc.cnr.it/framester2/data/framestersyn/man.n.01" ;
+    ns1:hasLocation "https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891512" ;
+    ns1:includesDepictedObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691255",
+        "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691263" ;
+    ns1:includesObjectRel "https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_",
+        "https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_1831850" ;
+    ns1:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" .
+
+<https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891513> a ns1:DepictedRegion ;
+    rdfs:label "The man's head is nearly on the ground "^^xsd:string ;
+    ns1:evokes "http://etna.istc.cnr.it/framester2/data/framestersyn/head.n.01",
+        "http://etna.istc.cnr.it/framester2/data/framestersyn/land.n.04",
+        "http://etna.istc.cnr.it/framester2/data/framestersyn/man.n.01" ;
+    ns1:hasLocation "https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891513" ;
+    ns1:includesDepictedObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_",
+        "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691263",
+        "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691264" ;
+    ns1:includesObjectRel "https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_",
+        "https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_1831851" ;
+    ns1:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" .
+
+<https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891514> a ns1:DepictedRegion ;
+    rdfs:label "Gang sign tattoo on the officer "^^xsd:string ;
+    ns1:evokes "http://etna.istc.cnr.it/framester2/data/framestersyn/",
+        "http://etna.istc.cnr.it/framester2/data/framestersyn/military_officer.n.01" ;
+    ns1:hasLocation "https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891514" ;
+    ns1:includesDepictedObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691261",
+        "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691265" ;
+    ns1:includesObjectRel "https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_",
+        "https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_1831852" ;
+    ns1:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" .
+
+<https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891515> a ns1:DepictedRegion ;
+    rdfs:label "The tire of a motorcycle "^^xsd:string ;
+    ns1:evokes "http://etna.istc.cnr.it/framester2/data/framestersyn/motorcycle.n.01",
+        "http://etna.istc.cnr.it/framester2/data/framestersyn/tire.n.01" ;
+    ns1:hasLocation "https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891515" ;
+    ns1:includesDepictedObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691258",
+        "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691266" ;
+    ns1:includesObjectRel "https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_",
+        "https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_1831853" ;
+    ns1:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" .
+
+<https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891516> a ns1:DepictedRegion ;
+    rdfs:label "The stomach of the man "^^xsd:string ;
+    ns1:evokes "http://etna.istc.cnr.it/framester2/data/framestersyn/man.n.01",
+        "http://etna.istc.cnr.it/framester2/data/framestersyn/stomach.n.01" ;
+    ns1:hasLocation "https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891516" ;
+    ns1:includesDepictedObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691263",
+        "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691267" ;
+    ns1:includesObjectRel "https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_",
+        "https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_1831854" ;
+    ns1:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" .
+
+<https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891517> a ns1:DepictedRegion ;
+    rdfs:label "The asphalt on the street is black "^^xsd:string ;
+    ns1:evokes "http://etna.istc.cnr.it/framester2/data/framestersyn/asphalt.n.01",
+        "http://etna.istc.cnr.it/framester2/data/framestersyn/street.n.01" ;
+    ns1:hasLocation "https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891517" ;
+    ns1:includesDepictedObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_",
+        "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691260" ;
+    ns1:includesObjectRel "https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_" ;
+    ns1:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" .
+
+<https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891518> a ns1:DepictedRegion ;
+    rdfs:label "the photo is blurry"^^xsd:string ;
+    ns1:evokes "http://etna.istc.cnr.it/framester2/data/framestersyn/photograph.n.01" ;
+    ns1:hasLocation "https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891518" ;
+    ns1:includesDepictedObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691268" ;
+    ns1:includesObjectRel "https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_" ;
+    ns1:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" .
+
+<https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891519> a ns1:DepictedRegion ;
+    rdfs:label "a man is on the floor"^^xsd:string ;
+    ns1:evokes "http://etna.istc.cnr.it/framester2/data/framestersyn/floor.n.01",
+        "http://etna.istc.cnr.it/framester2/data/framestersyn/man.n.01" ;
+    ns1:hasLocation "https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891519" ;
+    ns1:includesDepictedObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691260",
+        "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691263" ;
+    ns1:includesObjectRel "https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_",
+        "https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_1831855" ;
+    ns1:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" .
+
+<https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891520> a ns1:DepictedRegion ;
+    rdfs:label "police officer holding a man down"^^xsd:string ;
+    ns1:evokes "http://etna.istc.cnr.it/framester2/data/framestersyn/man.n.01",
+        "http://etna.istc.cnr.it/framester2/data/framestersyn/policeman.n.01" ;
+    ns1:hasLocation "https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891520" ;
+    ns1:includesDepictedObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691261",
+        "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691263" ;
+    ns1:includesObjectRel "https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_",
+        "https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_1831856" ;
+    ns1:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" .
+
+<https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891521> a ns1:DepictedRegion ;
+    rdfs:label "man is wearing jeans"^^xsd:string ;
+    ns1:evokes "http://etna.istc.cnr.it/framester2/data/framestersyn/jean.n.01",
+        "http://etna.istc.cnr.it/framester2/data/framestersyn/man.n.01" ;
+    ns1:hasLocation "https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891521" ;
+    ns1:includesDepictedObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691263",
+        "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691269" ;
+    ns1:includesObjectRel "https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_",
+        "https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_1831857" ;
+    ns1:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" .
+
+<https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891522> a ns1:DepictedRegion ;
+    rdfs:label "man`s stomach is showing"^^xsd:string ;
+    ns1:evokes "http://etna.istc.cnr.it/framester2/data/framestersyn/man.n.01",
+        "http://etna.istc.cnr.it/framester2/data/framestersyn/stomach.n.01" ;
+    ns1:hasLocation "https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891522" ;
+    ns1:includesDepictedObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691263",
+        "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691267" ;
+    ns1:includesObjectRel "https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_",
+        "https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_1831858" ;
+    ns1:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" .
+
+<https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891523> a ns1:DepictedRegion ;
+    rdfs:label "man is wearing white socks"^^xsd:string ;
+    ns1:evokes "http://etna.istc.cnr.it/framester2/data/framestersyn/man.n.01",
+        "http://etna.istc.cnr.it/framester2/data/framestersyn/sock.n.01" ;
+    ns1:hasLocation "https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891523" ;
+    ns1:includesDepictedObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_",
+        "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691270" ;
+    ns1:includesObjectRel "https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_" ;
+    ns1:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" .
+
+<https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891524> a ns1:DepictedRegion ;
+    rdfs:label "man`s sneakers are white"^^xsd:string ;
+    ns1:evokes "http://etna.istc.cnr.it/framester2/data/framestersyn/man.n.01" ;
+    ns1:hasLocation "https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891524" ;
+    ns1:includesDepictedObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691256" ;
+    ns1:includesObjectRel "https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_" ;
+    ns1:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" .
+
+<https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891525> a ns1:DepictedRegion ;
+    rdfs:label "the police has a tattoo"^^xsd:string ;
+    ns1:evokes "http://etna.istc.cnr.it/framester2/data/framestersyn/police.n.01",
+        "http://etna.istc.cnr.it/framester2/data/framestersyn/tattoo.n.01" ;
+    ns1:hasLocation "https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891525" ;
+    ns1:includesDepictedObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691261",
+        "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691265" ;
+    ns1:includesObjectRel "https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_",
+        "https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_1831859" ;
+    ns1:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" .
+
+<https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891526> a ns1:DepictedRegion ;
+    rdfs:label "man`s mouth is open"^^xsd:string ;
+    ns1:evokes "http://etna.istc.cnr.it/framester2/data/framestersyn/man.n.01" ;
+    ns1:hasLocation "https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891526" ;
+    ns1:includesDepictedObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691271" ;
+    ns1:includesObjectRel "https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_" ;
+    ns1:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" .
+
+<https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891527> a ns1:DepictedRegion ;
+    rdfs:label "the wheel of a bike"^^xsd:string ;
+    ns1:evokes "http://etna.istc.cnr.it/framester2/data/framestersyn/bicycle.n.01",
+        "http://etna.istc.cnr.it/framester2/data/framestersyn/wheel.n.01" ;
+    ns1:hasLocation "https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891527" ;
+    ns1:includesDepictedObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691257",
+        "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691258" ;
+    ns1:includesObjectRel "https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_",
+        "https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_1831860" ;
+    ns1:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" .
+
+<https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891528> a ns1:DepictedRegion ;
+    rdfs:label "Road is grey color."^^xsd:string ;
+    ns1:evokes "http://etna.istc.cnr.it/framester2/data/framestersyn/color.n.01",
+        "http://etna.istc.cnr.it/framester2/data/framestersyn/road.n.01" ;
+    ns1:hasLocation "https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891528" ;
+    ns1:includesDepictedObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_",
+        "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691260" ;
+    ns1:includesObjectRel "https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_" ;
+    ns1:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" .
+
+<https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891529> a ns1:DepictedRegion ;
+    rdfs:label "Yellow lines in road."^^xsd:string ;
+    ns1:evokes "http://etna.istc.cnr.it/framester2/data/framestersyn/line.n.01",
+        "http://etna.istc.cnr.it/framester2/data/framestersyn/road.n.01" ;
+    ns1:hasLocation "https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891529" ;
+    ns1:includesDepictedObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_",
+        "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691259" ;
+    ns1:includesObjectRel "https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_" ;
+    ns1:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" .
+
+<https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891530> a ns1:DepictedRegion ;
+    rdfs:label "Police man is controlling the accused man."^^xsd:string ;
+    ns1:evokes "http://etna.istc.cnr.it/framester2/data/framestersyn/",
+        "http://etna.istc.cnr.it/framester2/data/framestersyn/man.n.01" ;
+    ns1:hasLocation "https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891530" ;
+    ns1:includesDepictedObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691261",
+        "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691263" ;
+    ns1:includesObjectRel "https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_",
+        "https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_1831861" ;
+    ns1:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" .
+
+<https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891531> a ns1:DepictedRegion ;
+    rdfs:label "Man is lying in road."^^xsd:string ;
+    ns1:evokes "http://etna.istc.cnr.it/framester2/data/framestersyn/man.n.01",
+        "http://etna.istc.cnr.it/framester2/data/framestersyn/road.n.01" ;
+    ns1:hasLocation "https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891531" ;
+    ns1:includesDepictedObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_",
+        "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691263" ;
+    ns1:includesObjectRel "https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_" ;
+    ns1:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" .
+
+<https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891532> a ns1:DepictedRegion ;
+    rdfs:label "Guard is in uniform."^^xsd:string ;
+    ns1:evokes "http://etna.istc.cnr.it/framester2/data/framestersyn/guard.n.01",
+        "http://etna.istc.cnr.it/framester2/data/framestersyn/uniform.n.01" ;
+    ns1:hasLocation "https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891532" ;
+    ns1:includesDepictedObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_",
+        "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691261" ;
+    ns1:includesObjectRel "https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_" ;
+    ns1:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" .
+
+<https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891533> a ns1:DepictedRegion ;
+    rdfs:label "Day time picture."^^xsd:string ;
+    ns1:evokes "http://etna.istc.cnr.it/framester2/data/framestersyn/" ;
+    ns1:hasLocation "https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891533" ;
+    ns1:includesDepictedObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_" ;
+    ns1:includesObjectRel "https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_" ;
+    ns1:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" .
+
+<https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891534> a ns1:DepictedRegion ;
+    rdfs:label "Bag is brown color."^^xsd:string ;
+    ns1:evokes "http://etna.istc.cnr.it/framester2/data/framestersyn/bag.n.01",
+        "http://etna.istc.cnr.it/framester2/data/framestersyn/color.n.01" ;
+    ns1:hasLocation "https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891534" ;
+    ns1:includesDepictedObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_",
+        "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691255" ;
+    ns1:includesObjectRel "https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_" ;
+    ns1:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" .
+
+<https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891535> a ns1:DepictedRegion ;
+    rdfs:label "Guard is wearing black shoes."^^xsd:string ;
+    ns1:evokes "http://etna.istc.cnr.it/framester2/data/framestersyn/guard.n.01",
+        "http://etna.istc.cnr.it/framester2/data/framestersyn/shoe.n.01" ;
+    ns1:hasLocation "https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891535" ;
+    ns1:includesDepictedObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_",
+        "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691256" ;
+    ns1:includesObjectRel "https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_" ;
+    ns1:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" .
+
+<https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891536> a ns1:DepictedRegion ;
+    rdfs:label "Man is wearing blue jeans."^^xsd:string ;
+    ns1:evokes "http://etna.istc.cnr.it/framester2/data/framestersyn/jean.n.01",
+        "http://etna.istc.cnr.it/framester2/data/framestersyn/man.n.01" ;
+    ns1:hasLocation "https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891536" ;
+    ns1:includesDepictedObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_",
+        "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691269" ;
+    ns1:includesObjectRel "https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_" ;
+    ns1:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" .
+
+<https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891537> a ns1:DepictedRegion ;
+    rdfs:label "Man is wearing white socks."^^xsd:string ;
+    ns1:evokes "http://etna.istc.cnr.it/framester2/data/framestersyn/man.n.01",
+        "http://etna.istc.cnr.it/framester2/data/framestersyn/sock.n.01" ;
+    ns1:hasLocation "https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891537" ;
+    ns1:includesDepictedObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_",
+        "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691270" ;
+    ns1:includesObjectRel "https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_" ;
+    ns1:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" .
+
+<https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891538> a ns1:DepictedRegion ;
+    rdfs:label "a man on the ground"^^xsd:string ;
+    ns1:evokes "http://etna.istc.cnr.it/framester2/data/framestersyn/land.n.04",
+        "http://etna.istc.cnr.it/framester2/data/framestersyn/man.n.01" ;
+    ns1:hasLocation "https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891538" ;
+    ns1:includesDepictedObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691260",
+        "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691263" ;
+    ns1:includesObjectRel "https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_",
+        "https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_1831862" ;
+    ns1:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" .
+
+<https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891539> a ns1:DepictedRegion ;
+    rdfs:label "police holding the man"^^xsd:string ;
+    ns1:evokes "http://etna.istc.cnr.it/framester2/data/framestersyn/man.n.01",
+        "http://etna.istc.cnr.it/framester2/data/framestersyn/police.n.01" ;
+    ns1:hasLocation "https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891539" ;
+    ns1:includesDepictedObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691261",
+        "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691263" ;
+    ns1:includesObjectRel "https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_",
+        "https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_1831863" ;
+    ns1:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" .
+
+<https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891540> a ns1:DepictedRegion ;
+    rdfs:label "an officer in uniform"^^xsd:string ;
+    ns1:evokes "http://etna.istc.cnr.it/framester2/data/framestersyn/military_officer.n.01",
+        "http://etna.istc.cnr.it/framester2/data/framestersyn/uniform.n.01" ;
+    ns1:hasLocation "https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891540" ;
+    ns1:includesDepictedObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_",
+        "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691261" ;
+    ns1:includesObjectRel "https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_" ;
+    ns1:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" .
+
+<https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891541> a ns1:DepictedRegion ;
+    rdfs:label "badges on the uniform"^^xsd:string ;
+    ns1:evokes "http://etna.istc.cnr.it/framester2/data/framestersyn/badge.n.01",
+        "http://etna.istc.cnr.it/framester2/data/framestersyn/uniform.n.01" ;
+    ns1:hasLocation "https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891541" ;
+    ns1:includesDepictedObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691251",
+        "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691252" ;
+    ns1:includesObjectRel "https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_",
+        "https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_1831864" ;
+    ns1:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" .
+
+<https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891542> a ns1:DepictedRegion ;
+    rdfs:label "man is wearing socks"^^xsd:string ;
+    ns1:evokes "http://etna.istc.cnr.it/framester2/data/framestersyn/man.n.01",
+        "http://etna.istc.cnr.it/framester2/data/framestersyn/sock.n.01" ;
+    ns1:hasLocation "https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891542" ;
+    ns1:includesDepictedObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691263",
+        "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691270" ;
+    ns1:includesObjectRel "https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_",
+        "https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_1831865" ;
+    ns1:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" .
+
+<https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891543> a ns1:DepictedRegion ;
+    rdfs:label "the man has backpack"^^xsd:string ;
+    ns1:evokes "http://etna.istc.cnr.it/framester2/data/framestersyn/backpack.n.01",
+        "http://etna.istc.cnr.it/framester2/data/framestersyn/man.n.01" ;
+    ns1:hasLocation "https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891543" ;
+    ns1:includesDepictedObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691255",
+        "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691263" ;
+    ns1:includesObjectRel "https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_",
+        "https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_1831866" ;
+    ns1:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" .
+
+<https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891544> a ns1:DepictedRegion ;
+    rdfs:label "police is wearing shoes"^^xsd:string ;
+    ns1:evokes "http://etna.istc.cnr.it/framester2/data/framestersyn/police.n.01",
+        "http://etna.istc.cnr.it/framester2/data/framestersyn/shoe.n.01" ;
+    ns1:hasLocation "https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891544" ;
+    ns1:includesDepictedObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691256",
+        "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691261" ;
+    ns1:includesObjectRel "https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_",
+        "https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_1831867" ;
+    ns1:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" .
+
+<https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891545> a ns1:DepictedRegion ;
+    rdfs:label "the sneakers are black and white"^^xsd:string ;
+    ns1:evokes "http://etna.istc.cnr.it/framester2/data/framestersyn/gym_shoe.n.01" ;
+    ns1:hasLocation "https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891545" ;
+    ns1:includesDepictedObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691256" ;
+    ns1:includesObjectRel "https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_" ;
+    ns1:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" .
+
+<https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891547> a ns1:DepictedRegion ;
+    rdfs:label "police is wearing uniform"^^xsd:string ;
+    ns1:evokes "http://etna.istc.cnr.it/framester2/data/framestersyn/police.n.01",
+        "http://etna.istc.cnr.it/framester2/data/framestersyn/uniform.n.01" ;
+    ns1:hasLocation "https://w3id.org/visualsense/resource/BoundingBox/bb_region_1891547" ;
+    ns1:includesDepictedObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691251",
+        "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691261" ;
+    ns1:includesObjectRel "https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_",
+        "https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_1831869" ;
+    ns1:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" .
+
+<https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_1831845> a ns1:ObjectRelationship ;
+    rdfs:label "OF"^^xsd:string ;
+    ns1:hasRelObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691258" ;
+    ns1:hasRelSubject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691257" ;
+    ns1:isTypedBy "https://w3id.org/visualsense/resource/WnSynsetFrame/[]" .
+
+<https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_1831846> a ns1:ObjectRelationship ;
+    rdfs:label "OF"^^xsd:string ;
+    ns1:hasRelObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691258" ;
+    ns1:hasRelSubject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691257" ;
+    ns1:isTypedBy "https://w3id.org/visualsense/resource/WnSynsetFrame/[]" .
+
+<https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_1831847> a ns1:ObjectRelationship ;
+    rdfs:label "OF"^^xsd:string ;
+    ns1:hasRelObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691261" ;
+    ns1:hasRelSubject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691254" ;
+    ns1:isTypedBy "https://w3id.org/visualsense/resource/WnSynsetFrame/[]" .
+
+<https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_1831848> a ns1:ObjectRelationship ;
+    rdfs:label "OF"^^xsd:string ;
+    ns1:hasRelObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691261" ;
+    ns1:hasRelSubject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691262" ;
+    ns1:isTypedBy "https://w3id.org/visualsense/resource/WnSynsetFrame/[]" .
+
+<https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_1831849> a ns1:ObjectRelationship ;
+    rdfs:label "OF"^^xsd:string ;
+    ns1:hasRelObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691263" ;
+    ns1:hasRelSubject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691256" ;
+    ns1:isTypedBy "https://w3id.org/visualsense/resource/WnSynsetFrame/[]" .
+
+<https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_1831850> a ns1:ObjectRelationship ;
+    rdfs:label "WEARING"^^xsd:string ;
+    ns1:hasRelObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691255" ;
+    ns1:hasRelSubject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691263" ;
+    ns1:isTypedBy "https://w3id.org/visualsense/resource/WnSynsetFrame/['wear.v.01']" .
+
+<https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_1831851> a ns1:ObjectRelationship ;
+    rdfs:label "OF"^^xsd:string ;
+    ns1:hasRelObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691263" ;
+    ns1:hasRelSubject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691264" ;
+    ns1:isTypedBy "https://w3id.org/visualsense/resource/WnSynsetFrame/[]" .
+
+<https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_1831852> a ns1:ObjectRelationship ;
+    rdfs:label "ON"^^xsd:string ;
+    ns1:hasRelObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691261" ;
+    ns1:hasRelSubject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691265" ;
+    ns1:isTypedBy "https://w3id.org/visualsense/resource/WnSynsetFrame/['along.r.01']" .
+
+<https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_1831853> a ns1:ObjectRelationship ;
+    rdfs:label "OF"^^xsd:string ;
+    ns1:hasRelObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691258" ;
+    ns1:hasRelSubject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691266" ;
+    ns1:isTypedBy "https://w3id.org/visualsense/resource/WnSynsetFrame/[]" .
+
+<https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_1831854> a ns1:ObjectRelationship ;
+    rdfs:label "OF"^^xsd:string ;
+    ns1:hasRelObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691263" ;
+    ns1:hasRelSubject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691267" ;
+    ns1:isTypedBy "https://w3id.org/visualsense/resource/WnSynsetFrame/[]" .
+
+<https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_1831855> a ns1:ObjectRelationship ;
+    rdfs:label "ON"^^xsd:string ;
+    ns1:hasRelObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691260" ;
+    ns1:hasRelSubject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691263" ;
+    ns1:isTypedBy "https://w3id.org/visualsense/resource/WnSynsetFrame/['along.r.01']" .
+
+<https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_1831856> a ns1:ObjectRelationship ;
+    rdfs:label "holding"^^xsd:string ;
+    ns1:hasRelObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691263" ;
+    ns1:hasRelSubject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691261" ;
+    ns1:isTypedBy "https://w3id.org/visualsense/resource/WnSynsetFrame/['have.v.01']" .
+
+<https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_1831857> a ns1:ObjectRelationship ;
+    rdfs:label "WEARING"^^xsd:string ;
+    ns1:hasRelObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691269" ;
+    ns1:hasRelSubject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691263" ;
+    ns1:isTypedBy "https://w3id.org/visualsense/resource/WnSynsetFrame/['wear.v.01']" .
+
+<https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_1831858> a ns1:ObjectRelationship ;
+    rdfs:label "OF"^^xsd:string ;
+    ns1:hasRelObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691263" ;
+    ns1:hasRelSubject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691267" ;
+    ns1:isTypedBy "https://w3id.org/visualsense/resource/WnSynsetFrame/[]" .
+
+<https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_1831859> a ns1:ObjectRelationship ;
+    rdfs:label "ON"^^xsd:string ;
+    ns1:hasRelObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691261" ;
+    ns1:hasRelSubject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691265" ;
+    ns1:isTypedBy "https://w3id.org/visualsense/resource/WnSynsetFrame/['along.r.01']" .
+
+<https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_1831860> a ns1:ObjectRelationship ;
+    rdfs:label "OF"^^xsd:string ;
+    ns1:hasRelObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691258" ;
+    ns1:hasRelSubject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691257" ;
+    ns1:isTypedBy "https://w3id.org/visualsense/resource/WnSynsetFrame/[]" .
+
+<https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_1831861> a ns1:ObjectRelationship ;
+    rdfs:label "controlling"^^xsd:string ;
+    ns1:hasRelObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691263" ;
+    ns1:hasRelSubject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691261" ;
+    ns1:isTypedBy "https://w3id.org/visualsense/resource/WnSynsetFrame/['see.v.10']" .
+
+<https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_1831862> a ns1:ObjectRelationship ;
+    rdfs:label "ON"^^xsd:string ;
+    ns1:hasRelObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691260" ;
+    ns1:hasRelSubject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691263" ;
+    ns1:isTypedBy "https://w3id.org/visualsense/resource/WnSynsetFrame/['along.r.01']" .
+
+<https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_1831863> a ns1:ObjectRelationship ;
+    rdfs:label "holding"^^xsd:string ;
+    ns1:hasRelObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691263" ;
+    ns1:hasRelSubject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691261" ;
+    ns1:isTypedBy "https://w3id.org/visualsense/resource/WnSynsetFrame/['have.v.01']" .
+
+<https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_1831864> a ns1:ObjectRelationship ;
+    rdfs:label "ON"^^xsd:string ;
+    ns1:hasRelObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691251" ;
+    ns1:hasRelSubject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691252" ;
+    ns1:isTypedBy "https://w3id.org/visualsense/resource/WnSynsetFrame/['along.r.01']" .
+
+<https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_1831865> a ns1:ObjectRelationship ;
+    rdfs:label "OF"^^xsd:string ;
+    ns1:hasRelObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691263" ;
+    ns1:hasRelSubject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691270" ;
+    ns1:isTypedBy "https://w3id.org/visualsense/resource/WnSynsetFrame/[]" .
+
+<https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_1831866> a ns1:ObjectRelationship ;
+    rdfs:label "OF"^^xsd:string ;
+    ns1:hasRelObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691263" ;
+    ns1:hasRelSubject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691255" ;
+    ns1:isTypedBy "https://w3id.org/visualsense/resource/WnSynsetFrame/[]" .
+
+<https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_1831867> a ns1:ObjectRelationship ;
+    rdfs:label "WEARING"^^xsd:string ;
+    ns1:hasRelObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691256" ;
+    ns1:hasRelSubject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691261" ;
+    ns1:isTypedBy "https://w3id.org/visualsense/resource/WnSynsetFrame/['wear.v.01']" .
+
+<https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_1831869> a ns1:ObjectRelationship ;
+    rdfs:label "WEARING"^^xsd:string ;
+    ns1:hasRelObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691251" ;
+    ns1:hasRelSubject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691261" ;
+    ns1:isTypedBy "https://w3id.org/visualsense/resource/WnSynsetFrame/['wear.v.01']" .
+
