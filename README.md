@@ -32,13 +32,13 @@ Framester schema: https://raw.githubusercontent.com/framester/schema/master/onto
 
 
 Contents of the repository so far:
-**- VG Reconstruction folder**: Contains information about VG, the reconstructed ("old") underlying model of Visual Genome, based on the JSON files to be queried, images of the kinds of repetitions/complications found in the model, and a "cleaner" version ("new") underlying model of VG, that attempts to take care of the repetitive situations.
-**- eXtreme Design Methodology**: This knowledge engineering project has followed the eXtreme Design (XD) methodology proposed by Bloomqvist. eXtreme Design (XD) is an ontology design methodology whose core principle is ontology design patterns (ODP) reuse, as an explicit activity. This folder contains information about our XD methodolofy (stories, competency questions, SPARQL test queries)
-- Visual Sense Ontology: contains the visual sense ontology (in owl format), information about ontology alignment, ontology design pattern (ODP) reuse, graphs of the TBox, and documentation.
-**- Image Data Extraction and Preprocessing**: ??
-**- Frame Evocation Experiments**: Information, code, and instructions about how we tested the evocation of Framester frames from the VG data.
-**- KG Construction**: Contains the RML mapping rules to convert the data into KGs using the Visual Sense ontology, as well as the published first version of the KG.
-**- Ontology Testing**: This folder contains the test cases for ontology testing.
+- **VG Reconstruction folder**: Contains information about VG, the reconstructed ("old") underlying model of Visual Genome, based on the JSON files to be queried, images of the kinds of repetitions/complications found in the model, and a "cleaner" version ("new") underlying model of VG, that attempts to take care of the repetitive situations.
+- **eXtreme Design Methodology**: This knowledge engineering project has followed the eXtreme Design (XD) methodology proposed by Bloomqvist. eXtreme Design (XD) is an ontology design methodology whose core principle is ontology design patterns (ODP) reuse, as an explicit activity. This folder contains information about our XD methodolofy (stories, competency questions, SPARQL test queries)
+- **Visual Sense Ontology**: contains the visual sense ontology (in owl format), information about ontology alignment, ontology design pattern (ODP) reuse, graphs of the TBox, and documentation.
+- **Image Data Extraction and Preprocessing**: ??
+- **Frame Evocation Experiments**: Information, code, and instructions about how we tested the evocation of Framester frames from the VG data.
+- **KG Construction**: Contains the RML mapping rules to convert the data into KGs using the Visual Sense ontology, as well as the published first version of the KG.
+- **Ontology Testing**: This folder contains the test cases for ontology testing.
 
 
 This project was authored by Delfina S. M. Pandiani, Stefano Di Giorgis, and Fiorela Ciroku.
