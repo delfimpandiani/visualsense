@@ -1,44 +1,30 @@
-# Visual Sense: Automatically Making Multimodal Sense of the Visual World
+# Frame Evocation Experiments
 
-This repository holds all data and resources arising from the development of Visual Sense, which aims to integrate the Visual Genome image dataset with the linguistic resource Framester. Visual Sense is a knowledge engineering project designing, implementing and publicating semantic web knowledge graphs (RDF) by applying methods and tools learned during the Knowledge Engineering course taught by Prof. Valentina Presutti and Prof. Andrea Nuzzolese (2021, University of Bologna).
+The usage of WordNet synsets to disambiguate object annotations in the Visual Genome repository allows the exploration of frame evocation via querying of the Framester hub. Specifically, Framester querying can be performed in order to retrieve Conceptual Frames evoked by synsets used in an Image Region. Additionally, Knowledge Graphs (KG) can be automatically generated with the FRED tool using sentences (images’ scene descriptions) as input, and thus it is possible to extract formal knowledge from the natural language provided in the Visual Genome annotations. Since WordNet synsets are related to VG depicted objects, and each depicted object is localized by a bounding box in an image, this in turn allows the localization of evoked frames to a specific set of pixels. As such, the use of lexical resources such as Framester and FRED allows for sophisticated grounding of visual data to language.
 
-This project aims at integrating the annotated image dataset Visual Genome (VG) with the knowledge graph resource Framester, in order to produce a linked data knowledge graph that contains multimodal (factual, linguistic, and visual) knowledge. Our goal was to develop a full flow that allows, for a VG image of choice, the automatic modelling, implementation and publication of a semantic web knowledge graph (RDF) containing multimodal data. To do so, we first analyzed the relevant datasets, and completed design and modeling tasks following the eXtreme Design Methodology in order to extract the schema of Visual Genome as an ontology TBox and create the Visual Sense Ontology. We then developed a pipeline [Fig. 1] to shape the data (ABox) accordingly, with four major stages: 1. Image Data Extraction, 2. Data Preprocessing, 3. Frame Evocation, 4. KG Construction.
+## Experiments, Lessons, and Refinements
 
+The first frame evocation attempt was driven by the principle of maximizing the amount of knowledge extraction, using each lexical unit (LU) of each bounding box in an image as input for a SPARQL query to Framester in order to retrieve all the frames potentially evoked by all the synset of the LU in input. It is worth mentioning that each Image in Visual Genome has an average of 50 Regions, and for each region there is a minimum of one object (but often more than one), some relationships between objects, and some attributes for each object. The result of this first attempt was a massive amount of evoked frames (in the order of magnitude of hundreds of frames per image) which was not useful in extracting real knowledge about the semantic content of the analyzed image, since it was just the set of frames potentially evoked by each sense of each LU.
 
-![photo_2021-09-14 15 40 49](https://user-images.githubusercontent.com/44606644/133268469-8b77821d-af7e-466c-88f7-ff9a221e3ada.jpeg)
-Fig 1. General pipeline of the Visual Sense project. Starting from the data and knowledge provided by the Visual Genome project in JSON format, our pipeline selects allows for the automatic creation of semantic web knowledge graphs containing visual, factual and linguistic data.
+Since the interest was not on the potential frame evocation but on the actual knowledge contained in each image, an improvement was performed by applying the following heuristic, with the purpose to decrease noise and increase meaningfulness and precision of frame evocation: instead of using the LU from annotations, since Visual Genome already provides WordNet synsets to disambiguate annotations, those synsets were used to query Framester. The result was still a considerable amount of evoked frames, but because of the structure of each image json file, the frame evocation was still related mainly to the presence or absence of some entity in an image, meaning, the frame evocation was in percentage mainly a consequence of the implicit question “what is there” instead of “what is happening”. For this reason, being interested conceptually more in the second question, a further restriction was applied.
 
+The final heuristic was then to focus on those Regions having at least two objects and a relation between them, and to be sure, via NLP techniques, that this relation was a verb (and not e.g. a preposition). A first confirmation of a rightful intuition comes from looking at the data: those regions are the ones in which there is the highest "semantic concentration", in terms of number of relations to and from objects.
 
-## Datasets
+## Frame Evocation Pipeline
 
-Visual Genome (VG) is an annotated image dataset containing over 108K images where each image is annotated with an average of 35 objects, 26 attributes, and 21 pairwise relationships between objects. Regarding relationships and attributes as first-class citizens of the annotation space, in addition to the traditional focus on objects, VG’s annotations represent the densest and largest dataset of image descriptions, objects, attributes, relationships, and question answer pairs. The Visual Genome dataset is among the first to provide a detailed labeling of object interactions and attributes, providing a first step of grounding visual concepts to language by canonicalizing the objects, attributes, relationships, noun phrases in region descriptions, and question & answer pairs to WordNet synsets.
+The final pipeline is composed by the following steps, and it’s available at ### put github ###
 
-Framester is a frame-based ontological resource acting as a hub between linguistic resources such as FrameNet, WordNet, VerbNet, BabelNet, DBpedia, Yago, DOLCE-Zero, and leveraging this wealth of links to create an interoperable predicate space formalized according to frame semantics and semiotics principles. Framester uses WordNet and FrameNet at its core, expanding to other resources transitively, and represents them in a formal version of frame semantics. Framester has a freely available dedicated SPARQL endpoint and an API. The schema of Framester is also available as an ontology.
-
-## Relevant links
-Visual Genome: https://visualgenome.org/
-
-Visual Genome JSON datasets: https://visualgenome.org/api/v0/api_home.html
-
-Visual Genome API: https://visualgenome.org/api/v0/api_endpoint_reference.html
-
-Framester: https://github.com/framester/Framester
-
-Framester SPARQL Endpoint: http://etna.istc.cnr.it/framester2/sparql
-
-Framester API: http://etna.istc.cnr.it/framester_web/
-
-Framester schema: https://raw.githubusercontent.com/framester/schema/master/ontology.owl
-
-
-Contents of the repository so far:
-- **1 VG Reconstruction**: Contains information about VG, the reconstructed ("old") underlying model of Visual Genome, based on the JSON files to be queried, images of the kinds of repetitions/complications found in the model, and a "cleaner" version ("new") underlying model of VG, that attempts to take care of the repetitive situations.
-- **2 eXtreme Design** Methodology: This knowledge engineering project has followed the eXtreme Design (XD) methodology proposed by Bloomqvist. eXtreme Design (XD) is an ontology design methodology whose core principle is ontology design patterns (ODP) reuse, as an explicit activity. This folder contains information about our XD methodolofy (stories, competency questions, SPARQL test queries)
-- **3 Visual Sense Ontology**: contains the visual sense ontology (in owl format), information about ontology alignment, ontology design pattern (ODP) reuse, graphs of the TBox, and documentation.
-- **4 Image Data Extraction and Preprocessing**: ??
-- **5 Frame Evocation** Experiments: Information, code, and instructions about how we tested the evocation of Framester frames from the VG data.
-- **6 KG Construction**: Contains the RML mapping rules to convert the data into KGs using the Visual Sense ontology, as well as the published first version of the KG.
-- **7 Ontology Testing**: This folder contains the test cases for ontology testing.
+From a Visual Genome image extract the list of relationships whose predicate is a verb.
+Extract the Region_ID and Region Description (of region having a verb as predicate).
+Generate the knowledge graph from natural language via FRED tool, taking as input each Region Description.
+Extract and store in a file all the frames evoked and all the synsets retrieved in each triple of the FRED graphs.
+Extract the WordNet synsets used in the json file as annotations (from the regions having as predicate a verb).
+Clean the WordNet synsets data extracted from Visual Genome json file, in order to have the iri of corresponding FramesterSyn entities, ready to be used to query Framester.
+Clean the WordNet synsets data extracted from FRED graphs, in order to have the iri of corresponding FramesterSyn entities, ready to be used to query Framester.
+Merge the two lists of synsets from FRED and Visual Genome json file.
+For each synset, launch a SPARQL query to Framester in order to retrieve all the evoked frames.
+Collect all the frames evoked keeping track of the amount of evocations of each frame.
+Produce the final json file showing name of the frame evoked, number of evocation occurrences and image ID.
 
 
 This project was authored by Delfina S. M. Pandiani, Stefano Di Giorgis, and Fiorela Ciroku.
