@@ -1,44 +1,24 @@
-# Visual Sense: Automatically Making Multimodal Sense of the Visual World
+# The Visual Sense Ontology
 
-This repository holds all data and resources arising from the development of Visual Sense, which aims to integrate the Visual Genome image dataset with the linguistic resource Framester. Visual Sense is a knowledge engineering project designing, implementing and publicating semantic web knowledge graphs (RDF) by applying methods and tools learned during the Knowledge Engineering course taught by Prof. Valentina Presutti and Prof. Andrea Nuzzolese (2021, University of Bologna).
+Visual Sense ontology is an ontology that aims to formally represent Visual Genome’s annotation components and their interrelationships, and to connect these components to the Framester schema, so as to further ground visual data to language. The ontology was developed following the XD ontology design methodology. Below we present how the Visual Sense ontology has reused ontology design patterns (ODPs) and been aligned to and reused other ontologies while presenting its T-Box [Fig. 3], with explanations of its crucial classes and properties. Further details of all classes and properties are available in LODE-Powered Visual Sense Ontology Documentation. LODE is a tool for producing human-readable documentation of the ontologies. The Visual Sense ontology has been published at the following permanent IRI: https://w3id.org/visualsense.
 
-This project aims at integrating the annotated image dataset Visual Genome (VG) with the knowledge graph resource Framester, in order to produce a linked data knowledge graph that contains multimodal (factual, linguistic, and visual) knowledge. Our goal was to develop a full flow that allows, for a VG image of choice, the automatic modelling, implementation and publication of a semantic web knowledge graph (RDF) containing multimodal data. To do so, we first analyzed the relevant datasets, and completed design and modeling tasks following the eXtreme Design Methodology in order to extract the schema of Visual Genome as an ontology TBox and create the Visual Sense Ontology. We then developed a pipeline [Fig. 1] to shape the data (ABox) accordingly, with four major stages: 1. Image Data Extraction, 2. Data Preprocessing, 3. Frame Evocation, 4. KG Construction.
+![TBox_Visual_Sense](https://user-images.githubusercontent.com/44606644/133809023-6306e23e-1465-4c68-ac21-a413f44fd9ff.png)
+Figure 4. T-Box of the Visual Sense ontology. The ontology is aligned to Dolce Ultra Light and the Framester Schema, and reuses Ontology Design Patterns.
 
+## Ontology and Ontology Design Pattern (ODP) Alignment and Reuse
 
-![photo_2021-09-14 15 40 49](https://user-images.githubusercontent.com/44606644/133268469-8b77821d-af7e-466c-88f7-ff9a221e3ada.jpeg)
-Fig 1. General pipeline of the Visual Sense project. Starting from the data and knowledge provided by the Visual Genome project in JSON format, our pipeline selects allows for the automatic creation of semantic web knowledge graphs containing visual, factual and linguistic data.
+The Visual Sense Ontology is aligned to DOLCE Ultra Lite (DUL) foundational ontology and reuses classes and properties from the Framester schema. Furthermore, certain Ontology Design Patterns (ODPs) were reused in the design and modeling of the Visual Sense Ontology.
 
+### Alignment to DUL and ODP Reuse
 
-## Datasets
+The alignment to DUL was due to the cognitive nature of the Visual Sense ontology, as the task of representing and improving formal knowledge in the visual sensemaking process is particularly coherent to the human cognitive and socio-cultural aspects covered by DUL. What the Visual Genome model considers simply an “image”, is considered in the Visual Sense Ontology as something that semantically is spread into two different classes, reusing the Content ODP Information Realization, by being spread onto two different classes, :ImageObject and :ImageRegion. :ImageObject is modeled as a subclass of dul:InformationObject, since the focus of expressiveness of this class is on the meaning that is conveyed in and by the Image itself.This class of :ImageObject is furthermore axiomatized as having a realization through a location in some :ImageRegion. The class :ImageRegion is in fact a subclass of dul:SpaceRegion and it represents the physical extension of the image, the spatial area occupied by the image measured in terms of pixels. 
 
-Visual Genome (VG) is an annotated image dataset containing over 108K images where each image is annotated with an average of 35 objects, 26 attributes, and 21 pairwise relationships between objects. Regarding relationships and attributes as first-class citizens of the annotation space, in addition to the traditional focus on objects, VG’s annotations represent the densest and largest dataset of image descriptions, objects, attributes, relationships, and question answer pairs. The Visual Genome dataset is among the first to provide a detailed labeling of object interactions and attributes, providing a first step of grounding visual concepts to language by canonicalizing the objects, attributes, relationships, noun phrases in region descriptions, and question & answer pairs to WordNet synsets.
+This conceptual duality is coherently kept with all the other classes in the ontology: a mereological relation exists between :ImageRegion and any other subpart of the image, with the possibility to query the ontology based on the spatial area of interest. In particular, these physical subparts of an :ImageRegion are the areas, bound by coordinates, which are recognised in the Visual Genome dataset as areas of location for Regions and Objects. They are modeled as :BoundingBoxes, which are subclasses of dul:SpaceRegion, they are explicitly dul:partOf some :ImageRegion, and they are also the dul:locationOf some :DepictedObject or :DepictedRegion. 
 
-Framester is a frame-based ontological resource acting as a hub between linguistic resources such as FrameNet, WordNet, VerbNet, BabelNet, DBpedia, Yago, DOLCE-Zero, and leveraging this wealth of links to create an interoperable predicate space formalized according to frame semantics and semiotics principles. Framester uses WordNet and FrameNet at its core, expanding to other resources transitively, and represents them in a formal version of frame semantics. Framester has a freely available dedicated SPARQL endpoint and an API. The schema of Framester is also available as an ontology.
+The :DepictedRegion class applies the Situation Content Ontology Design Pattern, whose intent is to represent contexts or situations, and the things that are contextualized. This pattern itself reifies the N-ary Relation Logical Ontology Design Pattern, and it allows the contextualization of things that have something in common, or are associated: a same place, time, view, causal link, systemic dependence, etc. In the case of Visual Sense, :DepictedRegion is modeled as a subclass of the class dul:Situation,in the sense that a depicted region provides a context and is the setting for a variety of things (depicted objects, relationships between depicted objects, evoked conceptual frames) that share a same informational space.
 
-## Relevant links
-Visual Genome: https://visualgenome.org/
+### Alignment to Framester Schema
 
-Visual Genome JSON datasets: https://visualgenome.org/api/v0/api_home.html
-
-Visual Genome API: https://visualgenome.org/api/v0/api_endpoint_reference.html
-
-Framester: https://github.com/framester/Framester
-
-Framester SPARQL Endpoint: http://etna.istc.cnr.it/framester2/sparql
-
-Framester API: http://etna.istc.cnr.it/framester_web/
-
-Framester schema: https://raw.githubusercontent.com/framester/schema/master/ontology.owl
-
-
-Contents of the repository so far:
-- **1 VG Reconstruction**: Contains information about VG, the reconstructed ("old") underlying model of Visual Genome, based on the JSON files to be queried, images of the kinds of repetitions/complications found in the model, and a "cleaner" version ("new") underlying model of VG, that attempts to take care of the repetitive situations.
-- **2 eXtreme Design** Methodology: This knowledge engineering project has followed the eXtreme Design (XD) methodology proposed by Bloomqvist. eXtreme Design (XD) is an ontology design methodology whose core principle is ontology design patterns (ODP) reuse, as an explicit activity. This folder contains information about our XD methodolofy (stories, competency questions, SPARQL test queries)
-- **3 Visual Sense Ontology**: contains the visual sense ontology (in owl format), information about ontology alignment, ontology design pattern (ODP) reuse, graphs of the TBox, and documentation.
-- **4 Image Data Extraction and Preprocessing**: ??
-- **5 Frame Evocation** Experiments: Information, code, and instructions about how we tested the evocation of Framester frames from the VG data.
-- **6 KG Construction**: Contains the RML mapping rules to convert the data into KGs using the Visual Sense ontology, as well as the published first version of the KG.
-- **7 Ontology Testing**: This folder contains the test cases for ontology testing.
-
+The other ontology reused in Visual Sense is the Framester schema, in particular the fschema:Frame and fschema:ConceptualFrame classes are reused both for the frames evoked by some :DepictedObject, located in some :BoundingBox, and the frames recognised as evoked by the FRED tool, while the fschema:WnSynsetFrame is reused for the frames evoked by some specific Wordnet Synset.
 
 This project was authored by Delfina S. M. Pandiani, Stefano Di Giorgis, and Fiorela Ciroku.
