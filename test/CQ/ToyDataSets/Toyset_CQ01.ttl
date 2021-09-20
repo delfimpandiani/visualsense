@@ -1,0 +1,15 @@
+@prefix : <https://w3id.org/visualsense/test/CQ/ToyDatasets/Toyset_CQ11.ttl#> .
+@prefix visualsense: <https://w3id.org/visualsense/ontology/> .
+
+<http://etna.istc.cnr.it/framester2/data/framestersyn/Hair.n.1> a visualsense:WnSynsetFrame .
+
+<http://etna.istc.cnr.it/framester2/data/framestersyn/Jean.n.1> a visualsense:WnSynsetFrame .
+
+<http://etna.istc.cnr.it/framester2/data/framestersyn/Shirt.n.1> a visualsense:WnSynsetFrame .
+
+<https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891500> a visualsense:DepictedRegion ;
+    visualsense:evokes "http://etna.istc.cnr.it/framester2/data/framestersyn/Hair.n.01" .
+
+<https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891501> a visualsense:DepictedRegion ;
+    visualsense:evokes "http://etna.istc.cnr.it/framester2/data/framestersyn/Jean.n.01", "http://etna.istc.cnr.it/framester2/data/framestersyn/Shirt.n.01" .
+
