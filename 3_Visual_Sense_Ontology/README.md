@@ -21,4 +21,4 @@ The :DepictedRegion class applies the Situation Content Ontology Design Pattern,
 
 The other ontology reused in Visual Sense is the Framester schema, in particular the fschema:Frame and fschema:ConceptualFrame classes are reused both for the frames evoked by some :DepictedObject, located in some :BoundingBox, and the frames recognised as evoked by the FRED tool, while the fschema:WnSynsetFrame is reused for the frames evoked by some specific Wordnet Synset.
 
-This project was authored by Delfina S. M. Pandiani, Stefano Di Giorgis, and Fiorela Ciroku.
+This project was authored by Delfina S. M. Pandiani, Stefano De Giorgis, and Fiorela Ciroku.
