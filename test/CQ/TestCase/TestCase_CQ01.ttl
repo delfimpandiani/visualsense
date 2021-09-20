@@ -3,7 +3,7 @@
 @prefix tc: <https://raw.githubusercontent.com/visualsense/test/cq/testcase/> .
 @prefix visualsense: <https://w3id.org/visualsense/ontology> .
 
-tc:Case_CQ01.ttl a owlunit:CompetencyQuestionVerification ;
+tc:TestCase_CQ01.ttl a owlunit:CompetencyQuestionVerification ;
  	owlunit:hasCompetencyQuestion "Which objects are depicted in an image object?" ;
  	owlunit:hasSPARQLUnitTest "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> . PREFIX visualsense: <http://www.w3id.org/visualsense> . SELECT ?imageObject ?depictedObject  WHERE { ?imageObject a visualsense:ImageObject . ?depictedObject a visualsense:DepictedObject . ?depictedObject visualsense:isDepictedIn ?imageObject .}" ;
 	owlunit:hasInputData td:Toyset_CQ01.ttl ;
