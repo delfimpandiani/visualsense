@@ -31,4 +31,4 @@ Fig 2. Original data model of Visual Genome, reconstructed by manual inspection 
 ![VG_new](https://user-images.githubusercontent.com/44606644/133807196-538f9109-a650-4978-ad76-29f13a9d431e.png)
 Fig 3. Slimmer data model of Visual Genome, proposed to deal with duplicated information.
 
-This project was authored by Delfina S. M. Pandiani, Stefano Di Giorgis, and Fiorela Ciroku.
+This project was authored by Delfina S. M. Pandiani, Stefano De Giorgis, and Fiorela Ciroku.
