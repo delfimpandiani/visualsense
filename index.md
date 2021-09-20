@@ -1,13 +1,21 @@
-## From Visual to Multimodal Sensemaking
+# Visual Sense: Automatically Making Multimodal Sense of the Visual World
 
-This project aims at integrating a (part of a) resource of annotated images (Visual Genome) in Framester, a linked data knowledge graph that contains factual, linguistic, and visual knowledge.
+This project aims at integrating the annotated image dataset Visual Genome (VG) with the knowledge graph resource Framester, in order to produce a linked data knowledge graph that contains multimodal (factual, linguistic, and visual) knowledge. Our goal was to develop a full flow that allows, for a VG image of choice, the automatic modelling, implementation and publication of a semantic web knowledge graph (RDF) containing multimodal data. To do so, we first analyzed the relevant datasets, and completed design and modeling tasks following the eXtreme Design Methodology in order to extract the schema of Visual Genome as an ontology TBox and create the Visual Sense Ontology. We then developed a pipeline [Fig. 1] to shape the data (ABox) accordingly, with four major stages: 1. Image Data Extraction, 2. Data Preprocessing, 3. Frame Evocation, 4. KG Construction.
 
-Firstly, we will extract the schema of Visual Genome as an ontology TBox, and shape its data (ABox) accordingly.
 
-Secondly, we will align the TBox and the ABox to Framester, by using the proximal entities that are contained in both Visual Genome and Framester (mostly, WordNet synsets).
 
-Thirdly, we will generate a "scene ontology" out of Visual Genome, e.g. by exploiting existing relations and frames from Framester, which can be associated with the links existing in the clusters of annotations from Visual Genome.
+Fig 1. General pipeline of the Visual Sense project. Starting from the data and knowledge provided by the Visual Genome project in JSON format, our pipeline selects allows for the automatic creation of semantic web knowledge graphs containing visual, factual and linguistic data.
 
+
+## Datasets
+
+Visual Genome (VG) is an annotated image dataset containing over 108K images where each image is annotated with an average of 35 objects, 26 attributes, and 21 pairwise relationships between objects. Regarding relationships and attributes as first-class citizens of the annotation space, in addition to the traditional focus on objects, VG’s annotations represent the densest and largest dataset of image descriptions, objects, attributes, relationships, and question answer pairs. The Visual Genome dataset is among the first to provide a detailed labeling of object interactions and attributes, providing a first step of grounding visual concepts to language by canonicalizing the objects, attributes, relationships, noun phrases in region descriptions, and question & answer pairs to WordNet synsets.
+
+Framester is a frame-based ontological resource acting as a hub between linguistic resources such as FrameNet, WordNet, VerbNet, BabelNet, DBpedia, Yago, DOLCE-Zero, and leveraging this wealth of links to create an interoperable predicate space formalized according to frame semantics and semiotics principles. Framester uses WordNet and FrameNet at its core, expanding to other resources transitively, and represents them in a formal version of frame semantics. Framester has a freely available dedicated SPARQL endpoint and an API. The schema of Framester is also available as an ontology.
+
+Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+
+### Relevant links
 Visual Genome: https://visualgenome.org/
 
 Visual Genome JSON datasets: https://visualgenome.org/api/v0/api_home.html
@@ -20,22 +28,10 @@ Framester SPARQL Endpoint: http://etna.istc.cnr.it/framester2/sparql
 
 Framester API: http://etna.istc.cnr.it/framester_web/
 
-Framester schema: https://raw.githubusercontent.com/framester/schema/master/ontology.owl
-
-Contents of the repository so far:
-
-VG Reconstruction folder:
-"Old" model: an image and a graph.ml of the reconstructed ("old") underlying model of VG, based on the JSON files to be queried. It also contains three images of the kinds of repetitions/complications found in the model (e.g., depending on which jkson file is queried, the same conceptual entity (eg., image id) has different names/dict values ("id" and "image_id")
-"New" model: an image and a graph.ml of a cleaner version ("new") underlying model of VG, that attempts to take care of the repetitive situations (basically, trying to replace two different names referring to the same entity with just one entity)
 
 
 
-
-You can use the [editor on GitHub](https://github.com/delfimpandiani/visualsense/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
+## Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
