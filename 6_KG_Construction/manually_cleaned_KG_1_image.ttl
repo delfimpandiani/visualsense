@@ -4,6 +4,9 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+[ rdf:type owl:Ontology ;
+   owl:imports <https://w3id.org/visualsense>
+ ] .
 
 <http://etna.istc.cnr.it/framester2/data/framestersyn/Along.r.1> a visualsense:WnSynsetFrame ;
     rdfs:label "along.r.01"^^xsd:string .
