@@ -41,4 +41,4 @@ Contents of the repository so far:
 - **7 Ontology Testing**: This folder contains the test cases for ontology testing.
 
 
-This project was authored by Delfina S. M. Pandiani, Stefano Di Giorgis, and Fiorela Ciroku.
+This project was authored by Delfina S. M. Pandiani, Stefano De Giorgis, and Fiorela Ciroku.
