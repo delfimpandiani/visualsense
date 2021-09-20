@@ -1,15 +1,16 @@
-@prefix : <https://w3id.org/visualsense/test/CQ/ToyDatasets/Toyset_CQ11.ttl#> .
-@prefix visualsense: <https://w3id.org/visualsense/ontology/> .
+@prefix : <https://w3id.org/visualsense/test/CQ/ToyDatasets/Toyset_CQ01.ttl#> .
+@prefix visualsense: <https://w3id.org/visualsense/ontology/> . 
 
-<http://etna.istc.cnr.it/framester2/data/framestersyn/Hair.n.1> a visualsense:WnSynsetFrame .
+<http://w3id.org/visualsense/resource/ImageObject/image_object_2384656> a visualsense:ImageObject .
 
-<http://etna.istc.cnr.it/framester2/data/framestersyn/Jean.n.1> a visualsense:WnSynsetFrame .
+<https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691251> a visualsense:DepictedObject ;
+    visualsense:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" .
 
-<http://etna.istc.cnr.it/framester2/data/framestersyn/Shirt.n.1> a visualsense:WnSynsetFrame .
+<https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691252> a visualsense:DepictedObject ;
+    visualsense:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" .
 
-<https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891500> a visualsense:DepictedRegion ;
-    visualsense:evokes "http://etna.istc.cnr.it/framester2/data/framestersyn/Hair.n.01" .
+<https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691253> a visualsense:DepictedObject ;
+    visualsense:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" .
 
-<https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891501> a visualsense:DepictedRegion ;
-    visualsense:evokes "http://etna.istc.cnr.it/framester2/data/framestersyn/Jean.n.01", "http://etna.istc.cnr.it/framester2/data/framestersyn/Shirt.n.01" .
-
+<https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691254> a visualsense:DepictedObject ;
+    visualsense:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" .
