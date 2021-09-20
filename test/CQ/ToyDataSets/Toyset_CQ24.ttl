@@ -1,0 +1,16 @@
+@prefix : <https://w3id.org/visualsense/test/CQ/ToyDatasets/Toyset_CQ24.ttl#> .
+@prefix visualsense: <https://w3id.org/visualsense/ontology/> .
+
+<http://w3id.org/visualsense/resource/ImageObject/image_object_2384656> a visualsense:ImageObject .
+
+<https://w3id.org/framester/data/framestercore/Artifact> a visualsense:ConceptualFrame ;
+    visualsense:isEvokedBy "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" .
+
+<https://w3id.org/framester/data/framestercore/Clothing> a visualsense:ConceptualFrame ;
+    visualsense:isEvokedBy "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" .
+
+<https://w3id.org/framester/data/framestercore/CommerceScenario> a visualsense:ConceptualFrame ;
+    visualsense:isEvokedBy "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" .
+
+<https://w3id.org/framester/data/framestercore/Containers> a visualsense:ConceptualFrame ;
+    visualsense:isEvokedBy "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" .

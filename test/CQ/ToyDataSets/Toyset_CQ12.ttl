@@ -1,0 +1,15 @@
+@prefix : <https://w3id.org/visualsense/test/CQ/ToyDatasets/Toyset_CQ12.ttl#> .
+@prefix visualsense: <https://w3id.org/visualsense/ontology/> .
+
+
+<https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891498> a visualsense:DepictedRegion ;
+    rdfs:label "top of police uniform"^^xsd:string .
+
+<https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891499> a visualsense:DepictedRegion ;
+    rdfs:label "silver police badge"^^xsd:string .
+
+<https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891500> a visualsense:DepictedRegion ;
+    rdfs:label "mnan with white hair is taken down"^^xsd:string .
+
+<https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891501> a visualsense:DepictedRegion ;
+    rdfs:label "shirt is pulled up from jeans"^^xsd:string .

@@ -1,0 +1,18 @@
+@prefix : <https://w3id.org/visualsense/test/CQ/ToyDatasets/Toyset_CQ27.ttl#> .
+@prefix visualsense: <https://w3id.org/visualsense/ontology/> .
+
+<http://etna.istc.cnr.it/framester2/data/framestersyn/Wear.n.1> a visualsense:WnSynsetFrame .
+<http://etna.istc.cnr.it/framester2/data/framestersyn/Have.n.1> a visualsense:WnSynsetFrame .
+<http://etna.istc.cnr.it/framester2/data/framestersyn/See.n.1> a visualsense:WnSynsetFrame .
+
+<https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_1831850> a visualsense:ObjectRelationship ;
+    visualsense:isTypedBy "https://w3id.org/visualsense/resource/WnSynsetFrame/Wear.v.01']" .
+
+<https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_1831856> a visualsense:ObjectRelationship ;
+    visualsense:isTypedBy "https://w3id.org/visualsense/resource/WnSynsetFrame/Have.v.01']" .
+
+<https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_1831857> a visualsense:ObjectRelationship ;
+    visualsense:isTypedBy "https://w3id.org/visualsense/resource/WnSynsetFrame/Wear.v.01']" .
+
+<https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_1831861> a visualsense:ObjectRelationship ;
+    visualsense:isTypedBy "https://w3id.org/visualsense/resource/WnSynsetFrame/See.v.10']" .

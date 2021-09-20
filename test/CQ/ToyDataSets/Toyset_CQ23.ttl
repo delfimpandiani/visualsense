@@ -1,0 +1,14 @@
+@prefix : <https://w3id.org/visualsense/test/CQ/ToyDatasets/Toyset_CQ23.ttl#> .
+@prefix visualsense: <https://w3id.org/visualsense/ontology/> .
+
+<https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691251> a visualsense:DepictedObject ;
+    visualsense:hasObjAttribute "police"^^xsd:string .
+
+<https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691252> a visualsense:DepictedObject ;
+    visualsense:hasObjAttribute "silver"^^xsd:string .
+
+<https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691253> a visualsense:DepictedObject ;
+    visualsense:hasObjAttribute "white"^^xsd:string .
+
+<https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691254> a visualsense:DepictedObject ;
+    visualsense:hasObjAttribute "pulled up"^^xsd:string .

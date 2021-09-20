@@ -1,0 +1,20 @@
+@prefix : <https://w3id.org/visualsense/test/CQ/ToyDatasets/Toyset_CQ25.ttl#> .
+@prefix visualsense: <https://w3id.org/visualsense/ontology/> .
+
+
+<https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891498> a visualsense:DepictedRegion .
+<https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891524> a visualsense:DepictedRegion .
+<https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891542> a visualsense:DepictedRegion .
+<https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891545> a visualsense:DepictedRegion .
+
+<https://w3id.org/framester/data/framestercore/Artifact> a visualsense:ConceptualFrame ;
+    visualsense:isFREDFrameEvokedBy "https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891498" .
+
+<https://w3id.org/framester/data/framestercore/Clothing> a visualsense:ConceptualFrame ;
+    visualsense:isFREDFrameEvokedBy "https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891545" .
+
+<https://w3id.org/framester/data/framestercore/CommerceScenario> a visualsense:ConceptualFrame ;
+    visualsense:isFREDFrameEvokedBy "https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1243524" .
+
+<https://w3id.org/framester/data/framestercore/Containers> a visualsense:ConceptualFrame ;
+    visualsense:isFREDFrameEvokedBy "https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891542" .
