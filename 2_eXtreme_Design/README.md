@@ -8,4 +8,4 @@ This knowledge engineering project has followed the eXtreme Design (XD) methodol
 
 ## Test SPARQL Queries
 
-This project was authored by Delfina S. M. Pandiani, Stefano Di Giorgis, and Fiorela Ciroku.
+This project was authored by Delfina S. M. Pandiani, Stefano De Giorgis, and Fiorela Ciroku.
