@@ -1,0 +1,14 @@
+@prefix : <https://w3id.org/visualsense/test/CQ/ToyDatasets/Toyset_CQ07.ttl#> .
+@prefix visualsense: <https://w3id.org/visualsense/ontology/> .
+
+<https://w3id.org/visualsense/resource/BoundingBox/bb_dep_object_691251> a visualsense:BoundingBox ;
+    visualsense:hasYCoordinate 5.0 .
+
+<https://w3id.org/visualsense/resource/BoundingBox/bb_dep_object_691252> a visualsense:BoundingBox ;
+    visualsense:hasYCoordinate 15.0 .
+
+<https://w3id.org/visualsense/resource/BoundingBox/bb_dep_object_691253> a visualsense:BoundingBox ;
+    visualsense:hasYCoordinate 145.0 .
+
+<https://w3id.org/visualsense/resource/BoundingBox/bb_dep_object_691254> a visualsense:BoundingBox ;
+    visualsense:hasYCoordinate 194.0 .
