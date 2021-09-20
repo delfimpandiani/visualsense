@@ -27,4 +27,4 @@ Collect all the frames evoked keeping track of the amount of evocations of each 
 Produce the final json file showing name of the frame evoked, number of evocation occurrences and image ID.
 
 
-This project was authored by Delfina S. M. Pandiani, Stefano Di Giorgis, and Fiorela Ciroku.
+This project was authored by Delfina S. M. Pandiani, Stefano De Giorgis, and Fiorela Ciroku.
