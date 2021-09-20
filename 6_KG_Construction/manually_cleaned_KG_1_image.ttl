@@ -684,112 +684,112 @@
     visualsense:hasLocation "https://w3id.org/visualsense/resource/BoundingBox/bb_dep_object_691251" ;
     visualsense:hasObjAttribute "police"^^xsd:string ;
     visualsense:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" ;
-    visualsense:isTypedBy "http://etna.istc.cnr.it/framester2/data/framestersyn/uniform.n.01']" .
+    visualsense:isTypedBy "http://etna.istc.cnr.it/framester2/data/framestersyn/uniform.n.01" .
 
 <https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691252> a visualsense:DepictedObject ;
     rdfs:label "badge"^^xsd:string ;
     visualsense:hasLocation "https://w3id.org/visualsense/resource/BoundingBox/bb_dep_object_691252" ;
     visualsense:hasObjAttribute "silver"^^xsd:string ;
     visualsense:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" ;
-    visualsense:isTypedBy "http://etna.istc.cnr.it/framester2/data/framestersyn/badge.n.01']" .
+    visualsense:isTypedBy "http://etna.istc.cnr.it/framester2/data/framestersyn/badge.n.01" .
 
 <https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691253> a visualsense:DepictedObject ;
     rdfs:label "hair"^^xsd:string ;
     visualsense:hasLocation "https://w3id.org/visualsense/resource/BoundingBox/bb_dep_object_691253" ;
     visualsense:hasObjAttribute "white"^^xsd:string ;
     visualsense:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" ;
-    visualsense:isTypedBy "http://etna.istc.cnr.it/framester2/data/framestersyn/hair.n.01']" .
+    visualsense:isTypedBy "http://etna.istc.cnr.it/framester2/data/framestersyn/hair.n.01" .
 
 <https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691254> a visualsense:DepictedObject ;
     rdfs:label "shirt"^^xsd:string ;
     visualsense:hasLocation "https://w3id.org/visualsense/resource/BoundingBox/bb_dep_object_691254" ;
     visualsense:hasObjAttribute "pulled up"^^xsd:string ;
     visualsense:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" ;
-    visualsense:isTypedBy "http://etna.istc.cnr.it/framester2/data/framestersyn/shirt.n.01']" .
+    visualsense:isTypedBy "http://etna.istc.cnr.it/framester2/data/framestersyn/shirt.n.01" .
 
 <https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691255> a visualsense:DepictedObject ;
     rdfs:label "backpack"^^xsd:string ;
     visualsense:hasLocation "https://w3id.org/visualsense/resource/BoundingBox/bb_dep_object_691255" ;
     visualsense:hasObjAttribute "beige', 'brown"^^xsd:string ;
     visualsense:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" ;
-    visualsense:isTypedBy "http://etna.istc.cnr.it/framester2/data/framestersyn/backpack.n.01']" .
+    visualsense:isTypedBy "http://etna.istc.cnr.it/framester2/data/framestersyn/backpack.n.01" .
 
 <https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691256> a visualsense:DepictedObject ;
     rdfs:label "sneakers"^^xsd:string ;
     visualsense:hasLocation "https://w3id.org/visualsense/resource/BoundingBox/bb_dep_object_691256" ;
     visualsense:hasObjAttribute "black', 'white"^^xsd:string ;
     visualsense:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" ;
-    visualsense:isTypedBy "http://etna.istc.cnr.it/framester2/data/framestersyn/gym_shoe.n.01']" .
+    visualsense:isTypedBy "http://etna.istc.cnr.it/framester2/data/framestersyn/gym_shoe.n.01" .
 
 <https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691257> a visualsense:DepictedObject ;
     rdfs:label "wheel"^^xsd:string ;
     visualsense:hasLocation "https://w3id.org/visualsense/resource/BoundingBox/bb_dep_object_691257" ;
     visualsense:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" ;
-    visualsense:isTypedBy "http://etna.istc.cnr.it/framester2/data/framestersyn/wheel.n.01']" .
+    visualsense:isTypedBy "http://etna.istc.cnr.it/framester2/data/framestersyn/wheel.n.01" .
 
 <https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691258> a visualsense:DepictedObject ;
     rdfs:label "bike"^^xsd:string ;
     visualsense:hasLocation "https://w3id.org/visualsense/resource/BoundingBox/bb_dep_object_691258" ;
     visualsense:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" ;
-    visualsense:isTypedBy "http://etna.istc.cnr.it/framester2/data/framestersyn/bicycle.n.01']" .
+    visualsense:isTypedBy "http://etna.istc.cnr.it/framester2/data/framestersyn/bicycle.n.01" .
 
 <https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691259> a visualsense:DepictedObject ;
     rdfs:label "line"^^xsd:string ;
     visualsense:hasLocation "https://w3id.org/visualsense/resource/BoundingBox/bb_dep_object_691259" ;
     visualsense:hasObjAttribute "yellow"^^xsd:string ;
     visualsense:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" ;
-    visualsense:isTypedBy "http://etna.istc.cnr.it/framester2/data/framestersyn/line.n.01']" .
+    visualsense:isTypedBy "http://etna.istc.cnr.it/framester2/data/framestersyn/line.n.01" .
 
 <https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691260> a visualsense:DepictedObject ;
     rdfs:label "asphalt"^^xsd:string ;
     visualsense:hasLocation "https://w3id.org/visualsense/resource/BoundingBox/bb_dep_object_691260" ;
     visualsense:hasObjAttribute "paved', 'black', 'grey"^^xsd:string ;
     visualsense:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" ;
-    visualsense:isTypedBy "http://etna.istc.cnr.it/framester2/data/framestersyn/asphalt.n.01']" .
+    visualsense:isTypedBy "http://etna.istc.cnr.it/framester2/data/framestersyn/asphalt.n.01" .
 
 <https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691261> a visualsense:DepictedObject ;
     rdfs:label "police"^^xsd:string ;
     visualsense:hasLocation "https://w3id.org/visualsense/resource/BoundingBox/bb_dep_object_691261" ;
     visualsense:hasObjAttribute "uniform"^^xsd:string ;
     visualsense:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" ;
-    visualsense:isTypedBy "http://etna.istc.cnr.it/framester2/data/framestersyn/police.n.01']" .
+    visualsense:isTypedBy "http://etna.istc.cnr.it/framester2/data/framestersyn/police.n.01" .
 
 <https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691262> a visualsense:DepictedObject ;
     rdfs:label "boot"^^xsd:string ;
     visualsense:hasLocation "https://w3id.org/visualsense/resource/BoundingBox/bb_dep_object_691262" ;
     visualsense:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" ;
-    visualsense:isTypedBy "http://etna.istc.cnr.it/framester2/data/framestersyn/boot.n.01']" .
+    visualsense:isTypedBy "http://etna.istc.cnr.it/framester2/data/framestersyn/boot.n.01" .
 
 <https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691263> a visualsense:DepictedObject ;
     rdfs:label "man"^^xsd:string ;
     visualsense:hasLocation "https://w3id.org/visualsense/resource/BoundingBox/bb_dep_object_691263" ;
     visualsense:hasObjAttribute "lying"^^xsd:string ;
     visualsense:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" ;
-    visualsense:isTypedBy "http://etna.istc.cnr.it/framester2/data/framestersyn/man.n.01']" .
+    visualsense:isTypedBy "http://etna.istc.cnr.it/framester2/data/framestersyn/man.n.01" .
 
 <https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691264> a visualsense:DepictedObject ;
     rdfs:label "head"^^xsd:string ;
     visualsense:hasLocation "https://w3id.org/visualsense/resource/BoundingBox/bb_dep_object_691264" ;
     visualsense:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" ;
-    visualsense:isTypedBy "http://etna.istc.cnr.it/framester2/data/framestersyn/head.n.01']" .
+    visualsense:isTypedBy "http://etna.istc.cnr.it/framester2/data/framestersyn/head.n.01" .
 
 <https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691265> a visualsense:DepictedObject ;
     rdfs:label "tattoo"^^xsd:string ;
     visualsense:hasLocation "https://w3id.org/visualsense/resource/BoundingBox/bb_dep_object_691265" ;
     visualsense:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" ;
-    visualsense:isTypedBy "http://etna.istc.cnr.it/framester2/data/framestersyn/tattoo.n.01']" .
+    visualsense:isTypedBy "http://etna.istc.cnr.it/framester2/data/framestersyn/tattoo.n.01" .
 
 <https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691266> a visualsense:DepictedObject ;
     rdfs:label "tire"^^xsd:string ;
     visualsense:hasLocation "https://w3id.org/visualsense/resource/BoundingBox/bb_dep_object_691266" ;
     visualsense:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" ;
-    visualsense:isTypedBy "http://etna.istc.cnr.it/framester2/data/framestersyn/tire.n.01']" .
+    visualsense:isTypedBy "http://etna.istc.cnr.it/framester2/data/framestersyn/tire.n.01" .
 
 <https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691267> a visualsense:DepictedObject ;
     rdfs:label "stomach"^^xsd:string ;
     visualsense:hasLocation "https://w3id.org/visualsense/resource/BoundingBox/bb_dep_object_691267" ;
     visualsense:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" ;
-    visualsense:isTypedBy "http://etna.istc.cnr.it/framester2/data/framestersyn/stomach.n.01']" .
+    visualsense:isTypedBy "http://etna.istc.cnr.it/framester2/data/framestersyn/stomach.n.01" .
 
 <https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691268> a visualsense:DepictedObject ;
     rdfs:label "blurry"^^xsd:string ;
@@ -801,21 +801,21 @@
     visualsense:hasLocation "https://w3id.org/visualsense/resource/BoundingBox/bb_dep_object_691269" ;
     visualsense:hasObjAttribute "blue"^^xsd:string ;
     visualsense:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" ;
-    visualsense:isTypedBy "http://etna.istc.cnr.it/framester2/data/framestersyn/jean.n.01']" .
+    visualsense:isTypedBy "http://etna.istc.cnr.it/framester2/data/framestersyn/jean.n.01" .
 
 <https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691270> a visualsense:DepictedObject ;
     rdfs:label "socks"^^xsd:string ;
     visualsense:hasLocation "https://w3id.org/visualsense/resource/BoundingBox/bb_dep_object_691270" ;
     visualsense:hasObjAttribute "white"^^xsd:string ;
     visualsense:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" ;
-    visualsense:isTypedBy "http://etna.istc.cnr.it/framester2/data/framestersyn/sock.n.01']" .
+    visualsense:isTypedBy "http://etna.istc.cnr.it/framester2/data/framestersyn/sock.n.01" .
 
 <https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691271> a visualsense:DepictedObject ;
     rdfs:label "mouth"^^xsd:string ;
     visualsense:hasLocation "https://w3id.org/visualsense/resource/BoundingBox/bb_dep_object_691271" ;
     visualsense:hasObjAttribute "open"^^xsd:string ;
     visualsense:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" ;
-    visualsense:isTypedBy "http://etna.istc.cnr.it/framester2/data/framestersyn/mouth.n.01']" .
+    visualsense:isTypedBy "http://etna.istc.cnr.it/framester2/data/framestersyn/mouth.n.01" .
 
 <https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891498> a visualsense:DepictedRegion ;
     rdfs:label "top of police uniform"^^xsd:string ;
@@ -1251,41 +1251,41 @@
     rdfs:label "WEARING"^^xsd:string ;
     visualsense:hasRelObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691255" ;
     visualsense:hasRelSubject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691263" ;
-    visualsense:isTypedBy "https://w3id.org/visualsense/resource/WnSynsetFrame/wear.v.01']" .
+    visualsense:isTypedBy "https://w3id.org/visualsense/resource/WnSynsetFrame/wear.v.01" .
 
 <https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_1831856> a visualsense:ObjectRelationship ;
     rdfs:label "holding"^^xsd:string ;
     visualsense:hasRelObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691263" ;
     visualsense:hasRelSubject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691261" ;
-    visualsense:isTypedBy "https://w3id.org/visualsense/resource/WnSynsetFrame/have.v.01']" .
+    visualsense:isTypedBy "https://w3id.org/visualsense/resource/WnSynsetFrame/have.v.01" .
 
 <https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_1831857> a visualsense:ObjectRelationship ;
     rdfs:label "WEARING"^^xsd:string ;
     visualsense:hasRelObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691269" ;
     visualsense:hasRelSubject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691263" ;
-    visualsense:isTypedBy "https://w3id.org/visualsense/resource/WnSynsetFrame/wear.v.01']" .
+    visualsense:isTypedBy "https://w3id.org/visualsense/resource/WnSynsetFrame/wear.v.01" .
 
 <https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_1831861> a visualsense:ObjectRelationship ;
     rdfs:label "controlling"^^xsd:string ;
     visualsense:hasRelObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691263" ;
     visualsense:hasRelSubject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691261" ;
-    visualsense:isTypedBy "https://w3id.org/visualsense/resource/WnSynsetFrame/see.v.10']" .
+    visualsense:isTypedBy "https://w3id.org/visualsense/resource/WnSynsetFrame/see.v.10" .
 
 <https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_1831863> a visualsense:ObjectRelationship ;
     rdfs:label "holding"^^xsd:string ;
     visualsense:hasRelObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691263" ;
     visualsense:hasRelSubject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691261" ;
-    visualsense:isTypedBy "https://w3id.org/visualsense/resource/WnSynsetFrame/have.v.01']" .
+    visualsense:isTypedBy "https://w3id.org/visualsense/resource/WnSynsetFrame/have.v.01" .
 
 <https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_1831867> a visualsense:ObjectRelationship ;
     rdfs:label "WEARING"^^xsd:string ;
     visualsense:hasRelObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691256" ;
     visualsense:hasRelSubject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691261" ;
-    visualsense:isTypedBy "https://w3id.org/visualsense/resource/WnSynsetFrame/wear.v.01']" .
+    visualsense:isTypedBy "https://w3id.org/visualsense/resource/WnSynsetFrame/wear.v.01" .
 
 <https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_1831869> a visualsense:ObjectRelationship ;
     rdfs:label "WEARING"^^xsd:string ;
     visualsense:hasRelObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691251" ;
     visualsense:hasRelSubject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691261" ;
-    visualsense:isTypedBy "https://w3id.org/visualsense/resource/WnSynsetFrame/wear.v.01']" .
+    visualsense:isTypedBy "https://w3id.org/visualsense/resource/WnSynsetFrame/wear.v.01" .
 
