@@ -35,7 +35,7 @@ Using the provided API to access the data directly from their server, without th
 Downloading all the data and use local methods to parse and work with the visual genome data.
 We decided to use the second option, as it was more reliable. As a preliminary task, we did a manual exploration of the JSON files in order to further understand the way that the data was structured. As a result of this process, the original schema behind Visual Genome was detected [Fig. 2]. Certain issues became apparent, such as the use of different keys for the same conceptual instances in different JSON files (e.g., “id”, “image_id”), so before designing our ontology, we proposed an intermediary data model that took care of the detected duplications [Fig. 3].
 
-![Image](https://delfimpandiani.github.io/visualsense/images/VG_old.png)
+![Image](https://delfimpandiani.github.io/visualsense/images/VG_orig.png)
 Fig 2. Original data model of Visual Genome, reconstructed by manual inspection of the publicly available JSON files.
 ![Image](https://delfimpandiani.github.io/visualsense/images/VG_new.png)
 Fig 3. Slimmer data model of Visual Genome, proposed to deal with duplicated information.
