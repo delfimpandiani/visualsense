@@ -1,0 +1,12 @@
+@prefix owlunit: <https://w3id.org/OWLunit/ontology/> .
+@prefix td: <https://raw.githubusercontent.com/visualsense/test/cq/toydataset/> .
+@prefix tc: <https://raw.githubusercontent.com/visualsense/test/cq/testcase/> .
+@prefix visualsense: <https://w3id.org/visualsense/ontology> .
+
+tc:TestCase_CQ22.ttl a owlunit:CompetencyQuestionVerification ;
+ 	owlunit:hasCompetencyQuestion "Which is the width of an image region?" ;
+ 	owlunit:hasSPARQLUnitTest "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> . PREFIX visualsense: <http://www.w3id.org/visualsense> . SELECT  ?imageRegion ?width WHERE { ?imageRegion a visualsense:ImageRegion . ?imageRegion visualsense:hasWidth ?width .}" ;
+	owlunit:hasInputData td:Toyset_CQ22.ttl ;
+	owlunit:hasInputTestDataCategory owlunit:ToyDataset ;
+	owlunit:hasExpectedResult "";
+	owlunit:testsOntology visualsense: .
