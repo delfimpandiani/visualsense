@@ -33,17 +33,16 @@ CQ11: Which Wn synset frame does a depicted region evoke?
 SPARQL11: PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> . PREFIX visualsense: <http://www.w3id.org/visualsense> . SELECT ?depictedRegion ?WnSynsetFrame WHERE { ?depictedRegion a visualsense:DepictedRegion . ?WnSynsetFrame a visualsense:WnSynsetFrame . ?depictedRegion vs:evokes ?WnSynsetFrame .}
 
 CQ12: Which is the label of the depicted region?
-SPARQL12: PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> . PREFIX visualsense: <http://www.w3id.org/visualsense> . SELECT ?depictedRegion ?label WHERE { ?depictedRegion a visualsense:DepictedRegion . ?depictedRegion rdfs:label ?label .}
+SPARQL12: PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> . PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> . PREFIX visualsense: <http://www.w3id.org/visualsense> . SELECT ?depictedRegion ?label WHERE { ?depictedRegion a visualsense:DepictedRegion . ?depictedRegion rdfs:label ?label .}
 
 CQ13: Which is the label of an object relation?
-SPARQL13: PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> . PREFIX visualsense: <http://www.w3id.org/visualsense> . SELECT ?objectRelation ?label
-WHERE { ?objectRelation a visualsense:ObjectRelation . ?objectRelation rdfs:label ?label .}
+SPARQL13: PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> . PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> . PREFIX visualsense: <http://www.w3id.org/visualsense> . SELECT ?objectRelation ?label WHERE { ?objectRelation a visualsense:ObjectRelation . ?objectRelation rdfs:label ?label .}
 
 CQ14: Which is the label of a bounding box?
-SPARQL14: PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> . PREFIX visualsense: <http://www.w3id.org/visualsense> . SELECT ?boundingBox ?label WHERE { ?boundingBox a visualsense:BoundingBox . ?boundingBox rdfs:label ?label .}
+SPARQL14: PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> . PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> . PREFIX visualsense: <http://www.w3id.org/visualsense> . SELECT ?boundingBox ?label WHERE { ?boundingBox a visualsense:BoundingBox . ?boundingBox rdfs:label ?label .}
 
 CQ15: Which is the label of a depicted object?
-SPARQL15: PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> . PREFIX visualsense: <http://www.w3id.org/visualsense> . SELECT ?depictedObject ?label WHERE { ?depictedObject a visualsense:DepictedObject . ?depictedObject rdfs:label ?label .}
+SPARQL15: PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> . PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> . PREFIX visualsense: <http://www.w3id.org/visualsense> . SELECT ?depictedObject ?label WHERE { ?depictedObject a visualsense:DepictedObject . ?depictedObject rdfs:label ?label .}
 
 CQ16: Which is the object of an object relation?
 SPARQL16: PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> . PREFIX visualsense: <http://www.w3id.org/visualsense> . SELECT ?depictedObject ?objectRelation WHERE { ?depictedObject a visualsense:DepictedObject . ?objectRelation a visualsense:ObjectRelation . ?objectRelation visualsense:hasRelObject ?depictedObject .}
