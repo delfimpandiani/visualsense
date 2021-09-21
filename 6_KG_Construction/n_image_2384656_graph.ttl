@@ -1317,143 +1317,143 @@
     rdfs:label "OF"^^xsd:string ;
     ns1:hasRelObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691258" ;
     ns1:hasRelSubject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691257" ;
-    ns1:isTypedBy "https://w3id.org/visualsense/resource/WnSynsetFrame/[]" .
+    ns1:isTypedBy "http://etna.istc.cnr.it/framester2/data/framestersyn/[]" .
 
 <https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_1831846> a ns1:ObjectRelationship ;
     rdfs:label "OF"^^xsd:string ;
     ns1:hasRelObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691258" ;
     ns1:hasRelSubject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691257" ;
-    ns1:isTypedBy "https://w3id.org/visualsense/resource/WnSynsetFrame/[]" .
+    ns1:isTypedBy "http://etna.istc.cnr.it/framester2/data/framestersyn/[]" .
 
 <https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_1831847> a ns1:ObjectRelationship ;
     rdfs:label "OF"^^xsd:string ;
     ns1:hasRelObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691261" ;
     ns1:hasRelSubject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691254" ;
-    ns1:isTypedBy "https://w3id.org/visualsense/resource/WnSynsetFrame/[]" .
+    ns1:isTypedBy "http://etna.istc.cnr.it/framester2/data/framestersyn/[]" .
 
 <https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_1831848> a ns1:ObjectRelationship ;
     rdfs:label "OF"^^xsd:string ;
     ns1:hasRelObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691261" ;
     ns1:hasRelSubject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691262" ;
-    ns1:isTypedBy "https://w3id.org/visualsense/resource/WnSynsetFrame/[]" .
+    ns1:isTypedBy "http://etna.istc.cnr.it/framester2/data/framestersyn/[]" .
 
 <https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_1831849> a ns1:ObjectRelationship ;
     rdfs:label "OF"^^xsd:string ;
     ns1:hasRelObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691263" ;
     ns1:hasRelSubject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691256" ;
-    ns1:isTypedBy "https://w3id.org/visualsense/resource/WnSynsetFrame/[]" .
+    ns1:isTypedBy "http://etna.istc.cnr.it/framester2/data/framestersyn/[]" .
 
 <https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_1831850> a ns1:ObjectRelationship ;
     rdfs:label "WEARING"^^xsd:string ;
     ns1:hasRelObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691255" ;
     ns1:hasRelSubject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691263" ;
-    ns1:isTypedBy "https://w3id.org/visualsense/resource/WnSynsetFrame/['wear.v.01']" .
+    ns1:isTypedBy "http://etna.istc.cnr.it/framester2/data/framestersyn/['wear.v.01']" .
 
 <https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_1831851> a ns1:ObjectRelationship ;
     rdfs:label "OF"^^xsd:string ;
     ns1:hasRelObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691263" ;
     ns1:hasRelSubject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691264" ;
-    ns1:isTypedBy "https://w3id.org/visualsense/resource/WnSynsetFrame/[]" .
+    ns1:isTypedBy "http://etna.istc.cnr.it/framester2/data/framestersyn/[]" .
 
 <https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_1831852> a ns1:ObjectRelationship ;
     rdfs:label "ON"^^xsd:string ;
     ns1:hasRelObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691261" ;
     ns1:hasRelSubject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691265" ;
-    ns1:isTypedBy "https://w3id.org/visualsense/resource/WnSynsetFrame/['along.r.01']" .
+    ns1:isTypedBy "http://etna.istc.cnr.it/framester2/data/framestersyn/['along.r.01']" .
 
 <https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_1831853> a ns1:ObjectRelationship ;
     rdfs:label "OF"^^xsd:string ;
     ns1:hasRelObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691258" ;
     ns1:hasRelSubject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691266" ;
-    ns1:isTypedBy "https://w3id.org/visualsense/resource/WnSynsetFrame/[]" .
+    ns1:isTypedBy "http://etna.istc.cnr.it/framester2/data/framestersyn/[]" .
 
 <https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_1831854> a ns1:ObjectRelationship ;
     rdfs:label "OF"^^xsd:string ;
     ns1:hasRelObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691263" ;
     ns1:hasRelSubject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691267" ;
-    ns1:isTypedBy "https://w3id.org/visualsense/resource/WnSynsetFrame/[]" .
+    ns1:isTypedBy "http://etna.istc.cnr.it/framester2/data/framestersyn/[]" .
 
 <https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_1831855> a ns1:ObjectRelationship ;
     rdfs:label "ON"^^xsd:string ;
     ns1:hasRelObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691260" ;
     ns1:hasRelSubject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691263" ;
-    ns1:isTypedBy "https://w3id.org/visualsense/resource/WnSynsetFrame/['along.r.01']" .
+    ns1:isTypedBy "http://etna.istc.cnr.it/framester2/data/framestersyn/['along.r.01']" .
 
 <https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_1831856> a ns1:ObjectRelationship ;
     rdfs:label "holding"^^xsd:string ;
     ns1:hasRelObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691263" ;
     ns1:hasRelSubject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691261" ;
-    ns1:isTypedBy "https://w3id.org/visualsense/resource/WnSynsetFrame/['have.v.01']" .
+    ns1:isTypedBy "http://etna.istc.cnr.it/framester2/data/framestersyn/['have.v.01']" .
 
 <https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_1831857> a ns1:ObjectRelationship ;
     rdfs:label "WEARING"^^xsd:string ;
     ns1:hasRelObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691269" ;
     ns1:hasRelSubject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691263" ;
-    ns1:isTypedBy "https://w3id.org/visualsense/resource/WnSynsetFrame/['wear.v.01']" .
+    ns1:isTypedBy "http://etna.istc.cnr.it/framester2/data/framestersyn/['wear.v.01']" .
 
 <https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_1831858> a ns1:ObjectRelationship ;
     rdfs:label "OF"^^xsd:string ;
     ns1:hasRelObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691263" ;
     ns1:hasRelSubject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691267" ;
-    ns1:isTypedBy "https://w3id.org/visualsense/resource/WnSynsetFrame/[]" .
+    ns1:isTypedBy "http://etna.istc.cnr.it/framester2/data/framestersyn/[]" .
 
 <https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_1831859> a ns1:ObjectRelationship ;
     rdfs:label "ON"^^xsd:string ;
     ns1:hasRelObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691261" ;
     ns1:hasRelSubject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691265" ;
-    ns1:isTypedBy "https://w3id.org/visualsense/resource/WnSynsetFrame/['along.r.01']" .
+    ns1:isTypedBy "http://etna.istc.cnr.it/framester2/data/framestersyn/['along.r.01']" .
 
 <https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_1831860> a ns1:ObjectRelationship ;
     rdfs:label "OF"^^xsd:string ;
     ns1:hasRelObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691258" ;
     ns1:hasRelSubject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691257" ;
-    ns1:isTypedBy "https://w3id.org/visualsense/resource/WnSynsetFrame/[]" .
+    ns1:isTypedBy "http://etna.istc.cnr.it/framester2/data/framestersyn/[]" .
 
 <https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_1831861> a ns1:ObjectRelationship ;
     rdfs:label "controlling"^^xsd:string ;
     ns1:hasRelObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691263" ;
     ns1:hasRelSubject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691261" ;
-    ns1:isTypedBy "https://w3id.org/visualsense/resource/WnSynsetFrame/['see.v.10']" .
+    ns1:isTypedBy "http://etna.istc.cnr.it/framester2/data/framestersyn/['see.v.10']" .
 
 <https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_1831862> a ns1:ObjectRelationship ;
     rdfs:label "ON"^^xsd:string ;
     ns1:hasRelObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691260" ;
     ns1:hasRelSubject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691263" ;
-    ns1:isTypedBy "https://w3id.org/visualsense/resource/WnSynsetFrame/['along.r.01']" .
+    ns1:isTypedBy "http://etna.istc.cnr.it/framester2/data/framestersyn/['along.r.01']" .
 
 <https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_1831863> a ns1:ObjectRelationship ;
     rdfs:label "holding"^^xsd:string ;
     ns1:hasRelObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691263" ;
     ns1:hasRelSubject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691261" ;
-    ns1:isTypedBy "https://w3id.org/visualsense/resource/WnSynsetFrame/['have.v.01']" .
+    ns1:isTypedBy "http://etna.istc.cnr.it/framester2/data/framestersyn/['have.v.01']" .
 
 <https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_1831864> a ns1:ObjectRelationship ;
     rdfs:label "ON"^^xsd:string ;
     ns1:hasRelObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691251" ;
     ns1:hasRelSubject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691252" ;
-    ns1:isTypedBy "https://w3id.org/visualsense/resource/WnSynsetFrame/['along.r.01']" .
+    ns1:isTypedBy "http://etna.istc.cnr.it/framester2/data/framestersyn/['along.r.01']" .
 
 <https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_1831865> a ns1:ObjectRelationship ;
     rdfs:label "OF"^^xsd:string ;
     ns1:hasRelObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691263" ;
     ns1:hasRelSubject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691270" ;
-    ns1:isTypedBy "https://w3id.org/visualsense/resource/WnSynsetFrame/[]" .
+    ns1:isTypedBy "http://etna.istc.cnr.it/framester2/data/framestersyn/[]" .
 
 <https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_1831866> a ns1:ObjectRelationship ;
     rdfs:label "OF"^^xsd:string ;
     ns1:hasRelObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691263" ;
     ns1:hasRelSubject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691255" ;
-    ns1:isTypedBy "https://w3id.org/visualsense/resource/WnSynsetFrame/[]" .
+    ns1:isTypedBy "http://etna.istc.cnr.it/framester2/data/framestersyn/[]" .
 
 <https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_1831867> a ns1:ObjectRelationship ;
     rdfs:label "WEARING"^^xsd:string ;
     ns1:hasRelObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691256" ;
     ns1:hasRelSubject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691261" ;
-    ns1:isTypedBy "https://w3id.org/visualsense/resource/WnSynsetFrame/['wear.v.01']" .
+    ns1:isTypedBy "http://etna.istc.cnr.it/framester2/data/framestersyn/['wear.v.01']" .
 
 <https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_1831869> a ns1:ObjectRelationship ;
     rdfs:label "WEARING"^^xsd:string ;
     ns1:hasRelObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691251" ;
     ns1:hasRelSubject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691261" ;
-    ns1:isTypedBy "https://w3id.org/visualsense/resource/WnSynsetFrame/['wear.v.01']" .
+    ns1:isTypedBy "http://etna.istc.cnr.it/framester2/data/framestersyn/['wear.v.01']" .
 

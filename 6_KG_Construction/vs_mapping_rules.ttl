@@ -307,7 +307,7 @@
     rr:predicateObjectMap [
         rr:predicate visualsense:isTypedBy;
         rr:objectMap [
-            rr:template "https://w3id.org/visualsense/resource/WnSynsetFrame/{synsets}"
+            rr:template "http://etna.istc.cnr.it/framester2/data/framestersyn/{synsets}"
         ]
     ] ;
 
