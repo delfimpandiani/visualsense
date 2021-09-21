@@ -3,17 +3,15 @@
 This project aims at integrating the annotated image dataset Visual Genome (VG) with the knowledge graph resource Framester, in order to produce a linked data knowledge graph that contains multimodal (factual, linguistic, and visual) knowledge. Our goal was to develop a full flow that allows, for a VG image of choice, the automatic modelling, implementation and publication of a semantic web knowledge graph (RDF) containing multimodal data. To do so, we first analyzed the relevant datasets, and completed design and modeling tasks following the eXtreme Design Methodology in order to extract the schema of Visual Genome as an ontology TBox and create the Visual Sense Ontology. We then developed a pipeline [Fig. 1] to shape the data (ABox) accordingly, with four major stages: 1. Image Data Extraction, 2. Data Preprocessing, 3. Frame Evocation, 4. KG Construction.
 
 
-
+![Image](https://delfimpandiani.github.io/visualsense/images/pipeline.jpg)
 Fig 1. General pipeline of the Visual Sense project. Starting from the data and knowledge provided by the Visual Genome project in JSON format, our pipeline selects allows for the automatic creation of semantic web knowledge graphs containing visual, factual and linguistic data.
 
 
 ## Datasets
 
-Visual Genome (VG) is an annotated image dataset containing over 108K images where each image is annotated with an average of 35 objects, 26 attributes, and 21 pairwise relationships between objects. Regarding relationships and attributes as first-class citizens of the annotation space, in addition to the traditional focus on objects, VG’s annotations represent the densest and largest dataset of image descriptions, objects, attributes, relationships, and question answer pairs. The Visual Genome dataset is among the first to provide a detailed labeling of object interactions and attributes, providing a first step of grounding visual concepts to language by canonicalizing the objects, attributes, relationships, noun phrases in region descriptions, and question & answer pairs to WordNet synsets.
+[Visual Genome (VG)](https://visualgenome.org/) is an annotated image dataset containing over 108K images where each image is annotated with an average of 35 objects, 26 attributes, and 21 pairwise relationships between objects. Regarding relationships and attributes as first-class citizens of the annotation space, in addition to the traditional focus on objects, VG’s annotations represent the densest and largest dataset of image descriptions, objects, attributes, relationships, and question answer pairs. The Visual Genome dataset is among the first to provide a detailed labeling of object interactions and attributes, providing a first step of grounding visual concepts to language by canonicalizing the objects, attributes, relationships, noun phrases in region descriptions, and question & answer pairs to WordNet synsets.
 
 Framester is a frame-based ontological resource acting as a hub between linguistic resources such as FrameNet, WordNet, VerbNet, BabelNet, DBpedia, Yago, DOLCE-Zero, and leveraging this wealth of links to create an interoperable predicate space formalized according to frame semantics and semiotics principles. Framester uses WordNet and FrameNet at its core, expanding to other resources transitively, and represents them in a formal version of frame semantics. Framester has a freely available dedicated SPARQL endpoint and an API. The schema of Framester is also available as an ontology.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Relevant links
 Visual Genome: https://visualgenome.org/
@@ -36,7 +34,9 @@ Using the provided API to access the data directly from their server, without th
 Downloading all the data and use local methods to parse and work with the visual genome data.
 We decided to use the second option, as it was more reliable. As a preliminary task, we did a manual exploration of the JSON files in order to further understand the way that the data was structured. As a result of this process, the original schema behind Visual Genome was detected [Fig. 2]. Certain issues became apparent, such as the use of different keys for the same conceptual instances in different JSON files (e.g., “id”, “image_id”), so before designing our ontology, we proposed an intermediary data model that took care of the detected duplications [Fig. 3].
 
+![Image](https://delfimpandiani.github.io/visualsense/images/VG_old.png)
 Fig 2. Original data model of Visual Genome, reconstructed by manual inspection of the publicly available JSON files.
+![Image](https://delfimpandiani.github.io/visualsense/images/VG_new.png)
 Fig 3. Slimmer data model of Visual Genome, proposed to deal with duplicated information.
 
 
@@ -51,7 +51,7 @@ The general XD methodology first requires a focus on stories and Competency Ques
 
 Visual Sense ontology is an ontology that aims to formally represent Visual Genome’s annotation components and their interrelationships, and to connect these components to the Framester schema, so as to further ground visual data to language. The ontology was developed following the XD ontology design methodology. Below we present how the Visual Sense ontology has reused ontology design patterns (ODPs) and been aligned to and reused other ontologies while presenting its T-Box [Fig. 4], with explanations of its crucial classes and properties. Further details of all classes and properties are available in LODE-Powered Visual Sense Ontology Documentation. LODE is a tool for producing human-readable documentation of the ontologies. The Visual Sense ontology has been published at the following permanent IRI: https://w3id.org/visualsense.
 
-
+![Image](https://delfimpandiani.github.io/visualsense/images/vsontology.png)
 Figure 4. T-Box of the Visual Sense ontology. The ontology is aligned to Dolce Ultra Light and the Framester Schema, and reuses Ontology Design Patterns.
 
 
@@ -83,6 +83,8 @@ Since the interest was not on the potential frame evocation but on the actual kn
 The final heuristic was then to focus on those Regions having at least two objects and a relation between them, and to be sure, via NLP techniques, that this relation was a verb (and not e.g. a preposition). A first confirmation of this intuition’s rightfulness comes directly from the data: regions with verbal relations between objects are the ones in which there is the highest "semantic concentration", in terms of number of relations to and from entities.
 
 ### Frame Evocation Pipeline
+
+![Image](https://delfimpandiani.github.io/visualsense/images/evocation_pipeline.png)
 
 ```markdown
 Frame evocation some code of the pipeline
@@ -116,26 +118,81 @@ In order to process the RML files, we utilized pyRML, a Python based engine tool
 
 The mapping rules (in turtle format) can be accessed here. The mapping rules utilize three preprocessed JSON files specific to an image (image_data.json, scenegraphs.json, and regions.json) as sources. From these, logical sources are used to create multiple triple maps. In this first iteration of the pipeline, issues were identified with mapping nested structures. Therefore, one subset of data had to be converted from a JSON into tabular CSV data. Further refinements for the mapping rules are envisioned.
 
+Some example mapping rules and declaration of sources:
 ```markdown
-Some example mapping rules
 
-# Header 1
-## Header 2
-### Header 3
+:ImageObjectTriplesMap 
+    rml:logicalSource :ImageSource ;
+    rr:subjectMap [
+        rr:template "http://w3id.org/visualsense/resource/ImageObject/image_object_{image_id}";
+        rr:class visualsense:ImageObject
+    ] ;
 
-- Bulleted
-- List
+    rr:predicateObjectMap [
+        rr:predicate visualsense:hasLocation;
+        rr:objectMap [
+            rr:template "http://w3id.org/visualsense/resource/ImageRegion/image_region_{image_id}"  
+        ]
+    ] .
 
-1. Numbered
-2. List
+:DepictedObjectTriplesMap 
+    rml:logicalSource :DepictedObjectSource ;
+    rr:subjectMap [
+        rr:template "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_{object_id}";
+        rr:class visualsense:DepictedObject
+    ] ;
 
-**Bold** and _Italic_ and `Code` text
+    rr:predicateObjectMap [
+        rr:predicate visualsense:hasLocation;
+        rr:objectMap [
+            rr:template "https://w3id.org/visualsense/resource/BoundingBox/bb_dep_object_{object_id}"
+        ]
+    ] ;
 
-[Link](url) and ![Image](src)
+    rr:predicateObjectMap [
+        rr:predicate visualsense:isTypedBy;
+        rr:objectMap [
+            rr:template "http://etna.istc.cnr.it/framester2/data/framestersyn/{synsets}"
+        ]
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate rdfs:label;
+        rr:objectMap [
+            rml:reference "names";
+            rr:datatype xs:string;
+        ]
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate visualsense:hasObjAttribute;
+        rr:objectMap [
+            rml:reference "attributes";
+            rr:datatype xs:string;
+        ]
+    ] ;
+
+
+    rr:predicateObjectMap [
+        rr:predicate visualsense:isDepictedIn;
+        rr:objectMap [
+            rr:constant "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656"
+        ]
+    ] .
+
+:ImageSource rml:source "./sources/image_data.json";
+    rml:referenceFormulation ql:JSONPath ;
+    rml:iterator "$" .
+    
+:DepictedObjectSource rml:source "./sources/scenegraphs.json";
+    rml:referenceFormulation ql:JSONPath ;
+    rml:iterator "$.objects[*]" .
+```
 
 ### KG Publication
 The Knowledge Graph of one image (ID 2384656) was automatically created with our pipeline, and is available here. There were a few minor syntax issues, so post-processing was performed. The manually cleaned Knowledge Graph has been published here. This KG instantiates all classes defined by the Visual Sense ontology. As such, it contains knowledge about one image (Visual Genome ID 2384656) including co-occurent depicted objects, depicted relationships, attributes, pixel data, evoked WordNet synsets, and Conceptual Frames evoked by specific regions.
 
+![Image](https://delfimpandiani.github.io/visualsense/images/kg.png)
 
 ### Ontology Testing
 
