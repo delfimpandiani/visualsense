@@ -22,7 +22,7 @@ Framester is a frame-based ontological resource acting as a hub between linguist
 
 [Visual Genome JSON datasets](https://visualgenome.org/api/v0/api_home.html)
 
-[Visual Genome API: https://visualgenome.org/api/v0/api_endpoint_reference.html)
+[Visual Genome API](https://visualgenome.org/api/v0/api_endpoint_reference.html)
 
 [Framester](https://github.com/framester/Framester)
 
