@@ -1,0 +1,12 @@
+@prefix owlunit: <https://w3id.org/OWLunit/ontology/> .
+@prefix td: <https://raw.githubusercontent.com/visualsense/test/cq/toydataset/> .
+@prefix tc: <https://raw.githubusercontent.com/visualsense/test/cq/testcase/> .
+@prefix visualsense: <https://w3id.org/visualsense/ontology> .
+
+tc:TestCase_CQ24.ttl a owlunit:CompetencyQuestionVerification ;
+ 	owlunit:hasCompetencyQuestion "Which conceptual frames are evoked by an image object?" ;
+ 	owlunit:hasSPARQLUnitTest "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> . PREFIX visualsense: <http://www.w3id.org/visualsense> . SELECT ?imageObject ?conceptualFrame  WHERE { ?imageObject a visualsense:ImageObject . ?conceptualFrame a visualsense:ConceptualFrame . ?conceptualFrame visualsense:isEvokedBy ?imageObject .}" ;
+	owlunit:hasInputData td:Toyset_CQ24.ttl ;
+	owlunit:hasInputTestDataCategory owlunit:ToyDataset ;
+	owlunit:hasExpectedResult "";
+	owlunit:testsOntology visualsense: .
