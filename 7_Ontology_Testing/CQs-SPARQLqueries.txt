@@ -1,0 +1,85 @@
+CQ1: Which objects are depicted in an image object?
+SPARQL1: PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> . PREFIX visualsense: <http://www.w3id.org/visualsense> . SELECT ?imageObject ?depictedObject  WHERE { ?imageObject a visualsense:ImageObject . ?depictedObject a visualsense:DepictedObject . ?depictedObject visualsense:isDepictedIn ?imageObject .}
+
+CQ2: Which regions are depicted in an image?
+SPARQL2: PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> . PREFIX visualsense: <http://www.w3id.org/visualsense> . SELECT ?imageObject ?depictedRegion
+WHERE { ?imageObject a visualsense:ImageObject . ?depictedRegion a visualsense:DepictedRegion . ?depictedRegion visualsense:isDepictedIn ?imageObject .}
+
+CQ3: Which bounding boxes are part of an image region?
+SPARQL3: PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> . PREFIX visualsense: <http://www.w3id.org/visualsense> . SELECT ?imageRegion ?boundingBox  WHERE { ?imageRegion a visualsense:imageRegion . ?boundingBox a visualsense:Boundingbox . ?boundingBox visualsense:isPartOf ?imageRegion .}
+
+CQ4: What is the width of a bounding box?
+SPARQL4: PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> . PREFIX visualsense: <http://www.w3id.org/visualsense> . SELECT ?boundingBox ?width WHERE { ?boundingBox a visualsense:Boundingbox . ?boundingBox visualsense:hasWidth ?width .}
+
+CQ5: What is the height of a bounding box?
+SPARQL5: PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> . PREFIX visualsense: <http://www.w3id.org/visualsense> . SELECT ?boundingBox ?height WHERE { ?boundingBox a visualsense:Boundingbox . ?boundingBox visualsense:hasHeight ?height .}
+
+CQ6: What is the x coordinate of the bounding box?
+SPARQL6: PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> . PREFIX visualsense: <http://www.w3id.org/visualsense> . SELECT ?boundingBox ?xCoordinate WHERE { ?boundingBox a visualsense:Boundingbox . ?boundingBox visualsense:hasXCoordinate ?xCoordinate .}
+
+CQ7: What is the y coordinate of the bounding box?
+SPARQL7: PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> . PREFIX visualsense: <http://www.w3id.org/visualsense> . SELECT ?boundingBox ?yCoordinate WHERE { ?boundingBox a visualsense:Boundingbox . ?boundingBox visualsense:hasYCoordinate ?yCoordinate .}
+
+CQ8: Which bounding boxes are locations of a depicted object?
+SPARQL8: PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> . PREFIX visualsense: <http://www.w3id.org/visualsense> . SELECT ?boundingBox ?depictedObject WHERE { ?boundingBox a visualsense:BoundingBox . ?depictedObject a visualsense:DepictedObject . ?depictedObject visualsense:hasLocation ?boundingBox .}
+
+CQ9: Which depicted objects does a depicted region include?
+SPARQL9: PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> . PREFIX visualsense: <http://www.w3id.org/visualsense> . SELECT  ?depictedRegion ?depictedObject WHERE { ?depictedRegion a visualsense:DepictedRegion . ?depictedObject a visualsense:DepictedObject . ?depictedRegion vs:includesDepictedObject ?depictedObject .}
+
+CQ10: Which object relations does a depicted region include?
+SPARQL10: PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> . PREFIX visualsense: <http://www.w3id.org/visualsense> . SELECT ?depictedRegion ?objectRelation WHERE { ?depictedRegion a visualsense:DepictedRegion . ?objectRelation a visualsense:ObjectRelation . ?depictedRegion visualsense:includesObjectRelation ?objectRelation .}
+
+CQ11: Which Wn synset frame does a depicted region evoke?
+SPARQL11: PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> . PREFIX visualsense: <http://www.w3id.org/visualsense> . SELECT ?depictedRegion ?WnSynsetFrame WHERE { ?depictedRegion a visualsense:DepictedRegion . ?WnSynsetFrame a visualsense:WnSynsetFrame . ?depictedRegion vs:evokes ?WnSynsetFrame .}
+
+CQ12: Which is the label of the depicted region?
+SPARQL12: PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> . PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> . PREFIX visualsense: <http://www.w3id.org/visualsense> . SELECT ?depictedRegion ?label WHERE { ?depictedRegion a visualsense:DepictedRegion . ?depictedRegion rdfs:label ?label .}
+
+CQ13: Which is the label of an object relation?
+SPARQL13: PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> . PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> . PREFIX visualsense: <http://www.w3id.org/visualsense> . SELECT ?objectRelation ?label WHERE { ?objectRelation a visualsense:ObjectRelation . ?objectRelation rdfs:label ?label .}
+
+CQ14: Which is the label of a bounding box?
+SPARQL14: PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> . PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> . PREFIX visualsense: <http://www.w3id.org/visualsense> . SELECT ?boundingBox ?label WHERE { ?boundingBox a visualsense:BoundingBox . ?boundingBox rdfs:label ?label .}
+
+CQ15: Which is the label of a depicted object?
+SPARQL15: PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> . PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> . PREFIX visualsense: <http://www.w3id.org/visualsense> . SELECT ?depictedObject ?label WHERE { ?depictedObject a visualsense:DepictedObject . ?depictedObject rdfs:label ?label .}
+
+CQ16: Which is the object of an object relation?
+SPARQL16: PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> . PREFIX visualsense: <http://www.w3id.org/visualsense> . SELECT ?depictedObject ?objectRelation WHERE { ?depictedObject a visualsense:DepictedObject . ?objectRelation a visualsense:ObjectRelation . ?objectRelation visualsense:hasRelObject ?depictedObject .}
+
+CQ17: Which is the subject of an object relation?
+SPARQL17: PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> . PREFIX visualsense: <http://www.w3id.org/visualsense> . SELECT ?depictedObject ?objectRelation WHERE { ?depictedObject a visualsense:DepictedObject . ?objectRelation a visualsense:ObjectRelation . ?objectRelation visualsense:hasRelSubject ?depictedObject .}
+
+CQ18: Which is the location of an image object?
+SPARQL18: PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> . PREFIX visualsense: <http://www.w3id.org/visualsense> . SELECT  ?imageObject ?imageRegion WHERE { ?imageRegion a visualsense:ImageRegion .  ?imageObject a visualsense:ImageObject . ?imageObject visualsense:hasLocation ?imageRegion .} 
+
+CQ19: Which wn synset frames does a conceptual frame subsume?
+SPARQL19: PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> . PREFIX visualsense: <http://www.w3id.org/visualsense> . SELECT  ?wnSynset ?conceptualFrame
+WHERE { ?wnSynset a visualsense:WnSynsetFrame . ?conceptualFrame a visualsense:ConceptualFrame . ?wnSynset visualsense:subsumedUnder ?conceptualFrame .}
+
+CQ20: Which bounding boxes are the location of a depicted region?
+SPARQL20: PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> . PREFIX visualsense: <http://www.w3id.org/visualsense> . SELECT ?boundingBox ?depictedRegion 
+WHERE { ?boundingBox a visualsense:BoundingBox . ?depictedRegion a visualsense:DepictedRegion . ?depictedRegion visualsense:hasLocation ?boundingBox .}
+
+CQ21: Which is the height of an image region?
+SPARQL21: PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> . PREFIX visualsense: <http://www.w3id.org/visualsense> . SELECT  ?imageRegion ?height WHERE { ?imageRegion a visualsense:ImageRegion . ?imageRegion visualsense:hasHeight ?height .}
+
+CQ22: Which is the width of an image region?
+SPARQL22: PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> . PREFIX visualsense: <http://www.w3id.org/visualsense> . SELECT  ?imageRegion ?width WHERE { ?imageRegion a visualsense:ImageRegion . ?imageRegion visualsense:hasWidth ?width .}
+
+CQ23: Which are the object attributes of a depicted object?
+SPARQL23:  PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> . PREFIX visualsense: <http://www.w3id.org/visualsense> . SELECT ?depictedObject ?objectAttribute WHERE { ?depictedObject a visualsense:DepictedObject . ?objectAttribute a visualsense:ObjectAttribute . ?depictedObject visualsense:hasObjAttribute ?objectAttribute .}
+
+CQ24: Which conceptual frames are evoked by an image object?
+SPARQL24: PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> . PREFIX visualsense: <http://www.w3id.org/visualsense> . SELECT ?imageObject ?conceptualFrame  WHERE { ?imageObject a visualsense:ImageObject . ?conceptualFrame a visualsense:ConceptualFrame . ?conceptualFrame visualsense:isEvokedBy ?imageObject .}
+
+CQ25: Which conceptual frames are evoked by a depicted region?
+SPARQL25: PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> . PREFIX visualsense: <http://www.w3id.org/visualsense> . SELECT  ?depictedRegion ?conceptualFrame WHERE { ?depictedRegion a visualsense:DepictedRegion . ?conceptualFrame a visualsense:ConceptualFrame . ?conceptualFrame vs:isFREDFrameEvokedBy ?depictedRegion .}
+
+CQ26: Which depicted object is typed by a Wn synset frame?
+SPARQL26: PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> . PREFIX visualsense: <http://www.w3id.org/visualsense> . SELECT  ?depictedObject ?WnSynsetFrame WHERE { ?depictedObject a visualsense:DepictedObject . ?WnSynsetFrame a visualsense:WnSynsetFrame . ?depictedObject vs:isTypedBy ?WnSynsetFrame .}
+
+CQ27: Which object relation is typed by a Wn synset frame?
+SPARQL27: PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> . PREFIX visualsense: <http://www.w3id.org/visualsense> . SELECT ?objectRelation ?WnSynsetFrame WHERE { ?objectRelation a visualsense:ObjectRelation . ?WnSynsetFrame a visualsense:WnSynsetFrame . ?objectRelation vs:isTypedBy ?WnSynsetFrame .}
+
+

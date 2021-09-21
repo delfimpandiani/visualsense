@@ -1,0 +1,14 @@
+@prefix : <https://w3id.org/visualsense/test/CQ/ToyDatasets/Toyset_CQ13.ttl#> .
+@prefix visualsense: <https://w3id.org/visualsense/ontology/> .
+
+<https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_1831850> a visualsense:ObjectRelationship ;
+    rdfs:label "WEARING"^^xsd:string .
+
+<https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_1831856> a visualsense:ObjectRelationship ;
+    rdfs:label "holding"^^xsd:string .
+
+<https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_1831861> a visualsense:ObjectRelationship ;
+    rdfs:label "controlling"^^xsd:string .
+
+<https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_1831863> a visualsense:ObjectRelationship ;
+    rdfs:label "holding"^^xsd:string .

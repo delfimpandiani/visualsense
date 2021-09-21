@@ -1,0 +1,16 @@
+@prefix : <https://w3id.org/visualsense/test/CQ/ToyDatasets/Toyset_CQ01.ttl#> .
+@prefix visualsense: <https://w3id.org/visualsense/ontology/> . 
+
+<http://w3id.org/visualsense/resource/ImageObject/image_object_2384656> a visualsense:ImageObject .
+
+<https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691251> a visualsense:DepictedObject ;
+    visualsense:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" .
+
+<https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691252> a visualsense:DepictedObject ;
+    visualsense:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" .
+
+<https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691253> a visualsense:DepictedObject ;
+    visualsense:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" .
+
+<https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691254> a visualsense:DepictedObject ;
+    visualsense:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" .

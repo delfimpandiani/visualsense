@@ -1,0 +1,16 @@
+@prefix : <https://w3id.org/visualsense/test/CQ/ToyDatasets/Toyset_CQ03.ttl#> .
+@prefix visualsense: <https://w3id.org/visualsense/ontology/> .
+
+<http://w3id.org/visualsense/resource/ImageRegion/image_region_2384656> a visualsense:ImageRegion .
+
+<https://w3id.org/visualsense/resource/BoundingBox/bb_dep_object_691251> a visualsense:BoundingBox ;
+    visualsense:isPartOf "http://w3id.org/visualsense/resource/ImageRegion/image_region_2384656" .
+
+<https://w3id.org/visualsense/resource/BoundingBox/bb_dep_object_691252> a visualsense:BoundingBox ;
+    visualsense:isPartOf "http://w3id.org/visualsense/resource/ImageRegion/image_region_2384656" .
+
+<https://w3id.org/visualsense/resource/BoundingBox/bb_dep_object_691253> a visualsense:BoundingBox ;
+    visualsense:isPartOf "http://w3id.org/visualsense/resource/ImageRegion/image_region_2384656" .
+
+<https://w3id.org/visualsense/resource/BoundingBox/bb_dep_object_691254> a visualsense:BoundingBox ;
+    visualsense:isPartOf "http://w3id.org/visualsense/resource/ImageRegion/image_region_2384656" .

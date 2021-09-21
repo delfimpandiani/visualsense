@@ -1,0 +1,12 @@
+@prefix owlunit: <https://w3id.org/OWLunit/ontology/> .
+@prefix td: <https://raw.githubusercontent.com/visualsense/test/cq/toydataset/> .
+@prefix tc: <https://raw.githubusercontent.com/visualsense/test/cq/testcase/> .
+@prefix visualsense: <https://w3id.org/visualsense/ontology> .
+
+tc:TestCase_CQ23.ttl a owlunit:CompetencyQuestionVerification ;
+ 	owlunit:hasCompetencyQuestion "Which are the object attributes of a depicted object?" ;
+ 	owlunit:hasSPARQLUnitTest "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> . PREFIX visualsense: <http://www.w3id.org/visualsense> . SELECT ?depictedObject ?objectAttribute WHERE { ?depictedObject a visualsense:DepictedObject . ?objectAttribute a visualsense:ObjectAttribute . ?depictedObject visualsense:hasObjAttribute ?objectAttribute .}" ;
+	owlunit:hasInputData td:Toyset_CQ23.ttl ;
+	owlunit:hasInputTestDataCategory owlunit:ToyDataset ;
+	owlunit:hasExpectedResult "";
+	owlunit:testsOntology visualsense: .
