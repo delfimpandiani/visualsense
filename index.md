@@ -10,29 +10,33 @@ Fig 1. General pipeline of the Visual Sense project. Starting from the data and 
 
 ## Datasets
 
+### Visual Genome
+
 [Visual Genome (VG)](https://visualgenome.org/) is an annotated image dataset containing over 108K images where each image is annotated with an average of 35 objects, 26 attributes, and 21 pairwise relationships between objects. Regarding relationships and attributes as first-class citizens of the annotation space, in addition to the traditional focus on objects, VG’s annotations represent the densest and largest dataset of image descriptions, objects, attributes, relationships, and question answer pairs. The Visual Genome dataset is among the first to provide a detailed labeling of object interactions and attributes, providing a first step of grounding visual concepts to language by canonicalizing the objects, attributes, relationships, noun phrases in region descriptions, and question & answer pairs to WordNet synsets.
 
+### Framester
 Framester is a frame-based ontological resource acting as a hub between linguistic resources such as FrameNet, WordNet, VerbNet, BabelNet, DBpedia, Yago, DOLCE-Zero, and leveraging this wealth of links to create an interoperable predicate space formalized according to frame semantics and semiotics principles. Framester uses WordNet and FrameNet at its core, expanding to other resources transitively, and represents them in a formal version of frame semantics. Framester has a freely available dedicated SPARQL endpoint and an API. The schema of Framester is also available as an ontology.
 
 ### Relevant links
-Visual Genome: https://visualgenome.org/
+[Visual Genome](https://visualgenome.org/)
 
-Visual Genome JSON datasets: https://visualgenome.org/api/v0/api_home.html
+[Visual Genome JSON datasets](https://visualgenome.org/api/v0/api_home.html)
 
-Visual Genome API: https://visualgenome.org/api/v0/api_endpoint_reference.html
+[Visual Genome API: https://visualgenome.org/api/v0/api_endpoint_reference.html)
 
-Framester: https://github.com/framester/Framester
+[Framester](https://github.com/framester/Framester)
 
-Framester SPARQL Endpoint: http://etna.istc.cnr.it/framester2/sparql
+[Framester SPARQL Endpoint](http://etna.istc.cnr.it/framester2/sparql)
 
-Framester API: http://etna.istc.cnr.it/framester_web/
+[Framester API](http://etna.istc.cnr.it/framester_web/)
 
 
 ## Visual Genome’s Data Model
 
 The Visual Genome team provides two ways of accessing the data (always in JSON format):
-Using the provided API to access the data directly from their server, without the need to keep any local data available.
-Downloading all the data and use local methods to parse and work with the visual genome data.
+1. Using the provided API to access the data directly from their server, without the need to keep any local data available.
+2. Downloading all the data and use local methods to parse and work with the visual genome data.
+
 We decided to use the second option, as it was more reliable. As a preliminary task, we did a manual exploration of the JSON files in order to further understand the way that the data was structured. As a result of this process, the original schema behind Visual Genome was detected [Fig. 2]. Certain issues became apparent, such as the use of different keys for the same conceptual instances in different JSON files (e.g., “id”, “image_id”), so before designing our ontology, we proposed an intermediary data model that took care of the detected duplications [Fig. 3].
 
 ![Image](https://delfimpandiani.github.io/visualsense/images/VG_orig.png)
@@ -45,6 +49,7 @@ Fig 3. Slimmer data model of Visual Genome, proposed to deal with duplicated inf
 
 This knowledge engineering project has followed the eXtreme Design (XD) methodology proposed by Bloomqvist. eXtreme Design (XD) is an ontology design methodology whose core principle is ontology design patterns (ODP) reuse, as an explicit activity. ODPs are small ontologies which, ideally, form the bigger ontology with the correct alignment. They mediate between use cases (problem types) and design solutions. 
 
+### Competency Questions
 The general XD methodology first requires a focus on stories and Competency Questions (CQs), without going into much detail about ODPs. To do so, the ontology engineers (the so called customer team) get in close and frequent contact with domain experts, so as to collect the requirements for the ontology in the form of stories by using Google Forms or Github issues. In both cases, the key information that a story should contain is the goal/objective of the story and questions that need to be answered in order to reach that goal. Once the stories are collected, they are prioritized and then broken down by the ontology engineers. They identify the main concepts and the possible general constraints from the user stories to create CQs. Competency questions are the means to collect requirements in the XD methodology. Each story has a table of requirements (competency questions) that need to be fulfilled and later tested. The testing of the CQs is one of the main tests that are executed in the XD methodology. The practice is to create a test case for each competency question which contains information such as requirement (CQ), test category, test case description, test, input test data, expected result, actual result, executed by, execution date, environment, execution result and execution comment. 
 
 
@@ -55,22 +60,23 @@ Visual Sense ontology is an ontology that aims to formally represent Visual Geno
 ![Image](https://delfimpandiani.github.io/visualsense/images/vsontology.png)
 Figure 4. T-Box of the Visual Sense ontology. The ontology is aligned to Dolce Ultra Light and the Framester Schema, and reuses Ontology Design Patterns.
 
-
 ### Ontology and Ontology Design Pattern (ODP) Alignment and Reuse
 
 The Visual Sense Ontology is aligned to DOLCE Ultra Lite (DUL) foundational ontology and reuses classes and properties from the Framester schema. Furthermore, certain Ontology Design Patterns (ODPs) were reused in the design and modeling of the Visual Sense Ontology.
 
 ### Alignment to DUL and ODP Reuse
 
-The alignment to DUL was due to the cognitive nature of the Visual Sense ontology, as the task of representing and improving formal knowledge in the visual sensemaking process is particularly coherent to the human cognitive and socio-cultural aspects covered by DUL. What the Visual Genome model considers simply an “image”, is considered in the Visual Sense Ontology as something that semantically is spread into two different classes, reusing the Content ODP Information Realization, by being spread onto two different classes, :ImageObject and :ImageRegion. :ImageObject is modeled as a subclass of dul:InformationObject, since the focus of expressiveness of this class is on the meaning that is conveyed in and by the Image itself.This class of :ImageObject is furthermore axiomatized as having a realization through a location in some :ImageRegion. The class :ImageRegion is in fact a subclass of dul:SpaceRegion and it represents the physical extension of the image, the spatial area occupied by the image measured in terms of pixels. 
+The alignment to DUL was due to the cognitive nature of the Visual Sense ontology, as the task of representing and improving formal knowledge in the visual sensemaking process is particularly coherent to the human cognitive and socio-cultural aspects covered by DUL. What the Visual Genome model considers simply an “image”, is considered in the Visual Sense Ontology as something that semantically is spread into two different classes, reusing the Content ODP Information Realization, by being spread onto two different classes, `:ImageObject` and `:ImageRegion`. `:ImageObject` is modeled as a subclass of `dul:InformationObject`, since the focus of expressiveness of this class is on the meaning that is conveyed in and by the Image itself.
 
-This conceptual duality is coherently kept with all the other classes in the ontology: a mereological relation exists between :ImageRegion and any other subpart of the image, with the possibility to query the ontology based on the spatial area of interest. In particular, these physical subparts of an :ImageRegion are the areas, bound by coordinates, which are recognised in the Visual Genome dataset as areas of location for Regions and Objects. They are modeled as :BoundingBoxes, which are subclasses of dul:SpaceRegion, they are explicitly dul:partOf some :ImageRegion, and they are also the dul:locationOf some :DepictedObject or :DepictedRegion. 
+This class of `:ImageObject` is furthermore axiomatized as having a realization through a location in some `:ImageRegion`. The class `:ImageRegion` is in fact a subclass of `dul:SpaceRegion` and it represents the physical extension of the image, the spatial area occupied by the image measured in terms of pixels. 
 
-The :DepictedRegion class applies the Situation Content Ontology Design Pattern, whose intent is to represent contexts or situations, and the things that are contextualized. This pattern itself reifies the N-ary Relation Logical Ontology Design Pattern, and it allows the contextualization of things that have something in common, or are associated: a same place, time, view, causal link, systemic dependence, etc. In the case of Visual Sense, :DepictedRegion is modeled as a subclass of the class dul:Situation,in the sense that a depicted region provides a context and is the setting for a variety of things (depicted objects, relationships between depicted objects, evoked conceptual frames) that share a same informational space.
+This conceptual duality is coherently kept with all the other classes in the ontology: a mereological relation exists between `:ImageRegion` and any other subpart of the image, with the possibility to query the ontology based on the spatial area of interest. In particular, these physical subparts of an `:ImageRegion` are the areas, bound by coordinates, which are recognised in the Visual Genome dataset as areas of location for Regions and Objects. They are modeled as `:BoundingBoxes`, which are subclasses of `dul:SpaceRegion`, they are explicitly `dul:partOf` some `:ImageRegion`, and they are also the `dul:locationOf` some `:DepictedObject` or `:DepictedRegion`. 
+
+The `:DepictedRegion` class applies the Situation Content Ontology Design Pattern, whose intent is to represent contexts or situations, and the things that are contextualized. This pattern itself reifies the N-ary Relation Logical Ontology Design Pattern, and it allows the contextualization of things that have something in common, or are associated: a same place, time, view, causal link, systemic dependence, etc. In the case of Visual Sense, `:DepictedRegion` is modeled as a subclass of the class `dul:Situation`,in the sense that a depicted region provides a context and is the setting for a variety of things (depicted objects, relationships between depicted objects, evoked conceptual frames) that share a same informational space.
 
 ### Alignment to Framester Schema
 
-The other ontology reused in Visual Sense is the Framester schema, in particular the fschema:Frame and fschema:ConceptualFrame classes are reused both for the frames evoked by some :DepictedObject, located in some :BoundingBox, and the frames recognised as evoked by the FRED tool, while the fschema:WnSynsetFrame is reused for the frames evoked by some specific Wordnet Synset.
+The other ontology reused in Visual Sense is the Framester schema, in particular the fschema:Frame and fschema:ConceptualFrame classes are reused both for the frames evoked by some `:DepictedObject`, located in some `:BoundingBox`, and the frames recognised as evoked by the FRED tool, while the `fschema:WnSynsetFrame` is reused for the frames evoked by some specific Wordnet Synset.
 
 ##  Frame Evocation Experiments
 
@@ -88,11 +94,10 @@ The final heuristic was then to focus on those Regions having at least two objec
 ![Image](https://delfimpandiani.github.io/visualsense/images/evocation_pipeline.png)
 
 ```markdown
-Frame evocation some code of the pipeline
+# Frame evocation some code of the pipeline
 
-# Header 1
-## Header 2
-### Header 3
+## Step 1
+### Substep 
 
 - Bulleted
 - List
@@ -101,8 +106,6 @@ Frame evocation some code of the pipeline
 2. List
 
 **Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
 ```
 
 ## RML Mapping and KG Construction
