@@ -1,4 +1,4 @@
-@prefix : <https://w3id.org/visualsense/test/CQ/ToyDatasets/Toyset_CQ27.ttl#> .
+@prefix : <https://w3id.org/visualsense/test/CQ/ToyDatasets/Toyset_CQ25.ttl#> .
 @prefix visualsense: <https://w3id.org/visualsense/ontology/> .
 
 <http://etna.istc.cnr.it/framester2/data/framestersyn/Wear.n.1> a visualsense:WnSynsetFrame .
