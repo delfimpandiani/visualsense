@@ -1,4 +1,4 @@
-@prefix : <https://w3id.org/visualsense/test/CQ/ToyDatasets/Toyset_CQ17.ttl#> .
+@prefix : <https://w3id.org/visualsense/test/CQ/ToyDatasets/Toyset_CQ16.ttl#> .
 @prefix visualsense: <https://w3id.org/visualsense/ontology/> .
 
 <https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691261> a visualsense:DepictedObject .
