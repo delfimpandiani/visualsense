@@ -1,4 +1,4 @@
-@prefix : <https://w3id.org/visualsense/test/CQ/ToyDatasets/Toyset_CQ24.ttl#> .
+@prefix : <https://w3id.org/visualsense/test/CQ/ToyDatasets/Toyset_CQ22.ttl#> .
 @prefix visualsense: <https://w3id.org/visualsense/ontology/> .
 
 <http://w3id.org/visualsense/resource/ImageObject/image_object_2384656> a visualsense:ImageObject .
