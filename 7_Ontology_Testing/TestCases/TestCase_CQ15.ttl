@@ -3,10 +3,10 @@
 @prefix tc: <https://raw.githubusercontent.com/visualsense/test/cq/testcase/> .
 @prefix visualsense: <https://w3id.org/visualsense/ontology> .
 
-tc:TestCase_CQ16.ttl a owlunit:CompetencyQuestionVerification ;
+tc:TestCase_CQ15.ttl a owlunit:CompetencyQuestionVerification ;
  	owlunit:hasCompetencyQuestion "Which is the object of an object relation?" ;
  	owlunit:hasSPARQLUnitTest "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> . PREFIX visualsense: <http://www.w3id.org/visualsense> . SELECT ?depictedObject ?objectRelation WHERE { ?depictedObject a visualsense:DepictedObject . ?objectRelation a visualsense:ObjectRelation . ?objectRelation visualsense:hasRelObject ?depictedObject .}" ;
-	owlunit:hasInputData td:Toyset_CQ16.ttl ;
+	owlunit:hasInputData td:Toyset_CQ15.ttl ;
 	owlunit:hasInputTestDataCategory owlunit:ToyDataset ;
 	owlunit:hasExpectedResult "";
 	owlunit:testsOntology visualsense: .
