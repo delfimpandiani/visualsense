@@ -57,8 +57,9 @@ The general XD methodology first requires a focus on stories and Competency Ques
 
 Visual Sense ontology is an ontology that aims to formally represent Visual Genome’s annotation components and their interrelationships, and to connect these components to the Framester schema, so as to further ground visual data to language. The ontology was developed following the XD ontology design methodology. Below we present how the Visual Sense ontology has reused ontology design patterns (ODPs) and been aligned to and reused other ontologies while presenting its T-Box [Fig. 4], with explanations of its crucial classes and properties. Further details of all classes and properties are available in LODE-Powered Visual Sense Ontology Documentation. LODE is a tool for producing human-readable documentation of the ontologies. The Visual Sense ontology has been published at the following permanent IRI: https://w3id.org/visualsense.
 
-![Image](https://delfimpandiani.github.io/visualsense/images/vsontology.png)
-Figure 4. T-Box of the Visual Sense ontology. The ontology is aligned to Dolce Ultra Light and the Framester Schema, and reuses Ontology Design Patterns.
+The Visual Sense Ontology can be further explored via the WebVOWL tool:
+
+[![Image](https://delfimpandiani.github.io/visualsense/images/webvowl.png)](http://www.visualdataweb.de/webvowl/#opts=editorMode=true;#iri=https://w3id.org/visualsense)
 
 ### Ontology and Ontology Design Pattern (ODP) Alignment and Reuse
 
@@ -67,6 +68,9 @@ The Visual Sense Ontology is aligned to DOLCE Ultra Lite (DUL) foundational onto
 ### Alignment to DUL and ODP Reuse
 
 The alignment to DUL was due to the cognitive nature of the Visual Sense ontology, as the task of representing and improving formal knowledge in the visual sensemaking process is particularly coherent to the human cognitive and socio-cultural aspects covered by DUL. What the Visual Genome model considers simply an “image”, is considered in the Visual Sense Ontology as something that semantically is spread into two different classes, reusing the Content ODP Information Realization, by being spread onto two different classes, `:ImageObject` and `:ImageRegion`. `:ImageObject` is modeled as a subclass of `dul:InformationObject`, since the focus of expressiveness of this class is on the meaning that is conveyed in and by the Image itself.
+
+![Image](https://delfimpandiani.github.io/visualsense/images/vsontology.png)
+Figure 4. T-Box of the Visual Sense ontology. The ontology is aligned to Dolce Ultra Light and the Framester Schema, and reuses Ontology Design Patterns.
 
 This class of `:ImageObject` is furthermore axiomatized as having a realization through a location in some `:ImageRegion`. The class `:ImageRegion` is in fact a subclass of `dul:SpaceRegion` and it represents the physical extension of the image, the spatial area occupied by the image measured in terms of pixels. 
 
