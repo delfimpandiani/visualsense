@@ -10,7 +10,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:fschema="https://w3id.org/framester/schema/">
     <owl:Ontology rdf:about="https://w3id.org/visualsense">
-        <dc:creator>Delfina Sol Martinez Pandiani, Stefano Di Giorgis, Fiorela Ciroku.</dc:creator>
+        <dc:creator>Delfina Sol Martinez Pandiani, Stefano De Giorgis, Fiorela Ciroku.</dc:creator>
         <rdfs:comment>This is the ontological module formalizing the schema of the Visual Genome model, aiming to represent the relations between objects in specific Regions of an Image. It implements some Ontology Design Patterns like Description and Situation and N-ary relation. It is furthermore aligned to DUL - Dolce Ultralight foundational Ontology and imports frame evocation classes from the Framester hub.</rdfs:comment>
         <owl:versionInfo>1.0 - Adding classes and properties.
 1.1 - DUL import and alignement + frame evocation properties import from Framester schema.
@@ -383,7 +383,6 @@
         <rdfs:subPropertyOf rdf:resource="https://w3id.org/visualsense#associatedWith"/>
         <owl:inverseOf rdf:resource="https://w3id.org/visualsense#isPartOf"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ReflexiveProperty"/>
         <rdfs:domain rdf:resource="https://w3id.org/visualsense#Entity"/>
         <rdfs:range rdf:resource="https://w3id.org/visualsense#Entity"/>
         <rdfs:comment>Equivalent to dul:hasPart.</rdfs:comment>
@@ -585,7 +584,6 @@
     <owl:ObjectProperty rdf:about="https://w3id.org/visualsense#isPartOf">
         <rdfs:subPropertyOf rdf:resource="https://w3id.org/visualsense#associatedWith"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ReflexiveProperty"/>
         <rdfs:domain rdf:resource="https://w3id.org/visualsense#Entity"/>
         <rdfs:range rdf:resource="https://w3id.org/visualsense#Entity"/>
         <rdfs:comment>Equivalent to dul:isPartOf.</rdfs:comment>
