@@ -1,0 +1,13 @@
+@prefix owlunit: <https://w3id.org/OWLunit/ontology/> .
+@prefix visualsense: <https://w3id.org/visualsense/> .
+@prefix td: <https://raw.githubusercontent.com/visualsense/test/ep/toydataset/> .
+@prefix tc: <https://raw.githubusercontent.com/visualsense/test/ep/testcase/> .
+
+tc:TestCase_EP01.ttl a owlunit:ErrorProvocation ;
+	owlunit:hasInputData td:Toyset_EP01.ttl ;
+  owlunit:hasActualResult "true";
+  owlunit:hasExpectedResult "Inconsistent";
+  owlunit:hasRequirement "ImageRegion and ImageObject are disjointed classes.";
+  owlunit:testDate "2021-09-27";
+  owlunit:testedBy "Ran by Fiorela Ciroku";
+ 	owlunit:testsOntology visualsense: .
