@@ -5,8 +5,8 @@
 
 tc:TestCase_CQ01.ttl a owlunit:CompetencyQuestionVerification ;
  	owlunit:hasCompetencyQuestion "Which objects are depicted in an image object?" ;
- 	owlunit:hasSPARQLUnitTest "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> . PREFIX visualsense: <http://www.w3id.org/visualsense> . SELECT ?imageObject ?depictedObject  WHERE { ?imageObject a visualsense:ImageObject . ?depictedObject a visualsense:DepictedObject . ?depictedObject visualsense:isDepictedIn ?imageObject .}" ;
+ 	owlunit:hasSPARQLUnitTest "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX visualsense: <http://www.w3id.org/visualsense> SELECT ?depictedObject WHERE { ?imageObject a visualsense:ImageObject . ?depictedObject a visualsense:DepictedObject . ?depictedObject visualsense:isDepictedIn ?imageObject .}" ;
 	owlunit:hasInputData td:Toyset_CQ01.ttl ;
 	owlunit:hasInputTestDataCategory owlunit:ToyDataset ;
-	owlunit:hasExpectedResult "{"http:\/\/w3id.org\/visualsense\/resource\/ImageObject\/image_object_2384656":{"http:\/\/www.w3.org\/1999\/02\/22-rdf-syntax-ns-type":[{"type":"uri","value":"https:\/\/w3id.org\/visualsense\/ontology\/ImageObject"}]},"https:\/\/w3id.org\/visualsense\/resource\/DepictedObject\/depicted_object_691251":{"http:\/\/www.w3.org\/1999\/02\/22-rdf-syntax-ns-type":[{"type":"uri","value":"https:\/\/w3id.org\/visualsense\/ontology\/DepictedObject"}],"https:\/\/w3id.org\/visualsense\/ontology\/isDepictedIn":[{"type":"literal","value":"http:\/\/w3id.org\/visualsense\/resource\/ImageObject\/image_object_2384656"}]}}";
+	owlunit:hasExpectedResult "{  \"head\": {  \"vars\": [  \”imageObject\” ] } ,  \"results\": {  \"bindings\": [ {  \"imageObject\": {  \"type\":  \"uri\" ,  \"value\":  \"https://w3id.org/visualsense/test/CQ/ToyDatasets/image_object_2384656\” } } ] } }";
 	owlunit:testsOntology visualsense: .
