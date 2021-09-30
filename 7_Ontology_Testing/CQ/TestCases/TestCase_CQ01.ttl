@@ -1,7 +1,7 @@
 @prefix owlunit: <https://w3id.org/OWLunit/ontology/> 
 @prefix td: <https://raw.githubusercontent.com/delfimpandiani/visualsense/main/7_Ontology_Testing/CQ/ToyDataSets/> 
 @prefix tc: <https://raw.githubusercontent.com/delfimpandiani/visualsense/main/7_Ontology_Testing/CQ/TestCases/> 
-@prefix visualsense: <https://w3id.org/visualsense/#> 
+@prefix visualsense: <https://w3id.org/visualsense#> 
 
 tc:TestCase_CQ01.ttl a owlunit:CompetencyQuestionVerification ;
  	owlunit:hasCompetencyQuestion "Which objects are depicted in an image object?" ;
