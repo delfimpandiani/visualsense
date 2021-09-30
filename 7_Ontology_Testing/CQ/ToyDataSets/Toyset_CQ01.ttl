@@ -1,4 +1,4 @@
-@prefix td: <https://w3id.org/visualsense/test/CQ/ToyDatasets/Toyset_CQ01.ttl#> .
+@prefix td: <https://raw.githubusercontent.com/delfimpandiani/visualsense/main/7_Ontology_Testing/CQ/ToyDataSets/> .
 @prefix visualsense: <https://w3id.org/visualsense/> . 
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
