@@ -3,14 +3,14 @@
 
 <http://w3id.org/visualsense/resource/ImageObject/image_object_2384656> a visualsense:ImageObject .
 
-<https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691251> a visualsense:DepictedObject ;
-    visualsense:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" .
+<https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691251> a visualsense:DepictedObject .
+<https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691251> visualsense:isDepictedIn <http://w3id.org/visualsense/resource/ImageObject/image_object_2384656> .
 
-<https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691252> a visualsense:DepictedObject ;
-    visualsense:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" .
+<https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691252> a visualsense:DepictedObject .
+<https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691252> visualsense:isDepictedIn <http://w3id.org/visualsense/resource/ImageObject/image_object_2384656> .
 
-<https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691253> a visualsense:DepictedObject ;
-    visualsense:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" .
+<https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691253> a visualsense:DepictedObject .
+<https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691253> visualsense:isDepictedIn <http://w3id.org/visualsense/resource/ImageObject/image_object_2384656> .
 
-<https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691254> a visualsense:DepictedObject ;
-    visualsense:isDepictedIn "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" .
+<https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691254> a visualsense:DepictedObject .
+<https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691254> visualsense:isDepictedIn <http://w3id.org/visualsense/resource/ImageObject/image_object_2384656> .
