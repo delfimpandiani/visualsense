@@ -1,16 +1,8 @@
-@prefix : <https://w3id.org/visualsense/test/CQ/ToyDatasets/Toyset_CQ01.ttl#> .
-@prefix visualsense: <https://w3id.org/visualsense/ontology/> . 
+@prefix td: <https://w3id.org/visualsense/test/CQ/ToyDatasets/Toyset_CQ01.ttl#> .
+@prefix visualsense: <https://w3id.org/visualsense/> . 
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
-<http://w3id.org/visualsense/resource/ImageObject/image_object_2384656> a visualsense:ImageObject .
+td:image_object_2384656 rdf:type visualsense:ImageObject .
+td:depicted_object_691251 rdf:type visualsense:DepictedObject .
+td:depicted_object_691251 visualsense:isDepictedIn td:image_object_2384656 .
 
-<https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691251> a visualsense:DepictedObject .
-<https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691251> visualsense:isDepictedIn <http://w3id.org/visualsense/resource/ImageObject/image_object_2384656> .
-
-<https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691252> a visualsense:DepictedObject .
-<https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691252> visualsense:isDepictedIn <http://w3id.org/visualsense/resource/ImageObject/image_object_2384656> .
-
-<https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691253> a visualsense:DepictedObject .
-<https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691253> visualsense:isDepictedIn <http://w3id.org/visualsense/resource/ImageObject/image_object_2384656> .
-
-<https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691254> a visualsense:DepictedObject .
-<https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691254> visualsense:isDepictedIn <http://w3id.org/visualsense/resource/ImageObject/image_object_2384656> .
