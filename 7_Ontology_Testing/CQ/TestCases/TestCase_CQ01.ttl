@@ -8,5 +8,5 @@ tc:TestCase_CQ01.ttl a owlunit:CompetencyQuestionVerification ;
  	owlunit:hasSPARQLUnitTest "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX visualsense: <https://www.w3id.org/visualsense#> SELECT ?depictedObject WHERE { ?imageObject a visualsense:ImageObject . ?depictedObject a visualsense:DepictedObject . ?depictedObject visualsense:isDepictedIn ?imageObject .}" ;
 	owlunit:hasInputData td:Toyset_CQ01.ttl ;
 	owlunit:hasInputTestDataCategory owlunit:ToyDataset ;
-	owlunit:hasExpectedResult "{  \"head\": {  \"vars\": [  \"DepictedObject\" ] } ,  \"results\": {  \"bindings\": [ {  \"DepictedObject\": {  \"type\":  \"uri\" ,  \"value\":  \"https://w3id.org/visualsense/test/CQ/ToyDatasets/image_object_2384656\" } } ] } }";
+	owlunit:hasExpectedResult "{  \"head\": {  \"vars\": [  \"depictedObject\" ] } ,  \"results\": {  \"bindings\": [ {  \"depictedObject\": {  \"type\":  \"uri\" ,  \"value\":  \"https://w3id.org/visualsense/test/CQ/ToyDatasets/image_object_2384656\" } } ] } }";
 	owlunit:testsOntology visualsense: .
