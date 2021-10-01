@@ -1,12 +1,12 @@
 @prefix owlunit: <https://w3id.org/OWLunit/ontology/> .
-@prefix td: <https://raw.githubusercontent.com/visualsense/test/cq/toydataset/> .
-@prefix tc: <https://raw.githubusercontent.com/visualsense/test/cq/testcase/> .
-@prefix visualsense: <https://w3id.org/visualsense/ontology> .
+@prefix td: <https://raw.githubusercontent.com/delfimpandiani/visualsense/main/7_Ontology_Testing/CQ/ToyDataSets/> .
+@prefix tc: <https://raw.githubusercontent.com/delfimpandiani/visualsense/main/7_Ontology_Testing/CQ/TestCases/> .
+@prefix visualsense: <https://www.w3id.org/visualsense#> .
 
 tc:TestCase_CQ07.ttl a owlunit:CompetencyQuestionVerification ;
  	owlunit:hasCompetencyQuestion "What is the y coordinate of the bounding box?" ;
- 	owlunit:hasSPARQLUnitTest "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> . PREFIX visualsense: <http://www.w3id.org/visualsense> . SELECT ?boundingBox ?yCoordinate WHERE { ?boundingBox a visualsense:Boundingbox . ?boundingBox visualsense:hasYCoordinate ?yCoordinate .}" ;
+ 	owlunit:hasSPARQLUnitTest "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> . PREFIX visualsense: <https://www.w3id.org/visualsense#> . SELECT ?yCoordinate WHERE { ?boundingBox a visualsense:Boundingbox . ?boundingBox visualsense:hasYCoordinate ?yCoordinate .}" ;
 	owlunit:hasInputData td:Toyset_CQ07.ttl ;
 	owlunit:hasInputTestDataCategory owlunit:ToyDataset ;
-	owlunit:hasExpectedResult "";
+	owlunit:hasExpectedResult "{ \"head\": {  \"vars\": [  \"yCoordinate\" ] } ,  \"results\": {  \"bindings\": [ {  \"yCoordinate\": {  \"type\":  \"integer\" ,  \"value\":  \"128\" } } ] } }";
 	owlunit:testsOntology visualsense: .

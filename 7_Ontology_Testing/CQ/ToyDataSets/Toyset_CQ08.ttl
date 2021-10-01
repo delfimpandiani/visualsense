@@ -1,7 +1,7 @@
-@prefix : <https://w3id.org/visualsense/test/CQ/ToyDatasets/Toyset_CQ08.ttl#> .
-@prefix visualsense: <https://w3id.org/visualsense/ontology/> .
+@prefix : <https://raw.githubusercontent.com/delfimpandiani/visualsense/main/7_Ontology_Testing/CQ/ToyDataSets/Toyset_CQ08.ttl#> .
+@prefix visualsense: <https://www.w3id.org/visualsense#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
-<https://w3id.org/visualsense/resource/BoundingBox/bb_dep_object_691251> a visualsense:BoundingBox .
-
-<https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691251> a visualsense:DepictedObject ;
-    visualsense:hasLocation "https://w3id.org/visualsense/resource/BoundingBox/bb_dep_object_691251".
+:bb_dep_object_691251 a visualsense:BoundingBox .
+:depicted_object_691251 a visualsense:DepictedObject .
+:depicted_object_691251 visualsense:hasLocation :bb_dep_object_691251 .

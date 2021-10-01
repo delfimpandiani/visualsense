@@ -1,12 +1,12 @@
 @prefix owlunit: <https://w3id.org/OWLunit/ontology/> .
-@prefix td: <https://raw.githubusercontent.com/visualsense/test/cq/toydataset/> .
-@prefix tc: <https://raw.githubusercontent.com/visualsense/test/cq/testcase/> .
-@prefix visualsense: <https://w3id.org/visualsense/ontology> .
+@prefix td: <https://raw.githubusercontent.com/delfimpandiani/visualsense/main/7_Ontology_Testing/CQ/ToyDataSets/> .
+@prefix tc: <https://raw.githubusercontent.com/delfimpandiani/visualsense/main/7_Ontology_Testing/CQ/TestCases/> .
+@prefix visualsense: <https://www.w3id.org/visualsense#> .
 
 tc:TestCase_CQ23.ttl a owlunit:CompetencyQuestionVerification ;
  	owlunit:hasCompetencyQuestion "Which conceptual frames are evoked by a depicted region?" ;
- 	owlunit:hasSPARQLUnitTest "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> . PREFIX visualsense: <http://www.w3id.org/visualsense> . SELECT  ?depictedRegion ?conceptualFrame WHERE { ?depictedRegion a visualsense:DepictedRegion . ?conceptualFrame a visualsense:ConceptualFrame . ?conceptualFrame vs:isFREDFrameEvokedBy ?depictedRegion .}" ;
+ 	owlunit:hasSPARQLUnitTest "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX visualsense: <https://www.w3id.org/visualsense#> SELECT ?conceptualFrame WHERE { ?depictedRegion a visualsense:DepictedRegion . ?conceptualFrame a visualsense:ConceptualFrame . ?conceptualFrame vs:isFREDFrameEvokedBy ?depictedRegion .}" ;
 	owlunit:hasInputData td:Toyset_CQ23.ttl ;
 	owlunit:hasInputTestDataCategory owlunit:ToyDataset ;
-	owlunit:hasExpectedResult "";
+	owlunit:hasExpectedResult "{ \"head\": {  \"vars\": [  \"conceptualFrame\" ] } ,  \"results\": {  \"bindings\": [ {  \"conceptualFrame\": {  \"type\":  \"uri\" ,  \"value\":  \"https://w3id.org/visualsense/test/CQ/ToyDatasets/Toyset_CQ23.ttl#Artifact\" } } ] } }";
 	owlunit:testsOntology visualsense: .

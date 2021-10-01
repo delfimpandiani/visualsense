@@ -1,9 +1,8 @@
-@prefix : <https://w3id.org/visualsense/test/CQ/ToyDatasets/Toyset_CQ10.ttl#> .
-@prefix visualsense: <https://w3id.org/visualsense/ontology/> .
+@prefix : <https://raw.githubusercontent.com/delfimpandiani/visualsense/main/7_Ontology_Testing/CQ/ToyDataSets/Toyset_CQ10.ttl#> .
+@prefix visualsense: <https://www.w3id.org/visualsense#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
 
-<https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_1831850> a visualsense:ObjectRelationship .
-
-
-<https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891512> a visualsense:DepictedRegion ;
-    visualsense:includesObjectRel "https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_1831850" .
+:object_relationship_1831850 a visualsense:ObjectRelationship .
+:depicted_region_1891512 a visualsense:DepictedRegion ;
+    visualsense:includesObjectRel :object_relationship_1831850 .

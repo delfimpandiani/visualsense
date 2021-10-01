@@ -1,19 +1,7 @@
-@prefix : <https://w3id.org/visualsense/test/CQ/ToyDatasets/Toyset_CQ15.ttl#> .
-@prefix visualsense: <https://w3id.org/visualsense/ontology/> .
+@prefix : <https://raw.githubusercontent.com/delfimpandiani/visualsense/main/7_Ontology_Testing/CQ/ToyDataSets/Toyset_CQ15.ttl#> .
+@prefix visualsense: <https://www.w3id.org/visualsense#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
-<https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691255> a visualsense:DepictedObject .
-<https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691263> a visualsense:DepictedObject .
-<https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691269> a visualsense:DepictedObject .
-
-
-<https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_1831850> a visualsense:ObjectRelationship ;
-    visualsense:hasRelObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691255" .
-
-<https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_1831856> a visualsense:ObjectRelationship ;
-    visualsense:hasRelObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691263" .
-
-<https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_1831857> a visualsense:ObjectRelationship ;
-    visualsense:hasRelObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691269" .
-
-<https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_1831861> a visualsense:ObjectRelationship ;
-    visualsense:hasRelObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691263" .
+:depicted_object_691255 a visualsense:DepictedObject .
+:object_relationship_1831850 a visualsense:ObjectRelationship ;
+    visualsense:hasRelObject :depicted_object_691255 .
