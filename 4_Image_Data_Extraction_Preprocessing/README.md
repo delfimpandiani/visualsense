@@ -10,14 +10,14 @@ The following steps are, for this reason, meant to be applied to each single spl
 
 **Data polishing**
 
-In order to facilitate following operations (see Frame Evocation pipeline for further information), the very first step was to change the syntax of WordNet synsets, for both objects and relationships, from this:
-{
-‘synsets’ : [ ‘backpack.n.01’ ]
-}
-To this:
-{
-‘synsets’ : ‘Backpack.n.1’
-}
+In order to facilitate following operations (see Frame Evocation pipeline for further information), the very first step was to change the syntax of WordNet synsets, for both objects and relationships, from this:<br/>
+{<br/>
+‘synsets’ : [ ‘backpack.n.01’ ]<br/>
+}<br/>
+To this:<br/>
+{<br/>
+‘synsets’ : ‘Backpack.n.1’<br/>
+}<br/>
 
 Stripping off squared brackets, capitalizing the first letter and replacing the double digit with a single one. The syntax used in the original Visual Genome file in fact was not corresponding to the original one in WordNet, nor to the one used in Framester hub for any synset; the new one applied by us matches the syntax used for Framestersyn class in Framester, used in the frame evocation pipeline.
 
