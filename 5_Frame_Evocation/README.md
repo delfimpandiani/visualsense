@@ -15,7 +15,7 @@ The final heuristic was then to focus on those Regions having at least two objec
 
 ![frame_evocation_pipeline.png](https://raw.githubusercontent.com/delfimpandiani/visualsense/main/5_Frame_Evocation/frame_evocation_pipeline.png)
 
-A summary of the final pipeline is presented here, step by step, while the full code is available here.
+A summary of the final pipeline is presented here, step by step, while the full code is available [here](https://raw.githubusercontent.com/delfimpandiani/visualsense/main/5_Frame_Evocation/pipeline_cleaned.py).
 
 1. From a Visual Genome image extract the list of relationships whose predicate is a verb.
 2. Extract the Region_ID and Region Description (of region having a verb as predicate).
