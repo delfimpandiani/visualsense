@@ -222,7 +222,8 @@ The eXtreme Design provides a precise methodology for testing which includes thr
 
 Below we have attached the actualization of the test case #TestCase_CQ01. This test case has been tested using OWLUnit, which allows to run unit tests for ontologies defined according to the OWLUnit Ontology. OWLunit makes sure that: 1. The IRIs used within the SPARQL query are defined either in the tested ontology or in the input test data (if provided), the IRIs that don't meet this condition are printed in console; 2. (if input data is provided) the result of the SPARQL unit test query evaluated over the input data is isomorphic to the expected result. The expected result can be specified either as a JSON serialization (the practice that we choose) of the result set of the query or according to the this vocabulary.
 
-<img width="1210" alt="Screenshot 2021-10-07 at 12 34 19" src="https://user-images.githubusercontent.com/12375920/136372214-672d9e5d-9cea-40a0-8936-27ced5b7c0f3.png">
+<img width="576" alt="Screen Shot 2021-10-07 at 3 42 57 PM" src="https://user-images.githubusercontent.com/44606644/136396464-9b986541-9e9a-4c80-8f16-7ec90c9951f7.png">
+Table 1. Documentation of a  test case.
 
 ## SPARQL Endpoint Publication
 
