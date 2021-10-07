@@ -5,37 +5,16 @@ from collections import Counter
 from SPARQLWrapper import SPARQLWrapper, JSON, N3
 from pprint import pprint
 import requests
-import json
 import nltk
-from nltk.corpus import brown
+from nltk.corpus import brown, stopwords
 from nltk import word_tokenize
-from nltk.corpus import stopwords
 import re
-
-
-#--------------------------------------------------------------------------
-# STEP 0
-# the id variable is necessary to the final json file, and it is
-# useful to remember which image the extracted json files are related to.
-# the "f" file is extracted from VG dataset file scene_graph.json
-# the "f1" file is extracted from VG dataset file regions.json
-#--------------------------------------------------------------------------
-
-id = 861
-f = open("/home/sdg/Desktop/VG/final_syn_regiongraph1 - $.[860].json")
-f1 = open('/home/sdg/Desktop/VG/correct_syn_scenegraph1 - $.[860].json')
-regions = json.load(f)
-scenegraph = json.load(f1)
-
-relationships_id = []
 
 
 #--------------------------------------------------------------------------
 # STEP 1 : define function to populate the relationships_id list 
 # with id of relationships whose predicate is a verb.
 #--------------------------------------------------------------------------
-
-
 def find_verb_relations_id(file):
     for rel in file["relationships"]:
         if '.r.' not in rel['synsets']:
@@ -53,18 +32,12 @@ def find_verb_relations_id(file):
                             relationships_id.append(rel['relationship_id'])
                         # list all the region_id for regions having a relation that is a verb
     print("These are the relationships IDs you could be interested in:\n", relationships_id)
-                            
-
-find_verb_relations_id(scenegraph)
-
 
 #--------------------------------------------------------------------------
 # STEP 2 : define a function to extract the regions_id and the region description 
 # of the regions having as predicate a verb. 
 # Store those the IDs and region descriptions in 2 .txt files.
 #--------------------------------------------------------------------------
-
-
 def regions_of_interest(regions):
     with open('regions_of_interest.txt', 'w') as roi:
         with open('description_of_interest.txt', 'w') as doi:
@@ -76,23 +49,12 @@ def regions_of_interest(regions):
                             print(reg['region_id'])
                             roi.write(str(reg['region_id'])+'\n')
                             doi.write(str(reg['phrase'])+'\n')
-    return doi, roi
-            
-
-regions_of_interest(regions)
-
-doi = open('description_of_interest.txt', 'r+')
-roi = open('regions_of_interest.txt', 'r+')
-
-
+    return doi, roi     
 
 #--------------------------------------------------------------------------
 # STEP 3 : define a function to pass the description region to FRED tool, via
 # a call to online service. Store the graphs generated in a single .ttl file.
 #--------------------------------------------------------------------------
-
-
-
 def generate_FRED_graphs(doi):
     headers = {
         'accept': 'text/turtle',
@@ -122,17 +84,10 @@ def generate_FRED_graphs(doi):
             FRED_ttl.write("\n")
             return FRED_ttl
 
-
-generate_FRED_graphs(doi)
-
-FRED_ttl = open('FRED.ttl', 'r+')
-
 #--------------------------------------------------------------------------
 # STEP 4 : define a function to extract the frames recognised by FRED tool as being
 # evoked in the .ttl file. Also extract and store all the synsets retrieved by FRED.
 #--------------------------------------------------------------------------
-
-
 def frames_from_FRED(FRED_ttl):
     g = rdflib.Graph()
     g.parse(FRED_ttl, format="ttl")
@@ -147,13 +102,13 @@ def frames_from_FRED(FRED_ttl):
             frames.append(s)
         if fscore in str(o):
             frames.append(o)
-#    print(Counter(frames), len(frames))
+    # print(Counter(frames), len(frames))
     for s,p,o in g:
         if wnsyn in str(s):
             synsets.append(s)
         if wnsyn in str(o):
             synsets.append(o)
-#    print(Counter(synsets), len(synsets))
+    # print(Counter(synsets), len(synsets))
     frames_set = set(frames)
     synsets_set = set(synsets)
     for el in frames_set:
@@ -163,19 +118,10 @@ def frames_from_FRED(FRED_ttl):
         synsets_file.write(el)
         synsets_file.write('\n')
 
-
-frames_from_FRED(FRED_ttl)
-
-FRED_syns = open('synsets_retrieved_by_FRED.txt', 'r+')
-
 #--------------------------------------------------------------------------
 # STEP 5 : define a function to extract all the wordnet synsets used as annotation
 # in VG dataset.
 #--------------------------------------------------------------------------
-
-objsyn = []
-relsyn = []
-
 def extract_explicit_synsets_dict(regions):
     with open('synsets_file.txt', 'w') as synsets_file:
         print("These are the Relations synsets you could be interested in:")
@@ -184,7 +130,7 @@ def extract_explicit_synsets_dict(regions):
                 for rel in region["relationships"]:
                     if len(rel['synsets']) > 0:
                         if '.r.' not in rel['synsets']:
-#                        for synocc in rel["synsets"]:
+                        # for synocc in rel["synsets"]:
                             print(rel['synsets'])
                             relsyn.append(rel['synsets'])
             for obj in region["objects"]:
@@ -200,19 +146,10 @@ def extract_explicit_synsets_dict(regions):
         print('These are the Objects synsets in the VG dataset:\n', Counter(objsyn), len(objsyn))
         print('These are the Relations synsets in the VG dataset:\n', Counter(relsyn), len(relsyn))
 
-
-extract_explicit_synsets_dict(regions)
-
-
-synset_file = open('synsets_file.txt', 'r+')
-
-
 #--------------------------------------------------------------------------
 # STEP 6 : change the syntax for wn synsets from the VG dataset in order to 
 # make them ready for being passed to Framester.
 #--------------------------------------------------------------------------
-
-
 def clean_VG_synsets(synset_file):
     out = open("synsets_for_framester.txt", "w")
     print('These are the corresponding synset Frames in Framester:')
@@ -231,17 +168,10 @@ def clean_VG_synsets(synset_file):
         print(secondline)
         out.write(secondline)
 
-
-clean_VG_synsets(synset_file)
-
-syns_for_Framester = open('synsets_for_framester.txt', 'r+')
-
 #--------------------------------------------------------------------------
 # STEP 6.1 : change the syntax for wn synsets retrieved by FRED in order to 
 # make them ready for being passed to Framester.
 #--------------------------------------------------------------------------
-
-
 def clean_FRED_synsets(FRED_syns):
     out = open("FRED_synsets_cleaned.txt", "w")
     for line in FRED_syns:
@@ -259,17 +189,12 @@ def clean_FRED_synsets(FRED_syns):
         line = line.replace('-verb-', '.v.')
         line = line.capitalize()
         secondline = re.sub(r"\([^()]*\)", "", line)
-#        print(secondline)
+        # print(secondline)
         out.write(secondline)
-
-clean_FRED_synsets(FRED_syns)
-
 
 #--------------------------------------------------------------------------
 # STEP 6.2 : merge the two wn synsets files from VG and FRED in one unique file.
 #--------------------------------------------------------------------------
-
-
 def merge_syns(syns_for_Framester, FRED_syns):
     with open('final_syns_list.txt', 'w') as final_syns_list:
         for line in syns_for_Framester:
@@ -280,19 +205,10 @@ def merge_syns(syns_for_Framester, FRED_syns):
             if line not in final_syns_list:
                 final_syns_list.write(line)
 
-
-merge_syns(syns_for_Framester, FRED_syns)
-
-final_syns_list = open('final_syns_list.txt', 'r+')
-
 #--------------------------------------------------------------------------
 # STEP 7 : use the WordNet Synsets as variable for a query to check which
 # frames are evoked in Framester by each synset.
 #--------------------------------------------------------------------------
-
-framestersyn = []
-
-
 def evoke_frames(synset_list):
     prequery = final_syns_list.readlines()
     sparql = SPARQLWrapper('http://etna.istc.cnr.it/framester2/sparql')
@@ -313,22 +229,12 @@ def evoke_frames(synset_list):
                     framestersyn.append(value)
     print('These are the frames evoked in the processed image:')
     print(set(framestersyn))
-
-
-evoke_frames(final_syns_list)
-
 #frames_evoked = open('frames_evoked.txt', 'r+')
-
 
 #--------------------------------------------------------------------------
 # STEP 8 : produce a txt file of evoked frames with frequency and image id, 
 # ready to be converted in json format.
 #--------------------------------------------------------------------------
-
-frame_dict = {}
-
-frame_list_for_conversion = open('frames_evoked_for_conversion.txt', 'w')
-
 def count_frames(framestersyn):
 	for item in framestersyn:
 		if (item in frame_dict):
@@ -338,14 +244,9 @@ def count_frames(framestersyn):
 	for key, value in frame_dict.items():
 		frame_list_for_conversion.write( 'frame : %s |'%(key) + ' frequency : %d |'%(value) + ' imageID : ' + str(id) + '\n')
 
-count_frames(framestersyn)
-
-
 #--------------------------------------------------------------------------
 # STEP 9 : produce the final json with evoked frames, frequency and image ID.
 #--------------------------------------------------------------------------
-
-
 def line_to_dict(split_Line):
     line_dict = {}
     for part in split_Line:
@@ -353,10 +254,8 @@ def line_to_dict(split_Line):
         line_dict[key] = value
     return line_dict
 
-frame_list_for_conversion = open('frames_evoked_for_conversion.txt', 'r+')
-
 def convert() :
-#    f = open(frame_list_for_conversion)
+    # f = open(frame_list_for_conversion)
     content = frame_list_for_conversion.read()
     splitcontent = content.splitlines()
     # Split each line by pipe
@@ -366,11 +265,8 @@ def convert() :
     another_dict = {'frames_evoked' : lines}
     # Output JSON 
     with open("final_frames_file.json", 'w') as fout:
+    # with open(image_id + str("_frames.json"), 'w') as fout:
         json.dump(another_dict, fout, indent=4)
-
-
-convert()
-
 
 #--------------------------------------------------------------------------
 # STEP 10 : Enjoy the end of this f***ing awesome pipeline and spend
@@ -380,3 +276,62 @@ convert()
 #                              ಥ‿ಥ
 #
 #--------------------------------------------------------------------------
+
+
+
+#--------------------------------------------------------------------------
+# STEP 0
+# the id variable is necessary to the final json file, and it is
+# useful to remember which image the extracted json files are related to.
+# the "f" file is extracted from VG dataset file scene_graph.json
+# the "f1" file is extracted from VG dataset file regions.json
+#--------------------------------------------------------------------------
+
+id = 861
+f = open("/home/sdg/Desktop/VG/clean_split1_regions - $.[860].json")
+f1 = open('/home/sdg/Desktop/VG/clean_split1_scenegraphs - $.[860].json')
+regions = json.load(f)
+scenegraph = json.load(f1)
+
+
+# f = open("clean_split1_regions.json")
+# f1 = open('clean_split1_scenegraphs.json')
+# clean_split1_regions = json.load(f)
+# clean_split1_scenegraphs = json.load(f1)
+
+
+# def get_image_files(image_id):
+#     clean_split1_regions
+#     clean_split1_scenegraphs 
+#     image_region = open(str(clean_split1_regions) "- $." + str(image_id) +".json")
+#     image_region = open(str(clean_split1_scenegraph) "- $." + str(image_id) +".json")    image = open('/home/sdg/Desktop/VG/clean_split1_scenegraphs - $.[860].json')
+#     image_regions = json.load(f)
+#     image_scenegraph = json.load(f1)
+#     return image_regions, image_scenegraph
+
+relationships_id = []
+objsyn = []
+relsyn = []
+doi = open('description_of_interest.txt', 'r+')
+roi = open('regions_of_interest.txt', 'r+')
+FRED_ttl = open('FRED.ttl', 'r+')
+FRED_syns = open('synsets_retrieved_by_FRED.txt', 'r+')
+synset_file = open('synsets_file.txt', 'r+')
+final_syns_list = open('final_syns_list.txt', 'r+')
+syns_for_Framester = open('synsets_for_framester.txt', 'r+')
+framestersyn = []
+frame_dict = {}
+frame_list_for_conversion = open('frames_evoked_for_conversion.txt', 'w')
+frame_list_for_conversion = open('frames_evoked_for_conversion.txt', 'r+')
+
+find_verb_relations_id(scenegraph)
+regions_of_interest(regions)
+generate_FRED_graphs(doi)
+frames_from_FRED(FRED_ttl)
+extract_explicit_synsets_dict(regions)
+clean_VG_synsets(synset_file)
+clean_FRED_synsets(FRED_syns)
+merge_syns(syns_for_Framester, FRED_syns)
+evoke_frames(final_syns_list)
+count_frames(framestersyn)
+convert()

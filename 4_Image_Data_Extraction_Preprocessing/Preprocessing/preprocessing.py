@@ -2,7 +2,6 @@ import json
 import string
 import re
 import matplotlib.pyplot as plt
-import json
 from collections import defaultdict
 import nltk
 from nltk import word_tokenize
@@ -10,8 +9,6 @@ from collections import Counter
 from os import stat
 
 
-split1_regions = "split1_regions.json"
-split1_scenegraphs = "split1_scenegraphs.json"
 
 def format_obj_syn():
     out = open('/media/sten-doipanni/Mattonella Rossa/backups/backup_asus_23_07_2021/Desktop/VG/correct_syn_scenegraph1.json', 'w')
@@ -204,6 +201,12 @@ def img_rank_2_plotter():
         plt.title('Distribution of unique verbal relations'+'\n'+'per image in scenegraph_split1.json')
         plt.show()
     return
+
+
+f = open("split1_regions.json")
+f1 = open('split1_scenegraphs.json')
+split1_regions = json.load(f)
+split1_scenegraphs = json.load(f1)
 
 # format_obj_syn()
 # format_rel_syns()
