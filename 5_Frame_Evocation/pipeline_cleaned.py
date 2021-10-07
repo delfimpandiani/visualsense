@@ -1,33 +1,29 @@
-import visual_genome
 import json
 import rdflib
 from rdflib import Graph, Literal, RDF, URIRef, Namespace
-import collections
 from collections import Counter
-from visual_genome import api
 from SPARQLWrapper import SPARQLWrapper, JSON, N3
 from pprint import pprint
 import requests
-import xlrd
 import json
 import nltk
 from nltk.corpus import brown
 from nltk import word_tokenize
 from nltk.corpus import stopwords
-import titlecase
 import re
 
 
 #--------------------------------------------------------------------------
 # STEP 0
-# the id variable is useful to remember which image the extracted json files are related to.
+# the id variable is necessary to the final json file, and it is
+# useful to remember which image the extracted json files are related to.
 # the "f" file is extracted from VG dataset file scene_graph.json
 # the "f1" file is extracted from VG dataset file regions.json
 #--------------------------------------------------------------------------
 
-id = 2384656
-f = open("examples/regions_json/regions.json")
-f1 = open('examples/regions_json/scenegraphs.json')
+id = 861
+f = open("/home/sdg/Desktop/VG/final_syn_regiongraph1 - $.[860].json")
+f1 = open('/home/sdg/Desktop/VG/correct_syn_scenegraph1 - $.[860].json')
 regions = json.load(f)
 scenegraph = json.load(f1)
 
@@ -42,19 +38,20 @@ relationships_id = []
 
 def find_verb_relations_id(file):
     for rel in file["relationships"]:
-        preds = rel["predicate"]
-        # since some of the relationships are written in caps lock the pos_tag label them as NN, while they are VB,
-        # next step is necessary to lowercase them and allow pos_tag to correctly tag them.
-        if isinstance(preds, str):
-            preds = preds.lower()
-            tok = word_tokenize(preds)
-            # tag the part of speech for each value
-            verbs = nltk.pos_tag(tok)
-            for s in verbs:
-            # checks the PoS, all the acronyms are forms of flexed verbs
-                if s[1] in ('VB' ,'VBD' ,'VBG' ,'VBN' ,'VBP' ,'VBZ'):
-                    relationships_id.append(rel['relationship_id'])
-                    # list all the region_id for regions having a relation that is a verb
+        if '.r.' not in rel['synsets']:
+            preds = rel["predicate"]
+            # since some of the relationships are written in caps lock the pos_tag label them as NN, while they are VB,
+            # next step is necessary to lowercase them and allow pos_tag to correctly tag them.
+            if isinstance(preds, str):
+                preds = preds.lower()
+                tok = word_tokenize(preds)
+                # tag the part of speech for each value
+                verbs = nltk.pos_tag(tok)
+                for s in verbs:
+                # checks the PoS, all the acronyms are forms of flexed verbs
+                    if s[1] in ('VB' ,'VBD' ,'VBG' ,'VBN' ,'VBP' ,'VBZ'):
+                            relationships_id.append(rel['relationship_id'])
+                        # list all the region_id for regions having a relation that is a verb
     print("These are the relationships IDs you could be interested in:\n", relationships_id)
                             
 
@@ -71,7 +68,7 @@ find_verb_relations_id(scenegraph)
 def regions_of_interest(regions):
     with open('regions_of_interest.txt', 'w') as roi:
         with open('description_of_interest.txt', 'w') as doi:
-            print('This are the Regions IDs you could be interested in:')
+            print('These are the Regions IDs you could be interested in:')
             for reg in regions['regions']:
                 for rel in reg['relationships']:
                     for el in relationships_id:
@@ -99,7 +96,7 @@ roi = open('regions_of_interest.txt', 'r+')
 def generate_FRED_graphs(doi):
     headers = {
         'accept': 'text/turtle',
-        'Authorization': 'Bearer a7727b8c-aa1e-39d4-8b34-3977ec1c73f5',
+        'Authorization': 'insert key',
     }
     with open('FRED.ttl', "w") as FRED_ttl:
         for line in doi:
@@ -181,17 +178,18 @@ relsyn = []
 
 def extract_explicit_synsets_dict(regions):
     with open('synsets_file.txt', 'w') as synsets_file:
-        print("These are the Relations synonyms you could be interested in:")
+        print("These are the Relations synsets you could be interested in:")
         for region in regions['regions']:
             if len(region['relationships']) > 0:
                 for rel in region["relationships"]:
                     if len(rel['synsets']) > 0:
-                        for synocc in rel["synsets"]:
-                            print(synocc)
-                            relsyn.append(synocc)
+                        if '.r.' not in rel['synsets']:
+#                        for synocc in rel["synsets"]:
+                            print(rel['synsets'])
+                            relsyn.append(rel['synsets'])
             for obj in region["objects"]:
                 for objocc in obj["synsets"]:
-                    objsyn.append(objocc)
+                    objsyn.append(obj['synsets'])
         objset = set(objsyn)
         relset = set(relsyn)
         for el in objset:
@@ -199,8 +197,8 @@ def extract_explicit_synsets_dict(regions):
         for el in relset:
             synsets_file.write(el+"\n")
 
-        print('These are the Objects synonyms in the VG dataset:\n', Counter(objsyn), len(objsyn))
-        print('These are the Relations synonyms in the VG dataset:\n', Counter(relsyn), len(relsyn))
+        print('These are the Objects synsets in the VG dataset:\n', Counter(objsyn), len(objsyn))
+        print('These are the Relations synsets in the VG dataset:\n', Counter(relsyn), len(relsyn))
 
 
 extract_explicit_synsets_dict(regions)
@@ -217,7 +215,7 @@ synset_file = open('synsets_file.txt', 'r+')
 
 def clean_VG_synsets(synset_file):
     out = open("synsets_for_framester.txt", "w")
-    print('This are the corresponding Synset Frames in Framester:')
+    print('These are the corresponding synset Frames in Framester:')
     for line in synset_file:
         line = line.replace("01", "1")
         line = line.replace("02", "2")
@@ -248,11 +246,20 @@ def clean_FRED_synsets(FRED_syns):
     out = open("FRED_synsets_cleaned.txt", "w")
     for line in FRED_syns:
         line = line.replace("01", "1")
+        line = line.replace("02", "2")
+        line = line.replace("03", "3")
+        line = line.replace("04", "4")
+        line = line.replace("05", "5")
+        line = line.replace("06", "6")
+        line = line.replace("07", "7")
+        line = line.replace("08", "8")
+        line = line.replace("09", "9")
         line = line.replace('http://www.w3.org/2006/03/wn/wn30/instances/synset-', '')
         line = line.replace('-noun-', '.n.')
+        line = line.replace('-verb-', '.v.')
         line = line.capitalize()
         secondline = re.sub(r"\([^()]*\)", "", line)
-        print(secondline)
+#        print(secondline)
         out.write(secondline)
 
 clean_FRED_synsets(FRED_syns)
@@ -295,7 +302,7 @@ def evoke_frames(synset_list):
     WHERE{
     ?frame rdf:type fschema:ConceptualFrame , owl:Class ;
         rdfs:subClassOf fschema:FrameOccurrence .
-    ?frame ?p framestersyn:'''+ line + "}")
+    ?frame fschema:subsumes framestersyn:'''+ line + "}")
         sparql.setQuery(querystring)
         sparql.setReturnFormat(JSON)
         results = sparql.query().convert()
@@ -305,7 +312,7 @@ def evoke_frames(synset_list):
                 if value != 'uri':
                     framestersyn.append(value)
     print('These are the frames evoked in the processed image:')
-    print(framestersyn)
+    print(set(framestersyn))
 
 
 evoke_frames(final_syns_list)
@@ -366,7 +373,7 @@ convert()
 
 
 #--------------------------------------------------------------------------
-# STEP 10 : Enjoy the end of this motherf***ing awesome pipeline and spend
+# STEP 10 : Enjoy the end of this f***ing awesome pipeline and spend
 # a couple of seconds thinking to all those non computer scientists who
 # spit blood for this mediocre result. That's all folks. Thank You.
 #
