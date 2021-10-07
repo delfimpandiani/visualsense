@@ -97,22 +97,8 @@ The final heuristic was then to focus on those Regions having at least two objec
 
 ### Frame Evocation Pipeline
 
-![Image](https://delfimpandiani.github.io/visualsense/images/evocation_pipeline.png)
+![frame_evocation_pipeline.png](https://github.com/delfimpandiani/visualsense/blob/main/5_Frame_Evocation/frame_evocation_pipeline.png)
 
-```markdown
-# Frame evocation some code of the pipeline
-
-## Step 1
-### Substep 
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-```
 
 ## RML Mapping and KG Construction
 
