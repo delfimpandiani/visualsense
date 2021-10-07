@@ -11,6 +11,7 @@ The following steps are, for this reason, meant to be applied to each single spl
 **Data polishing**
 
 In order to facilitate the subsequent operations (see Frame Evocation pipeline for further information), the next step was to change the syntax of WordNet synsets. This was because the syntax used in the original Visual Genome file did not correspond either to the original one in WordNet, nor to the one used in Framester hub for any synset. As such, we applied a transformation so that the syntax of synsets matches the one used for the Framestersyn class in Framester, which is the one used in the frame evocation pipeline. In detail, the syntax for both objects’ and relationships’ synsets was changed from:<br/>
+
 {<br/>
 ‘synsets’ : [ ‘backpack.n.01’ ]<br/>
 }<br/>
@@ -50,7 +51,7 @@ As shown in figure, the vast majority of images include only 1-4 unique verbal r
 
 **Final Ranking and Possible Approaches**
 
-A final remark is worth to be mentioned: albeit the final ranking of images adopted was the one based on unique verbal relations per image, a combination of the two rankings methodologies above mentioned, and the consequent proposal of a unified approach is also possible. Conceptually it seemed more adherent to the modeling approach chosen to evaluate variance as more important than frequency, but e.g. once also the prepositional relations will be taken into account, a plausible approach could be a weighted score combining local frequency (namely the number of occurrences per image), local variance (the number of unique relations per image) with global frequency and variance (freq. and var. considering all relations of all images taken into account.)
+A final remark is worth to be mentioned: albeit the final ranking of images adopted was the one based on unique verbal relations per image, a combination of the two rankings methodologies above mentioned, and the consequent proposal of a unified approach, is also possible. Conceptually it seemed more adherent to the modeling approach chosen to evaluate variance as more relevant than frequency, but e.g. once also the prepositional relations will be taken into account, a plausible approach could be a weighted score combining local frequency (namely the number of occurrences per image), local variance (the number of unique relations per image) with global frequency and variance (freq. and var. considering all relations of all images taken into account.)
 
 
 
