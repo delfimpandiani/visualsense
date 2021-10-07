@@ -2,7 +2,7 @@
 
 **Smaller files**
 
-Due to the considerable size of json files we started by doing some data pre processing, in particular the first step was to parse the scenegraph.json and regiongraph.json files in smaller files via this methodology:
+Due to the considerable size of the JSON files, we started by doing some data pre-processing, in particular the first step was to parse the scenegraph.json and regiongraph.json files provided by VG into smaller files via the built in methodology:
 
 ![split1_scenegraph.png](https://raw.githubusercontent.com/delfimpandiani/visualsense/main/4_Image_Data_Extraction_Preprocessing/split1_scenegraph.png)
 
@@ -10,51 +10,47 @@ The following steps are, for this reason, meant to be applied to each single spl
 
 **Data polishing**
 
-In order to facilitate following operations (see Frame Evocation pipeline for further information), the very first step was to change the syntax of WordNet synsets, for both objects and relationships, from this:<br/>
+In order to facilitate the subsequent operations (see Frame Evocation pipeline for further information), the next step was to change the syntax of WordNet synsets. This was because the syntax used in the original Visual Genome file did not correspond either to the original one in WordNet, nor to the one used in Framester hub for any synset. As such, we applied a transformation so that the syntax of synsets matches the one used for the Framestersyn class in Framester, which is the one used in the frame evocation pipeline. In detail, the syntax for both objects’ and relationships’ synsets was changed from:<br/>
 {<br/>
 ‘synsets’ : [ ‘backpack.n.01’ ]<br/>
 }<br/>
-To this:<br/>
+To:<br/>
 {<br/>
 ‘synsets’ : ‘Backpack.n.1’<br/>
 }<br/>
 
-Stripping off squared brackets, capitalizing the first letter and replacing the double digit with a single one. The syntax used in the original Visual Genome file in fact was not corresponding to the original one in WordNet, nor to the one used in Framester hub for any synset; the new one applied by us matches the syntax used for Framestersyn class in Framester, used in the frame evocation pipeline.
+That is, we stripped off squared brackets (turning the value from a list into a string), capitalized the first letter, and replaced the double digit with a single one. 
 
 **Creating a Subset of Action-Oriented Images**
 
-In order to test our ontology with meaningful information we decided to rank the data in our dataset. The first criterion adopted was to introduce in the knowledge base images with the highest amount of relationships, according to our definition of image region in the ontology T-Box, namely verbal relationships.
-As shown in the following figure:
+In order to populate our Knowledge Graph (KG) with meaningful information, we decided that for the time being we were more interested in populating the graph with “action-oriented” images -- images where some agent/s (e.g. humans, animals) are depicted in some sort of action, as opposed to images depicting static landscapes. This was due to the assumption that frame evocation would be higher and/or more varied with action-oriented images. Therefore, it was decided that, for the time being, only images that are associated with at least one verbal (non-prepositional) relationship would be used to populate the Visual Sense KG. This decision is reflected in the definition of image region in the ontology T-Box, which must contain a verbal relationship between two objects in order to be included into the Knowledge Graph. 
+
+To perform the image subset creation, a function was defined to iterate through the (split) scenegraph JSON file’s relations in order to apply to each relationship label a part of speech (POS) tag. Then, only relationships whose labels had been tagged as verbs were selected, pruning instead the data of prepositional relations (OF, ON, WITH etc). Subsequently, images found to have verbal relations were counted and appended to a list, and a dictionary was created, the image_id’s as keys, and each image’s number of occurrences of verbal relations as values:
 
 ![find_verbal_rel.png](https://raw.githubusercontent.com/delfimpandiani/visualsense/main/4_Image_Data_Extraction_Preprocessing/find_verbal_rel.png)
 
 
-A function was defined to iterate through the scenegraph split json file’s relations in order to apply to each label a pos (part of speech) tag, and select only those tagged as verbs, pruning data from prepositional relations (OF, ON, WITH etc). 
-Then, images found having verbal relations were counted and appended to a separate list, while a new python dictionary was created, taking as key the image_id and as value the number of verbal relations in the image.
+**Ranking Images by "Actionness"**
 
-**Ranking Interesting Images**
-
-To explore filtered data a script to rank images according to the mentioned criterion was applied, and the results are show in the following image (obtained via a separate script plotting data with matplotlib python library):
+In order to populate our KG in an orderly manner, we decided to rank the images in the VG dataset, in order to decide which images to introduce to the Visual Sense Knowledge Base first. The first criterion adopted was to rank images by the total number of occurrences of verbal (non-prepositional) relationships depicted in them. The dictionary created in the precedent step was used for this task. To visually explore the distribution of the ranked images, the matplotlib Python library was used to plot the distribution of images according to the number of occurrences of verbal relations per image.
 
 ![verb_occurr_plot.png](https://raw.githubusercontent.com/delfimpandiani/visualsense/main/4_Image_Data_Extraction_Preprocessing/verb_occurr_plot.png)
 
 
-As shown in the image the vast majority of images is included in the span between 1 to 40 occurrences per image of verbal relations, with some peculiar graph outliers, namely the two dots showing images with about 90 and 150 verbal relation occurrences each.
-This quantitative analysis step was fundamental to a second layer: the qualitative analysis of data.
+As shown in figure, the vast majority of images lie in the span between 1 to 40 occurrences per image of verbal relations, with some peculiar graph outliers, namely the two dots showing images with about 90 and 150 verbal relation occurrences each. This quantitative analysis step was fundamental to a second layer: the qualitative analysis of data.
 
-**Qualitative analysis: Verbal Relation Variance**
+**Ranking Images by Verbal Relation Variance**
 
-The number of occurrences was the first way to filter images, but was not enough since images were ranked, to use linguistics categories, for the number of tokens per relation shown, but not for the number of types of relation per image, namely for the number of unique relations present in each image. Since conceptually we were more interested in e.g. a scene with less occurrences of the same action but more types of different actions, a script was developed to count the amount of unique relations per image.
-The results were plotted via a separate script using matplotlib python library:
+This first criterion (number of total occurrences of verbal per image) to rank images was based, in linguistics terms, on the number of verbal token occurrences per image. However, we hypothesized that another interesting metric would be ranking images by their number of unique verbal types, i.e. by the number of unique verbal relationships present in each image. Since conceptually we were more interested in e.g. a scene with less occurrences of the same action but more types of different actions, a script was developed to count the amount of unique verbal relations per image. The results were plotted using matplotlib Python library:
 
 ![types_verb_rel_plot.png](https://raw.githubusercontent.com/delfimpandiani/visualsense/main/4_Image_Data_Extraction_Preprocessing/types_verb_rel_plot.png)
 
 
-As shown in Figure X the vast majority of images is presenting only 1-4 types of verbal relations per scene. The most common verbs are auxiliary verbs like “Have.v.1” and “Be.v.1”, while some other most commonly used verbs are those to describe images, like “Wear.v.1” or “Stand.v.1”.
+As shown in figure, the vast majority of images include only 1-4 unique verbal relations types. The most common verbs are auxiliary verbs like “Have.v.1” and “Be.v.1”, while some other most commonly used verbs are those to describe images, like “Wear.v.1” or “Stand.v.1”.
 
-**Final Data**
+**Final Ranking and Possible Approaches**
 
-The final list of interesting images was realized combining these two approaches, and the final rank is available here, as well as all the scripts, available here. 
+A final remark is worth to be mentioned: albeit the final ranking of images adopted was the one based on unique verbal relations per image, a combination of the two rankings methodologies above mentioned, and the consequent proposal of a unified approach is also possible. Conceptually it seemed more adherent to the modeling approach chosen to evaluate variance as more important than frequency, but e.g. once also the prepositional relations will be taken into account, a plausible approach could be a weighted score combining local frequency (namely the number of occurrences per image), local variance (the number of unique relations per image) with global frequency and variance (freq. and var. considering all relations of all images taken into account.)
 
 
 
