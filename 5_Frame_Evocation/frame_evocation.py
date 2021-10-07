@@ -321,7 +321,6 @@ final_syns_list = open('final_syns_list.txt', 'r+')
 syns_for_Framester = open('synsets_for_framester.txt', 'r+')
 framestersyn = []
 frame_dict = {}
-frame_list_for_conversion = open('frames_evoked_for_conversion.txt', 'w')
 frame_list_for_conversion = open('frames_evoked_for_conversion.txt', 'r+')
 
 find_verb_relations_id(scenegraph)
