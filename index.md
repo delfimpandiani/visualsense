@@ -86,36 +86,33 @@ The other ontology reused in Visual Sense is the Framester schema, in particular
 
 ##  Frame Evocation Experiments
 
-The usage of WordNet synsets to disambiguate object annotations in the Visual Genome repository allows the exploration of frame evocation via querying of the Framester hub. Specifically, Framester querying can be performed in order to retrieve Conceptual Frames evoked by synsets used as labels for some Image Region, DepictedObject, or ObjectRelationship. Additionally, it is possible to extract formal frame knowledge from the natural language provided in the Visual Genome annotations, by automatically generating Knowledge Graphs (KG) with the FRED tool, using sentences (images’ scene descriptions) as input. Since WordNet synsets are related to Depicted Objects, region descriptions are related to Depicted Regions, and each Depicted Object and Depicted Region is localized by a bounding box in an image, this in turn allows the localization of evoked frames to a specific set of pixels. As such, the integration of lexical resources such as Framester and FRED allows for sophisticated grounding of visual data to language.
+The usage of WordNet synsets to disambiguate object annotations in the Visual Genome repository allows the exploration of frame evocation via querying the Framester hub. Specifically, Framester querying can be performed in order to retrieve Conceptual Frames evoked by synsets used as labels for some Image Region. Additionally, Knowledge Graphs (KG) can be automatically generated with FRED tool using sentences (images’ scene descriptions) as input, and thus it is possible to extract formal knowledge from the natural language provided in the Visual Genome annotations. Since WordNet synsets are related to VG depicted objects, and each depicted object is localized by a bounding box in an image, this in turn allows the localization of evoked frames to a specific set of pixels. As such, the use of lexical resources such as Framester and FRED allows for sophisticated grounding of visual data to language.
 
 ### Experiments, Lessons, and Refinements
+The first frame evocation attempt was driven by the principle of maximizing the amount of knowledge extraction, using each lexical unit (LU) of each bounding box in an image as input variable for a SPARQL query to Framester, in order to retrieve all the frames potentially evoked by all the synset of the LU in input. It is worth mentioning that each Image in Visual Genome has an average of 50 Regions, and for each region there is a minimum of one object (but often more than one), some relationships between objects, and some attributes for each object. The result of this first attempt was a massive amount of evoked frames (in the order of magnitude of hundreds of frames per image) which was not useful in extracting real knowledge about the semantic content of the analyzed image, since it was just the set of frames potentially evoked by each sense of each LU.
 
-The first frame evocation attempt was driven by the principle of maximizing the amount of frame knowledge extraction, using each lexical unit (LU) of each bounding box in an image as input variable for a SPARQL query to Framester, in order to retrieve all the frames potentially evoked by all the synset of the LU in input. It is worth mentioning that each Image in Visual Genome has an average of 50 Regions, and for each region there is a minimum of one object (but often more than one), some relationships between objects, and some attributes for each object. The result of this first attempt was a massive amount of evoked frames (in the order of magnitude of hundreds of frames per image) which was not useful in extracting real knowledge about the semantic content of the analyzed image, since it was just the set of frames potentially evoked by each sense of each LU.
+Since the interest was not on the potential frame evocation but on the actual knowledge contained in each image, an improvement was performed by applying the following heuristic, with the purpose to decrease noise and increase meaningfulness and precision of frame evocation: instead of using the LU from annotations, since Visual Genome already provides WordNet synsets to disambiguate annotations, those synsets were used to query Framester. The result was a considerable amount of evoked frames, but because of the structure of each image json file, the frame evocation was still related mainly to the presence or absence of some entity in an image, meaning, the frame evocation was in percentage mainly a consequence of the implicit question “what is there” instead of “what is happening”. For this reason, being interested conceptually more in the second question, a further restriction was applied.
 
-Since the interest was not on the potential frame evocation but on the most likely knowledge contained in each image, an improvement was performed by applying the following heuristic, with the purpose to decrease noise and increase meaningfulness and precision of frame evocation: instead of using the LU from annotations, since Visual Genome already provides WordNet synsets to disambiguate annotations, those synsets were used to query Framester. The result was a considerable amount of evoked frames, but because of the structure of each image JSON file, the frame evocation was still related mainly to the presence or absence of some object in an image. This meant that the frame evocation was mainly answering the implicit question “what is there” instead of “what is happening”. 
-
-For this reason, as we were interested conceptually more in the second question, a further restriction was applied. The heuristic was to focus on Regions having at least two objects and a relation between them, and to be sure, via NLP techniques, that this relation was a verb (and not e.g. a preposition). A first confirmation of this intuition’s rightfulness comes directly from the data: regions with verbal relations between objects are the ones in which there is the highest "semantic concentration", in terms of number of relations to and from entities.
-
+The final heuristic was then to focus on those Regions having at least two objects and a relation between them, and to be sure, via NLP techniques, that this relation was a verb (and not e.g. a preposition). A first confirmation of this intuition’s rightfulness comes directly from the data: regions with verbal relations between objects are the ones in which there is the highest "semantic concentration", in terms of number of relations to and from entities.
 
 ### Frame Evocation Pipeline
 
-![frame_evocation_pipeline.png](https://github.com/delfimpandiani/visualsense/blob/main/5_Frame_Evocation/frame_evocation_pipeline.png)
+![Image](https://delfimpandiani.github.io/visualsense/images/evocation_pipeline.png)
 
-A summary of the final pipeline is presented here, step by step, while the full code is available [here](https://github.com/delfimpandiani/visualsense/blob/main/5_Frame_Evocation/pipeline_cleaned.py).
+```markdown
+# Frame evocation some code of the pipeline
 
-1. From a Visual Genome image scenegraph.json and regiongraph.json extract the list of relationships whose predicate is a verb.
-2. Extract the Region_ID and Region Description (of region having a verb as predicate).
-3. Generate the knowledge graph from natural language via FRED tool, taking as input each Region Description.
-4. Extract and store in a file all the frames evoked and all the synsets retrieved in each triple of the FRED graphs.
-5. Extract the WordNet synsets used in the json file as annotations (from the regions having a verb as a predicate).
-6. Clean the WordNet synsets data extracted from Visual Genome json file, in order to have the iri of corresponding FramesterSyn entities, ready to be used to query Framester.
-7. Clean the WordNet synsets data extracted from FRED graphs, in order to have the iri of corresponding FramesterSyn entities, ready to be used to query Framester.
-8. Merge the two lists of synsets from FRED and Visual Genome json file.
-9. For each synset, launch a SPARQL query to Framester in order to retrieve all the evoked frames.
-10. Collect all the frames evoked keeping track of the amount of evocations of each frame.
-11. Produce the final json file showing: name of the frame evoked, number of evocation occurrences and image ID.
+## Step 1
+### Substep 
 
+- Bulleted
+- List
 
+1. Numbered
+2. List
+
+**Bold** and _Italic_ and `Code` text
+```
 
 ## RML Mapping and KG Construction
 
@@ -223,6 +220,47 @@ The eXtreme Design provides a precise methodology for testing which includes thr
 10. Document test
 11. Iterate is necessary
 
+Below we have attached the actualization of the test case #TestCase_CQ01. This test case has been tested using OWLUnit, which allows to run unit tests for ontologies defined according to the OWLUnit Ontology. OWLunit makes sure that: 1. The IRIs used within the SPARQL query are defined either in the tested ontology or in the input test data (if provided), the IRIs that don't meet this condition are printed in console; 2. (if input data is provided) the result of the SPARQL unit test query evaluated over the input data is isomorphic to the expected result. The expected result can be specified either as a JSON serialization (the practice that we choose) of the result set of the query or according to the this vocabulary.
+
+<img width="1210" alt="Screenshot 2021-10-07 at 12 34 19" src="https://user-images.githubusercontent.com/12375920/136372214-672d9e5d-9cea-40a0-8936-27ced5b7c0f3.png">
+
 ## SPARQL Endpoint Publication
 
-A SPARQL endpoint was created with Docker… available at...
+A SPARQL endpoint was created with the OpenLink Virtuoso Enterprise Edition v8.3 docker. The setting up of the docker is quite easy and it can be realized directly from the terminal. The commands that pull the docker and create a Virtuoso instance are displayed below. 
+
+```
+// Pull the latest Virtuoso 8.3 docker image to the local system
+$ docker pull openlink/virtuoso-closedsource-8
+
+//Create a new Virtuoso instance on your system
+$ mkdir my_virtdb
+$ cd my_virtdb
+$ docker run \
+    // Set instance name
+    --name my_virtdb \ 
+    --interactive \
+    --tty \
+    // Set instance password
+    --env DBA_PASSWORD=mysecret \
+    // Set ports
+    --publish 1111:1111 \
+    --publish  8890:8890 \
+    --volume `pwd`:/database \
+    openlink/virtuoso-closedsource-8:latest
+```
+
+This will create a new Virtuoso database in the my_virtdb subdirectory and starts a Virtuoso instance with the HTTP server listening on port 8890 and the ODBC / JDBC / ADO.Net / OLE-DB / ISQL data server listening on port 1111. The Virtuoso HTTP server can be contacted using this URL: http://localhost:8890/. To stop and restart the image, the following commands can be used. 
+
+```
+$ docker stop my_virtdb
+$ docker start my_virtdb
+// To run the instance in foreground mode
+$ docker start -i -a my_virtdb
+// Check the startup log
+$ docker logs my_virtdb
+// Use isql to connect
+$ docker exec -i my_virtdb isql 1111
+```
+In the figure below, we have executed the SPARQL query that was formulated to test the first competency question “Which objects are depicted in an image object?”. 
+
+<img width="743" alt="Screenshot 2021-10-07 at 12 19 25" src="https://user-images.githubusercontent.com/12375920/136372118-61819883-c738-42fc-8040-c27d887c4706.png">
