@@ -53,6 +53,26 @@ The general XD methodology first requires a focus on stories and Competency Ques
 
 >"When surfing the Visual Genome dataset, I want to search images that contain objects in them. It is great to know if the objects have attributes associated with them. If there is more than one object in the image, I need to know about the relation that exists between these objects. Regarding the regions of the objects and the regions of relations, I want to identify the region that they are included in. I need to investigate if the image evokes any conceptual frames and if the frames are involved in these regions. I am also keen to find out the bounding boxes that cover the objects, relations and regions and the location and surface of the bounding boxes in the image. I would like to know the size of the image to understand which percentage of the image the object (bounding box of the object) and relation occupy. An interesting aspect is to search about the synsets that are related to objects, regions, relations and frames."
 
+A set of the CQs that were extracted from the story are in the list below: 
+1. Which objects are depicted in an image object?
+2. Which regions are depicted in an image?
+3. Which is the height/width/X coordinate/Y coordinate of a bounding box?
+4. Which depicted objects does a depicted region include?
+5. Which is the object/subject of a depicted relationship?
+6. Which Wn synset frame does a depicted region evoke?
+
+Inference verification test requirements:
+1. Is ImageRegion a subclass of Region? (In the ontology, ImageRegion is a subclass of SpaceRegion and SpaceRegion is a subclass of Region.)
+2. If a class is the domain of visualsense:depictsDepictedObject then it is a DepictedRegion.
+
+Error provocation test requirements:
+1. ImageRegion and ImageObject are disjointed. 
+2. Object and Situation are disjointed.
+3. Object and Region are disjointed.
+4. Region and Situation are disjointed.
+5. DepictedObject and ObjectRelation are disjointed.
+
+
 ## The Visual Sense Ontology
 
 Visual Sense ontology is an ontology that aims to formally represent Visual Genome’s annotation components and their interrelationships, and to connect these components to the Framester schema, so as to further ground visual data to language. The ontology was developed following the XD ontology design methodology. Below we present how the Visual Sense ontology has reused ontology design patterns (ODPs) and been aligned to and reused other ontologies while presenting its T-Box [Fig. 4], with explanations of its crucial classes and properties. Further details of all classes and properties are available in LODE-Powered Visual Sense Ontology Documentation. LODE is a tool for producing human-readable documentation of the ontologies. The Visual Sense ontology has been published at the following permanent IRI: https://w3id.org/visualsense.
@@ -224,6 +244,26 @@ Below we have attached the actualization of the test case #TestCase_CQ01. This t
 
 <img width="576" alt="Screen Shot 2021-10-07 at 3 42 57 PM" src="https://user-images.githubusercontent.com/44606644/136396464-9b986541-9e9a-4c80-8f16-7ec90c9951f7.png">
 Table 1. Documentation of a  test case.
+
+
+Below is a test case for the CQ verification test for the CQ "Which objects are depicted in an image object?".
+
+```
+@prefix owlunit: <https://w3id.org/OWLunit/ontology/> .
+@prefix td: <https://raw.githubusercontent.com/delfimpandiani/visualsense/main/7_Ontology_Testing/CQ/ToyDataSets/> .
+@prefix tc: <https://raw.githubusercontent.com/delfimpandiani/visualsense/main/7_Ontology_Testing/CQ/TestCases/> .
+@prefix visualsense: <https://www.w3id.org/visualsense#> .
+
+tc:TestCase_CQ01.ttl a owlunit:CompetencyQuestionVerification ;
+ 	owlunit:hasCompetencyQuestion "Which objects are depicted in an image object?" ;
+ 	owlunit:hasSPARQLUnitTest "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX visualsense: <https://www.w3id.org/visualsense#> SELECT ?depictedObject WHERE { ?imageObject a visualsense:ImageObject . ?depictedObject a visualsense:DepictedObject . ?depictedObject visualsense:isDepictedIn ?imageObject .}" ;
+	owlunit:hasInputData td:Toyset_CQ01.ttl ;
+	owlunit:hasInputTestDataCategory owlunit:ToyDataset ;
+	owlunit:hasExpectedResult "{ \"head\": {  \"vars\": [  \"depictedObject\" ] } ,  \"results\": {  \"bindings\": [ {  \"depictedObject\": {  \"type\":  \"uri\" ,  \"value\":  \"https://w3id.org/visualsense/test/CQ/ToyDatasets/Toyset_CQ01.ttl#depicted_object_691251\" } } ] } }";
+	owlunit:testsOntology visualsense: .
+    
+```
+
 
 ## SPARQL Endpoint Publication
 
