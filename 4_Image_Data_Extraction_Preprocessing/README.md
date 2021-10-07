@@ -5,9 +5,12 @@
 Due to the considerable size of the JSON files, we started by doing some data pre-processing, in particular the first step was to parse the scenegraph.json and regiongraph.json files provided by VG into smaller files via the built in methodology:
 
 ```
-markdown code
+split1 = open('/home/sdg/Desktop/VG/regiongraphs_splits/split1_regiongraphs.json', 'w')
+with open('/home/sdg/Desktop/VG/region_graphs.json') as f:
+    region_graphs = json.load(f)
+    json.dump(region_graphs[0:10000], split1)
 ```
-![split1_scenegraph.png](https://raw.githubusercontent.com/delfimpandiani/visualsense/main/4_Image_Data_Extraction_Preprocessing/split1_scenegraph.png)
+
 
 The following steps are, for this reason, meant to be applied to each single split.
 
@@ -31,7 +34,30 @@ In order to populate our Knowledge Graph (KG) with meaningful information, we de
 
 To perform the image subset creation, a function was defined to iterate through the (split) scenegraph JSON file’s relations in order to apply to each relationship label a part of speech (POS) tag. Then, only relationships whose labels had been tagged as verbs were selected, pruning instead the data of prepositional relations (OF, ON, WITH etc). Subsequently, images found to have verbal relations were counted and appended to a list, and a dictionary was created, the image_id’s as keys, and each image’s number of occurrences of verbal relations as values:
 
-![find_verbal_rel.png](https://raw.githubusercontent.com/delfimpandiani/visualsense/main/4_Image_Data_Extraction_Preprocessing/find_verbal_rel.png)
+```
+verbal_rel = []
+
+def find_verbal_rel(file):
+    with open(file) as f:
+        split1 = json.load(f)
+        for image in split1:
+            for rel in image['relationships']:
+                preds = rel["predicate"]
+            # since some of the relationships are written in caps lock the pos_tag label them as NN, while they are VB,
+            # next step is necessary to lowercase them and allow pos_tag to correctly tag them.
+                if isinstance(preds, str):
+                    preds = preds.lower()
+                    tok = word_tokenize(preds)
+                # tag the part of speech for each value
+                    verbs = nltk.pos_tag(tok)
+                    for s in verbs:
+                # checks the PoS, all the acronyms are forms of flexed verbs
+                        if s[1] in ('VB','VBD' ,'VBG', 'VBN' ,'VBP' ,'VBZ'):
+                            if '.r.' not in rel['synsets']:
+                                verbal_rel.append(image['image_id'])
+    json.dump(Counter(verbal_rel), interesting)
+
+```
 
 
 **Ranking Images by "Actionness"**
