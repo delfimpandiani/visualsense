@@ -95,7 +95,7 @@ roi = open('regions_of_interest.txt', 'r+')
 def generate_FRED_graphs(doi):
     headers = {
         'accept': 'text/turtle',
-        'Authorization': 'Bearer a7727b8c-aa1e-39d4-8b34-3977ec1c73f5',
+        'Authorization': 'insert key',
     }
     with open('FRED.ttl', "w") as FRED_ttl:
         for line in doi:
