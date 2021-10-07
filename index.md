@@ -116,20 +116,6 @@ A summary of the final pipeline is presented here, step by step, while the full 
 11. Produce the final json file showing: name of the frame evoked, number of evocation occurrences and image ID.
 
 
-```markdown
-# Frame evocation some code of the pipeline
-
-## Step 1
-### Substep 
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-```
 
 ## RML Mapping and KG Construction
 
