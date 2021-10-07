@@ -90,6 +90,7 @@ The other ontology reused in Visual Sense is the Framester schema, in particular
 
 The usage of WordNet synsets to disambiguate object annotations in the Visual Genome repository allows the exploration of frame evocation via querying the Framester hub. Specifically, Framester querying can be performed in order to retrieve Conceptual Frames evoked by synsets used as labels for some Image Region. Additionally, Knowledge Graphs (KG) can be automatically generated with FRED tool using sentences (images’ scene descriptions) as input, and thus it is possible to extract formal knowledge from the natural language provided in the Visual Genome annotations. Since WordNet synsets are related to VG depicted objects, and each depicted object is localized by a bounding box in an image, this in turn allows the localization of evoked frames to a specific set of pixels. As such, the use of lexical resources such as Framester and FRED allows for sophisticated grounding of visual data to language.
 
+
 ### Experiments, Lessons, and Refinements
 The first frame evocation attempt was driven by the principle of maximizing the amount of knowledge extraction, using each lexical unit (LU) of each bounding box in an image as input variable for a SPARQL query to Framester, in order to retrieve all the frames potentially evoked by all the synset of the LU in input. It is worth mentioning that each Image in Visual Genome has an average of 50 Regions, and for each region there is a minimum of one object (but often more than one), some relationships between objects, and some attributes for each object. The result of this first attempt was a massive amount of evoked frames (in the order of magnitude of hundreds of frames per image) which was not useful in extracting real knowledge about the semantic content of the analyzed image, since it was just the set of frames potentially evoked by each sense of each LU.
 
@@ -99,7 +100,7 @@ The final heuristic was then to focus on those Regions having at least two objec
 
 ### Frame Evocation Pipeline
 
-![frame_evocation_pipeline.png](https://github.com/delfimpandiani/visualsense/blob/main/5_Frame_Evocation/frame_evocation_pipeline.png)
+![frame_evocation_pipeline](https://user-images.githubusercontent.com/44606644/136393328-9c2bbe74-c12b-4bc5-a0f2-3bf466236da6.png)
 
 A summary of the final pipeline is presented here, step by step, while the full code is available here.
 
