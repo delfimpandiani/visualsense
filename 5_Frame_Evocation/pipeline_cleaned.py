@@ -15,7 +15,8 @@ import re
 
 #--------------------------------------------------------------------------
 # STEP 0
-# the id variable is useful to remember which image the extracted json files are related to.
+# the id variable is necessary to the final json file, and it is
+# useful to remember which image the extracted json files are related to.
 # the "f" file is extracted from VG dataset file scene_graph.json
 # the "f1" file is extracted from VG dataset file regions.json
 #--------------------------------------------------------------------------
