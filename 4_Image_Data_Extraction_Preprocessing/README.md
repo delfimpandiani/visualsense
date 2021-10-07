@@ -51,7 +51,7 @@ As shown in figure, the vast majority of images include only 1-4 unique verbal r
 
 **Final Ranking and Possible Approaches**
 
-A final remark is worth to be mentioned: albeit the final ranking of images adopted was the one based on unique verbal relations per image, a combination of the two rankings methodologies above mentioned, and the consequent proposal of a unified approach, is also possible. Conceptually it seemed more adherent to the modeling approach chosen to evaluate variance as more relevant than frequency, but e.g. once also the prepositional relations will be taken into account, a plausible approach could be a weighted score combining local frequency (namely the number of occurrences per image), local variance (the number of unique relations per image) with global frequency and variance (freq. and var. considering all relations of all images taken into account.)
+The ranking criterion currently in use is the second one (based on unique verbal relationship types). A possible further step is to combine the two ranking metrics in order to develop an approach that takes into consideration both the total number and the variance of relationships depicted in an image. Specifically, a further step is to compute a weighted score that takes into account local (image-level) frequency (namely the number of occurrences per image), and variance (the number of unique relations per image) as well as global (dataset-level) frequency and variance.
 
 
 
