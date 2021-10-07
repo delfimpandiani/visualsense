@@ -1,0 +1,7 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+PREFIX visualsense: <http://www.w3id.org/visualsense> .
+SELECT ?imageObject ?depictedObject 
+WHERE {
+?imageObject a visualsense:ImageObject .
+?depictedObject a visualsense:DepictedObject .
+?depictedObject visualsense:isDepictedIn ?imageObject .}
