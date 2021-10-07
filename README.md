@@ -4,7 +4,8 @@ This repository holds all data and resources arising from the development of Vis
 
 This project aims at integrating the annotated image dataset Visual Genome (VG) with the knowledge graph resource Framester, in order to produce a linked data knowledge graph that contains multimodal (factual, linguistic, and visual) knowledge. Our goal was to develop a full flow that allows, for a VG image of choice, the automatic modelling, implementation and publication of a semantic web knowledge graph (RDF) containing multimodal data. To do so, we first analyzed the relevant datasets, and completed design and modeling tasks following the eXtreme Design Methodology in order to extract the schema of Visual Genome as an ontology TBox and create the Visual Sense Ontology. We then developed a pipeline [Fig. 1] to shape the data (ABox) accordingly, with four major stages: 1. Visual Genome Splitting, 2. Data Preprocessing, 3. Frame Evocation, 4. KG Construction.
 
-![VS_pipeline](https://user-images.githubusercontent.com/44606644/136391132-257cebe6-7c43-4d2a-a065-8b17015c3179.png)
+
+![VS_pipeline](https://user-images.githubusercontent.com/44606644/136391265-1100adfe-5cc1-4930-b785-ae5254ba25cc.png)
 
 
 Fig 1. General pipeline of the Visual Sense project. Starting from the data and knowledge provided by the Visual Genome project in JSON format, our pipeline selects allows for the automatic creation of semantic web knowledge graphs containing visual, factual and linguistic data.
