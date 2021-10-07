@@ -31,4 +31,24 @@ A summary of the final pipeline is presented here, step by step, while the full 
 11. Produce the final json file showing: name of the frame evoked, number of evocation occurrences and image ID.
 
 
+## Final Output
+
+The final output is a json file organized as follows:
+
+```
+{
+    "frames_evoked": [
+        {
+            "frame": "https://w3id.org/framester/data/framestercore/Buildings",
+            "frequency": "4",
+            "imageID": "861"
+        } ]
+}
+
+```
+
+
+
 This project was authored by Delfina S. M. Pandiani, Stefano De Giorgis, and Fiorela Ciroku.
+
+
