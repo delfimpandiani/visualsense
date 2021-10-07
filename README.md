@@ -7,9 +7,7 @@ This project aims at integrating the annotated image dataset Visual Genome (VG) 
 
 ![VS_pipeline](https://user-images.githubusercontent.com/44606644/136391265-1100adfe-5cc1-4930-b785-ae5254ba25cc.png)
 
-
-Fig 1. General pipeline of the Visual Sense project. Starting from the data and knowledge provided by the Visual Genome project in JSON format, our pipeline selects allows for the automatic creation of semantic web knowledge graphs containing visual, factual and linguistic data.
-
+Fig 1. General pipeline of the Visual Sense project. Starting from the data and knowledge provided by the Visual Genome project in JSON format, our pipeline allows for the automatic creation of semantic web knowledge graphs containing visual, factual and linguistic data. Top: General overview of the pipeline. Bottom: Specific inputs and outputs at each stage of the pipeline.
 
 ## Datasets
 
