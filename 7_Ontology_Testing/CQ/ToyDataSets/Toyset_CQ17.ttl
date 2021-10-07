@@ -1,7 +1,7 @@
-@prefix : <https://w3id.org/visualsense/test/CQ/ToyDatasets/Toyset_CQ17.ttl#> .
-@prefix visualsense: <https://w3id.org/visualsense/ontology/> .
+@prefix : <https://raw.githubusercontent.com/delfimpandiani/visualsense/main/7_Ontology_Testing/CQ/ToyDataSets/Toyset_CQ17.ttl#> .
+@prefix visualsense: <https://www.w3id.org/visualsense#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
-<http://w3id.org/visualsense/resource/ImageRegion/image_region_2384656> a visualsense:ImageRegion .
-
-<http://w3id.org/visualsense/resource/ImageObject/image_object_2384656> a visualsense:ImageObject ;
-    visualsense:hasLocation "http://w3id.org/visualsense/resource/ImageRegion/image_region_2384656" .
+:image_region_2384656 a visualsense:ImageRegion .
+:image_object_2384656 a visualsense:ImageObject ;
+    visualsense:hasLocation :image_region_2384656 .

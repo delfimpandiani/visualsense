@@ -1,12 +1,12 @@
 @prefix owlunit: <https://w3id.org/OWLunit/ontology/> .
-@prefix td: <https://raw.githubusercontent.com/visualsense/test/cq/toydataset/> .
-@prefix tc: <https://raw.githubusercontent.com/visualsense/test/cq/testcase/> .
-@prefix visualsense: <https://w3id.org/visualsense/ontology> .
+@prefix td: <https://raw.githubusercontent.com/delfimpandiani/visualsense/main/7_Ontology_Testing/CQ/ToyDataSets/> .
+@prefix tc: <https://raw.githubusercontent.com/delfimpandiani/visualsense/main/7_Ontology_Testing/CQ/TestCases/> .
+@prefix visualsense: <https://www.w3id.org/visualsense#> .
 
 tc:TestCase_CQ10.ttl a owlunit:CompetencyQuestionVerification ;
  	owlunit:hasCompetencyQuestion "Which object relations does a depicted region include?" ;
- 	owlunit:hasSPARQLUnitTest "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> . PREFIX visualsense: <http://www.w3id.org/visualsense> . SELECT ?depictedRegion ?objectRelation WHERE { ?depictedRegion a visualsense:DepictedRegion . ?objectRelation a visualsense:ObjectRelation . ?depictedRegion visualsense:includesObjectRelation ?objectRelation .}" ;
+ 	owlunit:hasSPARQLUnitTest "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX visualsense: <https://www.w3id.org/visualsense#> SELECT ?objectRelation WHERE { ?depictedRegion a visualsense:DepictedRegion . ?objectRelation a visualsense:ObjectRelation . ?depictedRegion visualsense:includesObjectRelation ?objectRelation .}" ;
 	owlunit:hasInputData td:Toyset_CQ10.ttl ;
 	owlunit:hasInputTestDataCategory owlunit:ToyDataset ;
-	owlunit:hasExpectedResult "";
+	owlunit:hasExpectedResult "{ \"head\": {  \"vars\": [  \"objectRelation\" ] } ,  \"results\": {  \"bindings\": [ {  \"objectRelation\": {  \"type\":  \"uri\" ,  \"value\":  \"https://w3id.org/visualsense/test/CQ/ToyDatasets/Toyset_CQ10.ttl#object_relationship_1831850\" } } ] } }";
 	owlunit:testsOntology visualsense: .

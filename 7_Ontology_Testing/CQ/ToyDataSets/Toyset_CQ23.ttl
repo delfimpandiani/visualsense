@@ -1,20 +1,8 @@
-@prefix : <https://w3id.org/visualsense/test/CQ/ToyDatasets/Toyset_CQ23.ttl#> .
-@prefix visualsense: <https://w3id.org/visualsense/ontology/> .
+@prefix : <https://raw.githubusercontent.com/delfimpandiani/visualsense/main/7_Ontology_Testing/CQ/ToyDataSets/Toyset_CQ23.ttl#> .
+@prefix visualsense: <https://www.w3id.org/visualsense#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
 
-<https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891498> a visualsense:DepictedRegion .
-<https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891524> a visualsense:DepictedRegion .
-<https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891542> a visualsense:DepictedRegion .
-<https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891545> a visualsense:DepictedRegion .
-
-<https://w3id.org/framester/data/framestercore/Artifact> a visualsense:ConceptualFrame ;
-    visualsense:isFREDFrameEvokedBy "https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891498" .
-
-<https://w3id.org/framester/data/framestercore/Clothing> a visualsense:ConceptualFrame ;
-    visualsense:isFREDFrameEvokedBy "https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891545" .
-
-<https://w3id.org/framester/data/framestercore/CommerceScenario> a visualsense:ConceptualFrame ;
-    visualsense:isFREDFrameEvokedBy "https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1243524" .
-
-<https://w3id.org/framester/data/framestercore/Containers> a visualsense:ConceptualFrame ;
-    visualsense:isFREDFrameEvokedBy "https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891542" .
+:depicted_region_1891498 a visualsense:DepictedRegion .
+:Artifact a visualsense:ConceptualFrame ;
+    visualsense:isFREDFrameEvokedBy :depicted_region_1891498 .

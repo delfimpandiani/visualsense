@@ -1,14 +1,6 @@
-@prefix : <https://w3id.org/visualsense/test/CQ/ToyDatasets/Toyset_CQ06.ttl#> .
-@prefix visualsense: <https://w3id.org/visualsense/ontology/> .
+@prefix : <https://raw.githubusercontent.com/delfimpandiani/visualsense/main/7_Ontology_Testing/CQ/ToyDataSets/Toyset_CQ06.ttl#> .
+@prefix visualsense: <https://www.w3id.org/visualsense#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
-<https://w3id.org/visualsense/resource/BoundingBox/bb_dep_object_691251> a visualsense:BoundingBox ;
-    visualsense:hasXCoordinate 82.0 .
-
-<https://w3id.org/visualsense/resource/BoundingBox/bb_dep_object_691252> a visualsense:BoundingBox ;
-    visualsense:hasXCoordinate 121.0 .
-
-<https://w3id.org/visualsense/resource/BoundingBox/bb_dep_object_691253> a visualsense:BoundingBox ;
-    visualsense:hasXCoordinate 9.0 .
-
-<https://w3id.org/visualsense/resource/BoundingBox/bb_dep_object_691254> a visualsense:BoundingBox ;
-    visualsense:hasXCoordinate 130.0 .
+:bb_dep_object_691251 a visualsense:BoundingBox .
+:bb_dep_object_691251 visualsense:hasXCoordinate "82" .

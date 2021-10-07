@@ -1,12 +1,12 @@
 @prefix owlunit: <https://w3id.org/OWLunit/ontology/> .
-@prefix td: <https://raw.githubusercontent.com/visualsense/test/cq/toydataset/> .
-@prefix tc: <https://raw.githubusercontent.com/visualsense/test/cq/testcase/> .
-@prefix visualsense: <https://w3id.org/visualsense/ontology> .
+@prefix td: <https://raw.githubusercontent.com/delfimpandiani/visualsense/main/7_Ontology_Testing/CQ/ToyDataSets/> .
+@prefix tc: <https://raw.githubusercontent.com/delfimpandiani/visualsense/main/7_Ontology_Testing/CQ/TestCases/> .
+@prefix visualsense: <https://www.w3id.org/visualsense#> .
 
 tc:TestCase_CQ18.ttl a owlunit:CompetencyQuestionVerification ;
  	owlunit:hasCompetencyQuestion "Which bounding boxes are the location of a depicted region?" ;
- 	owlunit:hasSPARQLUnitTest "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> . PREFIX visualsense: <http://www.w3id.org/visualsense> . SELECT ?boundingBox ?depictedRegion WHERE { ?boundingBox a visualsense:BoundingBox . ?depictedRegion a visualsense:DepictedRegion . ?depictedRegion visualsense:hasLocation ?boundingBox .}" ;
+ 	owlunit:hasSPARQLUnitTest "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX visualsense: <https://www.w3id.org/visualsense#> SELECT ?boundingBox WHERE { ?boundingBox a visualsense:BoundingBox . ?depictedRegion a visualsense:DepictedRegion . ?depictedRegion visualsense:hasLocation ?boundingBox .}" ;
 	owlunit:hasInputData td:Toyset_CQ18.ttl ;
 	owlunit:hasInputTestDataCategory owlunit:ToyDataset ;
-	owlunit:hasExpectedResult "";
+	owlunit:hasExpectedResult "{ \"head\": {  \"vars\": [  \"boundingBox\" ] } ,  \"results\": {  \"bindings\": [ {  \"boundingBox\": {  \"type\":  \"uri\" ,  \"value\":  \"https://w3id.org/visualsense/test/CQ/ToyDatasets/Toyset_CQ18.ttl#bb_region_1891498\" } } ] } }";
 	owlunit:testsOntology visualsense: .

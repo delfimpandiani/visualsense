@@ -1,14 +1,7 @@
-@prefix : <https://w3id.org/visualsense/test/CQ/ToyDatasets/Toyset_CQ13.ttl#> .
-@prefix visualsense: <https://w3id.org/visualsense/ontology/> .
+@prefix : <https://raw.githubusercontent.com/delfimpandiani/visualsense/main/7_Ontology_Testing/CQ/ToyDataSets/Toyset_CQ13.ttl#> .
+@prefix visualsense: <https://www.w3id.org/visualsense#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
-<https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_1831850> a visualsense:ObjectRelationship ;
-    rdfs:label "WEARING"^^xsd:string .
 
-<https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_1831856> a visualsense:ObjectRelationship ;
-    rdfs:label "holding"^^xsd:string .
-
-<https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_1831861> a visualsense:ObjectRelationship ;
-    rdfs:label "controlling"^^xsd:string .
-
-<https://w3id.org/visualsense/resource/ObjectRelationship/object_relationship_1831863> a visualsense:ObjectRelationship ;
+:object_relationship_1831856 a visualsense:ObjectRelationship ;
     rdfs:label "holding"^^xsd:string .

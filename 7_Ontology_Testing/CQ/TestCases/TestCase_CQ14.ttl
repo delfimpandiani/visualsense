@@ -1,12 +1,12 @@
 @prefix owlunit: <https://w3id.org/OWLunit/ontology/> .
-@prefix td: <https://raw.githubusercontent.com/visualsense/test/cq/toydataset/> .
-@prefix tc: <https://raw.githubusercontent.com/visualsense/test/cq/testcase/> .
-@prefix visualsense: <https://w3id.org/visualsense/ontology> .
+@prefix td: <https://raw.githubusercontent.com/delfimpandiani/visualsense/main/7_Ontology_Testing/CQ/ToyDataSets/> .
+@prefix tc: <https://raw.githubusercontent.com/delfimpandiani/visualsense/main/7_Ontology_Testing/CQ/TestCases/> .
+@prefix visualsense: <https://www.w3id.org/visualsense#> .
 
 tc:TestCase_CQ14.ttl a owlunit:CompetencyQuestionVerification ;
  	owlunit:hasCompetencyQuestion "Which is the label of a depicted object?" ;
- 	owlunit:hasSPARQLUnitTest "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> . PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> . PREFIX visualsense: <http://www.w3id.org/visualsense> . SELECT ?depictedObject ?label WHERE { ?depictedObject a visualsense:DepictedObject . ?depictedObject rdfs:label ?label .}" ;
+ 	owlunit:hasSPARQLUnitTest "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> PREFIX visualsense: <https://www.w3id.org/visualsense#> . SELECT ?label WHERE { ?depictedObject a visualsense:DepictedObject . ?depictedObject rdfs:label ?label .}" ;
 	owlunit:hasInputData td:Toyset_CQ14.ttl ;
 	owlunit:hasInputTestDataCategory owlunit:ToyDataset ;
-	owlunit:hasExpectedResult "";
+	owlunit:hasExpectedResult "{ \"head\": {  \"vars\": [  \"label\" ] } ,  \"results\": {  \"bindings\": [ {  \"label\": {  \"type\":  \"string\" ,  \"value\":  \"uniform\" } } ] } }";
 	owlunit:testsOntology visualsense: .

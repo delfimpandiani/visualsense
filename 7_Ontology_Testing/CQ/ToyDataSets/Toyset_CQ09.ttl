@@ -1,24 +1,8 @@
-@prefix : <https://w3id.org/visualsense/test/CQ/ToyDatasets/Toyset_CQ09.ttl#> .
-@prefix visualsense: <https://w3id.org/visualsense/ontology/> .
+@prefix : <https://raw.githubusercontent.com/delfimpandiani/visualsense/main/7_Ontology_Testing/CQ/ToyDataSets/Toyset_CQ09.ttl#> .
+@prefix visualsense: <https://www.w3id.org/visualsense#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
 
-<https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691251> a visualsense:DepictedObject .
-
-<https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691252> a visualsense:DepictedObject .
-
-<https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691253> a visualsense:DepictedObject .
-
-<https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691254> a visualsense:DepictedObject .
-
-
-<https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891498> a visualsense:DepictedRegion ;
-    visualsense:includesDepictedObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691251" .
-
-<https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891499> a visualsense:DepictedRegion ;
-    visualsense:includesDepictedObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691252" .
-
-<https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891500> a visualsense:DepictedRegion ;
-    visualsense:includesDepictedObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691253" .
-
-<https://w3id.org/visualsense/resource/DepictedRegion/depicted_region_1891501> a visualsense:DepictedRegion ;
-    visualsense:includesDepictedObject "https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691254" .
+:depicted_object_691251 a visualsense:DepictedObject .
+:depicted_region_1891498 a visualsense:DepictedRegion ;
+    visualsense:includesDepictedObject :depicted_object_691251 .

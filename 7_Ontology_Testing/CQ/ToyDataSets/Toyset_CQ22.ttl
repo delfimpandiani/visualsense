@@ -1,16 +1,8 @@
-@prefix : <https://w3id.org/visualsense/test/CQ/ToyDatasets/Toyset_CQ22.ttl#> .
-@prefix visualsense: <https://w3id.org/visualsense/ontology/> .
+@prefix : <https://raw.githubusercontent.com/delfimpandiani/visualsense/main/7_Ontology_Testing/CQ/ToyDataSets/Toyset_CQ22.ttl#> .
+@prefix visualsense: <https://www.w3id.org/visualsense#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
-<http://w3id.org/visualsense/resource/ImageObject/image_object_2384656> a visualsense:ImageObject .
+:image_object_2384656 a visualsense:ImageObject .
 
-<https://w3id.org/framester/data/framestercore/Artifact> a visualsense:ConceptualFrame ;
-    visualsense:isEvokedBy "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" .
-
-<https://w3id.org/framester/data/framestercore/Clothing> a visualsense:ConceptualFrame ;
-    visualsense:isEvokedBy "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" .
-
-<https://w3id.org/framester/data/framestercore/CommerceScenario> a visualsense:ConceptualFrame ;
-    visualsense:isEvokedBy "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" .
-
-<https://w3id.org/framester/data/framestercore/Containers> a visualsense:ConceptualFrame ;
-    visualsense:isEvokedBy "http://w3id.org/visualsense/resource/ImageObject/image_object_2384656" .
+:Clothing a visualsense:ConceptualFrame ;
+    visualsense:isEvokedBy :image_object_2384656 .

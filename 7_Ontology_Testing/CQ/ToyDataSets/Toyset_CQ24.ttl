@@ -1,19 +1,9 @@
-@prefix : <https://w3id.org/visualsense/test/CQ/ToyDatasets/Toyset_CQ24.ttl#> .
-@prefix visualsense: <https://w3id.org/visualsense/ontology/> .
+@prefix : <https://raw.githubusercontent.com/delfimpandiani/visualsense/main/7_Ontology_Testing/CQ/ToyDataSets/Toyset_CQ24.ttl#> .
+@prefix visualsense: <https://www.w3id.org/visualsense#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
-<http://etna.istc.cnr.it/framester2/data/framestersyn/Badge.n.1> a visualsense:WnSynsetFrame .
-<http://etna.istc.cnr.it/framester2/data/framestersyn/Uniform.n.1> a visualsense:WnSynsetFrame .
-<http://etna.istc.cnr.it/framester2/data/framestersyn/Hair.n.1> a visualsense:WnSynsetFrame .
-<http://etna.istc.cnr.it/framester2/data/framestersyn/shirt.n.1> a visualsense:WnSynsetFrame .
 
-<https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691251> a visualsense:DepictedObject ;
-    visualsense:isTypedBy "http://etna.istc.cnr.it/framester2/data/framestersyn/Uniform.n.01']" .
+:Uniform a visualsense:WnSynsetFrame .
 
-<https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691252> a visualsense:DepictedObject ;
-    visualsense:isTypedBy "http://etna.istc.cnr.it/framester2/data/framestersyn/Badge.n.01']" .
-
-<https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691253> a visualsense:DepictedObject ;
-    visualsense:isTypedBy "http://etna.istc.cnr.it/framester2/data/framestersyn/Hair.n.01']" .
-
-<https://w3id.org/visualsense/resource/DepictedObject/depicted_object_691254> a visualsense:DepictedObject ;
-    visualsense:isTypedBy "http://etna.istc.cnr.it/framester2/data/framestersyn/Shirt.n.01']" .
+:depicted_object_691251 a visualsense:DepictedObject ;
+    visualsense:isTypedBy :Uniform .

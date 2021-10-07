@@ -1,8 +1,7 @@
-@prefix td: <https://raw.githubusercontent.com/delfimpandiani/visualsense/main/7_Ontology_Testing/CQ/ToyDataSets/Toyset_CQ01#> .
-@prefix visualsense: <https://www.w3id.org/visualsense#> . 
+@prefix : <https://raw.githubusercontent.com/delfimpandiani/visualsense/main/7_Ontology_Testing/CQ/ToyDataSets/Toyset_CQ01.ttl#> .
+@prefix visualsense: <https://www.w3id.org/visualsense#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
-td:image_object_2384656 rdf:type visualsense:ImageObject .
-td:depicted_object_691251 rdf:type visualsense:DepictedObject .
-td:depicted_object_691251 visualsense:isDepictedIn td:image_object_2384656 .
-
+:image_object_2384656 a visualsense:ImageObject .
+:depicted_object_691251 a visualsense:DepictedObject .
+:depicted_object_691251 visualsense:isDepictedIn :image_object_2384656 .
