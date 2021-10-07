@@ -19,13 +19,15 @@ The following steps are, for this reason, meant to be applied to each single spl
 In order to facilitate the subsequent operations (see Frame Evocation pipeline for further information), the next step was to change the syntax of WordNet synsets. This was because the syntax used in the original Visual Genome file did not correspond either to the original one in WordNet, nor to the one used in Framester hub for any synset. As such, we applied a transformation so that the syntax of synsets matches the one used for the Framestersyn class in Framester, which is the one used in the frame evocation pipeline. In detail, the syntax for both objects’ and relationships’ synsets was changed from:<br/>
 
 ```
-{<br/>
-‘synsets’ : [ ‘backpack.n.01’ ]<br/>
-}<br/>
-To:<br/>
-{<br/>
-‘synsets’ : ‘Backpack.n.1’<br/>
-}<br/>
+{
+‘synsets’ : [ ‘backpack.n.01’ ]
+}
+```
+To:
+```
+{
+‘synsets’ : ‘Backpack.n.1’
+}
 ```
 
 That is, we stripped off squared brackets (turning the value from a list into a string), capitalized the first letter, and replaced the double digit with a single one. 
