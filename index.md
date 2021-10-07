@@ -1,10 +1,10 @@
 # Visual Sense: Automatically Making Multimodal Sense of the Visual World
 ### By Delfina S. M. Pandiani, Stefano De Giorgis and Fiorela Ciroku 
 
-This project aims at integrating the annotated image dataset Visual Genome (VG) with the knowledge graph resource Framester, in order to produce a linked data knowledge graph that contains multimodal (factual, linguistic, and visual) knowledge. Our goal was to develop a full flow that allows, for a VG image of choice, the automatic modelling, implementation and publication of a semantic web knowledge graph (RDF) containing multimodal data. To do so, we first analyzed the relevant datasets, and completed design and modeling tasks following the eXtreme Design Methodology in order to extract the schema of Visual Genome as an ontology TBox and create the Visual Sense Ontology. We then developed a pipeline [Fig. 1] to shape the data (ABox) accordingly, with four major stages: 1.Vigual Genome KB Splitting, 2. Data Preprocessing, 3. Frame Evocation, and 4. KG Construction.
+This project aims at integrating the annotated image dataset Visual Genome (VG) with the knowledge graph resource Framester, in order to produce a linked data knowledge graph that contains multimodal (factual, linguistic, and visual) knowledge. Our goal was to develop a full flow that allows, for a VG image of choice, the automatic modelling, implementation and publication of a semantic web knowledge graph (RDF) containing multimodal data. To do so, we first analyzed the relevant datasets, and completed design and modeling tasks following the eXtreme Design Methodology in order to extract the schema of Visual Genome as an ontology TBox and create the Visual Sense Ontology. We then developed a pipeline [Fig. 1] to shape the data (ABox) accordingly, with four major stages: 1. Image Data Extraction, 2. Data Preprocessing, 3. Frame Evocation, 4. KG Construction.
 
 
-![VS_pipeline](https://user-images.githubusercontent.com/44606644/136392039-71551a1c-1616-4a21-b384-aa07ff792c82.png)
+![VS_pipeline](https://raw.githubusercontent.com/delfimpandiani/visualsense/main/5_Frame_Evocation/frame_evocation_pipeline.png)
 
 Fig 1. General pipeline of the Visual Sense project. Starting from the data and knowledge provided by the Visual Genome project in JSON format, our pipeline selects allows for the automatic creation of semantic web knowledge graphs containing visual, factual and linguistic data.
 
@@ -99,6 +99,21 @@ The final heuristic was then to focus on those Regions having at least two objec
 ### Frame Evocation Pipeline
 
 ![frame_evocation_pipeline.png](https://github.com/delfimpandiani/visualsense/blob/main/5_Frame_Evocation/frame_evocation_pipeline.png)
+
+A summary of the final pipeline is presented here, step by step, while the full code is available here.
+
+1. From a Visual Genome image scenegraph.json and regiongraph.json extract the list of relationships whose predicate is a verb.
+2. Extract the Region_ID and Region Description (of region having a verb as predicate).
+3. Generate the knowledge graph from natural language via FRED tool, taking as input each Region Description.
+4. Extract and store in a file all the frames evoked and all the synsets retrieved in each triple of the FRED graphs.
+5. Extract the WordNet synsets used in the json file as annotations (from the regions having a verb as a predicate).
+6. Clean the WordNet synsets data extracted from Visual Genome json file, in order to have the iri of corresponding FramesterSyn entities, ready to be used to query Framester.
+7. Clean the WordNet synsets data extracted from FRED graphs, in order to have the iri of corresponding FramesterSyn entities, ready to be used to query Framester.
+8. Merge the two lists of synsets from FRED and Visual Genome json file.
+9. For each synset, launch a SPARQL query to Framester in order to retrieve all the evoked frames.
+10. Collect all the frames evoked keeping track of the amount of evocations of each frame.
+11. Produce the final json file showing: name of the frame evoked, number of evocation occurrences and image ID.
+
 
 
 ## RML Mapping and KG Construction
