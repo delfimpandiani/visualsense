@@ -4,6 +4,9 @@
 
 Due to the considerable size of the JSON files, we started by doing some data pre-processing, in particular the first step was to parse the scenegraph.json and regiongraph.json files provided by VG into smaller files via the built in methodology:
 
+```
+markdown code
+```
 ![split1_scenegraph.png](https://raw.githubusercontent.com/delfimpandiani/visualsense/main/4_Image_Data_Extraction_Preprocessing/split1_scenegraph.png)
 
 The following steps are, for this reason, meant to be applied to each single split.
