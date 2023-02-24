@@ -1,0 +1,51 @@
+image_id	region_id	phrase	Emotions	Emotions Triggers	Values	Values Triggers	Frames
+2406261	397929	a man driving a train					fs:SelfMotion,fs:RideVehicle,fs:People,fs:Bringing,fs:CauseMotion,fs:Vehicle,fs:OperateVehicle
+2406261	397930	a man wearing a blue hat					fs:Accoutrements,fs:People,fs:Color
+2406261	397931	a man wearing sun glasses			folk:Structure	https://w3id.org/framester/wn/wn30/instances/synset-sun-noun-1	fs:People,fs:Locale
+2406261	397932	a man wearing a blue shirt					fs:People,fs:Clothing,fs:Color
+2406261	397933	a man with a tag hanging from his neck					fs:People,fs:Attaching,fs:ObservableBodyParts
+2406261	397934	a black door					fs:ConnectingArchitecture,fs:Color
+2406261	397935	a black door with white letters					fs:ConnectingArchitecture,fs:Color
+2406261	397936	"the number ""57"""			folk:Independence	https://w3id.org/framester/wn/wn30/instances/synset-number-noun-1	fs:Quantity
+2406261	397937	a red diamond on a black train 					fs:Vehicle,fs:Color
+2406261	397938	a vent in a train car					fs:Vehicle
+2406261	397939	train being operated by conductor.			folk:Leadership, folk:Effectiveness, folk:Learning, bhv:Power, mft:Authority	https://w3id.org/framester/data/framestercore/Usefulness, https://w3id.org/framester/data/framestercore/Leadership, https://w3id.org/framester/vn/vn31/data/Operate_45040000, https://w3id.org/framester/wn/wn30/instances/synset-conductor-noun-1	fs:BeingOperational,fs:OperatingASystem,fs:Leadership,fs:Using,fs:BeingInOperation,fs:Usefulness,fs:Vehicle
+2406261	397940	train being operated by conductor during daytime.			folk:Leadership, folk:Effectiveness, folk:Learning, bhv:Power, mft:Authority	https://w3id.org/framester/data/framestercore/Usefulness, https://w3id.org/framester/data/framestercore/Leadership, https://w3id.org/framester/vn/vn31/data/Operate_45040000, https://w3id.org/framester/wn/wn30/instances/synset-conductor-noun-1	fs:MeasureDuration,fs:BeingOperational,fs:CalendricUnit,fs:OperatingASystem,fs:Leadership,fs:Using,fs:BeingInOperation,fs:Usefulness,fs:Timespan,fs:LocationInTime,fs:Vehicle
+2406261	397941	black train operated by conductor.			folk:Leadership, folk:Effectiveness, folk:Learning, bhv:Power, mft:Authority	https://w3id.org/framester/data/framestercore/Usefulness, https://w3id.org/framester/data/framestercore/Leadership, https://w3id.org/framester/vn/vn31/data/Operate_45040000, https://w3id.org/framester/wn/wn30/instances/synset-conductor-noun-1	fs:BeingOperational,fs:OperatingASystem,fs:Leadership,fs:Using,fs:BeingInOperation,fs:Usefulness,fs:Color,fs:Vehicle
+2406261	397942	black train operated by conductor during the day.			folk:Leadership, folk:Effectiveness, folk:Learning, bhv:Power, mft:Authority	https://w3id.org/framester/data/framestercore/Usefulness, https://w3id.org/framester/data/framestercore/Leadership, https://w3id.org/framester/vn/vn31/data/Operate_45040000, https://w3id.org/framester/wn/wn30/instances/synset-conductor-noun-1	fs:MeasureDuration,fs:BeingOperational,fs:CalendricUnit,fs:OperatingASystem,fs:Leadership,fs:Using,fs:BeingInOperation,fs:Usefulness,fs:Color,fs:Timespan,fs:Vehicle
+2406261	397943	man wearing a blue hat.					fs:Accoutrements,fs:People,fs:Color
+2406261	397944	left hand of a person.					fs:PartOrientational,fs:People,fs:ObservableBodyParts
+2406261	397945	left elbow of a person.			folk:Control, mft:Harm	https://w3id.org/framester/wn/wn30/instances/synset-elbow-noun-1	fs:PartOrientational,fs:People,fs:ObservableBodyParts
+2406261	397946	rear view mirror to train.			mft:Authority, folk:Learning, bhv:Power	https://w3id.org/framester/wn/wn30/instances/synset-train-verb-1, https://w3id.org/framester/data/framestercore/EducationTeaching	fs:PartOrientational,fs:RewardsAndPunishments,fs:Placing,fs:EducationTeaching,fs:Range
+2406261	397947	train conductor hard at work.			mft:Authority, folk:Leadership, folk:Challenge, bhv:Power	https://w3id.org/framester/wn/wn30/instances/synset-difficult-adjective-1, https://w3id.org/framester/data/framestercore/Leadership, https://w3id.org/framester/wn/wn30/instances/synset-conductor-noun-1	fs:WorkingOn,fs:Difficulty,fs:Leadership,fs:LaborProduct,fs:Vehicle
+2406261	397948	"word reading ""conductor"" on side of train."			mft:Authority, folk:Leadership, bhv:Power	https://w3id.org/framester/data/framestercore/Leadership, https://w3id.org/framester/wn/wn30/instances/synset-conductor-noun-1	fs:Leadership,fs:Vehicle,fs:SimpleName
+2406261	397949	sign painted on the door.					fs:CreatePhysicalArtwork,fs:ConnectingArchitecture,fs:CommunicateCategorization,fs:IntentionallyCreate,fs:CreateRepresentation,fs:Sign
+2406261	397950	red triangle on the side of the car.					fs:Shapes,fs:Vehicle,fs:Color
+2406261	397951	man conducting the small train.			mft:Authority, folk:Leadership, bhv:Power	https://w3id.org/framester/vn/vn31/data/Conduct_51070000	fs:Motion,fs:Size,fs:Dimension,fs:Cotheme,fs:People,fs:IntentionallyAct,fs:Vehicle
+2406261	397952	man wearing black sunglasses.					fs:People,fs:Color
+2406261	397953	large side mirror on the train car.					fs:Vehicle,fs:Size,fs:Dimension
+2406261	397954	yellow safety lines painted on the sidewalk.			folk:Risk, mft:Care	https://w3id.org/framester/data/framestercore/BeingAtRisk, https://w3id.org/framester/wn/wn30/instances/synset-safety-noun-1	fs:CreatePhysicalArtwork,fs:CommunicateCategorization,fs:BeingAtRisk,fs:CreateRepresentation,fs:IntentionallyCreate,fs:Roadways
+2406261	397955	black train car.					fs:Vehicle,fs:Color
+2406261	397956	green leaves on the tree.			folk:Beauty	http://dbpedia.org/resource/Tree	fs:Color,fs:BiologicalArea
+2406261	397957	number 57 painted on the door.			folk:Independence	https://w3id.org/framester/wn/wn30/instances/synset-number-noun-1	fs:CreatePhysicalArtwork,fs:ConnectingArchitecture,fs:CommunicateCategorization,fs:Quantity,fs:IntentionallyCreate,fs:CreateRepresentation
+2406261	397958	badge hanging from the man's neck.					fs:Accoutrements,fs:People,fs:ObservableBodyParts
+2406261	397959	a man is conducting a train.			mft:Authority, folk:Leadership, bhv:Power	https://w3id.org/framester/vn/vn31/data/Conduct_51070000	fs:Motion,fs:Cotheme,fs:People,fs:IntentionallyAct,fs:Vehicle
+2406261	397960	a man is wearing a cap.					fs:Accoutrements,fs:People
+2406261	397961	the cap's colors are blue, green, gray, and yellow.					fs:Accoutrements,fs:Color
+2406261	397962	a man is wearing sunglasses.					fs:People
+2406261	397963	a man is wearing a light-colored shirt.					fs:ColorQualities,fs:People,fs:Clothing
+2406261	397964	a man is wearing dark pants.					fs:People,fs:Clothing,fs:Dimension
+2406261	397965	a small train has a mirror on it.					fs:Ingestion,fs:Vehicle,fs:Size,fs:Dimension
+2406261	397966	the color of a train is black.					fs:Vehicle,fs:Color
+2406261	397967	trees are behind a small train.					fs:Vehicle,fs:Size,fs:Dimension
+2406261	397968	the sun is shining on the ground.			folk:Structure	https://w3id.org/framester/wn/wn30/instances/synset-sun-noun-1	
+2406261	397969	sign on the side of a train car					fs:Vehicle,fs:Sign
+2406261	397970	blue cap on a man					fs:Accoutrements,fs:People,fs:Color
+2406261	397971	mirror on a train					fs:Vehicle
+2406261	397972	smoke stack on the roof					fs:Emitting,fs:Filling,fs:ArchitecturalPart,fs:Placing
+2406261	397973	red diamond on the side of a train car					fs:Vehicle,fs:Color
+2406261	397974	track for a train					fs:Roadways,fs:Vehicle,fs:PathTraveled
+2406261	397975	tree at the side of a train tracks					fs:Vehicle,fs:BiologicalArea
+2406261	397976	conductor of a train			mft:Authority, folk:Leadership, bhv:Power	https://w3id.org/framester/data/framestercore/Leadership, https://w3id.org/framester/wn/wn30/instances/synset-conductor-noun-1	fs:Leadership,fs:Vehicle
+2406261	397977	man weaing a blue shirt					fs:People,fs:Clothing,fs:Color
+2406261	397978	employ tag on a man					fs:Using,fs:People,fs:Attaching,fs:Employing,fs:Hiring

@@ -1,0 +1,51 @@
+image_id	region_id	phrase	Emotions	Emotions Triggers	Values	Values Triggers	Frames
+2408609	285892	hand pulling on upper lip			folk:Control, mft:Authority, folk:Consideration	https://w3id.org/framester/data/framestercore/Manipulation, https://w3id.org/framester/wn/wn30/instances/synset-upper-adjectivesatellite-1, https://w3id.org/framester/data/framestercore/OccupyRank	fs:PartOrientational,fs:Manipulation,fs:OccupyRank,fs:CauseMotion,fs:ObservableBodyParts
+2408609	285893	white teeth with brown marks					fs:PartOrderedSegments,fs:Text,fs:Color
+2408609	285894	flat edge of teeth on bottom					fs:LocativeRelation,fs:PartOrientational,fs:Supply
+2408609	285895	scalloped edge of teeth against pink gums					fs:LocativeRelation,fs:Supply,fs:Color
+2408609	285896	white arch around top of black eye			folk:Analysis	https://w3id.org/framester/wn/wn30/instances/synset-eye-noun-1	fs:BeingLocated,fs:Posture,fs:Supply,fs:Color,fs:BodyMovement,fs:ObservableBodyParts
+2408609	285897	long hairs covering oblong ear					
+2408609	285898	inner skin of upper lip			mft:Authority, folk:Consideration, mft:Harm	https://w3id.org/framester/wn/wn30/instances/synset-upper-adjectivesatellite-1, https://w3id.org/framester/wn/wn30/instances/synset-skin-noun-1	
+2408609	285899	brown and white stripes on body					fs:PartWhole,fs:Color
+2408609	285900	dark brown and grey skin of head			mft:Harm	https://w3id.org/framester/wn/wn30/instances/synset-skin-noun-1, https://w3id.org/framester/data/framestercore/ExperienceBodilyHarm	fs:ObservableBodyParts,fs:ExperienceBodilyHarm,fs:Dimension
+2408609	285901	solid color of lower lip					fs:ObservableBodyParts,fs:Color
+2408609	285902	head of a giraffe					fs:ObservableBodyParts
+2408609	285903	left eye of the giraffe			folk:Analysis	https://w3id.org/framester/wn/wn30/instances/synset-eye-noun-1	fs:PartOrientational,fs:ObservableBodyParts
+2408609	285904	mouth of the giraffe			folk:Control	https://w3id.org/framester/wn/wn30/instances/synset-mouth-noun-1	fs:ObservableBodyParts,fs:ShapedPart
+2408609	285905	top half of giraffe's teeth			mft:Authority, folk:Consideration	https://w3id.org/framester/wn/wn30/instances/synset-top-adjective-1, https://w3id.org/framester/data/framestercore/OccupyRank	fs:OccupyRank,fs:PartOrientational
+2408609	285906	bottom half of giraffe's teeth			mft:Authority, folk:Consideration	https://w3id.org/framester/wn/wn30/instances/synset-bottom-adjective-1	fs:PartOrientational
+2408609	285907	left ear of the giraffe					fs:PartOrientational,fs:ObservableBodyParts
+2408609	285908	right ear of the giraffe					fs:PartOrientational,fs:ObservableBodyParts
+2408609	285909	the hand is holding the giraffe's top lip			mft:Authority, folk:Consideration	https://w3id.org/framester/wn/wn30/instances/synset-top-adjective-1, https://w3id.org/framester/data/framestercore/OccupyRank	fs:PartOrientational,fs:OccupyRank,fs:ObservableBodyParts
+2408609	285910	left nostril of the giraffe					fs:PartOrientational,fs:ObservableBodyParts
+2408609	285911	hand					fs:ObservableBodyParts
+2408609	285912	a zebra is lying on the ground					fs:ChangePosture,fs:NaturalFeatures,fs:BeingLocated,fs:Posture
+2408609	285913	the zebra has black and white stripes					fs:Ingestion,fs:Color
+2408609	285914	the zebra has black lips					fs:Ingestion,fs:Color
+2408609	285915	a hand is pulling open the mouth of the zebra			folk:Control	https://w3id.org/framester/data/framestercore/Manipulation, https://w3id.org/framester/wn/wn30/instances/synset-mouth-noun-1	fs:ShapedPart,fs:Manipulation,fs:Openness,fs:CauseMotion,fs:ObservableBodyParts
+2408609	285916	the zebra's teeth are coffee stained					fs:Food,fs:ProcessingMaterials
+2408609	285917	the eye of the zebra is black			folk:Analysis	https://w3id.org/framester/wn/wn30/instances/synset-eye-noun-1	fs:ObservableBodyParts,fs:Color
+2408609	285918	the zebra has black eyelashes					fs:Ingestion,fs:Color
+2408609	285919	the ears of the zebra have white fur					fs:Ingestion,fs:Possession,fs:Color
+2408609	285920	rocks are on the ground under the animal					fs:Animals,fs:NaturalFeatures
+2408609	285921	the zebra has a black and white mane					fs:Ingestion,fs:ObservableBodyParts,fs:Color
+2408609	285922	the zerbra has white stripes.					fs:Ingestion,fs:Color
+2408609	285923	zebra has black stripes.					fs:Ingestion,fs:Color
+2408609	285924	zebra has pointed ear.					fs:Evidence,fs:ObservableBodyParts,fs:Adducing,fs:CauseToPerceive
+2408609	285925	fur on ear is white.					fs:ObservableBodyParts,fs:Color
+2408609	285926	zebra has black lips.					fs:Organization,fs:Ingestion,fs:Color
+2408609	285927	zebra has mouthful of teeth.					fs:Ingestion
+2408609	285928	zebra needs to brush it's teeth.			folk:Control	https://w3id.org/framester/wn/wn30/instances/synset-brush-verb-2	fs:Impact,fs:Placing,fs:RequiredEvent
+2408609	285929	someone is feeding the zebra.			folk:Giving, bhv:Benevolence, mft:Care, folk:Helping	https://w3id.org/framester/vn/vn31/data/Feed_39070000, https://w3id.org/framester/data/framestercore/Giving	fs:Ingestion,fs:Capacity,fs:Giving
+2408609	285930	zebra's eye is open.			folk:Analysis	https://w3id.org/framester/wn/wn30/instances/synset-eye-noun-1	fs:Openness,fs:ObservableBodyParts
+2408609	285931	zebra has very dark eyes.					fs:Identicality,fs:Ingestion,fs:Dimension
+2408609	285932	the eye of a zebra			folk:Analysis, folk:Learning	http://dbpedia.org/resource/Eye, https://w3id.org/framester/wn/wn30/instances/synset-eye-noun-1	fs:ObservableBodyParts
+2408609	285933	the top teeth of a zebra			mft:Authority, folk:Consideration	https://w3id.org/framester/wn/wn30/instances/synset-top-adjective-1, https://w3id.org/framester/data/framestercore/OccupyRank	fs:OccupyRank,fs:PartOrientational
+2408609	285934	the bottom teeth of a zebra			mft:Authority, folk:Consideration	https://w3id.org/framester/wn/wn30/instances/synset-bottom-adjective-1	fs:PartOrientational
+2408609	285935	the ear of a zebra					fs:ObservableBodyParts
+2408609	285936	the mane of a zebra					fs:ObservableBodyParts
+2408609	285937	a person's hand					fs:People,fs:ObservableBodyParts
+2408609	285938	the nostril of a zebra					fs:ObservableBodyParts
+2408609	285939	the head of a zebra					fs:ObservableBodyParts
+2408609	285940	the upper lip of a zebra			mft:Authority, bhv:Hedonism, folk:Consideration	https://w3id.org/framester/wn/wn30/instances/synset-upper-adjectivesatellite-1, http://dbpedia.org/resource/Lip, https://w3id.org/framester/data/framestercore/OccupyRank	fs:OccupyRank,fs:PartOrientational,fs:ObservableBodyParts
+2408609	285941	the lower lip of a zebra			bhv:Hedonism	http://dbpedia.org/resource/Lip	fs:ObservableBodyParts

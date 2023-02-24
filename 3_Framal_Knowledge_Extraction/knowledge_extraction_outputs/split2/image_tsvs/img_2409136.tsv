@@ -1,0 +1,51 @@
+image_id	region_id	phrase	Emotions	Emotions Triggers	Values	Values Triggers	Frames
+2409136	260652	man walking up steps with black backpack.			folk:Willingness	https://w3id.org/framester/wn/wn30/instances/synset-up-adjective-1	fs:Containers,fs:SelfMotion,fs:Cotheme,fs:People,fs:Color
+2409136	260653	woman walking up steps with black tote and navy blue carry on.			folk:Willingness	https://w3id.org/framester/wn/wn30/instances/synset-up-adjective-1	fs:Containers,fs:Motion,fs:SelfMotion,fs:Cotheme,fs:CarryGoods,fs:People,fs:Bringing,fs:Color,fs:Military
+2409136	260654	man coming down steps with dolly full of luggage.					
+2409136	260655	woman dressed in  red top.					fs:BeingLocated,fs:Dressing,fs:Posture,fs:People,fs:Supply,fs:Color
+2409136	260656	man dressed in brown vest.					fs:Dressing,fs:People,fs:Clothing,fs:Color
+2409136	260657	white railing on side of steps.					fs:ArchitecturalPart,fs:Color
+2409136	260658	woman wearing red sandal on her foot.					fs:PartOrientational,fs:People,fs:Color,fs:ObservableBodyParts,fs:Clothing
+2409136	260659	red flowers growing in window box.			folk:Development	https://w3id.org/framester/data/framestercore/Progress	fs:GrowingFood,fs:CauseToMakeProgress,fs:ConnectingArchitecture,fs:Containers,fs:Progress,fs:Expansion,fs:Creating,fs:Agriculture,fs:CauseExpansion,fs:IntentionallyCreate,fs:CauseChangeOfPositionOnAScale,fs:Color,fs:ChangePositionOnAScale,fs:MeasureVolume
+2409136	260660	vent on top of building's roof.					fs:BeingLocated,fs:ArchitecturalPart,fs:Posture,fs:Buildings,fs:Supply
+2409136	260661	brown shutters on side of window.					fs:ConnectingArchitecture,fs:Color
+2409136	260662	woman carrying luggage up stairs					fs:Motion,fs:Containers,fs:CarryGoods,fs:People,fs:Bringing
+2409136	260663	man walking up stairs			folk:Willingness	https://w3id.org/framester/wn/wn30/instances/synset-up-adjective-1	fs:People,fs:SelfMotion,fs:Cotheme
+2409136	260664	man carrying a sling pack					fs:Motion,fs:CarryGoods,fs:People,fs:Bringing,fs:Placing
+2409136	260665	man pulling a dolly up stairs			folk:Control, folk:Willingness	https://w3id.org/framester/data/framestercore/Manipulation, https://w3id.org/framester/wn/wn30/instances/synset-up-adjective-1	fs:CauseMotion,fs:People,fs:Manipulation
+2409136	260666	windows with red flowers					fs:Color
+2409136	260667	chimneys on top of buildings					fs:Supply,fs:Posture,fs:BeingLocated
+2409136	260668	cement column					fs:Attaching,fs:Adorning,fs:Filling
+2409136	260669	man with a stern look					fs:People,fs:FacialExpression,fs:ExpressingPublicly
+2409136	260670	woman with blonde hair					fs:People,fs:HairConfiguration,fs:ObservableBodyParts
+2409136	260671	people using stairs					fs:People,fs:IntentionallyAffect,fs:Using
+2409136	260672	man moving his luggage					fs:Travel,fs:Containers,fs:Motion,fs:SelfMotion,fs:People,fs:BodyMovement,fs:CauseChangeOfPositionOnAScale,fs:ChangePositionOnAScale,fs:CauseMotion
+2409136	260673	wheeling cart down the stairs.					fs:Motion,fs:Bringing
+2409136	260674	stone stairs			mft:Harm	https://w3id.org/framester/wn/wn30/instances/synset-rock-noun-1, https://w3id.org/framester/data/framestercore/CauseHarm	fs:CauseHarm
+2409136	260675	stone railing			mft:Harm	https://w3id.org/framester/wn/wn30/instances/synset-rock-noun-1, https://w3id.org/framester/data/framestercore/CauseHarm	fs:ArchitecturalPart,fs:CauseHarm
+2409136	260676	woman walking up the stairs.			folk:Willingness	https://w3id.org/framester/wn/wn30/instances/synset-up-adjective-1	fs:People,fs:SelfMotion,fs:Cotheme
+2409136	260677	terracotta roof.					fs:ArchitecturalPart
+2409136	260678	suitcases on the cart.					fs:Bringing
+2409136	260679	two suitcases on the cart going down the stairs.			folk:Willingness	https://w3id.org/framester/wn/wn30/instances/synset-down-adjective-1, https://w3id.org/framester/data/framestercore/Willingness	fs:Travel,fs:Motion,fs:Departing,fs:Bringing,fs:Willingness
+2409136	260680	man wearing a vest					fs:People,fs:Clothing
+2409136	260681	man carrying a bag					fs:Motion,fs:Containers,fs:CarryGoods,fs:People,fs:Bringing,fs:MeasureVolume
+2409136	260682	this is a cement stair					fs:Adorning,fs:ConnectingArchitecture,fs:Attaching,fs:Supply,fs:Filling
+2409136	260683	this is a tire					
+2409136	260684	this is a sandle					
+2409136	260685	this is a dolley					
+2409136	260686	this is a suitcase					fs:Containers
+2409136	260687	this is a latch					fs:InchoativeAttaching,fs:Closure,fs:Attaching
+2409136	260688	this is a handle			folk:Leadership, mft:Care, bhv:Power	https://w3id.org/framester/wn/wn30/instances/synset-manage-verb-2	fs:ResolveProblem
+2409136	260689	this is black paint					fs:Filling,fs:Adorning,fs:Color
+2409136	260690	this is the color black					fs:Color
+2409136	260691	this is the color gray					fs:Color
+2409136	260692	man with moustache					fs:People,fs:ObservableBodyParts
+2409136	260693	woman on stairs wearing blue jeans					fs:People,fs:Color
+2409136	260694	window box with red flowers					fs:ConnectingArchitecture,fs:Containers,fs:MeasureVolume,fs:Color
+2409136	260695	items wrapped in plastic and taped together					fs:Possession,fs:SubstanceByPhase,fs:Attaching,fs:ChangePositionOnAScale,fs:CauseChangeOfPositionOnAScale,fs:Placing,fs:Filling
+2409136	260696	black suitcase with silver handle			bhv:Power, mft:Care, folk:Leadership	https://w3id.org/framester/wn/wn30/instances/synset-manage-verb-2	fs:ResolveProblem,fs:Containers,fs:Color
+2409136	260697	man pushing two-wheeler down stairs			folk:Control	https://w3id.org/framester/data/framestercore/Manipulation	fs:CauseMotion,fs:People,fs:CauseChangeOfPositionOnAScale,fs:Manipulation
+2409136	260698	man with wearing sneakers walking upstairs					fs:SelfMotion,fs:Cotheme,fs:People,fs:Buildings,fs:PartWhole
+2409136	260699	man carrying a messenger bag					fs:Travel,fs:Motion,fs:Containers,fs:CarryGoods,fs:People,fs:Bringing,fs:MeasureVolume
+2409136	260700	roof of white building					fs:ArchitecturalPart,fs:Buildings,fs:Color
+2409136	260701	chimney of building					fs:Buildings

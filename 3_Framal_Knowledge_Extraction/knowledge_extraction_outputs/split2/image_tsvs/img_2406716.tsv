@@ -1,0 +1,51 @@
+image_id	region_id	phrase	Emotions	Emotions Triggers	Values	Values Triggers	Frames
+2406716	376129	an elephant in the water					fs:Substance
+2406716	376130	an elephant in the water					fs:Substance
+2406716	376131	an elephant in the water					fs:Substance
+2406716	376132	an elephant in the water					fs:Substance
+2406716	376133	an elephant in the water					fs:Substance
+2406716	376134	an elephant in the water					fs:Substance
+2406716	376135	an elephant in the water					fs:Substance
+2406716	376136	an elephant in the water					fs:Substance
+2406716	376137	a rock in the water			mft:Harm	https://w3id.org/framester/wn/wn30/instances/synset-rock-noun-1, https://w3id.org/framester/data/framestercore/CauseHarm	fs:Substance,fs:CauseHarm
+2406716	376138	a man herding elephants					fs:People,fs:Motion,fs:GatheringUp
+2406716	376139	man with stick on bank					fs:People,fs:RelationalNaturalFeatures,fs:Gizmo
+2406716	376140	woman pointing toward elephants					fs:Evidence,fs:People,fs:Adducing,fs:CauseToPerceive
+2406716	376141	herd of elephants walking toward water					fs:Substance,fs:SelfMotion,fs:Cotheme
+2406716	376142	man throwing bucket of water	be:Surprise	https://w3id.org/framester/vn/vn31/data/Throw_31010000			fs:ExperiencerObj,fs:People,fs:Containers,fs:Substance
+2406716	376143	man in shorts holding stick					fs:People,fs:Gizmo
+2406716	376144	tails on back of elephants					fs:ObservableBodyParts
+2406716	376145	elephants walking in water					fs:Substance,fs:SelfMotion,fs:Cotheme
+2406716	376146	rocks lined up in water			folk:Willingness	https://w3id.org/framester/wn/wn30/instances/synset-up-adjective-1	fs:Substance,fs:Adorning
+2406716	376147	elephant with curled trunk					fs:HairConfiguration
+2406716	376148	baby elephant in water			folk:Family	https://w3id.org/framester/wn/wn30/instances/synset-baby-noun-1	fs:PeopleByAge,fs:Substance
+2406716	376149	dirt covered elephant walking to water					fs:Substance,fs:Adorning,fs:Eclipse,fs:Topic,fs:Filling
+2406716	376150	elephant in green water					fs:Substance,fs:Color
+2406716	376151	green water rapid rushing					fs:Substance
+2406716	376152	man herding elephants through water					fs:People,fs:Motion,fs:Substance,fs:GatheringUp
+2406716	376153	man tossing water with bucket					fs:People,fs:Containers,fs:Substance
+2406716	376154	person taking picture with camera			mft:Authority, folk:Leadership, bhv:Power	https://w3id.org/framester/vn/vn31/data/Take_10050000, https://w3id.org/framester/data/framestercore/ChangeOfLeadership	fs:ChangeOfQuantityOfPossession,fs:Getting,fs:OpticalImage,fs:Cotheme,fs:People,fs:Sensation,fs:ChangeOfLeadership,fs:Bringing,fs:Conquering,fs:Taking,fs:Removing,fs:EarningsAndLosses
+2406716	376155	rock not fully submerged under water			mft:Harm	https://w3id.org/framester/wn/wn30/instances/synset-rock-noun-1, https://w3id.org/framester/data/framestercore/CauseHarm	fs:Substance,fs:CauseHarm
+2406716	376156	woman pointing at elephants					fs:Evidence,fs:People,fs:Adducing,fs:CauseToPerceive
+2406716	376157	man herding elephants with stick					fs:People,fs:Motion,fs:GatheringUp,fs:Gizmo
+2406716	376158	green colored river			folk:Structure	https://w3id.org/framester/wn/wn30/instances/synset-river-noun-1	fs:NaturalFeatures,fs:Color
+2406716	376159	large elephant  trying to get in the water			mft:Authority, folk:Adventure, folk:Intuitive	https://w3id.org/framester/wn/wn30/instances/synset-get-verb-1, https://w3id.org/framester/vn/vn31/data/Try_61000000	fs:Getting,fs:Substance,fs:Becoming,fs:Size,fs:Dimension,fs:BoardVehicle,fs:Possession,fs:Attempt,fs:AttemptMeans
+2406716	376160	lady in red shirt pointing at elephant					fs:Evidence,fs:CauseToPerceive,fs:People,fs:Color,fs:Clothing,fs:Adducing
+2406716	376161	man holding a long stick					fs:People,fs:DurationAttribute,fs:Gizmo
+2406716	376162	elephant in the water					fs:Substance
+2406716	376163	cluster of large roks					fs:Aggregate,fs:Size,fs:Dimension
+2406716	376164	large body of water					fs:Substance,fs:PartWhole,fs:Size,fs:Dimension
+2406716	376165	person using camera to take picture of elephants			mft:Authority, folk:Leadership, bhv:Power	https://w3id.org/framester/wn/wn30/instances/synset-lead-verb-1, https://w3id.org/framester/vn/vn31/data/Take_10050000, https://w3id.org/framester/data/framestercore/ChangeOfLeadership	fs:ChangeOfQuantityOfPossession,fs:Getting,fs:OpticalImage,fs:Using,fs:Cotheme,fs:People,fs:Sensation,fs:ChangeOfLeadership,fs:IntentionallyAffect,fs:Bringing,fs:Conquering,fs:Taking,fs:Removing,fs:EarningsAndLosses
+2406716	376166	tail of elphant			mft:Harm	https://w3id.org/framester/wn/wn30/instances/synset-tail-noun-1	fs:ObservableBodyParts
+2406716	376167	baby elephant			folk:Family	https://w3id.org/framester/wn/wn30/instances/synset-baby-noun-1	fs:PeopleByAge
+2406716	376168	dirt					fs:Substance
+2406716	376169	line of rocks in water					fs:Substance,fs:Pattern
+2406716	376170	reflection of elephant in toilet					fs:BuildingSubparts
+2406716	376171	pointing finger of woman			folk:Control	https://w3id.org/framester/wn/wn30/instances/synset-finger-noun-1	fs:Evidence,fs:CauseToPerceive,fs:People,fs:ObservableBodyParts,fs:Adducing
+2406716	376172	tails on backs of elephants					
+2406716	376173	man throwing water in the air					
+2406716	376174	man in shorts with a stick					
+2406716	376175	camera in person's hand					
+2406716	376176	baby elephant in water			folk:Family	https://w3id.org/framester/wn/wn30/instances/synset-baby-noun-1	fs:PeopleByAge,fs:Substance
+2406716	376177	man with stick above water					fs:People,fs:Gizmo,fs:Substance
+2406716	376178	water splashing beside elephant					fs:Substance,fs:MotionNoise,fs:CauseFluidicMotion,fs:FluidicMotion,fs:Filling

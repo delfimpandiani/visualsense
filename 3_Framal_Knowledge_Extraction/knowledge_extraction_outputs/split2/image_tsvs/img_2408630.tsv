@@ -1,0 +1,51 @@
+image_id	region_id	phrase	Emotions	Emotions Triggers	Values	Values Triggers	Frames
+2408630	284892	boy in the air 					fs:Substance
+2408630	284893	boy running on field					fs:SelfMotion
+2408630	284894	man standing on field			mft:Authority, folk:Consideration	https://w3id.org/framester/wn/wn30/instances/synset-standing-noun-1, https://w3id.org/framester/data/framestercore/OccupyRank	fs:OccupyRank,fs:People
+2408630	284895	man wearing blue shirt 					
+2408630	284896	man wearing black shorts 					
+2408630	284897	man wearing black pants 					fs:People,fs:Clothing,fs:Color
+2408630	284898	cars parked in lot 			folk:Fun	http://dbpedia.org/resource/Car	fs:Aggregate,fs:Placing,fs:Quantity
+2408630	284899	orange bars on field 					
+2408630	284900	building in the background					fs:Buildings
+2408630	284901	green grass on field 			bhv:Benevolence, mft:Care, folk:Helping	https://w3id.org/framester/wn/wn30/instances/synset-grass-noun-1	fs:Filling,fs:Adorning,fs:Color
+2408630	284902	a group of men in the park playing frisbee					fs:Aggregate,fs:Organization
+2408630	284903	a playground in the background					
+2408630	284904	man is wearing a blue and white shirt					fs:People,fs:Clothing,fs:Color
+2408630	284905	a white frisbee flies through the air					fs:Substance,fs:Motion,fs:SelfMotion,fs:RideVehicle,fs:Bringing,fs:Color,fs:OperateVehicle
+2408630	284906	man watches his friends playing frisbee			folk:Analysis	https://w3id.org/framester/vn/vn31/data/Watch_30020000	fs:PerceptionActive,fs:Seeking,fs:BeingAwake,fs:Cotheme,fs:People
+2408630	284907	man is preparing to catch a frisbee			folk:Control	https://w3id.org/framester/data/framestercore/Manipulation	fs:Getting,fs:Manipulation,fs:CookingCreation,fs:ActivityPrepare,fs:People,fs:HuntingSuccessOrFailure,fs:Taking,fs:ExperiencerObj
+2408630	284908	man has on black pants					fs:People,fs:Ingestion,fs:Clothing,fs:Color
+2408630	284909	a man is running through the field					fs:People,fs:SelfMotion
+2408630	284910	a row of parked cars in the background					fs:Shapes,fs:Placing
+2408630	284911	buildings in the background					
+2408630	284912	some guys out playing frisbee.					
+2408630	284913	group of guys playing frisbee.					fs:Aggregate,fs:Organization
+2408630	284914	group of guys and a game of frisbee.					fs:Aggregate,fs:Organization,fs:IntentionallyAct
+2408630	284915	group of guys playing frisbee during the daytime.					fs:MeasureDuration,fs:CalendricUnit,fs:Organization,fs:LocationInTime,fs:Aggregate,fs:Timespan
+2408630	284916	person jumping in the air.					fs:People,fs:Substance,fs:ChangePositionOnAScale
+2408630	284917	person running in a field.					fs:People,fs:SelfMotion
+2408630	284918	a person wearing shorts.					fs:People
+2408630	284919	nike brand symbol on a person's shirt.					fs:People,fs:Gesture,fs:Clothing
+2408630	284920	frisbee thrown in motion.					fs:Gesture
+2408630	284921	patch of grass on ground.			bhv:Benevolence, mft:Care, folk:Helping	https://w3id.org/framester/wn/wn30/instances/synset-grass-noun-1	fs:Filling,fs:Adorning,fs:NaturalFeatures,fs:Supply
+2408630	284922	a white frisbee					fs:Color
+2408630	284923	nike logo on shirt					fs:Clothing
+2408630	284924	roof on the house					fs:ArchitecturalPart,fs:Buildings
+2408630	284925	man in a running stance					fs:People,fs:Posture
+2408630	284926	man in gray shorts standing on field					fs:BeingLocated,fs:Posture,fs:ChangePosture,fs:People,fs:Color,fs:Placing
+2408630	284927	a yellow outdoor umbrella					fs:Color
+2408630	284928	bare tree branches			folk:Beauty	http://dbpedia.org/resource/Tree	fs:BiologicalArea
+2408630	284929	an orange monkey bar on grass			bhv:Benevolence, mft:Care, folk:Helping	https://w3id.org/framester/wn/wn30/instances/synset-grass-noun-1	fs:Filling,fs:Buildings,fs:Adorning
+2408630	284930	cars parked by house					fs:Buildings,fs:Placing
+2408630	284931	tall telephone line and wires					fs:Pattern,fs:Dimension,fs:BodyDescriptionHolistic,fs:MeasurableAttributes,fs:Contacting,fs:CommunicationMeans
+2408630	284932	the men are playing frisbee. 					
+2408630	284933	the man is jumping in the air. 					fs:People,fs:Substance,fs:ChangePositionOnAScale
+2408630	284934	the man's arms are outstretched.					fs:People
+2408630	284935	the frisbee flies towards the man. 					fs:Motion,fs:SelfMotion,fs:RideVehicle,fs:People,fs:Bringing,fs:OperateVehicle
+2408630	284936	another player watches from the background. 			folk:Competition	https://w3id.org/framester/wn/wn30/instances/synset-player-noun-1	fs:Participation,fs:Seeking,fs:BeingAwake,fs:Cotheme
+2408630	284937	the man wears a gray hat. 					fs:Accoutrements,fs:People,fs:Color
+2408630	284938	the man wears a nike shirt. 					fs:People,fs:Clothing
+2408630	284939	the shirt is blue. 					fs:Clothing,fs:Color
+2408630	284940	cars are behind the field. 					
+2408630	284941	the sky is cloudy and grey. 					fs:Locale

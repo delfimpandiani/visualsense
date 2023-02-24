@@ -1,0 +1,51 @@
+image_id	region_id	phrase	Emotions	Emotions Triggers	Values	Values Triggers	Frames
+2406925	366229	police riding on motorcycles			folk:Analysis, mft:Care	https://w3id.org/framester/wn/wn30/instances/synset-police-noun-1	fs:Travel,fs:Military
+2406925	366230	the policeman is wearing sunglasses			folk:Leadership, mft:Care, bhv:Security	https://w3id.org/framester/wn/wn30/instances/synset-policeman-noun-1	fs:PeopleByVocation,fs:Appellations
+2406925	366231	the man is working on sign					fs:People,fs:WorkingOn,fs:Sign,fs:BeingEmployed
+2406925	366232	the traffic lights are red					fs:Color
+2406925	366233	policeman has orange stripe on pants			folk:Leadership, mft:Care, bhv:Security	https://w3id.org/framester/wn/wn30/instances/synset-policeman-noun-1	fs:Ingestion,fs:Clothing,fs:PeopleByVocation,fs:Appellations
+2406925	366234	blue lights on motorcycle by policeman's knee			folk:Leadership, mft:Care, bhv:Security	https://w3id.org/framester/wn/wn30/instances/synset-policeman-noun-1	fs:Appellations,fs:RideVehicle,fs:Color,fs:ObservableBodyParts,fs:OperateVehicle,fs:PeopleByVocation
+2406925	366235	motorcycle has a red light and blue light					fs:Ingestion,fs:RideVehicle,fs:LocationOfLight,fs:Color,fs:OperateVehicle
+2406925	366236	red light on back of motorcycle					fs:RideVehicle,fs:LocationOfLight,fs:Color,fs:ObservableBodyParts,fs:OperateVehicle
+2406925	366237	police wearing blue shirts			folk:Analysis, mft:Care	https://w3id.org/framester/wn/wn30/instances/synset-police-noun-1	fs:Military,fs:Color
+2406925	366238	policeman has blue helmet			folk:Leadership, mft:Care, bhv:Security	https://w3id.org/framester/wn/wn30/instances/synset-policeman-noun-1	fs:Accoutrements,fs:Appellations,fs:Ingestion,fs:Color,fs:PeopleByVocation
+2406925	366239	police officer on a bike.			folk:Analysis, mft:Care	https://w3id.org/framester/wn/wn30/instances/synset-police-noun-1	fs:Vehicle,fs:Military
+2406925	366240	police officer wearing a helmet			folk:Analysis, mft:Authority, mft:Care	https://w3id.org/framester/wn/wn30/instances/synset-police-noun-1, http://dbpedia.org/resource/Police	fs:Accoutrements,fs:Military
+2406925	366241	police officer riding down the road			folk:Analysis, mft:Care	https://w3id.org/framester/wn/wn30/instances/synset-police-noun-1	fs:Travel,fs:RideVehicle,fs:Military,fs:Roadways,fs:OperateVehicle
+2406925	366242	police officers riding the street			folk:Analysis, mft:Authority, mft:Care	https://w3id.org/framester/wn/wn30/instances/synset-police-noun-1, http://dbpedia.org/resource/Police	fs:Travel,fs:RideVehicle,fs:Military,fs:Roadways,fs:OperateVehicle
+2406925	366243	police officer patrolling the road			folk:Analysis, mft:Care	https://w3id.org/framester/vn/vn31/data/Patrol_35020000, https://w3id.org/framester/wn/wn30/instances/synset-police-noun-1	fs:Roadways,fs:Military
+2406925	366244	police officer on a harley			folk:Analysis, mft:Care	https://w3id.org/framester/wn/wn30/instances/synset-police-noun-1	fs:Military
+2406925	366245	lights on the motorcycle					fs:OperateVehicle,fs:RideVehicle
+2406925	366246	road work sign along the street.					fs:Roadways,fs:LaborProduct,fs:WorkingOn,fs:Sign
+2406925	366247	traffic lights at an intersection					
+2406925	366248	red light					fs:Color,fs:LocationOfLight
+2406925	366249	the diamond shaped road sign					fs:Reshaping,fs:IntentionallyCreate,fs:Roadways,fs:Sign,fs:ManipulateIntoShape
+2406925	366250	the man taking a photo			mft:Authority, folk:Leadership, bhv:Power	https://w3id.org/framester/vn/vn31/data/Take_10050000, https://w3id.org/framester/data/framestercore/ChangeOfLeadership	fs:ChangeOfQuantityOfPossession,fs:Getting,fs:Cotheme,fs:Representing,fs:People,fs:ChangeOfLeadership,fs:Conquering,fs:Bringing,fs:Taking,fs:Removing,fs:EarningsAndLosses
+2406925	366251	the trees in the background					
+2406925	366252	the white pillar in front of the trees			folk:Consciousness, mft:Harm	https://w3id.org/framester/wn/wn30/instances/synset-front-noun-1, https://w3id.org/framester/wn/wn30/instances/synset-pillar-noun-1	fs:PartOrientational,fs:Color
+2406925	366253	the car parked in front of the pillar			folk:Fun, folk:Consciousness, mft:Harm	https://w3id.org/framester/wn/wn30/instances/synset-front-noun-1, https://w3id.org/framester/wn/wn30/instances/synset-pillar-noun-1, http://dbpedia.org/resource/Car	fs:PartOrientational,fs:Vehicle,fs:Placing
+2406925	366254	the red light near the man taking a photo			mft:Authority, folk:Leadership, bhv:Power	https://w3id.org/framester/vn/vn31/data/Take_10050000, https://w3id.org/framester/data/framestercore/ChangeOfLeadership	fs:ChangeOfQuantityOfPossession,fs:Getting,fs:Cotheme,fs:Representing,fs:People,fs:ChangeOfLeadership,fs:Bringing,fs:Conquering,fs:Color,fs:Taking,fs:LocationOfLight,fs:Removing,fs:EarningsAndLosses
+2406925	366255	the red lights in the background					fs:Color
+2406925	366256	the light hanging over the street					fs:Roadways,fs:Dimension
+2406925	366257	the yellow line in the street					fs:Roadways,fs:Pattern,fs:Color
+2406925	366258	the building with walls made of windows					fs:Appointing,fs:CauseChange,fs:Causation,fs:Buildings
+2406925	366259	a orange diamond shaped sign.			folk:Giving	http://dbpedia.org/resource/Diamond	fs:Reshaping,fs:Sign,fs:IntentionallyCreate,fs:ManipulateIntoShape
+2406925	366260	a couple of police on motorcycles.			mft:Care, folk:Association, mft:Loyalty, folk:Analysis, mft:Authority	https://w3id.org/framester/wn/wn30/instances/synset-police-noun-1, https://w3id.org/framester/wn/wn30/instances/synset-couple-noun-1, http://dbpedia.org/resource/Police	fs:PersonalRelationship,fs:Military
+2406925	366261	a headlight with a red light and a blue light.					fs:Supply,fs:Gizmo,fs:LocationOfLight,fs:Color
+2406925	366262	police written on the motorcycle.			folk:Analysis, mft:Authority, mft:Care	https://w3id.org/framester/wn/wn30/instances/synset-police-noun-1, http://dbpedia.org/resource/Police	fs:RideVehicle,fs:SpellingAndPronouncing,fs:Military,fs:OperateVehicle,fs:TextCreation
+2406925	366263	blue pants with a orange stripe.					fs:Clothing,fs:Color
+2406925	366264	the storage area for a motorcycle.					fs:OperateVehicle,fs:RideVehicle,fs:Locale
+2406925	366265	a double yellow line.					fs:Color,fs:Pattern,fs:Quantity
+2406925	366266	a man wearing a helmet and sunglasses.					fs:Accoutrements,fs:People
+2406925	366267	a red police light.			folk:Analysis, mft:Care	https://w3id.org/framester/wn/wn30/instances/synset-police-noun-1	fs:LocationOfLight,fs:Military,fs:Color
+2406925	366268	a man in gray shirt touching the orange sign.			folk:Control	https://w3id.org/framester/data/framestercore/Manipulation	fs:Manipulation,fs:People,fs:Color,fs:Clothing,fs:Sign
+2406925	366269	a police parade through a city			folk:Analysis, mft:Authority, mft:Care	https://w3id.org/framester/wn/wn30/instances/synset-city-noun-1, https://w3id.org/framester/wn/wn30/instances/synset-police-noun-1, https://w3id.org/framester/data/framestercore/PoliticalLocales, http://dbpedia.org/resource/Police	fs:LocaleByUse,fs:Military,fs:PoliticalLocales
+2406925	366270	an orange construction sign on the side					fs:Building,fs:Sign
+2406925	366271	a man taking a photo			mft:Authority, folk:Leadership, bhv:Power	https://w3id.org/framester/vn/vn31/data/Take_10050000, https://w3id.org/framester/data/framestercore/ChangeOfLeadership	fs:ChangeOfQuantityOfPossession,fs:Getting,fs:Cotheme,fs:Representing,fs:People,fs:ChangeOfLeadership,fs:Conquering,fs:Bringing,fs:Taking,fs:Removing,fs:EarningsAndLosses
+2406925	366272	red caution light on the front 			mft:Harm	https://w3id.org/framester/wn/wn30/instances/synset-front-noun-1	fs:LocationOfLight,fs:PartOrientational,fs:Color
+2406925	366273	a yellow stripe on pants					
+2406925	366274	a helmet on a head					
+2406925	366275	words on the fender of the motorcycle	be:Anger	https://w3id.org/framester/wn/wn30/instances/synset-fender-noun-1	mft:Degradation	https://w3id.org/framester/data/framestercore/Repel, https://w3id.org/framester/wn/wn30/instances/synset-fender-noun-1	fs:Vehicle,fs:OperateVehicle,fs:RideVehicle,fs:Repel
+2406925	366276	a police car parked on the curb			folk:Consent, mft:Care, folk:Analysis	https://w3id.org/framester/wn/wn30/instances/synset-police-noun-1, https://w3id.org/framester/wn/wn30/instances/synset-curb-noun-1	fs:Vehicle,fs:Hindering,fs:Military,fs:Placing
+2406925	366277	a policeman riding a motorcycle			folk:Leadership, mft:Care, bhv:Security	https://w3id.org/framester/wn/wn30/instances/synset-policeman-noun-1	fs:Travel,fs:Appellations,fs:RideVehicle,fs:OperateVehicle,fs:PeopleByVocation
+2406925	366278	yellow lines marking the street			mft:Harm	https://w3id.org/framester/vn/vn31/data/Mark_25010000	fs:Motion,fs:Placing,fs:Color,fs:Roadways,fs:Aiming,fs:Sign

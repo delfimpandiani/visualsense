@@ -1,0 +1,50 @@
+image_id	region_id	phrase	Emotions	Emotions Triggers	Values	Values Triggers	Frames
+2408126	308992	three pink flowers with yellow stems.					fs:Color
+2408126	308993	pink flower between two other pink flowers.			folk:Development	https://w3id.org/framester/data/framestercore/Progress, https://w3id.org/framester/wn/wn30/instances/synset-flower-noun-1	fs:Progress,fs:Color
+2408126	308994	three yellow stems on pink flowers.					fs:Color
+2408126	308995	three flowers with stems in water.					fs:Substance
+2408126	308996	flowers in a container with water.					fs:Containers,fs:Substance
+2408126	308997	flowers in water with pink petals. 					fs:Substance,fs:Color
+2408126	308998	pink flower in container with two other flowers.			folk:Development	https://w3id.org/framester/data/framestercore/Progress, https://w3id.org/framester/wn/wn30/instances/synset-flower-noun-1	fs:Containers,fs:Progress,fs:Color
+2408126	308999	container holding three pink flowers.					fs:Containers,fs:Color
+2408126	309000	container with flowers on the ground.					fs:Containers,fs:NaturalFeatures
+2408126	309001	clear flower pot with pink flowers and yellow stems.			folk:Development, folk:Clarity	https://w3id.org/framester/data/framestercore/Progress, https://w3id.org/framester/wn/wn30/instances/synset-clear-adjective-1, https://w3id.org/framester/wn/wn30/instances/synset-flower-noun-1	fs:Containers,fs:Progress,fs:Color,fs:Obviousness
+2408126	309002	pink flowers in water					fs:Substance,fs:Color
+2408126	309003	steam of pink flowers are green					fs:ApplyHeat,fs:Color
+2408126	309004	pot has rectangular shape					fs:Ingestion,fs:Containers,fs:Reshaping
+2408126	309005	leaves on the floor			folk:Control, mft:Harm	https://w3id.org/framester/wn/wn30/instances/synset-floor-noun-1	fs:ArchitecturalPart
+2408126	309006	petals of flowers are pink					fs:Color
+2408126	309007	steam is curved					fs:ApplyHeat
+2408126	309008	shadow of pot cast on the ground			mft:Authority	https://w3id.org/framester/wn/wn30/instances/synset-cast-noun-1	fs:OpticalImage,fs:GatheringUp,fs:NaturalFeatures,fs:Containers
+2408126	309009	pistils in the center of flower			folk:Development	https://w3id.org/framester/data/framestercore/Progress, https://w3id.org/framester/wn/wn30/instances/synset-flower-noun-1	fs:PartInnerOuter,fs:Progress
+2408126	309010	water of pot cover until the petals					fs:Containers,fs:Substance
+2408126	309011	pot with flowers are on the floor			folk:Control, mft:Harm	https://w3id.org/framester/wn/wn30/instances/synset-floor-noun-1	fs:ArchitecturalPart,fs:Containers
+2408126	309012	three flowers in a row					fs:Shapes
+2408126	309013	clear rectangular vase			folk:Clarity	https://w3id.org/framester/wn/wn30/instances/synset-clear-adjective-1	fs:Containers,fs:Obviousness
+2408126	309014	white center of flower			folk:Development	https://w3id.org/framester/data/framestercore/Progress, https://w3id.org/framester/wn/wn30/instances/synset-flower-noun-1	fs:PartInnerOuter,fs:Progress,fs:Color
+2408126	309015	three flower stems			folk:Development	https://w3id.org/framester/data/framestercore/Progress, https://w3id.org/framester/wn/wn30/instances/synset-flower-noun-1	fs:Progress
+2408126	309016	clear vase filled with water			folk:Clarity	https://w3id.org/framester/wn/wn30/instances/synset-clear-adjective-1	fs:Substance,fs:Adorning,fs:Obviousness,fs:Containers,fs:Filling
+2408126	309017	pieces of foliage on ground					fs:NaturalFeatures
+2408126	309018	middle flower with curved stem			folk:Development	https://w3id.org/framester/data/framestercore/Progress, https://w3id.org/framester/wn/wn30/instances/synset-flower-noun-1	fs:Progress,fs:Removing
+2408126	309020	purple flower on the right			folk:Development	https://w3id.org/framester/wn/wn30/instances/synset-flower-noun-1	
+2408126	309021	crack in ground tile			mft:Harm	https://w3id.org/framester/data/framestercore/CauseHarm, https://w3id.org/framester/wn/wn30/instances/synset-crack-noun-1	fs:Filling,fs:ArchitecturalPart,fs:NaturalFeatures,fs:CauseHarm
+2408126	309022	three flowers					
+2408126	309023	glass vase					fs:Containers,fs:Substance
+2408126	309024	water in the glass vase					fs:Containers,fs:Substance
+2408126	309025	cement sidewalk					fs:Roadways,fs:Attaching,fs:Adorning,fs:Filling
+2408126	309026	pink flowers in the vase					fs:Containers,fs:Color
+2408126	309027	glass vase sitting on the cement					fs:Substance,fs:BeingLocated,fs:Adorning,fs:Containers,fs:Posture,fs:ChangePosture,fs:Attaching,fs:Placing,fs:Filling
+2408126	309028	three stems 					
+2408126	309029	bright pink flowers in the vase with water					fs:Containers,fs:Substance,fs:LocationOfLight,fs:Color
+2408126	309030	flower petal in the cement			folk:Development	https://w3id.org/framester/data/framestercore/Progress, https://w3id.org/framester/wn/wn30/instances/synset-flower-noun-1	fs:Shapes,fs:Adorning,fs:Progress,fs:Attaching,fs:Filling
+2408126	309031	a flower with lots of petals			folk:Development	https://w3id.org/framester/data/framestercore/Progress, https://w3id.org/framester/wn/wn30/instances/synset-flower-noun-1	fs:Progress
+2408126	309032	three flowers are in water					fs:Substance
+2408126	309033	flower is hot pink colored			folk:Development	https://w3id.org/framester/data/framestercore/Progress, https://w3id.org/framester/wn/wn30/instances/synset-flower-noun-1	fs:Temperature,fs:AmbientTemperature,fs:Progress,fs:SubjectiveTemperature
+2408126	309034	photo was taken in the daytime					fs:MeasureDuration,fs:CalendricUnit,fs:Representing,fs:Inclusion,fs:LocationInTime,fs:Timespan
+2408126	309035	photo was taken outside					fs:Performers,fs:Representing
+2408126	309036	water is filled up to the flower petals			folk:Development, folk:Willingness	https://w3id.org/framester/data/framestercore/Progress, https://w3id.org/framester/wn/wn30/instances/synset-up-adjective-1, https://w3id.org/framester/wn/wn30/instances/synset-flower-noun-1	fs:Filling,fs:Substance,fs:Progress,fs:Adorning
+2408126	309037	flowers and water container is casting a shadow					fs:OpticalImage,fs:Substance,fs:CommunicateCategorization,fs:Containers,fs:Motion,fs:LocationOfLight,fs:CauseMotion,fs:Removing
+2408126	309038	the background is out of focus					fs:PlaceWeightOn
+2408126	309039	inside the flower are white and light pink			folk:Development	https://w3id.org/framester/data/framestercore/Progress, https://w3id.org/framester/wn/wn30/instances/synset-flower-noun-1	fs:ColorQualities,fs:Progress,fs:Color
+2408126	309040	flowers have green torns					fs:Ingestion,fs:Possession,fs:Color
+2408126	309041	outside the pink flower is bright red petals			folk:Development	https://w3id.org/framester/data/framestercore/Progress, https://w3id.org/framester/wn/wn30/instances/synset-flower-noun-1	fs:LocationOfLight,fs:Progress,fs:Color

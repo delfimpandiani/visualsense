@@ -1,0 +1,51 @@
+image_id	region_id	phrase	Emotions	Emotions Triggers	Values	Values Triggers	Frames
+2403021	613819	a man wearing a suit					fs:People,fs:Clothing
+2403021	613820	a man wearing black glasses 					fs:People,fs:Color
+2403021	613821	a man wearing a tie					fs:People,fs:Clothing
+2403021	613822	a man holding a guitar 					fs:People,fs:NoiseMakers
+2403021	613823	a man wearing a white shirt					fs:People,fs:Clothing,fs:Color
+2403021	613824	a woman wearing a ring					fs:People
+2403021	613825	a woman with black hair					fs:People,fs:HairConfiguration,fs:ObservableBodyParts,fs:Color
+2403021	613826	a man with black hair					fs:People,fs:HairConfiguration,fs:ObservableBodyParts,fs:Color
+2403021	613827	a red guitar 					fs:NoiseMakers,fs:Color
+2403021	613828	a drum kit symbol 					fs:Gesture,fs:Containers
+2403021	613829	singer wearing suit and sunglasses					fs:CommunicationManner,fs:Performers,fs:Clothing
+2403021	613830	microphone on angled stand					
+2403021	613831	man playing red bass guitar					fs:People,fs:NoiseMakers,fs:Color
+2403021	613832	back of woman's head and her hand					fs:People,fs:PartOrientational,fs:PartWhole,fs:ObservableBodyParts
+2403021	613833	cymbal in drum kit					fs:Containers
+2403021	613834	man wearing suit and pointing to himself					fs:Evidence,fs:CauseToPerceive,fs:People,fs:Clothing,fs:Adducing
+2403021	613835	five men on a stage					
+2403021	613836	man playing drums in background					
+2403021	613837	back of man in audience wearing a white shirt					fs:PartOrientational,fs:People,fs:Color,fs:GatheringUp,fs:Clothing
+2403021	613838	back of woman wearing a white turtleneck					fs:People,fs:PartOrientational,fs:Clothing,fs:Color
+2403021	613839	man holding a microphone.					fs:People
+2403021	613840	man holding an electric guitar.					fs:People,fs:NoiseMakers,fs:Electricity
+2403021	613841	man wearing a suit and tie.					fs:People,fs:Clothing
+2403021	613842	woman with long blonde hair.					fs:People,fs:HairConfiguration,fs:ObservableBodyParts,fs:DurationAttribute
+2403021	613843	balding man standing in audience.			mft:Authority, folk:Consideration	https://w3id.org/framester/wn/wn30/instances/synset-standing-noun-1, https://w3id.org/framester/data/framestercore/OccupyRank	fs:OccupyRank,fs:GatheringUp,fs:People
+2403021	613844	section of purple light.					fs:Color,fs:LocationOfLight,fs:PerformingArts
+2403021	613845	musician standing behind singer.	be:Enjoyment	http://dbpedia.org/resource/Singing	mft:Authority, folk:Fun, folk:Consideration	https://w3id.org/framester/wn/wn30/instances/synset-standing-noun-1, http://dbpedia.org/resource/Singing, https://w3id.org/framester/data/framestercore/OccupyRank	fs:CommunicationManner,fs:Performers,fs:OccupyRank
+2403021	613846	person wearing a suit and tie.					fs:People,fs:Clothing
+2403021	613847	human hand.					fs:ObservableBodyParts
+2403021	613848	man standing in an audience.			mft:Authority, folk:Consideration	https://w3id.org/framester/wn/wn30/instances/synset-standing-noun-1, https://w3id.org/framester/data/framestercore/OccupyRank	fs:OccupyRank,fs:GatheringUp,fs:People
+2403021	613849	the men are on stage					fs:TimePeriodOfAction
+2403021	613850	the man has a guitar					fs:People,fs:NoiseMakers,fs:Ingestion
+2403021	613851	the guitar is red					fs:NoiseMakers,fs:Color
+2403021	613852	the man is wearing a black jacket					fs:People,fs:Clothing,fs:Color
+2403021	613853	the man is wearing sun glasses			folk:Structure	https://w3id.org/framester/wn/wn30/instances/synset-sun-noun-1	fs:People,fs:Locale
+2403021	613854	the man is singing					fs:People,fs:CommunicationManner
+2403021	613855	the man is wearing a white shirt					fs:People,fs:Clothing,fs:Color
+2403021	613856	the girl has long hair					fs:Ingestion,fs:HairConfiguration,fs:People,fs:DurationAttribute,fs:ObservableBodyParts
+2403021	613857	the girl has blond hair					fs:People,fs:HairConfiguration,fs:ObservableBodyParts
+2403021	613858	the man is wearing glasses					fs:People
+2403021	613859	four men on stage performing					fs:TimePeriodOfAction,fs:IntentionallyAct
+2403021	613860	man playing red guitar					fs:People,fs:NoiseMakers,fs:Color
+2403021	613861	man in black suit singing					fs:CommunicationManner,fs:People,fs:Clothing,fs:Color
+2403021	613862	man in black suit					fs:People,fs:Clothing,fs:Color
+2403021	613863	man wearing sun glasses			folk:Structure	https://w3id.org/framester/wn/wn30/instances/synset-sun-noun-1	fs:People,fs:Locale
+2403021	613864	spectators watching performance			folk:Analysis	https://w3id.org/framester/vn/vn31/data/Watch_30020000	fs:PerceptionActive,fs:Seeking,fs:BeingAwake,fs:Cotheme,fs:PerformingArts
+2403021	613865	man in grey shirt playing drums					fs:BehindTheScenes,fs:Creating,fs:People,fs:IntentionallyCreate,fs:Clothing
+2403021	613866	purple lights lighting stage					fs:TimePeriodOfAction,fs:Gizmo,fs:Color
+2403021	613867	two women in audience					fs:GatheringUp
+2403021	613868	man in white shirt in audience					fs:People,fs:GatheringUp,fs:Clothing,fs:Color

@@ -1,0 +1,49 @@
+image_id	region_id	phrase	Emotions	Emotions Triggers	Values	Values Triggers	Frames
+2403355	597719	a black wheel 					fs:Artifact,fs:Color
+2403355	597720	a black wheel 					fs:Artifact,fs:Color
+2403355	597722	the head of a person 					fs:People,fs:ObservableBodyParts
+2403355	597723	the hand of a person 					fs:People,fs:ObservableBodyParts
+2403355	597724	the ear of a person 			folk:Helping, mft:Care	http://dbpedia.org/resource/Person	fs:People,fs:ObservableBodyParts
+2403355	597725	the hair of a person 					fs:People,fs:HairConfiguration,fs:ObservableBodyParts
+2403355	597726	a flat screen tv 					fs:PartInnerOuter
+2403355	597727	a black phone 					fs:Contacting,fs:CommunicationMeans,fs:Color
+2403355	597728	a nice laptop 			folk:Excellence	https://w3id.org/framester/wn/wn30/instances/synset-nice-adjective-1	fs:StimulusFocus
+2403355	597729	person sitting on a couch 			folk:Comfort	http://dbpedia.org/resource/Couch	fs:BeingLocated,fs:Posture,fs:ChangePosture,fs:People,fs:Placing
+2403355	597730	television on a table 					
+2403355	597731	handle on a drawer 			bhv:Power, mft:Care, folk:Leadership	https://w3id.org/framester/wn/wn30/instances/synset-manage-verb-2	fs:ResolveProblem,fs:Containers
+2403355	597732	dog near a couch 			folk:Comfort	http://dbpedia.org/resource/Couch	fs:Animals
+2403355	597733	wheel on a dolly 					fs:Artifact
+2403355	597734	dolly on the floor 			folk:Control, mft:Harm	https://w3id.org/framester/wn/wn30/instances/synset-floor-noun-1	fs:ArchitecturalPart,fs:CreatePhysicalArtwork,fs:Performers
+2403355	597735	curtain on a window 					fs:ConnectingArchitecture,fs:Filling,fs:Adorning
+2403355	597736	lights on a ceiling 					fs:BuildingSubparts,fs:ConnectingArchitecture
+2403355	597737	furniture on a floor 			folk:Control, mft:Harm	https://w3id.org/framester/wn/wn30/instances/synset-floor-noun-1	fs:ArchitecturalPart
+2403355	597738	black lamp on the floor 			folk:Control, mft:Harm	https://w3id.org/framester/wn/wn30/instances/synset-floor-noun-1	fs:ArchitecturalPart,fs:Color
+2403355	597739	a dolly parked in a living room					fs:BuildingSubparts,fs:Placing
+2403355	597740	a dog sniffing under a couch					fs:Animals
+2403355	597741	a man working on a computer					fs:People,fs:Gizmo,fs:WorkingOn,fs:BeingEmployed
+2403355	597742	a smart phone sitting on the arm of a couch			folk:Beauty	https://w3id.org/framester/wn/wn30/instances/synset-smart-adjective-1	fs:BeingLocated,fs:ShapedPart,fs:MentalProperty,fs:Posture,fs:ChangePosture,fs:Placing,fs:Contacting,fs:ObservableBodyParts,fs:CommunicationMeans,fs:Aesthetics
+2403355	597743	a man sitting on a couch					fs:BeingLocated,fs:Posture,fs:ChangePosture,fs:People,fs:Placing
+2403355	597744	lights on a ceiling fan					fs:BuildingSubparts,fs:ConnectingArchitecture
+2403355	597745	a flat screen tv					fs:PartInnerOuter
+2403355	597746	grey curtains in a window					fs:ConnectingArchitecture
+2403355	597747	dvds stacked on a tv stand					fs:Filling,fs:Placing
+2403355	597748	a speaker in front of a tv			folk:Learning, mft:Harm	https://w3id.org/framester/wn/wn30/instances/synset-speaker-noun-1, https://w3id.org/framester/wn/wn30/instances/synset-front-noun-1	fs:PartOrientational,fs:Statement,fs:SpeakOnTopic,fs:Discussion,fs:Communication,fs:CommunicationManner,fs:TextCreation
+2403355	597749	a curtain on a window 					fs:ConnectingArchitecture,fs:Filling,fs:Adorning
+2403355	597750	a curtain on a window 					fs:ConnectingArchitecture,fs:Filling,fs:Adorning
+2403355	597751	a curtain on a window 					fs:ConnectingArchitecture,fs:Filling,fs:Adorning
+2403355	597752	a window on a house 					fs:ConnectingArchitecture,fs:Buildings
+2403355	597754	a wooden drawer 					fs:Containers
+2403355	597755	a wooden drawer 					fs:Containers
+2403355	597756	a wooden drawer 					
+2403355	597757	a wooden drawer 					fs:Containers
+2403355	597758	a brown dog 					fs:Animals,fs:Color
+2403355	597759	full length beige sheer curtains					fs:Dimension
+2403355	597760	brown dog sniffing at floor			folk:Control, mft:Harm	https://w3id.org/framester/wn/wn30/instances/synset-floor-noun-1	fs:Animals,fs:ArchitecturalPart,fs:Color
+2403355	597761	television set turned off					fs:UndergoChange,fs:CauseToMoveInPlace,fs:Motion,fs:ChangeDirection,fs:MovingInPlace,fs:Aggregate
+2403355	597762	man looking at laptop			folk:Analysis	https://w3id.org/framester/data/framestercore/Scrutiny, https://w3id.org/framester/vn/vn31/data/Look_30030000	fs:PerceptionActive,fs:Seeking,fs:People,fs:Scrutiny
+2403355	597763	man sitting on sofa					fs:BeingLocated,fs:Posture,fs:ChangePosture,fs:People,fs:Placing
+2403355	597764	man with bald patch on top of head					fs:BeingLocated,fs:Posture,fs:People,fs:Supply,fs:ObservableBodyParts
+2403355	597765	wall mounted speaker			folk:Learning, mft:Care, bhv:Security	https://w3id.org/framester/wn/wn30/instances/synset-wall-noun-1, https://w3id.org/framester/wn/wn30/instances/synset-speaker-noun-1	fs:ArchitecturalPart,fs:Statement,fs:SpeakOnTopic,fs:Discussion,fs:Communication,fs:CommunicationManner,fs:TextCreation
+2403355	597766	purple floor length sheer curtain			folk:Control, mft:Harm	https://w3id.org/framester/wn/wn30/instances/synset-floor-noun-1	fs:Adorning,fs:ArchitecturalPart,fs:Dimension,fs:Color,fs:Filling
+2403355	597767	metal hand truck					fs:ObservableBodyParts,fs:Vehicle
+2403355	597768	black metal floor lamp			folk:Control, mft:Harm	https://w3id.org/framester/wn/wn30/instances/synset-floor-noun-1	fs:ArchitecturalPart,fs:Color

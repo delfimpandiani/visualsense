@@ -1,0 +1,51 @@
+image_id	region_id	phrase	Emotions	Emotions Triggers	Values	Values Triggers	Frames
+2410788	522229	mans yellow t shirt					fs:Clothing,fs:Color
+2410788	522230	ships captain in uniform			mft:Authority, folk:Leadership, bhv:Power	https://w3id.org/framester/wn/wn30/instances/synset-captain-verb-1, https://w3id.org/framester/data/framestercore/Leadership	fs:Leadership,fs:Clothing
+2410788	522231	black laptop with black case					fs:StateOfEntity,fs:Color
+2410788	522232	mens brown leather sandals					
+2410788	522233	name tag worn around neck					fs:Attaching,fs:ObservableBodyParts,fs:ReferringByName,fs:BeingNamed
+2410788	522234	black laptop with black case					fs:StateOfEntity,fs:Color
+2410788	522235	two tone tile work on side walk 					fs:ArchitecturalPart,fs:Filling,fs:LaborProduct,fs:WorkingOn
+2410788	522236	three men sitting on bench					fs:ChangePosture,fs:Posture,fs:BeingLocated,fs:Placing
+2410788	522237	dirty city cide walk			mft:Authority	https://w3id.org/framester/wn/wn30/instances/synset-city-noun-1, https://w3id.org/framester/data/framestercore/PoliticalLocales	fs:LocaleByUse,fs:PoliticalLocales
+2410788	522238	mens white tennis shoes					fs:Color
+2410788	522239	"""this man has his legs crossed"""					fs:Building,fs:Manufacturing,fs:Ingestion,fs:Traversing,fs:Creating,fs:People,fs:IntentionallyCreate,fs:BodyMovement
+2410788	522240	"""the man is wearing a white uniform"""					fs:People,fs:Clothing,fs:Color
+2410788	522241	"""the man is wearing white shoes"""					fs:People,fs:Color
+2410788	522242	"""the man is wearing sandals"""					fs:People
+2410788	522243	"""all three men is smiling"""					fs:MakingFaces
+2410788	522244	"""he is wearing headphones"""					
+2410788	522245	"""they each have laptops"""					fs:Ingestion,fs:Possession
+2410788	522246	"""his shirt is yellow"""					fs:Clothing,fs:Color
+2410788	522247	"""his sandals are brown"""					fs:ApplyHeat
+2410788	522248	"""three men sitting on a bench"""					fs:ChangePosture,fs:Posture,fs:BeingLocated,fs:Placing
+2410788	522249	captain's legs crossed 			mft:Authority, folk:Leadership, bhv:Power	https://w3id.org/framester/wn/wn30/instances/synset-captain-noun-2, https://w3id.org/framester/data/framestercore/Leadership	fs:PathShape,fs:Leadership
+2410788	522250	black computer on captain's lap	be:Enjoyment	http://dbpedia.org/resource/Computer	mft:Authority, folk:Learning, bhv:Power, folk:Leadership	http://dbpedia.org/resource/Computer, https://w3id.org/framester/wn/wn30/instances/synset-captain-noun-2, https://w3id.org/framester/data/framestercore/Leadership	fs:Leadership,fs:Gizmo,fs:ObservableBodyParts,fs:Color
+2410788	522251	face of captain looking at computer			mft:Authority, folk:Leadership, folk:Analysis, bhv:Power	https://w3id.org/framester/wn/wn30/instances/synset-captain-noun-2, https://w3id.org/framester/vn/vn31/data/Look_30030000, https://w3id.org/framester/data/framestercore/Scrutiny, https://w3id.org/framester/data/framestercore/Leadership	fs:PerceptionActive,fs:Gizmo,fs:Seeking,fs:Scrutiny,fs:Leadership,fs:ObservableBodyParts,fs:FacialExpression
+2410788	522252	white pants of young man in center on bench					fs:People,fs:Color,fs:PartInnerOuter,fs:Clothing,fs:Age
+2410788	522253	gold tee shirt of man on left of bench					
+2410788	522254	feet wearing flip flops 			bhv:Achievement, folk:Accomplishment	https://w3id.org/framester/wn/wn30/instances/synset-somersault-noun-1	
+2410788	522255	red and white badge on purple lanyard strape					fs:Accoutrements,fs:Color
+2410788	522256	face of man in the center working on computer					fs:Gizmo,fs:WorkingOn,fs:People,fs:PartInnerOuter,fs:ObservableBodyParts,fs:FacialExpression,fs:BeingEmployed
+2410788	522257	face of man on left wearing earphones					fs:PartOrientational,fs:People,fs:ObservableBodyParts,fs:FacialExpression
+2410788	522258	right leg of man in the middle of bench					fs:PartOrientational,fs:ShapedPart,fs:People,fs:PartInnerOuter,fs:ObservableBodyParts
+2410788	522259	three men sitting on a bench					fs:ChangePosture,fs:Posture,fs:BeingLocated,fs:Placing
+2410788	522260	the men are looking at laptops			folk:Analysis	https://w3id.org/framester/data/framestercore/Scrutiny, https://w3id.org/framester/vn/vn31/data/Look_30030000	fs:PerceptionActive,fs:Seeking,fs:Scrutiny
+2410788	522261	two men are wearing white shoes					fs:Color
+2410788	522262	the laptops are black					fs:Color
+2410788	522263	two of the men are wearing headsets					
+2410788	522264	the man is wearing black pants and a yellow shirt					fs:People,fs:Clothing,fs:Color
+2410788	522265	two men are wearing white clothes					fs:Clothing,fs:Color
+2410788	522266	the laptop says toshiba					fs:Statement,fs:Request,fs:Communication,fs:TextCreation
+2410788	522267	the man is wearing sandals					fs:People
+2410788	522268	the ground is dirty					fs:NaturalFeatures
+2410788	522269	the man is wearing a shirt					fs:People,fs:Clothing
+2410788	522270	the man is wearing a yellow shirt					fs:People,fs:Clothing,fs:Color
+2410788	522271	the man is wearing pants					fs:People,fs:Clothing
+2410788	522272	the man is wearing black pants					fs:People,fs:Clothing,fs:Color
+2410788	522273	the man is wearing sandals					fs:People
+2410788	522274	the man is wearing brown sandals					fs:People,fs:Color
+2410788	522275	the person is wearing a white shirt					fs:People,fs:Clothing,fs:Color
+2410788	522276	the person is wearing white pants					fs:People,fs:Clothing,fs:Color
+2410788	522277	the person is wearing white shoes					fs:People,fs:Color
+2410788	522278	the person's shirt has words on it					fs:People,fs:Ingestion,fs:Clothing

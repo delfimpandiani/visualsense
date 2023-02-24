@@ -1,0 +1,51 @@
+image_id	region_id	phrase	Emotions	Emotions Triggers	Values	Values Triggers	Frames
+2404394	548419	a white frisbee in flight					fs:RideVehicle,fs:Color
+2404394	548420	guy in white shirt playing frisbee					fs:People,fs:Clothing,fs:Color
+2404394	548421	guy in green shirt playing frisbee					fs:People,fs:Clothing,fs:Color
+2404394	548422	a male in white shirt and red shorts					fs:Animals,fs:Clothing,fs:Color
+2404394	548423	person in shorts and a hoodie					fs:People
+2404394	548424	red and white athletic shorts					fs:Color
+2404394	548425	man in black shirt sitting in grass			bhv:Benevolence, mft:Care, folk:Helping	https://w3id.org/framester/wn/wn30/instances/synset-grass-noun-1	fs:Adorning,fs:BeingLocated,fs:Posture,fs:ChangePosture,fs:People,fs:Color,fs:Placing,fs:Filling,fs:Clothing
+2404394	548426	a crowd of men playing frisbee					fs:Aggregate
+2404394	548427	an athletic shoe					fs:Clothing
+2404394	548428	grey colored stocking cap					fs:Accoutrements,fs:Clothing,fs:Color
+2404394	548429	the frisbee is white					fs:Color
+2404394	548430	the man is wearing black shorts					fs:People,fs:Color
+2404394	548431	the man is wearing a green jacket					fs:People,fs:Clothing,fs:Color
+2404394	548432	the man is wearing a white shirt					fs:People,fs:Clothing,fs:Color
+2404394	548433	the man's shirt has the number 17 on it			folk:Independence	https://w3id.org/framester/wn/wn30/instances/synset-number-noun-1	fs:People,fs:Ingestion,fs:Clothing,fs:Quantity
+2404394	548434	the man is wearing grey sweat pants	be:Disgust	https://w3id.org/framester/wn/wn30/instances/synset-perspiration-noun-1	mft:Degradation	https://w3id.org/framester/wn/wn30/instances/synset-perspiration-noun-1, https://w3id.org/framester/data/framestercore/Excreting	fs:People,fs:Clothing,fs:Color,fs:Excreting
+2404394	548435	the man has kg on his shorts					fs:People
+2404394	548436	the man is wearing shorts					fs:People
+2404394	548437	the man is wearing a black t-shirt					fs:People,fs:Clothing,fs:Color
+2404394	548438	the man man is wearing a grey beanie					fs:Accoutrements,fs:People
+2404394	548439	person wearing green shirt.					fs:People,fs:Clothing,fs:Color
+2404394	548440	person wearing black shorts.					fs:People,fs:Color
+2404394	548441	person wearing gray hat.					fs:Accoutrements,fs:People,fs:Color
+2404394	548442	person wearing white shirt.					fs:People,fs:Clothing,fs:Color
+2404394	548443	person wearing gray pants.					fs:People,fs:Clothing,fs:Color
+2404394	548444	person wearing brown hat.					fs:Accoutrements,fs:People,fs:Color
+2404394	548445	person wearing white shirt.					fs:People,fs:Clothing,fs:Color
+2404394	548446	person wearing red shorts.					fs:People,fs:Color
+2404394	548447	person wearing black shirt.					fs:People,fs:Clothing,fs:Color
+2404394	548448	person wearing black pants.					fs:People,fs:Clothing,fs:Color
+2404394	548449	boys playing frisbee					
+2404394	548450	a white frisbee					fs:Color
+2404394	548451	a mans shorts					
+2404394	548452	a man wearing a beanie					fs:Accoutrements,fs:People
+2404394	548453	a man who is about to take the frisbee			mft:Authority, folk:Leadership, bhv:Power	https://w3id.org/framester/wn/wn30/instances/synset-lead-verb-1, https://w3id.org/framester/vn/vn31/data/Take_10050000, https://w3id.org/framester/data/framestercore/ChangeOfLeadership	fs:ChangeOfQuantityOfPossession,fs:Getting,fs:Cotheme,fs:People,fs:ChangeOfLeadership,fs:Bringing,fs:Conquering,fs:Taking,fs:Removing,fs:EarningsAndLosses
+2404394	548454	a guy walking and playing with his pants					fs:People,fs:Clothing
+2404394	548455	a group of people loitering			folk:Helping, mft:Care	http://dbpedia.org/resource/Person	fs:Aggregate,fs:Organization,fs:People
+2404394	548456	a man with hands in his pockets					fs:People
+2404394	548457	grass on the ground			bhv:Benevolence, mft:Care, folk:Helping	https://w3id.org/framester/wn/wn30/instances/synset-grass-noun-1	fs:Filling,fs:NaturalFeatures,fs:Adorning
+2404394	548458	the guy's very dirty ugly shoes			folk:Beauty	https://w3id.org/framester/wn/wn30/instances/synset-ugly-adjective-1	fs:Identicality,fs:People,fs:Aesthetics
+2404394	548459	young men playing with a frisbee					fs:Competition,fs:Age
+2404394	548460	person wearing a hood			mft:Harm	https://w3id.org/framester/wn/wn30/instances/synset-hood-noun-1	fs:People,fs:PeopleByMorality
+2404394	548461	frisbee between two young men					fs:Age
+2404394	548462	man walking with hands on hips					fs:People
+2404394	548463	young man with short pants catching frisbee					
+2404394	548464	young man with long pants catching frisbee			folk:Control	https://w3id.org/framester/data/framestercore/Manipulation	fs:Getting,fs:Manipulation,fs:People,fs:HuntingSuccessOrFailure,fs:Taking,fs:DurationAttribute,fs:Clothing,fs:Age
+2404394	548465	emblem on back of hoodie					fs:ObservableBodyParts
+2404394	548466	person bending over					fs:People,fs:ProcessCompletedState
+2404394	548467	glove on persons hand playing with frisbee					fs:ObservableBodyParts
+2404394	548468	man walking away to the right					fs:People,fs:SelfMotion,fs:Cotheme

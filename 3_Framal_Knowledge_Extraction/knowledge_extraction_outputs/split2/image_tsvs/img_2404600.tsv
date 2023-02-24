@@ -1,0 +1,50 @@
+image_id	region_id	phrase	Emotions	Emotions Triggers	Values	Values Triggers	Frames
+2404600	538419	kids ridding the elephant 					fs:Emptying
+2404600	538421	brown carpet behind the elephant					fs:Filling,fs:Adorning,fs:Color
+2404600	538422	woman taking picture			mft:Authority, folk:Leadership, bhv:Power	https://w3id.org/framester/vn/vn31/data/Take_10050000, https://w3id.org/framester/data/framestercore/ChangeOfLeadership	fs:ChangeOfQuantityOfPossession,fs:Getting,fs:OpticalImage,fs:Cotheme,fs:People,fs:Sensation,fs:ChangeOfLeadership,fs:Conquering,fs:Bringing,fs:Taking,fs:Removing,fs:EarningsAndLosses
+2404600	538423	man standing with sunglasses 			mft:Authority, folk:Consideration	https://w3id.org/framester/wn/wn30/instances/synset-standing-noun-1, https://w3id.org/framester/data/framestercore/OccupyRank	fs:OccupyRank,fs:People
+2404600	538424	stainless bench					
+2404600	538425	man wearing grey wearing blue hat					fs:Accoutrements,fs:People,fs:Color
+2404600	538426	kids enjoying the elephant ride					fs:RideVehicle
+2404600	538427	brown soil on the ground	be:Disgust	https://w3id.org/framester/wn/wn30/instances/synset-dirt-noun-2			fs:NaturalFeatures,fs:Adorning,fs:CauseChange,fs:Color,fs:Filling
+2404600	538428	stairs beside the elephant					
+2404600	538429	a group of children riding an elephant					fs:Travel,fs:RideVehicle,fs:Organization,fs:Aggregate,fs:OperateVehicle
+2404600	538430	a man with a black shirt and pants					fs:People,fs:Clothing,fs:Color
+2404600	538431	a man with a blue and white baseball cap					fs:Accoutrements,fs:People,fs:Color
+2404600	538432	a woman with glasses					fs:People
+2404600	538433	long metal bleachers					
+2404600	538434	a blonde haired boy					fs:HairConfiguration
+2404600	538435	an elephants long trunk 					fs:DurationAttribute
+2404600	538436	three smiling children					fs:MakingFaces
+2404600	538437	a long metal ladder					fs:ConnectingArchitecture,fs:DurationAttribute
+2404600	538438	a metal railing to hold passengers			folk:Perseverance, mft:Oppression, bhv:Security	https://w3id.org/framester/data/framestercore/CauseToContinue, https://w3id.org/framester/wn/wn30/instances/synset-keep-verb-1	fs:CauseToContinue,fs:ActivityOngoing
+2404600	538439	an indian elephant in a circus					
+2404600	538440	a group of kids getting a ride on an elephant			folk:Intuitive	https://w3id.org/framester/data/framestercore/Grasp	fs:Getting,fs:RideVehicle,fs:Organization,fs:Grasp,fs:Bringing,fs:Aggregate
+2404600	538441	a young boy with blond hair holds on to a rail 					fs:HairConfiguration,fs:ArchitecturalPart,fs:Age,fs:ObservableBodyParts
+2404600	538442	a pair of grey leather boots					fs:Aggregate
+2404600	538443	an elephants small ears					fs:PartWhole
+2404600	538444	a lady with a pink camera					fs:People,fs:Color
+2404600	538445	aluminum stands for the spectators					fs:Substance
+2404600	538446	the elephants toe nails					
+2404600	538447	the elephants trunk is sensitive					fs:HealthResponse
+2404600	538448	the girl is wearing a long sleeve grey blouse					fs:People,fs:DurationAttribute,fs:ClothingParts,fs:Clothing
+2404600	538449	the ear of an elephant					fs:ObservableBodyParts
+2404600	538450	the arm of a man					fs:People,fs:ObservableBodyParts,fs:ShapedPart
+2404600	538451	the head of an elephant					fs:ObservableBodyParts
+2404600	538452	the trunk of an elephant					
+2404600	538453	the foot of an elephant					
+2404600	538454	the leg of an elephant					
+2404600	538455	a black shoe on the girl					fs:People,fs:Clothing,fs:Color
+2404600	538456	a tan boot					fs:Clothing,fs:Color
+2404600	538457	the head of the woman					fs:People,fs:ObservableBodyParts
+2404600	538458	a baseball cap					fs:Accoutrements
+2404600	538459	elephant being ridden					fs:Travel,fs:OperateVehicle,fs:RideVehicle
+2404600	538460	kids riding on an elephant					fs:Travel,fs:OperateVehicle,fs:RideVehicle
+2404600	538461	people watching the elephant and kids			folk:Analysis	https://w3id.org/framester/vn/vn31/data/Watch_30020000	fs:PerceptionActive,fs:Seeking,fs:BeingAwake,fs:Cotheme,fs:People
+2404600	538462	a woman taking a picture			mft:Authority, folk:Leadership, bhv:Power	https://w3id.org/framester/vn/vn31/data/Take_10050000, https://w3id.org/framester/data/framestercore/ChangeOfLeadership	fs:ChangeOfQuantityOfPossession,fs:Getting,fs:OpticalImage,fs:Cotheme,fs:People,fs:Sensation,fs:ChangeOfLeadership,fs:Conquering,fs:Bringing,fs:Taking,fs:Removing,fs:EarningsAndLosses
+2404600	538463	elephant giving kids a ride			folk:Giving	https://w3id.org/framester/data/framestercore/Giving	fs:Ingestion,fs:Giving,fs:Passing,fs:RideVehicle
+2404600	538464	a tamed elephant					
+2404600	538465	elephant in a circus					
+2404600	538466	empty seats for an audience					fs:Fullness,fs:GatheringUp
+2404600	538467	dirt on the ground					fs:Substance,fs:NaturalFeatures
+2404600	538468	a blonde woman					fs:People,fs:HairConfiguration

@@ -1,0 +1,51 @@
+image_id	region_id	phrase	Emotions	Emotions Triggers	Values	Values Triggers	Frames
+2408143	308142	square iron grate on ground					fs:Substance,fs:NaturalFeatures,fs:Supply
+2408143	308143	small piece of white paper					fs:Building,fs:Substance,fs:Ingredients,fs:Creating,fs:Size,fs:Dimension,fs:Color,fs:Filling,fs:PartWhole
+2408143	308144	small black spot on ground					fs:Color,fs:NaturalFeatures,fs:Size,fs:Dimension
+2408143	308145	small white area on fire hydrant					fs:Locale,fs:Dimension,fs:Size,fs:Event,fs:Color
+2408143	308146	large sign on apartment building					fs:BuildingSubparts,fs:Size,fs:Dimension,fs:Buildings,fs:Sign
+2408143	308147	large window in building					fs:ConnectingArchitecture,fs:Buildings,fs:Size,fs:Dimension
+2408143	308148	man leaning against post					fs:PathShape,fs:Posture,fs:ChangePosture,fs:People,fs:MotionDirectional,fs:BeingEmployed
+2408143	308149	large white van parked in spot					fs:Size,fs:Dimension,fs:Color,fs:Placing,fs:Vehicle
+2408143	308150	rear of passenger bus					fs:Travel,fs:Pattern,fs:RideVehicle,fs:Vehicle,fs:OperateVehicle
+2408143	308151	large fire hydrant on sidewalk					fs:Roadways,fs:Dimension,fs:Size,fs:Event
+2408143	308152	the name of the building written on the building.					fs:ReferringByName,fs:BeingNamed,fs:SpellingAndPronouncing,fs:Buildings,fs:TextCreation
+2408143	308153	fire hydrant on the street.					fs:Roadways,fs:Event
+2408143	308154	steps going up to the bus.			folk:Willingness	https://w3id.org/framester/wn/wn30/instances/synset-up-adjective-1	fs:Motion,fs:Vehicle,fs:ProcessEnd
+2408143	308155	white bus in the background.					fs:Vehicle,fs:Color
+2408143	308156	man leaning on the bus.					fs:PathShape,fs:Posture,fs:ChangePosture,fs:People,fs:MotionDirectional,fs:Vehicle
+2408143	308157	man sitting on bus.					fs:BeingLocated,fs:Posture,fs:ChangePosture,fs:People,fs:Placing,fs:Vehicle
+2408143	308158	bus door open.					fs:ConnectingArchitecture,fs:Openness,fs:Vehicle
+2408143	308159	pillars on the building.					fs:Buildings
+2408143	308160	lot of windows on the building.					fs:Aggregate,fs:Buildings,fs:Quantity
+2408143	308161	roof of the building.					fs:ArchitecturalPart,fs:Buildings
+2408143	308162	man standing inside of bus			mft:Authority, folk:Consideration	https://w3id.org/framester/wn/wn30/instances/synset-standing-noun-1, https://w3id.org/framester/data/framestercore/OccupyRank	fs:OccupyRank,fs:Vehicle,fs:People
+2408143	308163	man sitting inside of bus					fs:BeingLocated,fs:Posture,fs:ChangePosture,fs:People,fs:Placing,fs:Vehicle
+2408143	308164	hydrant on the sidewalk beside the bus					
+2408143	308165	passenger bus at a stop					
+2408143	308166	sidewalk beside the bus					fs:Roadways,fs:Vehicle
+2408143	308167	drain hole on the sidewalk					fs:FluidicMotion,fs:Removing,fs:Emptying,fs:Roadways
+2408143	308168	road the bus is traveling on			folk:Victory	https://w3id.org/framester/data/framestercore/BeatOpponent	fs:Travel,fs:BeatOpponent,fs:Motion,fs:SelfMotion,fs:Sending,fs:IntentionallyCreate,fs:Roadways,fs:Vehicle
+2408143	308169	white van parked on the other side of the bus					fs:Color,fs:Vehicle,fs:Placing
+2408143	308170	large buiding on the other side of the bus					fs:Vehicle,fs:Size,fs:Dimension
+2408143	308171	large building with lots of windows					fs:Buildings,fs:Size,fs:Dimension
+2408143	308172	fire hydrate on city street			mft:Authority	https://w3id.org/framester/data/framestercore/PoliticalLocales, https://w3id.org/framester/wn/wn30/instances/synset-city-noun-1	fs:Substance,fs:PoliticalLocales,fs:LocaleByUse,fs:Event,fs:CauseToAmalgamate,fs:Roadways
+2408143	308173	cement tiles on city street			mft:Authority	https://w3id.org/framester/wn/wn30/instances/synset-city-noun-1, https://w3id.org/framester/data/framestercore/PoliticalLocales	fs:Adorning,fs:PoliticalLocales,fs:LocaleByUse,fs:Attaching,fs:Roadways,fs:Filling
+2408143	308174	city bus waiting at bus stop			mft:Authority	https://w3id.org/framester/wn/wn30/instances/synset-city-noun-1, https://w3id.org/framester/data/framestercore/PoliticalLocales	fs:TemporaryStay,fs:PoliticalLocales,fs:LocaleByUse,fs:Expectation,fs:Waiting,fs:HoldingOffOn,fs:Vehicle
+2408143	308175	white mini van parked on city street			mft:Authority, bhv:Security	https://w3id.org/framester/data/framestercore/PoliticalLocales, http://dbpedia.org/resource/City, https://w3id.org/framester/wn/wn30/instances/synset-city-noun-1	fs:PoliticalLocales,fs:LocaleByUse,fs:Color,fs:Placing,fs:Roadways,fs:Vehicle
+2408143	308176	man standing on city bus			mft:Authority, folk:Consideration	https://w3id.org/framester/wn/wn30/instances/synset-standing-noun-1, https://w3id.org/framester/wn/wn30/instances/synset-city-noun-1, https://w3id.org/framester/data/framestercore/OccupyRank, https://w3id.org/framester/data/framestercore/PoliticalLocales	fs:PoliticalLocales,fs:LocaleByUse,fs:OccupyRank,fs:People,fs:Vehicle
+2408143	308177	building in the city with arched windows			mft:Authority	https://w3id.org/framester/wn/wn30/instances/synset-city-noun-1, https://w3id.org/framester/data/framestercore/PoliticalLocales	fs:LocaleByUse,fs:Buildings,fs:PoliticalLocales
+2408143	308178	paved city street			mft:Authority	https://w3id.org/framester/wn/wn30/instances/synset-city-noun-1, https://w3id.org/framester/data/framestercore/PoliticalLocales	fs:Roadways,fs:AboundingWith,fs:LocaleByUse,fs:PoliticalLocales
+2408143	308179	two people talking on city bus			mft:Authority	https://w3id.org/framester/wn/wn30/instances/synset-city-noun-1, https://w3id.org/framester/data/framestercore/PoliticalLocales	fs:LocaleByUse,fs:People,fs:Vehicle,fs:PoliticalLocales
+2408143	308180	banner telling name of building					fs:ReferringByName,fs:BeingNamed,fs:Evidence,fs:Buildings,fs:Communication,fs:Statement,fs:Telling,fs:TextCreation
+2408143	308181	city street light on pole			mft:Authority	https://w3id.org/framester/data/framestercore/PoliticalLocales, https://w3id.org/framester/wn/wn30/instances/synset-city-noun-1	fs:PoliticalLocales,fs:LocaleByUse,fs:LocationOfLight,fs:Roadways,fs:InchoativeAttaching,fs:Supporting,fs:CauseMotion
+2408143	308182	a man on a bus					fs:People,fs:Vehicle
+2408143	308183	a man standing on a bus 					fs:BeingLocated,fs:Posture,fs:ChangePosture,fs:People,fs:Placing,fs:Vehicle
+2408143	308184	a fire hydrant on a sidewalk					fs:Roadways,fs:Event
+2408143	308185	a white van on the road					fs:Roadways,fs:Vehicle,fs:Color
+2408143	308186	a man wearing jeans leans against a pole					fs:InchoativeAttaching,fs:People,fs:Supporting,fs:CauseMotion
+2408143	308187	two men on a bus					fs:Vehicle
+2408143	308188	a bus at the side of the road with it's door open					fs:Roadways,fs:Openness,fs:Vehicle,fs:ConnectingArchitecture
+2408143	308189	a large building on the side of a road					fs:Roadways,fs:Buildings,fs:Size,fs:Dimension
+2408143	308190	a man on a bus wearing a sweatshirt					fs:People,fs:Vehicle,fs:Clothing
+2408143	308191	a two lane road separated by a walkway					fs:Motion,fs:SelfMotion,fs:Cotheme,fs:Conduct,fs:Roadways,fs:Separating

@@ -1,0 +1,49 @@
+image_id	region_id	phrase	Emotions	Emotions Triggers	Values	Values Triggers	Frames
+2403497	591019	light tan mule with black markings					fs:ColorQualities,fs:Color
+2403497	591020	man wearing sun hat for protection 			folk:Structure, mft:Care	https://w3id.org/framester/wn/wn30/instances/synset-protection-noun-1, https://w3id.org/framester/wn/wn30/instances/synset-sun-noun-1	fs:Accoutrements,fs:People,fs:Locale,fs:IntentionallyAct
+2403497	591021	bundle of wood on back of horse			bhv:Benevolence, folk:Helping, mft:Care	https://w3id.org/framester/data/framestercore/Assistance, https://w3id.org/framester/wn/wn30/instances/synset-horse-noun-1	fs:ObservableBodyParts,fs:Assistance,fs:Placing
+2403497	591022	brown horse with bridle on it 			folk:Consent, bhv:Benevolence, mft:Care, folk:Helping	https://w3id.org/framester/data/framestercore/Assistance, https://w3id.org/framester/wn/wn30/instances/synset-bridle-noun-1, https://w3id.org/framester/wn/wn30/instances/synset-horse-noun-1	fs:Assistance,fs:Hindering,fs:Color
+2403497	591023	shadow of horse walking on pavement			bhv:Benevolence, mft:Care, folk:Helping	https://w3id.org/framester/data/framestercore/Assistance, https://w3id.org/framester/wn/wn30/instances/synset-horse-noun-1	fs:OpticalImage,fs:Assistance,fs:Adorning,fs:Filling
+2403497	591024	rope tied to horse held by man walking			folk:Control, bhv:Benevolence, folk:Helping, mft:Care	https://w3id.org/framester/data/framestercore/Assistance, https://w3id.org/framester/wn/wn30/instances/synset-rope-noun-1, https://w3id.org/framester/wn/wn30/instances/synset-horse-noun-1	fs:Connectors,fs:RopeManipulation,fs:Closure,fs:InhibitMovement,fs:KnotCreation,fs:Attaching,fs:People,fs:Immobilization,fs:Assistance
+2403497	591025	rocks in the ditch 					
+2403497	591026	blue skies peaking through tree branches					fs:Color,fs:BiologicalArea
+2403497	591027	talk tree trunk surrounded by woods					fs:LocativeRelation,fs:Discussion,fs:BiologicalArea,fs:Besieging
+2403497	591028	man walking along horses carrying wood					fs:CarryGoods,fs:People,fs:Motion,fs:Bringing
+2403497	591029	man wearing cowboy hat.					fs:Accoutrements,fs:People
+2403497	591030	man has black pants on.					fs:People,fs:Ingestion,fs:Clothing,fs:Color
+2403497	591031	man is wearing dark shoes.					fs:People,fs:Dimension
+2403497	591032	man is wearing tan shirt.					
+2403497	591033	man is walking on pavement.					
+2403497	591034	man is walking near two large animals.					fs:SelfMotion,fs:Cotheme,fs:Size,fs:Dimension,fs:People
+2403497	591035	horse has black mane.			bhv:Benevolence, mft:Care, folk:Helping	https://w3id.org/framester/data/framestercore/Assistance, https://w3id.org/framester/wn/wn30/instances/synset-horse-noun-1	fs:Ingestion,fs:ObservableBodyParts,fs:Assistance,fs:Color
+2403497	591036	horse has straps on face.			bhv:Benevolence, folk:Helping, mft:Care	https://w3id.org/framester/data/framestercore/Assistance, https://w3id.org/framester/wn/wn30/instances/synset-horse-noun-1	fs:FacialExpression,fs:Ingestion,fs:ObservableBodyParts,fs:Assistance
+2403497	591037	horse is brown in color.			bhv:Benevolence, mft:Care, folk:Helping	https://w3id.org/framester/data/framestercore/Assistance, https://w3id.org/framester/wn/wn30/instances/synset-horse-noun-1	fs:ApplyHeat,fs:Assistance,fs:Color
+2403497	591038	horse has dark tail.			bhv:Benevolence, mft:Care, folk:Helping, mft:Harm	https://w3id.org/framester/data/framestercore/Assistance, https://w3id.org/framester/wn/wn30/instances/synset-horse-noun-1, https://w3id.org/framester/wn/wn30/instances/synset-tail-noun-1	fs:Ingestion,fs:ObservableBodyParts,fs:Assistance,fs:Dimension
+2403497	591039	person wearing cowboy hat.					fs:Accoutrements,fs:People
+2403497	591040	man has dark hair.					fs:Ingestion,fs:HairConfiguration,fs:Dimension,fs:People,fs:ObservableBodyParts
+2403497	591041	man has a mustache on face.					fs:FacialExpression,fs:Ingestion,fs:ObservableBodyParts,fs:People
+2403497	591042	man wearing tan shirt.					fs:People,fs:Clothing,fs:Color
+2403497	591043	man has bag over shoulder.			folk:Control	https://w3id.org/framester/wn/wn30/instances/synset-shoulder-noun-1	fs:Ingestion,fs:Containers,fs:People,fs:ObservableBodyParts,fs:MeasureVolume
+2403497	591044	man is wearing dark pants.					fs:People,fs:Clothing,fs:Dimension
+2403497	591045	man has dark shoes on feet.					fs:People,fs:Ingestion,fs:Dimension
+2403497	591047	horses have loads on backs.					fs:Ingestion,fs:Possession
+2403497	591049	green leaves on trees					fs:Color
+2403497	591050	brown horse carrying pack 			bhv:Benevolence, folk:Helping, mft:Care	https://w3id.org/framester/data/framestercore/Assistance, https://w3id.org/framester/wn/wn30/instances/synset-horse-noun-1	fs:Placing,fs:Assistance,fs:Color
+2403497	591051	light brown horse carrying pack			bhv:Benevolence, mft:Care, folk:Helping	https://w3id.org/framester/data/framestercore/Assistance, https://w3id.org/framester/wn/wn30/instances/synset-horse-noun-1	fs:Placing,fs:Assistance,fs:Color,fs:Dimension
+2403497	591052	man leading horses 			mft:Authority, bhv:Power, folk:Leadership	https://w3id.org/framester/vn/vn31/data/Lead_51070000	fs:People,fs:Cotheme
+2403497	591053	white shady hat 					fs:Accoutrements,fs:SecrecyStatus,fs:Color
+2403497	591054	man in black jeans 					fs:People,fs:Color
+2403497	591055	rope used to guide horse 			mft:Care, folk:Helping, folk:Leadership, bhv:Benevolence, bhv:Power, folk:Control, mft:Authority	https://w3id.org/framester/wn/wn30/instances/synset-rope-noun-1, https://w3id.org/framester/vn/vn31/data/Guide_51070000, https://w3id.org/framester/wn/wn30/instances/synset-horse-noun-1, https://w3id.org/framester/wn/wn30/instances/synset-steer-verb-1, https://w3id.org/framester/data/framestercore/Leadership, https://w3id.org/framester/data/framestercore/Assistance	fs:Connectors,fs:Leadership,fs:Using,fs:Cotheme,fs:IntentionallyAffect,fs:Assistance,fs:InfluenceOfEventOnCognizer
+2403497	591056	a stone path 			folk:Management, mft:Harm	https://w3id.org/framester/wn/wn30/instances/synset-rock-noun-1, https://w3id.org/framester/data/framestercore/CauseHarm, https://w3id.org/framester/wn/wn30/instances/synset-way-noun-5	fs:Conduct,fs:CauseHarm
+2403497	591057	a shoulder bag carried by man			folk:Control	https://w3id.org/framester/wn/wn30/instances/synset-shoulder-noun-1	fs:Motion,fs:Containers,fs:CarryGoods,fs:People,fs:Bringing,fs:ObservableBodyParts,fs:MeasureVolume
+2403497	591058	a full sack being carried by horse			bhv:Benevolence, mft:Care, folk:Helping	https://w3id.org/framester/data/framestercore/Assistance, https://w3id.org/framester/wn/wn30/instances/synset-horse-noun-1	fs:Fullness,fs:AboundingWith,fs:Motion,fs:Containers,fs:CarryGoods,fs:Bringing,fs:Assistance
+2403497	591059	man with a mustache wearing a hat					fs:Accoutrements,fs:People,fs:ObservableBodyParts
+2403497	591060	backpack on a man's back					fs:People,fs:Containers,fs:ObservableBodyParts
+2403497	591061	man walking on a path to the left			folk:Management	https://w3id.org/framester/wn/wn30/instances/synset-way-noun-5	fs:People,fs:PartOrientational,fs:Conduct
+2403497	591062	light brown horse carrying packs on his back			bhv:Benevolence, mft:Care, folk:Helping	https://w3id.org/framester/data/framestercore/Assistance, https://w3id.org/framester/wn/wn30/instances/synset-horse-noun-1	fs:Motion,fs:Dimension,fs:CarryGoods,fs:Bringing,fs:Color,fs:ObservableBodyParts,fs:Assistance
+2403497	591063	brown horse head facing left			bhv:Benevolence, mft:Care, folk:Helping, mft:Harm	https://w3id.org/framester/data/framestercore/Assistance, https://w3id.org/framester/vn/vn31/data/Face_98000000, https://w3id.org/framester/wn/wn30/instances/synset-horse-noun-1, https://w3id.org/framester/data/framestercore/HostileEncounter	fs:ConfrontingProblem,fs:HostileEncounter,fs:Color,fs:ObservableBodyParts,fs:Assistance
+2403497	591064	tail of a horse in front of another horse			bhv:Benevolence, mft:Care, folk:Helping, mft:Harm	https://w3id.org/framester/data/framestercore/Assistance, https://w3id.org/framester/wn/wn30/instances/synset-front-noun-1, https://w3id.org/framester/wn/wn30/instances/synset-horse-noun-1, https://w3id.org/framester/wn/wn30/instances/synset-tail-noun-1	fs:PartOrientational,fs:Assistance,fs:ObservableBodyParts
+2403497	591065	bundled back on a horse's back			bhv:Benevolence, mft:Care, folk:Helping	https://w3id.org/framester/data/framestercore/Assistance, https://w3id.org/framester/wn/wn30/instances/synset-horse-noun-1	fs:ObservableBodyParts,fs:Assistance
+2403497	591066	white stone path			folk:Management, mft:Harm	https://w3id.org/framester/wn/wn30/instances/synset-rock-noun-1, https://w3id.org/framester/data/framestercore/CauseHarm, https://w3id.org/framester/wn/wn30/instances/synset-way-noun-5	fs:CauseHarm,fs:Conduct,fs:Color
+2403497	591067	tree trunk in the woods					fs:BiologicalArea
+2403497	591068	green leaves on trees					fs:Color

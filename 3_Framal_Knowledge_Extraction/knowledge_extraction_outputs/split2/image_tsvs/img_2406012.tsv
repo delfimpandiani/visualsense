@@ -1,0 +1,51 @@
+image_id	region_id	phrase	Emotions	Emotions Triggers	Values	Values Triggers	Frames
+2406012	410029	a tired man in green shirt					fs:People,fs:BiologicalUrge,fs:Clothing,fs:Color
+2406012	410030	a white frisbee					fs:Color
+2406012	410031	black sport shoes					
+2406012	410032	a visor					fs:Accoutrements
+2406012	410033	red shorts					fs:Color
+2406012	410034	green grass on a field 			bhv:Benevolence, mft:Care, folk:Helping	https://w3id.org/framester/wn/wn30/instances/synset-grass-noun-1	
+2406012	410035	a electricity pole 					
+2406012	410036	a man running towards the man with frisbee					fs:People,fs:SelfMotion
+2406012	410037	a man's hand spread out					fs:People,fs:ObservableBodyParts,fs:Dispersal
+2406012	410038	trees in the background					
+2406012	410039	black cap on man					fs:Accoutrements,fs:People,fs:Color
+2406012	410040	man in green shirt					fs:People,fs:Clothing,fs:Color
+2406012	410041	man in white shirt running					fs:OperatingASystem,fs:Escaping,fs:SelfMotion,fs:Impact,fs:Departing,fs:People,fs:Color,fs:CauseMotion,fs:CauseImpact,fs:Clothing,fs:Fleeing
+2406012	410042	white fence line in the back			mft:Care, bhv:Security	https://w3id.org/framester/data/framestercore/Protecting, https://w3id.org/framester/wn/wn30/instances/synset-fence-noun-1	fs:ObservableBodyParts,fs:Pattern,fs:Protecting,fs:Color
+2406012	410043	man posing with frisbee			mft:Cheating	https://w3id.org/framester/data/framestercore/Feigning, https://w3id.org/framester/data/framestercore/PosingAs	fs:People,fs:PosingAs,fs:Feigning
+2406012	410044	blue, cloudy skies					fs:Color
+2406012	410045	trees on outside of the fence			mft:Care, bhv:Security	https://w3id.org/framester/data/framestercore/Protecting, https://w3id.org/framester/wn/wn30/instances/synset-fence-noun-1	fs:Protecting
+2406012	410046	black muddy sneakers					fs:BeingWet,fs:Color
+2406012	410047	green grassy mowed field					fs:Color
+2406012	410048	white frisbee being held					fs:Color
+2406012	410049	a man running on the field					fs:People,fs:SelfMotion
+2406012	410050	a man in a green shirt hunched over					fs:Posture,fs:ChangePosture,fs:People,fs:Color,fs:ProcessCompletedState,fs:Clothing,fs:Awareness
+2406012	410051	dandelions in the field					
+2406012	410052	white frisbee					fs:Color
+2406012	410053	white fence in the background			mft:Care, bhv:Security	https://w3id.org/framester/data/framestercore/Protecting, https://w3id.org/framester/wn/wn30/instances/synset-fence-noun-1	fs:Protecting,fs:Color
+2406012	410054	a blue visor on a man's head					fs:Accoutrements,fs:People,fs:ObservableBodyParts,fs:Color
+2406012	410055	muddy legs					fs:BeingWet
+2406012	410056	power lines			mft:Authority, folk:Leadership, bhv:Power	https://w3id.org/framester/wn/wn30/instances/synset-power-noun-1	fs:Differentiation
+2406012	410057	various types of trees					
+2406012	410058	a pair of red, black, and white shorts					fs:Aggregate,fs:Color
+2406012	410059	man catching a white flying disc.			folk:Control	https://w3id.org/framester/data/framestercore/Manipulation	fs:Getting,fs:Manipulation,fs:Motion,fs:SelfMotion,fs:RideVehicle,fs:People,fs:HuntingSuccessOrFailure,fs:Bringing,fs:Color,fs:Taking,fs:OperateVehicle
+2406012	410060	man wearing blue visor.					fs:Accoutrements,fs:People,fs:Color
+2406012	410061	white wooden fence.			mft:Care, bhv:Security	https://w3id.org/framester/data/framestercore/Protecting, https://w3id.org/framester/wn/wn30/instances/synset-fence-noun-1	fs:Protecting,fs:Color
+2406012	410062	mud on a person's left leg.					fs:PartOrientational,fs:Substance,fs:ShapedPart,fs:People,fs:ObservableBodyParts
+2406012	410063	man wearing a t-shirt over a long sleeved shirt.					fs:People,fs:DurationAttribute,fs:Clothing
+2406012	410064	large field with short grass and dandelions.			bhv:Benevolence, mft:Care, folk:Helping	https://w3id.org/framester/wn/wn30/instances/synset-grass-noun-1	fs:Adorning,fs:Filling,fs:Size,fs:Dimension,fs:DurationAttribute
+2406012	410065	tall wooden telephone pole.					fs:Dimension,fs:BodyDescriptionHolistic,fs:MeasurableAttributes,fs:InchoativeAttaching,fs:Contacting,fs:CommunicationMeans,fs:Supporting,fs:CauseMotion
+2406012	410066	line of trees.					fs:Pattern
+2406012	410067	tall grass at the base of a fence.			folk:Helping, bhv:Benevolence, mft:Care, bhv:Security	https://w3id.org/framester/wn/wn30/instances/synset-grass-noun-1, https://w3id.org/framester/data/framestercore/Protecting, https://w3id.org/framester/wn/wn30/instances/synset-fence-noun-1	fs:Adorning,fs:Protecting,fs:LocaleByUse,fs:Dimension,fs:BodyDescriptionHolistic,fs:MeasurableAttributes,fs:Filling
+2406012	410068	man wearing a white shirt and black shorts.					fs:People,fs:Clothing,fs:Color
+2406012	410069	hand holding a frisbee					fs:ObservableBodyParts
+2406012	410070	a man running fast					fs:Escaping,fs:OperatingASystem,fs:Speed,fs:SelfMotion,fs:Impact,fs:Departing,fs:TakingTime,fs:People,fs:CauseMotion,fs:CauseImpact,fs:Fleeing
+2406012	410071	man wearing a red shirt					fs:People,fs:Clothing,fs:Color
+2406012	410072	man posing with a frisbee			mft:Cheating	https://w3id.org/framester/data/framestercore/Feigning, https://w3id.org/framester/data/framestercore/PosingAs	fs:People,fs:PosingAs,fs:Feigning
+2406012	410073	man wearing a green shirt					fs:People,fs:Clothing,fs:Color
+2406012	410074	man wearing a blue cap					fs:Accoutrements,fs:People,fs:Color
+2406012	410075	bent leg with black shoe on foot					fs:PartOrientational,fs:ShapedPart,fs:Posture,fs:Color,fs:ObservableBodyParts,fs:Clothing
+2406012	410076	red, white, and blue shorts					fs:Color
+2406012	410077	man wearing a white shirt					fs:People,fs:Clothing,fs:Color
+2406012	410078	a man bending over					fs:Posture,fs:ChangePosture,fs:People,fs:BodyMovement,fs:ProcessCompletedState

@@ -1,0 +1,51 @@
+image_id	region_id	phrase	Emotions	Emotions Triggers	Values	Values Triggers	Frames
+2403561	587969	a stormtrooper figurine standing on a counter					fs:BeingLocated,fs:ArchitecturalPart,fs:Posture,fs:ChangePosture,fs:Placing,fs:PhysicalArtworks
+2403561	587970	the paper umbrella stormtrooper is holding					fs:Filling,fs:Substance,fs:Ingredients
+2403561	587971	the toothpick on the bottom of the umbrella 					fs:PartOrientational
+2403561	587972	the center of the umbrella					fs:PartInnerOuter
+2403561	587973	the stormtrooper helmet					fs:Accoutrements
+2403561	587974	the holster on the stormtrooper leg					fs:ObservableBodyParts,fs:ShapedPart
+2403561	587975	the shelf the stormtrooper is on					fs:BuildingSubparts
+2403561	587976	the flowers on the umbrella					
+2403561	587977	the hand holding onto the umbrella 					fs:ObservableBodyParts
+2403561	587978	the boots the stormtrooper is wearing					
+2403561	587979	storm trooper carrying an umbrella					fs:Motion,fs:CarryGoods,fs:Bringing,fs:Weather,fs:PeopleByVocation
+2403561	587980	storm trooper is walking on a drinking straw					fs:Adorning,fs:SelfMotion,fs:Cotheme,fs:Filling,fs:PeopleByVocation,fs:Weather
+2403561	587981	umbrella pole is a toothpick					fs:InchoativeAttaching,fs:Supporting,fs:CauseMotion
+2403561	587982	umbrella is light blue					fs:Dimension
+2403561	587983	umbrella canopy is made of paper					fs:Substance,fs:Ingredients,fs:Adorning,fs:Causation,fs:CauseChange,fs:Appointing,fs:Filling
+2403561	587984	helemt is made of white plastic					fs:Causation,fs:CauseChange,fs:SubstanceByPhase,fs:Appointing,fs:Color
+2403561	587985	boots are white					fs:Color
+2403561	587986	storm trooper wearing white utility belt			mft:Authority	https://w3id.org/framester/wn/wn30/instances/synset-utility-noun-1	fs:Accoutrements,fs:Weather,fs:PeopleByVocation,fs:Color
+2403561	587987	arm is out for balance			folk:Versatility	https://w3id.org/framester/wn/wn30/instances/synset-balance-noun-1	fs:PerformersAndRoles,fs:ObservableBodyParts,fs:Suitability,fs:ShapedPart
+2403561	587988	storm trooper has black holster 					
+2403561	587989	white storm trooper.					
+2403561	587990	storm trooper has white boots.					fs:Ingestion,fs:Weather,fs:PeopleByVocation,fs:Color
+2403561	587991	storm trooper has white belt.					fs:Accoutrements,fs:Ingestion,fs:Color,fs:Weather,fs:PeopleByVocation
+2403561	587992	storm trooper has white helmet.					fs:Accoutrements,fs:Ingestion,fs:Color,fs:Weather,fs:PeopleByVocation
+2403561	587993	storm trooper has face covered.					fs:Adorning,fs:Filling,fs:Topic,fs:Eclipse,fs:Weather,fs:ObservableBodyParts,fs:FacialExpression,fs:PeopleByVocation
+2403561	587994	storm trooper is holding umbrella.					fs:Weather,fs:PeopleByVocation
+2403561	587995	umbrella is mostly blue.					fs:Color
+2403561	587996	umbrella has gray handle.			bhv:Power, mft:Care, folk:Leadership	https://w3id.org/framester/wn/wn30/instances/synset-manage-verb-2	fs:ResolveProblem,fs:Ingestion,fs:Color
+2403561	587997	storm trooper has on black under white protective layer.			mft:Care, bhv:Security	https://w3id.org/framester/wn/wn30/instances/synset-protective-adjective-1	fs:Ingestion,fs:Artifact,fs:Color,fs:Weather,fs:PeopleByVocation
+2403561	587998	background behind storm trooper is white.					fs:Weather,fs:PeopleByVocation,fs:Color
+2403561	587999	a storm trooper holding an umbrella					fs:Weather,fs:PeopleByVocation
+2403561	588000	the umbrella has a pointed handle			bhv:Power, mft:Care, folk:Leadership	https://w3id.org/framester/wn/wn30/instances/synset-manage-verb-2	fs:ResolveProblem,fs:Ingestion
+2403561	588001	the storm trooper has a white helmet					fs:Accoutrements,fs:Ingestion,fs:Color,fs:Weather,fs:PeopleByVocation
+2403561	588002	the trooper has his arm out for balance			folk:Versatility	https://w3id.org/framester/wn/wn30/instances/synset-balance-noun-1	fs:ShapedPart,fs:Suitability,fs:Ingestion,fs:PerformersAndRoles,fs:ObservableBodyParts,fs:PeopleByVocation
+2403561	588003	the trooper's weapon is missing					fs:SuccessOrFailure,fs:Weapon,fs:PeopleByVocation
+2403561	588004	white knee pads are on the legs					fs:ObservableBodyParts
+2403561	588005	white shoes are on the trooper					fs:PeopleByVocation,fs:Color
+2403561	588006	an ammunition belt on the storm trooper					fs:Accoutrements,fs:Weather,fs:PeopleByVocation,fs:Ammunition
+2403561	588007	the hand is around the umbrella stick					fs:Gizmo,fs:ObservableBodyParts
+2403561	588008	the umbrella is light blue with red flower design			folk:Development, folk:Management	https://w3id.org/framester/data/framestercore/Progress, https://w3id.org/framester/wn/wn30/instances/synset-design-noun-2, https://w3id.org/framester/wn/wn30/instances/synset-flower-noun-1	fs:ComingUpWith,fs:Cogitation,fs:Progress,fs:Dimension,fs:Color
+2403561	588009	umbrella in toy's hand	be:Enjoyment	http://dbpedia.org/resource/Toy	folk:Fun	http://dbpedia.org/resource/Toy	fs:ObservableBodyParts,fs:Conduct
+2403561	588010	white outfit on soldier					fs:PeopleByVocation,fs:Color
+2403561	588011	character from star wars					
+2403561	588012	arm of toy					fs:ObservableBodyParts,fs:Conduct,fs:ShapedPart
+2403561	588013	legs and feet of the toy					fs:Conduct
+2403561	588014	handle of the umbrella			folk:Leadership, mft:Care, bhv:Power	https://w3id.org/framester/wn/wn30/instances/synset-manage-verb-2	fs:ResolveProblem
+2403561	588015	surface where toy is standing					fs:BeingLocated,fs:Posture,fs:ChangePosture,fs:Conduct,fs:Placing,fs:PartInnerOuter
+2403561	588016	helmet on the toy					fs:Accoutrements,fs:Conduct
+2403561	588017	belt of the toy					fs:Accoutrements,fs:Conduct
+2403561	588018	white background of the photo					fs:Color,fs:Representing

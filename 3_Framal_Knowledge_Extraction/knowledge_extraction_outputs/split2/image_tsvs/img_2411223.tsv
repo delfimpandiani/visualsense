@@ -1,0 +1,51 @@
+image_id	region_id	phrase	Emotions	Emotions Triggers	Values	Values Triggers	Frames
+2411223	501229	blue suitcase with wheels					fs:Containers,fs:Color
+2411223	501230	red flat shoes on girls feet					fs:Color
+2411223	501231	black converse tennis shoes					fs:Statement
+2411223	501232	couple walking away			mft:Loyalty, folk:Association	https://w3id.org/framester/wn/wn30/instances/synset-couple-noun-1	fs:PersonalRelationship
+2411223	501233	plastic bag in girls hand					fs:Containers,fs:ObservableBodyParts,fs:MeasureVolume
+2411223	501234	two black jackets					fs:Color
+2411223	501235	red truck parked on curb			folk:Consent	https://w3id.org/framester/wn/wn30/instances/synset-curb-noun-1	fs:Placing,fs:Vehicle,fs:Hindering,fs:Color
+2411223	501236	white lines on the road					fs:Roadways,fs:Color
+2411223	501237	cars parked on curb			folk:Consent, folk:Fun	https://w3id.org/framester/wn/wn30/instances/synset-curb-noun-1, http://dbpedia.org/resource/Car	fs:Hindering,fs:Placing
+2411223	501238	sidewalk					fs:Roadways
+2411223	501239	a red skull and crossbones patch					fs:ObservableBodyParts,fs:Supply,fs:Color
+2411223	501240	a blue wheeled suitcase					fs:Containers,fs:Color
+2411223	501241	a red pickup truck					fs:Vehicle,fs:Color
+2411223	501242	a camera					
+2411223	501243	a couple walking down the street			mft:Loyalty, folk:Association	https://w3id.org/framester/wn/wn30/instances/synset-couple-noun-1	fs:Roadways,fs:PersonalRelationship,fs:SelfMotion,fs:Cotheme
+2411223	501244	a purse					fs:Containers
+2411223	501245	a young woman					fs:People,fs:Age
+2411223	501246	a young man					fs:People,fs:Age
+2411223	501247	the lower portion of a lightpost					fs:Membership
+2411223	501248	the back portion of a red vehicle					fs:PartOrientational,fs:Vehicle,fs:Color,fs:Membership
+2411223	501249	a couple walks on the sidwalk			mft:Loyalty, folk:Association	https://w3id.org/framester/wn/wn30/instances/synset-couple-noun-1	fs:PersonalRelationship,fs:SelfMotion,fs:Cotheme
+2411223	501250	a man holds a woman by the waist					fs:People,fs:ClothingParts
+2411223	501251	a man carries a blue luggage					fs:Motion,fs:Containers,fs:CarryGoods,fs:People,fs:Bringing,fs:Color
+2411223	501252	a woman dressed in black with red shoes					fs:Dressing,fs:People,fs:Color
+2411223	501253	a woman holding a transparent yellow bag 					fs:People,fs:Containers,fs:MeasureVolume
+2411223	501254	a bunch of parked cars in the street					fs:Roadways,fs:Aggregate,fs:Placing
+2411223	501255	people standing by a car			folk:Helping, mft:Care	http://dbpedia.org/resource/Person	fs:BeingLocated,fs:Posture,fs:ChangePosture,fs:People,fs:Placing,fs:Vehicle
+2411223	501256	two people with brown hair					fs:People,fs:HairConfiguration,fs:ObservableBodyParts,fs:Color
+2411223	501257	a man and a woman walk down the sidewalk 					fs:Roadways,fs:People,fs:SelfMotion,fs:Cotheme
+2411223	501258	a red car heading towards the right side of the street					fs:PartOrientational,fs:Vehicle,fs:Roadways,fs:Color
+2411223	501259	a vehicle in the street 					fs:Roadways,fs:Vehicle
+2411223	501260	a vehicle in the street 					fs:Roadways,fs:Vehicle
+2411223	501261	a vehicle in the street 					fs:Roadways,fs:Vehicle
+2411223	501262	a vehicle in the street 					fs:Roadways,fs:Vehicle
+2411223	501263	a vehicle in the street 					fs:Roadways,fs:Vehicle
+2411223	501264	a vehicle in the street 					fs:Roadways,fs:Vehicle
+2411223	501265	a vehicle in the street 					fs:Roadways,fs:Vehicle
+2411223	501266	a vehicle in the street 					fs:Roadways,fs:Vehicle
+2411223	501267	a blue briefcase 					fs:Containers,fs:Color
+2411223	501268	 a brown hand bag 					fs:Containers,fs:ObservableBodyParts,fs:MeasureVolume,fs:Color
+2411223	501269	couple walking on city street			mft:Authority, mft:Loyalty, folk:Association	https://w3id.org/framester/wn/wn30/instances/synset-city-noun-1, https://w3id.org/framester/wn/wn30/instances/synset-couple-noun-1	
+2411223	501270	blue luggage on wheels					
+2411223	501271	flat red shoes on woman					fs:People,fs:Color
+2411223	501272	black hood on man			mft:Harm	https://w3id.org/framester/wn/wn30/instances/synset-hood-noun-1	fs:People,fs:Color,fs:PeopleByMorality
+2411223	501273	tan plastic shopping bag					fs:Containers,fs:SubstanceByPhase,fs:Shopping,fs:Color,fs:MeasureVolume
+2411223	501274	tan purse with long strap					fs:Connectors,fs:Containers,fs:Color,fs:DurationAttribute,fs:ClothingParts
+2411223	501275	black leggings on woman					fs:People,fs:Color
+2411223	501276	black sneakers on man					fs:People,fs:Color
+2411223	501277	brown windblown hair on woman					fs:People,fs:HairConfiguration,fs:ObservableBodyParts,fs:Color
+2411223	501278	olive green backpack on man					fs:People,fs:Containers,fs:Color

@@ -1,0 +1,50 @@
+image_id	region_id	phrase	Emotions	Emotions Triggers	Values	Values Triggers	Frames
+2407224	352079	 a motorcycle is on the sidewalk					fs:Roadways,fs:OperateVehicle,fs:RideVehicle
+2407224	352080	the trees along the sidewalk are saplings.			folk:Beauty	http://dbpedia.org/resource/Tree	fs:Roadways
+2407224	352081	three men are walking down the sidewalk					fs:Roadways,fs:SelfMotion,fs:Cotheme
+2407224	352082	the window has iron bars on it					fs:ConnectingArchitecture,fs:Ingestion,fs:Substance
+2407224	352083	two of the men have blue ties					fs:Ingestion,fs:Possession,fs:Color
+2407224	352085	a policeman is talking to a person			folk:Leadership, mft:Care, bhv:Security	https://w3id.org/framester/wn/wn30/instances/synset-policeman-noun-1	fs:Appellations,fs:TalkingInto,fs:People,fs:Chatting,fs:Statement,fs:CommunicationManner,fs:PeopleByVocation,fs:TextCreation
+2407224	352086	the iron bars are black					fs:Substance,fs:Color
+2407224	352087	the men are in blue suits					fs:Color
+2407224	352088	oil stains are on the street			mft:Sanctity	https://w3id.org/framester/wn/wn30/instances/synset-oil-noun-1	fs:Roadways,fs:Substance
+2407224	352089	three men in suits with ties					
+2407224	352090	man in a suit with a blue tie					fs:People,fs:Clothing,fs:Color
+2407224	352091	man with tilted head with blue tie 					fs:People,fs:ObservableBodyParts,fs:Clothing,fs:Color
+2407224	352092	man in a suit with a red tie 					fs:People,fs:Clothing,fs:Color
+2407224	352093	bike parked on the sidewalk					fs:Roadways,fs:Vehicle,fs:Placing
+2407224	352094	think trees on a sidewalk					fs:Roadways
+2407224	352095	caged in windows 					fs:Imprisonment,fs:InhibitMovement,fs:Placing
+2407224	352096	city street alleyway			mft:Authority	https://w3id.org/framester/wn/wn30/instances/synset-city-noun-1, https://w3id.org/framester/data/framestercore/PoliticalLocales	fs:Roadways,fs:LocaleByUse,fs:PoliticalLocales
+2407224	352097	three men walking down the sidewalk					fs:Roadways,fs:SelfMotion,fs:Cotheme
+2407224	352098	two people standing next to a building 					fs:BeingLocated,fs:Posture,fs:ChangePosture,fs:People,fs:Buildings,fs:Placing
+2407224	352099	three men wearing suits					
+2407224	352100	three men walking on sidewalk					fs:Roadways,fs:SelfMotion,fs:Cotheme
+2407224	352101	motorcycle parked on side of road					fs:Roadways,fs:OperateVehicle,fs:RideVehicle,fs:Placing
+2407224	352102	black bars covering windows					fs:Adorning,fs:Color,fs:Eclipse,fs:Topic,fs:Filling
+2407224	352103	skinny newly planted tree					fs:Filling,fs:BodyDescriptionHolistic,fs:BiologicalArea,fs:Placing
+2407224	352104	shadow of tree in street			folk:Beauty	http://dbpedia.org/resource/Tree	fs:Roadways,fs:OpticalImage,fs:BiologicalArea
+2407224	352105	buildings lining street					fs:Roadways,fs:Adorning
+2407224	352106	two men with blue ties					fs:Color
+2407224	352107	piece of wood used to holding tree in place			folk:Control, folk:Beauty	https://w3id.org/framester/data/framestercore/Manipulation, http://dbpedia.org/resource/Tree	fs:Building,fs:BiologicalArea,fs:Manipulation,fs:PartWhole,fs:Using,fs:Creating,fs:Inclusion,fs:IntentionallyAffect,fs:Possession,fs:Containing
+2407224	352108	man wearing a red tie					fs:People,fs:Clothing,fs:Color
+2407224	352109	a street with a long perspective					fs:Roadways,fs:DurationAttribute,fs:Range
+2407224	352110	the shadow of a tree in the street					fs:Roadways,fs:OpticalImage,fs:BiologicalArea
+2407224	352111	a view along the side of buildings					fs:Range
+2407224	352112	a motorcycle parked behind a tree					fs:Placing,fs:OperateVehicle,fs:RideVehicle,fs:BiologicalArea
+2407224	352113	three windows with metal bars					
+2407224	352114	two windows with metal bars					
+2407224	352115	a set of pylons along a street					fs:Roadways,fs:Aggregate
+2407224	352116	three men walking in the street					fs:Roadways,fs:SelfMotion,fs:Cotheme
+2407224	352117	two men in blue ties					fs:Color
+2407224	352118	a man in a red tie					fs:People,fs:Clothing,fs:Color
+2407224	352119	three men walking on a sidewalk					fs:Roadways,fs:SelfMotion,fs:Cotheme
+2407224	352120	bars covering windows					fs:Filling,fs:Eclipse,fs:Adorning,fs:Topic
+2407224	352121	two men in navy suits					fs:Military
+2407224	352122	a man with a red tie					fs:People,fs:Clothing,fs:Color
+2407224	352123	empty street					fs:Roadways,fs:Fullness
+2407224	352124	tree with green leaves			folk:Beauty	http://dbpedia.org/resource/Tree	fs:Color,fs:BiologicalArea
+2407224	352125	motorcycle parked on the sidewalk					fs:Roadways,fs:OperateVehicle,fs:RideVehicle,fs:Placing
+2407224	352126	man with his hand in his pocket					fs:People,fs:ObservableBodyParts,fs:ClothingParts
+2407224	352127	two people standing on the sidewalk					fs:BeingLocated,fs:Posture,fs:ChangePosture,fs:People,fs:Placing,fs:Roadways
+2407224	352128	man with glasses talking					fs:People

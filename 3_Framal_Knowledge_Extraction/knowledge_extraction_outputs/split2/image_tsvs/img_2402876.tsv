@@ -1,0 +1,42 @@
+image_id	region_id	phrase	Emotions	Emotions Triggers	Values	Values Triggers	Frames
+2402876	620859	several horses running through water					fs:Substance,fs:SelfMotion,fs:Quantity
+2402876	620860	man riding a white horse			bhv:Benevolence, mft:Care, folk:Helping	https://w3id.org/framester/data/framestercore/Assistance, https://w3id.org/framester/wn/wn30/instances/synset-horse-noun-1	fs:Travel,fs:RideVehicle,fs:OperateVehicle,fs:People,fs:Color,fs:Assistance
+2402876	620861	man holding a long pole					fs:People,fs:InchoativeAttaching,fs:DurationAttribute,fs:Supporting,fs:CauseMotion
+2402876	620862	holding on to his hat					fs:Accoutrements
+2402876	620863	a bunch of spectators					fs:Aggregate
+2402876	620864	man being restrained in background	be:Sadness	https://w3id.org/framester/vn/vn31/data/Restrain_67000000			fs:People
+2402876	620865	man wearing a black hat					fs:Accoutrements,fs:People,fs:Color
+2402876	620866	horse's mane blowing in the wind			bhv:Benevolence, mft:Care, folk:Helping	https://w3id.org/framester/data/framestercore/Assistance, https://w3id.org/framester/wn/wn30/instances/synset-horse-noun-1	fs:Weather,fs:ObservableBodyParts,fs:Assistance
+2402876	620867	man looking concerned			folk:Analysis	https://w3id.org/framester/data/framestercore/Scrutiny	fs:People,fs:Seeking,fs:Scrutiny,fs:EmotionDirected
+2402876	620868	lots of water splashing about					fs:Substance,fs:MotionNoise,fs:CauseFluidicMotion,fs:FluidicMotion,fs:Filling
+2402876	620869	the head of a person 					fs:People,fs:ObservableBodyParts
+2402876	620870	the head of a person 					fs:People,fs:ObservableBodyParts
+2402876	620871	the head of a person 					fs:People,fs:ObservableBodyParts
+2402876	620872	the head of a person 					fs:People,fs:ObservableBodyParts
+2402876	620873	the head of a person 					fs:People,fs:ObservableBodyParts
+2402876	620874	the head of a person 					fs:People,fs:ObservableBodyParts
+2402876	620875	the head of a person 					fs:People,fs:ObservableBodyParts
+2402876	620876	the head of a person 					fs:People,fs:ObservableBodyParts
+2402876	620877	the head of a person 					fs:People,fs:ObservableBodyParts
+2402876	620878	the head of a person 					fs:People,fs:ObservableBodyParts
+2402876	620879	people crossing a river on horses			folk:Structure	https://w3id.org/framester/wn/wn30/instances/synset-river-noun-1	fs:Building,fs:Manufacturing,fs:NaturalFeatures,fs:Traversing,fs:Creating,fs:People,fs:IntentionallyCreate,fs:BodyMovement
+2402876	620880	a white horse			bhv:Benevolence, folk:Helping, mft:Care	https://w3id.org/framester/data/framestercore/Assistance, https://w3id.org/framester/wn/wn30/instances/synset-horse-noun-1	fs:Assistance,fs:Color
+2402876	620881	a young man riding a horse			bhv:Benevolence, mft:Care, folk:Helping	https://w3id.org/framester/data/framestercore/Assistance, https://w3id.org/framester/wn/wn30/instances/synset-horse-noun-1	fs:Travel,fs:RideVehicle,fs:OperateVehicle,fs:People,fs:Assistance,fs:Age
+2402876	620882	a man with a cowboy hat and wooden pole					fs:Accoutrements,fs:People,fs:InchoativeAttaching,fs:Supporting,fs:CauseMotion
+2402876	620883	splashing river water	be:Enjoyment	http://dbpedia.org/resource/River	folk:Fun, folk:Structure	https://w3id.org/framester/wn/wn30/instances/synset-river-noun-1, http://dbpedia.org/resource/River	fs:Substance,fs:NaturalFeatures,fs:MotionNoise,fs:CauseFluidicMotion,fs:FluidicMotion,fs:Filling
+2402876	620884	bystanders watching horse crossing			folk:Analysis, bhv:Benevolence, mft:Care, folk:Helping	https://w3id.org/framester/data/framestercore/Assistance, https://w3id.org/framester/vn/vn31/data/Watch_30020000, https://w3id.org/framester/wn/wn30/instances/synset-horse-noun-1	fs:PathShape,fs:PerceptionActive,fs:Seeking,fs:BeingAwake,fs:Cotheme,fs:Assistance
+2402876	620886	a man guiding horses across river			mft:Authority, folk:Structure, bhv:Power, folk:Leadership	https://w3id.org/framester/vn/vn31/data/Guide_51070000, https://w3id.org/framester/data/framestercore/Leadership, https://w3id.org/framester/wn/wn30/instances/synset-river-noun-1	fs:NaturalFeatures,fs:Leadership,fs:Cotheme,fs:People,fs:InfluenceOfEventOnCognizer
+2402876	620887	a loose white shirt					fs:BeingDetached,fs:Clothing,fs:Color
+2402876	620888	hand adjusting a hat			bhv:Conformity, folk:Versatility, folk:Compliance	https://w3id.org/framester/data/framestercore/Compliance, https://w3id.org/framester/vn/vn31/data/Adjust_26090000, https://w3id.org/framester/data/framestercore/Adjusting	fs:Accoutrements,fs:Compliance,fs:ObservableBodyParts,fs:Adjusting
+2402876	620897	the head of a person 					fs:People,fs:ObservableBodyParts
+2402876	620898	the head of a person 					fs:People,fs:ObservableBodyParts
+2402876	620899	man in the water					fs:People,fs:Substance
+2402876	620900	white horse in the water			bhv:Benevolence, folk:Helping, mft:Care	https://w3id.org/framester/wn/wn30/instances/synset-horse-noun-1	
+2402876	620901	rope attached to the saddle			folk:Control	https://w3id.org/framester/wn/wn30/instances/synset-rope-noun-1	
+2402876	620902	man holding a pole					
+2402876	620903	man holding his hat					fs:Accoutrements,fs:People
+2402876	620904	the water is splashing					fs:Substance,fs:MotionNoise,fs:CauseFluidicMotion,fs:FluidicMotion,fs:Filling
+2402876	620905	the man's jeans are wet					fs:People,fs:BeingWet
+2402876	620906	man holding the horse's reins			bhv:Benevolence, folk:Helping, mft:Care	https://w3id.org/framester/data/framestercore/Assistance, https://w3id.org/framester/wn/wn30/instances/synset-horse-noun-1	fs:People,fs:Assistance
+2402876	620907	man does not have a shirt on					fs:People,fs:Possession,fs:Clothing,fs:Ingestion
+2402876	620908	kids watching the horses			folk:Analysis	https://w3id.org/framester/vn/vn31/data/Watch_30020000	fs:PerceptionActive,fs:Seeking,fs:BeingAwake,fs:Cotheme

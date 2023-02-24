@@ -1,0 +1,51 @@
+image_id	region_id	phrase	Emotions	Emotions Triggers	Values	Values Triggers	Frames
+2405103	453329	exterior shot, during warm weather, daylight hours. 			mft:Harm	https://w3id.org/framester/wn/wn30/instances/synset-shot-noun-2	fs:SubjectiveTemperature,fs:HeatPotential,fs:AmbientTemperature,fs:Ammunition,fs:PartInnerOuter,fs:Temperature,fs:Weather
+2405103	453330	semi-rocky terrain. 					
+2405103	453331	large body of deep blue, glistening water. 					fs:Substance,fs:Size,fs:Dimension,fs:MeasurableAttributes,fs:LightMovement,fs:LocationOfLight,fs:PartWhole
+2405103	453332	natural, uneven harbor area. 			mft:Authority	https://w3id.org/framester/wn/wn30/instances/synset-seaport-noun-1	fs:LocaleByUse,fs:Locale
+2405103	453333	bench with man and dog. 					fs:Animals,fs:People
+2405103	453334	small, white dog with tan areas on muzzle. 					fs:Color,fs:Animals,fs:Size,fs:Dimension
+2405103	453335	male with white tee and cap, overshadowing face. 					fs:Accoutrements,fs:Animals,fs:LocaleByUse,fs:Locale,fs:LocaleByEvent,fs:Color,fs:ObservableBodyParts,fs:FacialExpression
+2405103	453336	pale leg crossed over knee. 			folk:Strenght	https://w3id.org/framester/wn/wn30/instances/synset-pale-adjectivesatellite-2	fs:PathShape,fs:Building,fs:Manufacturing,fs:ShapedPart,fs:Traversing,fs:Creating,fs:ColorQualities,fs:IntentionallyCreate,fs:BodyMovement,fs:ComeTogether,fs:ObservableBodyParts
+2405103	453337	overhanging branches of evergreen tree. 			folk:Beauty	http://dbpedia.org/resource/Tree	fs:ChangePositionOnAScale,fs:CauseChangeOfPositionOnAScale,fs:BiologicalArea
+2405103	453338	shadow of bench, showing slats. 					fs:OpticalImage,fs:Obviousness,fs:Evidence,fs:Reasoning,fs:CauseToPerceive
+2405103	453339	man on wooden bench					fs:People
+2405103	453340	man looking at dog on bench			folk:Analysis	https://w3id.org/framester/data/framestercore/Scrutiny, https://w3id.org/framester/vn/vn31/data/Look_30030000	fs:Animals,fs:PerceptionActive,fs:Seeking,fs:Scrutiny,fs:People
+2405103	453341	wooden bench on rocky ground					fs:NaturalFeatures
+2405103	453342	man in baseball hat					fs:Accoutrements,fs:People
+2405103	453343	small white dog on bench					fs:Color,fs:Animals,fs:Size,fs:Dimension
+2405103	453344	water's edge is near bench			folk:Alertness	https://w3id.org/framester/wn/wn30/instances/synset-near-adjective-1	fs:LocativeRelation,fs:Substance,fs:Supply
+2405103	453345	man holding drink					
+2405103	453346	shadow of bench is behind it					
+2405103	453347	man by water's edge with no socks					fs:People,fs:LocativeRelation,fs:Substance,fs:Supply
+2405103	453348	lake with green island in distance					fs:NaturalFeatures,fs:Range,fs:Color
+2405103	453349	man and dog on a bench					fs:Animals,fs:People
+2405103	453350	bench overlooking a large lake					fs:NaturalFeatures,fs:Size,fs:Dimension
+2405103	453351	island covered with trees					fs:NaturalFeatures,fs:Adorning,fs:Eclipse,fs:Topic,fs:Filling
+2405103	453352	boat floating on the water	be:Enjoyment	http://dbpedia.org/resource/Boat	folk:Fun	http://dbpedia.org/resource/Boat	fs:Motion,fs:Substance,fs:Vehicle
+2405103	453353	man resting arm across the bench	be:Enjoyment	https://w3id.org/framester/vn/vn31/data/Rest_47060000	folk:Fun	https://w3id.org/framester/vn/vn31/data/Rest_47060000	fs:ShapedPart,fs:StateContinue,fs:People,fs:Placing,fs:ObservableBodyParts
+2405103	453354	dog standing and facing arm rest			mft:Authority, folk:Consideration, mft:Harm	https://w3id.org/framester/wn/wn30/instances/synset-standing-noun-1, https://w3id.org/framester/vn/vn31/data/Face_98000000, https://w3id.org/framester/data/framestercore/OccupyRank, https://w3id.org/framester/data/framestercore/HostileEncounter	fs:Animals,fs:Rest,fs:ShapedPart,fs:ConfrontingProblem,fs:OccupyRank,fs:ObservableBodyParts,fs:HostileEncounter
+2405103	453355	bench on soil and wide rocks 	be:Disgust	https://w3id.org/framester/wn/wn30/instances/synset-dirt-noun-2			fs:Filling,fs:CauseChange,fs:Adorning,fs:Dimension
+2405103	453356	large puffy cloud in blue sky					fs:Color,fs:Locale,fs:Size,fs:Dimension
+2405103	453357	water glistening in bright sunlight					fs:Weather,fs:Substance,fs:LocationOfLight
+2405103	453358	man looking down at dog			folk:Analysis, folk:Willingness	https://w3id.org/framester/data/framestercore/Scrutiny, https://w3id.org/framester/wn/wn30/instances/synset-down-adjective-1, https://w3id.org/framester/vn/vn31/data/Look_30030000, https://w3id.org/framester/data/framestercore/Willingness	fs:Animals,fs:PerceptionActive,fs:Seeking,fs:Scrutiny,fs:People,fs:Willingness
+2405103	453359	fluffy, white clouds on porcelain blue sky. 					fs:Color,fs:Locale
+2405103	453360	distant hills and islet. 					fs:NaturalFeatures,fs:Range
+2405103	453361	bare, rocky area with white, elderly wooden bench. 					fs:Locale,fs:Age,fs:Color
+2405103	453362	person and dog, resting on bench. 	be:Enjoyment	https://w3id.org/framester/vn/vn31/data/Rest_47060000	folk:Fun	https://w3id.org/framester/vn/vn31/data/Rest_47060000	fs:StateContinue,fs:Animals,fs:People,fs:Placing
+2405103	453363	person with cap, looking down on dog. 			folk:Analysis, folk:Willingness	https://w3id.org/framester/data/framestercore/Scrutiny, https://w3id.org/framester/wn/wn30/instances/synset-down-adjective-1, https://w3id.org/framester/vn/vn31/data/Look_30030000, https://w3id.org/framester/data/framestercore/Willingness	fs:Accoutrements,fs:Animals,fs:PerceptionActive,fs:Seeking,fs:Scrutiny,fs:People,fs:Willingness
+2405103	453364	white tee-shirt with natural wrinkles. 					fs:Color
+2405103	453365	right arm, extended over back of bench. 			folk:Giving	https://w3id.org/framester/data/framestercore/Giving	fs:PartOrientational,fs:ShapedPart,fs:Giving,fs:Offering,fs:ObservableBodyParts
+2405103	453366	dog, facing forward. 			mft:Harm	https://w3id.org/framester/vn/vn31/data/Face_98000000, https://w3id.org/framester/data/framestercore/HostileEncounter	fs:ConfrontingProblem,fs:Animals,fs:HostileEncounter
+2405103	453367	branch with pine needles, overlooking bench. 					
+2405103	453368	calm, blue body of water. 					fs:Substance,fs:PartWhole,fs:Color
+2405103	453369	white dog with brown ears and face standing on bench			mft:Authority, folk:Consideration	https://w3id.org/framester/wn/wn30/instances/synset-standing-noun-1, https://w3id.org/framester/data/framestercore/OccupyRank	fs:Animals,fs:OccupyRank,fs:Color,fs:ObservableBodyParts,fs:FacialExpression
+2405103	453370	man dressed for warm weather sitting on bench					fs:BeingLocated,fs:SubjectiveTemperature,fs:Dressing,fs:HeatPotential,fs:Posture,fs:ChangePosture,fs:People,fs:AmbientTemperature,fs:Placing,fs:Temperature,fs:Weather
+2405103	453371	wooden bench on the edge of a body of water					fs:Supply,fs:LocativeRelation,fs:Substance,fs:PartWhole
+2405103	453372	small island in middle of lake					fs:PartInnerOuter,fs:NaturalFeatures,fs:Size,fs:Dimension
+2405103	453373	blue sky with white fluffy clouds					fs:Color,fs:Locale
+2405103	453374	large lake with deep blue water					fs:Substance,fs:NaturalFeatures,fs:Size,fs:Dimension,fs:MeasurableAttributes,fs:Color
+2405103	453375	evergreen branch overhanging the lake					fs:ChangePositionOnAScale,fs:NaturalFeatures,fs:CauseChangeOfPositionOnAScale
+2405103	453376	boat in the distance					fs:Vehicle,fs:Range
+2405103	453377	rocky shore extending into the lake					fs:RelationalNaturalFeatures,fs:NaturalFeatures
+2405103	453378	khaki ball cap					fs:Accoutrements,fs:Artifact

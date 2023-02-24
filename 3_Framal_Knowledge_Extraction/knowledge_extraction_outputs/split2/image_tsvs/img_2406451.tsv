@@ -1,0 +1,51 @@
+image_id	region_id	phrase	Emotions	Emotions Triggers	Values	Values Triggers	Frames
+2406451	388779	two men sitting together.					fs:ChangePosture,fs:Posture,fs:BeingLocated,fs:Placing
+2406451	388780	couple of guys sitting together.			mft:Loyalty, folk:Association	https://w3id.org/framester/wn/wn30/instances/synset-couple-noun-1	fs:PersonalRelationship,fs:BeingLocated,fs:Posture,fs:ChangePosture,fs:Placing
+2406451	388781	two surfers sitting together.					fs:ChangePosture,fs:Posture,fs:BeingLocated,fs:Placing
+2406451	388782	two people sitting together on beach.					fs:NaturalFeatures,fs:BeingLocated,fs:Posture,fs:ChangePosture,fs:People,fs:Placing
+2406451	388783	two men sitting on the beach.					fs:NaturalFeatures,fs:BeingLocated,fs:Posture,fs:ChangePosture,fs:Placing
+2406451	388784	two males sitting on the beach.					fs:NaturalFeatures,fs:BeingLocated,fs:Posture,fs:ChangePosture,fs:Placing
+2406451	388785	a couple of guys sitting on the beach.			mft:Loyalty, folk:Association	https://w3id.org/framester/wn/wn30/instances/synset-couple-noun-1	fs:PersonalRelationship,fs:NaturalFeatures,fs:BeingLocated,fs:Posture,fs:ChangePosture,fs:Placing
+2406451	388786	surfboard on the beach.					fs:NaturalFeatures
+2406451	388787	several prints in the beach sand.					fs:Substance,fs:NaturalFeatures,fs:Quantity
+2406451	388788	sand dunes on the beach.					fs:Substance,fs:NaturalFeatures
+2406451	388789	a surfboard lying on the sand.	be:Enjoyment	http://dbpedia.org/resource/Surfing	bhv:Hedonism, folk:Fun	http://dbpedia.org/resource/Surfing	
+2406451	388790	grass growing on sand dunes			bhv:Benevolence, mft:Care, folk:Maturity, folk:Helping	https://w3id.org/framester/wn/wn30/instances/synset-grass-noun-1, https://w3id.org/framester/vn/vn31/data/Grow_47020000	
+2406451	388791	sand dunes next to a beach					fs:Substance,fs:NaturalFeatures
+2406451	388792	two men sitting on a beach					fs:NaturalFeatures,fs:BeingLocated,fs:Posture,fs:ChangePosture,fs:Placing
+2406451	388793	a man sitting next to a surf board					fs:BeingLocated,fs:Posture,fs:ChangePosture,fs:People,fs:Organization,fs:GivingIn,fs:Placing
+2406451	388794	a man looking at his friend			folk:Analysis	https://w3id.org/framester/data/framestercore/Scrutiny, https://w3id.org/framester/vn/vn31/data/Look_30030000	fs:PerceptionActive,fs:PersonalRelationship,fs:Seeking,fs:Scrutiny,fs:People
+2406451	388795	two men in surf suits					fs:GivingIn
+2406451	388796	a wet suit.					fs:BeingWet,fs:Clothing
+2406451	388797	a beach					fs:NaturalFeatures
+2406451	388798	sand					fs:Substance
+2406451	388799	picture is taken outside.			mft:Authority, folk:Leadership, bhv:Power	https://w3id.org/framester/vn/vn31/data/Take_10050000, https://w3id.org/framester/data/framestercore/ChangeOfLeadership	fs:ChangeOfQuantityOfPossession,fs:Getting,fs:OpticalImage,fs:Cotheme,fs:Sensation,fs:ChangeOfLeadership,fs:Conquering,fs:Bringing,fs:Taking,fs:Removing,fs:EarningsAndLosses
+2406451	388800	picture is taken during the day.			mft:Authority, folk:Leadership, bhv:Power	https://w3id.org/framester/vn/vn31/data/Take_10050000, https://w3id.org/framester/data/framestercore/ChangeOfLeadership	fs:ChangeOfQuantityOfPossession,fs:Getting,fs:OpticalImage,fs:MeasureDuration,fs:CalendricUnit,fs:Removing,fs:Cotheme,fs:Sensation,fs:ChangeOfLeadership,fs:Conquering,fs:Bringing,fs:Taking,fs:Timespan,fs:EarningsAndLosses
+2406451	388801	the sky is medium blue in color.					fs:PositionOnAScale,fs:Color,fs:Locale
+2406451	388802	two men are sitting in the sand.					fs:Substance,fs:BeingLocated,fs:Posture,fs:ChangePosture,fs:Placing
+2406451	388803	a surfboard is laying on the sand.	be:Enjoyment	http://dbpedia.org/resource/Surfing	bhv:Hedonism, folk:Fun	http://dbpedia.org/resource/Surfing	fs:Substance,fs:Placing
+2406451	388804	a man is looking at the other man.			folk:Analysis	https://w3id.org/framester/data/framestercore/Scrutiny, https://w3id.org/framester/vn/vn31/data/Look_30030000	fs:PerceptionActive,fs:Seeking,fs:People,fs:Scrutiny
+2406451	388805	both men are wearing black suits.					fs:Color
+2406451	388806	a man has his right arm on his knee.					fs:PartOrientational,fs:ShapedPart,fs:Ingestion,fs:People,fs:ObservableBodyParts
+2406451	388807	one man is looking away.			folk:Analysis	https://w3id.org/framester/data/framestercore/Scrutiny	fs:People,fs:Seeking,fs:Scrutiny
+2406451	388808	both men are sitting in the sand.					fs:Substance,fs:BeingLocated,fs:Posture,fs:ChangePosture,fs:Placing
+2406451	388809	two surfers relaxing on the beach sand.	be:Enjoyment	http://dbpedia.org/resource/Surfing	bhv:Hedonism, folk:Fun	http://dbpedia.org/resource/Surfing	fs:Substance,fs:NaturalFeatures
+2406451	388810	couple surfers relaxing on the beach sand.	be:Enjoyment	http://dbpedia.org/resource/Surfing	bhv:Hedonism, mft:Loyalty, folk:Fun, folk:Association	http://dbpedia.org/resource/Surfing, https://w3id.org/framester/wn/wn30/instances/synset-couple-noun-1	fs:PersonalRelationship,fs:Substance,fs:NaturalFeatures
+2406451	388811	two surfers relaxing on the beach during daylight.					fs:MeasureDuration,fs:NaturalFeatures,fs:CalendricUnit,fs:LocationInTime,fs:Timespan
+2406451	388812	couple surfers relaxing on the beach during daylight.			mft:Loyalty, folk:Association	https://w3id.org/framester/wn/wn30/instances/synset-couple-noun-1	fs:MeasureDuration,fs:PersonalRelationship,fs:NaturalFeatures,fs:CalendricUnit,fs:LocationInTime,fs:Timespan
+2406451	388813	two surfers sitting on the beach sand.	be:Enjoyment	http://dbpedia.org/resource/Surfing	bhv:Hedonism, folk:Fun	http://dbpedia.org/resource/Surfing	fs:Substance,fs:NaturalFeatures,fs:BeingLocated,fs:Posture,fs:ChangePosture,fs:Placing
+2406451	388814	prints showing in the beach sand.					fs:Substance,fs:NaturalFeatures,fs:CauseToPerceive
+2406451	388815	patch of blue sky.					fs:Color,fs:Supply,fs:Locale
+2406451	388816	two people sitting together.					fs:BeingLocated,fs:Posture,fs:ChangePosture,fs:People,fs:Placing
+2406451	388817	mounds of sand dunes at beach.					fs:Substance,fs:NaturalFeatures
+2406451	388818	a surfboard on the beach sand.	be:Enjoyment	http://dbpedia.org/resource/Surfing	bhv:Hedonism, folk:Fun	http://dbpedia.org/resource/Surfing	fs:Substance,fs:NaturalFeatures
+2406451	388819	large sand dunes at the beach					fs:Substance,fs:NaturalFeatures
+2406451	388820	sandy beach with debris			folk:Control	https://w3id.org/framester/wn/wn30/instances/synset-debris-noun-1	fs:HairConfiguration,fs:Removing,fs:NaturalFeatures,fs:Placing
+2406451	388821	two men in black talking					fs:Discussion,fs:Color
+2406451	388822	yellow surf board on the beach					fs:Organization,fs:GivingIn,fs:NaturalFeatures,fs:Color
+2406451	388823	bald man in black sitting on the beach					fs:NaturalFeatures,fs:BeingLocated,fs:Posture,fs:ChangePosture,fs:People,fs:Color,fs:Placing
+2406451	388824	blue sky above a beach					fs:Color,fs:NaturalFeatures,fs:Locale
+2406451	388825	surf board fins sitting on the beach					fs:NaturalFeatures,fs:BeingLocated,fs:Posture,fs:ChangePosture,fs:Organization,fs:Placing
+2406451	388826	small rock on beach			mft:Harm	https://w3id.org/framester/wn/wn30/instances/synset-rock-noun-1, https://w3id.org/framester/data/framestercore/CauseHarm	fs:CauseHarm,fs:NaturalFeatures,fs:Size,fs:Dimension
+2406451	388827	two men and a surf board					fs:Organization,fs:GivingIn
+2406451	388828	weeds on the sand dunes					fs:Substance

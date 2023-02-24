@@ -1,0 +1,51 @@
+image_id	region_id	phrase	Emotions	Emotions Triggers	Values	Values Triggers	Frames
+2411488	488829	person skiing down white snow covered mountain	be:Enjoyment	http://dbpedia.org/resource/Skiing	bhv:Stimulation, folk:Fun	http://dbpedia.org/resource/Skiing	fs:Precipitation,fs:NaturalFeatures,fs:Adorning,fs:People,fs:Color,fs:Topic,fs:Eclipse,fs:Filling
+2411488	488830	person skiing down white snow covered mountain	be:Enjoyment	http://dbpedia.org/resource/Skiing	bhv:Stimulation, folk:Fun	http://dbpedia.org/resource/Skiing	fs:Precipitation,fs:NaturalFeatures,fs:Adorning,fs:People,fs:Color,fs:Topic,fs:Eclipse,fs:Filling
+2411488	488831	person skiing down white snow covered mountain	be:Enjoyment	http://dbpedia.org/resource/Skiing	bhv:Stimulation, folk:Fun	http://dbpedia.org/resource/Skiing	fs:Precipitation,fs:NaturalFeatures,fs:Adorning,fs:People,fs:Color,fs:Topic,fs:Eclipse,fs:Filling
+2411488	488832	white snow covered mountain					fs:Precipitation,fs:NaturalFeatures,fs:Adorning,fs:Color,fs:Topic,fs:Eclipse,fs:Filling
+2411488	488833	white snow covered mountain					fs:Precipitation,fs:NaturalFeatures,fs:Adorning,fs:Color,fs:Topic,fs:Eclipse,fs:Filling
+2411488	488834	white snow covered mountain					fs:Precipitation,fs:NaturalFeatures,fs:Adorning,fs:Color,fs:Topic,fs:Eclipse,fs:Filling
+2411488	488835	white snow covered mountain					fs:Precipitation,fs:NaturalFeatures,fs:Adorning,fs:Color,fs:Topic,fs:Eclipse,fs:Filling
+2411488	488836	white snow covered mountain					fs:Precipitation,fs:NaturalFeatures,fs:Adorning,fs:Color,fs:Topic,fs:Eclipse,fs:Filling
+2411488	488837	gray and white clouds 					fs:Color
+2411488	488838	gray and white clouds 					fs:Color
+2411488	488839	 a cloudy day					fs:MeasureDuration,fs:Timespan,fs:CalendricUnit
+2411488	488840	a snowy scene					fs:LocaleByEvent
+2411488	488841	people are skiing 	be:Enjoyment	http://dbpedia.org/resource/Skiing	bhv:Stimulation, folk:Fun	http://dbpedia.org/resource/Skiing	fs:People
+2411488	488842	people ski down the mountain side					fs:Travel,fs:People,fs:Motion,fs:NaturalFeatures
+2411488	488843	many people have skied down this mountain 			folk:Willingness	https://w3id.org/framester/wn/wn30/instances/synset-down-adjective-1, https://w3id.org/framester/data/framestercore/Willingness	fs:People,fs:Willingness,fs:NaturalFeatures
+2411488	488844	the four skiers are wearing black	be:Enjoyment	http://dbpedia.org/resource/Skiing	bhv:Stimulation, folk:Fun	http://dbpedia.org/resource/Skiing	fs:Color
+2411488	488845	the people are using skis					fs:People,fs:IntentionallyAffect,fs:Using
+2411488	488846	the sky is very cloudy					fs:Identicality,fs:Locale
+2411488	488847	a winter time scene					fs:CalendricUnit,fs:EventInstance,fs:LocaleByEvent,fs:LocationInTime,fs:Timespan
+2411488	488848	a rocky outcrop on the mountain					fs:NaturalFeatures
+2411488	488849	person wearing black cloths.					fs:People,fs:Color
+2411488	488850	snow on the field.					fs:Precipitation
+2411488	488851	day is cloudy.					fs:MeasureDuration,fs:Timespan,fs:CalendricUnit
+2411488	488852	skiers going down the hill.			folk:Willingness	https://w3id.org/framester/wn/wn30/instances/synset-down-adjective-1, https://w3id.org/framester/data/framestercore/Willingness	fs:Travel,fs:NaturalFeatures,fs:Motion,fs:Departing,fs:Willingness
+2411488	488853	part of the mountain in not covered with snow					fs:Precipitation,fs:NaturalFeatures,fs:Membership
+2411488	488854	mountain is covered with snow.					fs:Precipitation,fs:NaturalFeatures,fs:Adorning,fs:Topic,fs:Eclipse,fs:Filling
+2411488	488855	snow trucks on the snow.					fs:Precipitation
+2411488	488856	person in front of other people.			mft:Harm, folk:Helping, mft:Care	http://dbpedia.org/resource/Person, https://w3id.org/framester/wn/wn30/instances/synset-front-noun-1	fs:People,fs:PartOrientational
+2411488	488857	several people on the hill.					fs:People,fs:NaturalFeatures,fs:Quantity
+2411488	488858	person is crouched.					fs:ChangePosture,fs:People,fs:Posture
+2411488	488859	a rocky mountain top					fs:Supply,fs:NaturalFeatures,fs:BeingLocated,fs:Posture
+2411488	488860	a person snowboarding on a mountain					
+2411488	488861	a person skiing on a mountain	be:Enjoyment	http://dbpedia.org/resource/Skiing	bhv:Stimulation, folk:Fun	http://dbpedia.org/resource/Skiing	fs:People,fs:NaturalFeatures
+2411488	488862	snow-covered mountain trail					fs:AboundingWith,fs:NaturalFeatures,fs:Eclipse
+2411488	488863	two skiiers in the distance					fs:Range
+2411488	488864	cloudy overcast sky line					fs:Pattern,fs:Locale
+2411488	488865	snow-covered mountain top					fs:NaturalFeatures,fs:BeingLocated,fs:AboundingWith,fs:Posture,fs:Supply,fs:Eclipse
+2411488	488866	a person participating in sport					fs:People,fs:Participation
+2411488	488867	a person exercising outdoors			folk:Learning, folk:Fitness	https://w3id.org/framester/data/framestercore/Exercising, https://w3id.org/framester/vn/vn31/data/Exercise_26080000	fs:Practice,fs:People,fs:Exercising
+2411488	488868	snow with ski paths carved in			mft:Harm	https://w3id.org/framester/vn/vn31/data/Carve_25020000	fs:Travel,fs:Motion,fs:Precipitation,fs:CreateRepresentation
+2411488	488869	skier in the snowy mountains	be:Enjoyment	http://dbpedia.org/resource/Skiing	bhv:Stimulation, folk:Fun	http://dbpedia.org/resource/Skiing	fs:Travel,fs:Motion
+2411488	488870	cloudy grey sky in the background					fs:Locale
+2411488	488871	white snow on the ground					fs:Precipitation,fs:NaturalFeatures,fs:Color
+2411488	488872	sunlight peeking out from behind the clouds			folk:Analysis	https://w3id.org/framester/vn/vn31/data/Peek_30030000	fs:PerceptionActive,fs:Weather
+2411488	488873	part of mountain not covered in snow					fs:Precipitation,fs:NaturalFeatures,fs:Adorning,fs:Membership,fs:Topic,fs:Eclipse,fs:Filling
+2411488	488874	hill on a mountain					fs:NaturalFeatures
+2411488	488875	skier going down a hill			folk:Willingness	https://w3id.org/framester/wn/wn30/instances/synset-down-adjective-1, https://w3id.org/framester/data/framestercore/Willingness	fs:Travel,fs:NaturalFeatures,fs:Motion,fs:Departing,fs:Willingness
+2411488	488876	group of three skiers					fs:Aggregate,fs:Organization
+2411488	488877	two skiers in the distance					fs:Range
+2411488	488878	track in the snow from skiis					fs:Roadways,fs:Precipitation,fs:PathTraveled

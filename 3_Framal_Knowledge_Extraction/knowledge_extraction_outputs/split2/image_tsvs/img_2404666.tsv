@@ -1,0 +1,50 @@
+image_id	region_id	phrase	Emotions	Emotions Triggers	Values	Values Triggers	Frames
+2404666	535219	and man and a dog					fs:Animals,fs:People
+2404666	535220	a dog on a surfboard					fs:Animals
+2404666	535221	a dog with brown fur					fs:Animals,fs:Color
+2404666	535222	a man laying on a surfboard					fs:People,fs:Placing
+2404666	535223	a wave in the ocean					fs:NaturalFeatures,fs:Event
+2404666	535224	a man standing in the water			mft:Authority, folk:Consideration	https://w3id.org/framester/wn/wn30/instances/synset-standing-noun-1, https://w3id.org/framester/data/framestercore/OccupyRank	fs:OccupyRank,fs:Substance,fs:People
+2404666	535225	a red and white surfboard					fs:Color
+2404666	535226	a man wearing a wet suit					fs:People,fs:BeingWet,fs:Clothing
+2404666	535227	the leg of a dog					fs:Animals,fs:ObservableBodyParts,fs:ShapedPart
+2404666	535228	a person's hand					fs:People,fs:ObservableBodyParts
+2404666	535229	the back of a person surfing at the beach.	be:Enjoyment	http://dbpedia.org/resource/Surfing	bhv:Hedonism, folk:Fun	http://dbpedia.org/resource/Surfing	fs:People,fs:ObservableBodyParts,fs:NaturalFeatures
+2404666	535230	a brown dog standing on a paddle board.			mft:Authority, folk:Consideration	https://w3id.org/framester/wn/wn30/instances/synset-standing-noun-1, https://w3id.org/framester/data/framestercore/OccupyRank	fs:OccupyRank,fs:Animals,fs:Color,fs:Organization
+2404666	535231	the torso of a white man in the water.					fs:Color,fs:People,fs:Substance,fs:ObservableBodyParts
+2404666	535232	a white paddle board with a red strip on it.					fs:Shapes,fs:Color,fs:Organization
+2404666	535233	a small wave coming from afar.					fs:Event,fs:Arriving,fs:Size,fs:Dimension
+2404666	535234	a vast area of ocean water.					fs:Substance,fs:NaturalFeatures,fs:Size,fs:Locale
+2404666	535235	a black wet shirt on the man's back.					fs:People,fs:ObservableBodyParts,fs:Clothing,fs:Color
+2404666	535236	the tail of the brown dog.			mft:Harm	https://w3id.org/framester/wn/wn30/instances/synset-tail-noun-1	fs:Animals,fs:ObservableBodyParts,fs:Color
+2404666	535237	a surfboard used by a young person.	be:Enjoyment	http://dbpedia.org/resource/Surfing	bhv:Hedonism, folk:Fun	http://dbpedia.org/resource/Surfing	fs:People,fs:IntentionallyAffect,fs:Using,fs:Age
+2404666	535238	a message in white as the name of a brand.					fs:ReferringByName,fs:BeingNamed
+2404666	535239	dog on surfboard bring held up by man	be:Enjoyment	http://dbpedia.org/resource/Surfing	bhv:Hedonism, folk:Fun, folk:Willingness	http://dbpedia.org/resource/Surfing, https://w3id.org/framester/wn/wn30/instances/synset-up-adjective-1	fs:Animals,fs:People,fs:Bringing
+2404666	535240	man holding dog on surfboard					fs:Animals,fs:People
+2404666	535241	man paddling out on surfboard					fs:People,fs:OperateVehicle,fs:Bringing
+2404666	535242	wave about to break					fs:CauseToEnd,fs:ActivityStop,fs:Event
+2404666	535243	ocean					fs:NaturalFeatures
+2404666	535244	two guys surfing with dog	be:Enjoyment	http://dbpedia.org/resource/Surfing	bhv:Hedonism, folk:Fun	http://dbpedia.org/resource/Surfing	fs:Animals
+2404666	535245	guy in water					fs:People,fs:Substance
+2404666	535246	small wave					fs:Dimension,fs:Size,fs:Event
+2404666	535247	lettering on back of wetsuit					fs:ObservableBodyParts
+2404666	535248	sea foam					fs:Building,fs:NaturalFeatures,fs:ComingUpWith,fs:Creating,fs:CauseToStart,fs:IntentionallyCreate
+2404666	535249	a small brown dog					fs:Animals,fs:Size,fs:Color,fs:Dimension
+2404666	535250	a dog stands on a surfboard					fs:Animals,fs:BeingLocated,fs:Posture,fs:ChangePosture,fs:Placing
+2404666	535251	a man holds a dog on a surfboard					fs:Animals,fs:People
+2404666	535253	a man in a black wetsuit					fs:People,fs:Color
+2404666	535254	a man paddling through water					fs:People,fs:Substance
+2404666	535255	surfers in the ocean	be:Enjoyment	http://dbpedia.org/resource/Surfing	bhv:Hedonism, folk:Fun	http://dbpedia.org/resource/Surfing	fs:NaturalFeatures
+2404666	535256	a man lies on a surfboard					fs:ChangePosture,fs:People,fs:Posture,fs:BeingLocated
+2404666	535257	people riding waves					fs:Travel,fs:People,fs:OperateVehicle,fs:RideVehicle
+2404666	535258	a man teaches his dog to surf			folk:Learning	https://w3id.org/framester/data/framestercore/EducationTeaching	fs:Animals,fs:Motion,fs:EducationTeaching,fs:People
+2404666	535259	the ocean waves the man on the surfboard is swimming out towards.	be:Enjoyment	http://dbpedia.org/resource/Surfing	bhv:Hedonism, folk:Fun	http://dbpedia.org/resource/Surfing	fs:People,fs:NaturalFeatures,fs:SelfMotion
+2404666	535260	the brown dog standing on the surfboard.			mft:Authority, folk:Consideration	https://w3id.org/framester/wn/wn30/instances/synset-standing-noun-1, https://w3id.org/framester/data/framestercore/OccupyRank	fs:Animals,fs:OccupyRank,fs:Color
+2404666	535261	the white letters on the back of the wetsuit the man standing next to the dog has on.					fs:Animals,fs:BeingLocated,fs:Ingestion,fs:Posture,fs:ChangePosture,fs:People,fs:Color,fs:Placing,fs:ObservableBodyParts
+2404666	535262	the white and red surfboard the dog is standing on.	be:Enjoyment	http://dbpedia.org/resource/Surfing	bhv:Hedonism, folk:Fun	http://dbpedia.org/resource/Surfing	fs:Animals,fs:BeingLocated,fs:Posture,fs:ChangePosture,fs:Color,fs:Placing
+2404666	535263	the tip of the white surfboard the man is laying on.	be:Enjoyment	http://dbpedia.org/resource/Surfing	bhv:Hedonism, folk:Fun	http://dbpedia.org/resource/Surfing	fs:Color,fs:People,fs:Removing,fs:Placing
+2404666	535264	the black hair of the man laying on the surfboard.	be:Enjoyment	http://dbpedia.org/resource/Surfing	bhv:Hedonism, folk:Fun	http://dbpedia.org/resource/Surfing	fs:HairConfiguration,fs:People,fs:Placing,fs:Color,fs:ObservableBodyParts
+2404666	535265	the reddish-blonde hair of the man standing next to the dog on the surfboard.	be:Enjoyment	http://dbpedia.org/resource/Surfing	bhv:Hedonism, folk:Fun	http://dbpedia.org/resource/Surfing	fs:Animals,fs:BeingLocated,fs:HairConfiguration,fs:Posture,fs:ChangePosture,fs:People,fs:Placing,fs:ObservableBodyParts
+2404666	535266	the black wet suit the man that is laying on the surfboard is wearing.	be:Enjoyment	http://dbpedia.org/resource/Surfing	bhv:Hedonism, folk:Fun	http://dbpedia.org/resource/Surfing	fs:People,fs:Placing,fs:Color,fs:BeingWet,fs:Clothing
+2404666	535267	the man's hand on the brown dog.					fs:Animals,fs:ObservableBodyParts,fs:People,fs:Color
+2404666	535268	the legs of the brown dog.					fs:Animals,fs:Color

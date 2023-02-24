@@ -1,0 +1,50 @@
+image_id	region_id	phrase	Emotions	Emotions Triggers	Values	Values Triggers	Frames
+2412773	136582	woman in a wet suit					fs:People,fs:BeingWet,fs:Clothing
+2412773	136583	woman on a boogie board					fs:People,fs:Organization
+2412773	136584	barefooted woman at plat					fs:People,fs:Wearing
+2412773	136585	woman in a black wet suit					fs:People,fs:Clothing,fs:Color
+2412773	136586	girl in a wet suit					fs:People,fs:BeingWet,fs:Clothing
+2412773	136587	a girl with bare feet					fs:People,fs:Wearing
+2412773	136588	a girl facing left			mft:Harm	https://w3id.org/framester/vn/vn31/data/Face_98000000, https://w3id.org/framester/data/framestercore/HostileEncounter	fs:ConfrontingProblem,fs:People,fs:PartOrientational,fs:HostileEncounter
+2412773	136589	a girl with a trim figure					fs:People,fs:BodyDescriptionHolistic
+2412773	136590	a girl creating splashes					fs:Manufacturing,fs:Creating,fs:CauseToStart,fs:People,fs:IntentionallyCreate
+2412773	136591	a black wet suit with white trim					fs:Filling,fs:Clothing,fs:Adorning,fs:Color
+2412773	136592	dolphin that the lady is standing on.					fs:BeingLocated,fs:Posture,fs:ChangePosture,fs:People,fs:Placing
+2412773	136593	mouth of the dolphin in the water.			folk:Control	https://w3id.org/framester/wn/wn30/instances/synset-mouth-noun-1	fs:ObservableBodyParts,fs:Substance,fs:ShapedPart
+2412773	136594	eye of the dolphin that is in the water.			folk:Analysis	https://w3id.org/framester/wn/wn30/instances/synset-eye-noun-1	fs:Substance,fs:ObservableBodyParts
+2412773	136595	wet suit the lady that is standing on the dolphin is wearing.					fs:BeingLocated,fs:Posture,fs:ChangePosture,fs:People,fs:Placing,fs:BeingWet,fs:Clothing
+2412773	136596	white design on the lady's wet suit.			folk:Management	https://w3id.org/framester/wn/wn30/instances/synset-design-noun-2	
+2412773	136598	knee cap on the leg where the white design is on the wet suit.			folk:Management	https://w3id.org/framester/wn/wn30/instances/synset-design-noun-2	
+2412773	136599	lady's ankle on her visible foot.			folk:Clarity	https://w3id.org/framester/wn/wn30/instances/synset-visible-adjective-1	fs:People,fs:PartOrientational,fs:ObservableBodyParts,fs:Obviousness
+2412773	136600	toes of the lady on her visible foot.			folk:Clarity	https://w3id.org/framester/wn/wn30/instances/synset-visible-adjective-1	fs:People,fs:PartOrientational,fs:ObservableBodyParts,fs:Obviousness
+2412773	136601	splashing water behind the lady standing on the dolphin.			mft:Authority, folk:Consideration	https://w3id.org/framester/wn/wn30/instances/synset-standing-noun-1, https://w3id.org/framester/data/framestercore/OccupyRank	fs:Substance,fs:MotionNoise,fs:OccupyRank,fs:CauseFluidicMotion,fs:FluidicMotion,fs:People,fs:Filling
+2412773	136602	a woman in black is standing on a whale					fs:BeingLocated,fs:Posture,fs:ChangePosture,fs:People,fs:Placing
+2412773	136603	woman is wearing a black wetsuit					fs:People,fs:Color
+2412773	136604	dolphin carries a woman on its head					fs:Motion,fs:CarryGoods,fs:People,fs:Bringing,fs:ObservableBodyParts
+2412773	136605	a large mound of coral					fs:Size,fs:Dimension
+2412773	136606	wet suit is slick with water					fs:BeingWet,fs:Substance,fs:Clothing,fs:LocationOfLight
+2412773	136607	woman's hair is wet and slicked back					fs:PartOrientational,fs:HairConfiguration,fs:People,fs:BeingWet,fs:ObservableBodyParts
+2412773	136608	dolphin makes water frothy as it swims through it					fs:Building,fs:Substance,fs:Manufacturing,fs:CookingCreation,fs:CauseChange,fs:Creating,fs:ActivityPrepare,fs:SelfMotion,fs:IntentionallyCreate
+2412773	136609	woman performs stunt with dolphin			bhv:Achievement, folk:Accomplishment	https://w3id.org/framester/wn/wn30/instances/synset-stunt-noun-1	fs:People,fs:IntentionallyAct
+2412773	136610	woman's foot is on dolphin's beak			folk:Control, mft:Harm	https://w3id.org/framester/wn/wn30/instances/synset-beak-noun-2	fs:People,fs:PartOrientational,fs:ObservableBodyParts
+2412773	136611	a large white rock			mft:Harm	https://w3id.org/framester/wn/wn30/instances/synset-rock-noun-1, https://w3id.org/framester/data/framestercore/CauseHarm	fs:Color,fs:CauseHarm,fs:Size,fs:Dimension
+2412773	136612	woman wearing black wetsuit					fs:People,fs:Color
+2412773	136613	woman standing on dolphins face			mft:Authority, folk:Consideration, mft:Harm	https://w3id.org/framester/wn/wn30/instances/synset-standing-noun-1, https://w3id.org/framester/data/framestercore/HostileEncounter, https://w3id.org/framester/wn/wn30/instances/synset-confront-verb-2, https://w3id.org/framester/vn/vn31/data/Face_98000000, https://w3id.org/framester/data/framestercore/OccupyRank	fs:ConfrontingProblem,fs:People,fs:OccupyRank,fs:HostileEncounter
+2412773	136614	large rocks behind woman					fs:People,fs:Size,fs:Dimension
+2412773	136615	water splashing around dolphin					fs:Substance
+2412773	136616	water clear and blue			folk:Clarity	https://w3id.org/framester/wn/wn30/instances/synset-clear-adjective-1	fs:Substance,fs:Color,fs:Obviousness
+2412773	136617	long dark hair on woman					fs:HairConfiguration,fs:Dimension,fs:People,fs:DurationAttribute,fs:ObservableBodyParts
+2412773	136618	womans hair pulled back					fs:HairConfiguration,fs:PartOrientational,fs:ObservableBodyParts
+2412773	136619	white design on side of wetsuit			folk:Management	https://w3id.org/framester/wn/wn30/instances/synset-design-noun-2	fs:ComingUpWith,fs:Cogitation,fs:Color
+2412773	136620	woman barefoot in water					fs:People,fs:Substance
+2412773	136621	hand on hip					fs:ObservableBodyParts,fs:PartWhole
+2412773	136622	a woman is riding a dolphin					fs:Travel,fs:People,fs:OperateVehicle,fs:RideVehicle
+2412773	136623	the woman is wearing a wetsuit					fs:People
+2412773	136624	the woman is splashing water					fs:Substance,fs:MotionNoise,fs:CauseFluidicMotion,fs:FluidicMotion,fs:People,fs:Filling
+2412773	136625	the woman has her arm bent			folk:Impartial	https://w3id.org/framester/wn/wn30/instances/synset-bent-noun-1	fs:ShapedPart,fs:Ingestion,fs:Inclination,fs:People,fs:ObservableBodyParts
+2412773	136626	the dolphin is grey in color					fs:Color
+2412773	136627	the woman's hair is wet					fs:People,fs:BeingWet,fs:ObservableBodyParts,fs:HairConfiguration
+2412773	136628	the woman's hair is pulled back					fs:People,fs:HairConfiguration,fs:PartOrientational,fs:ObservableBodyParts
+2412773	136629	a rocky formation is behind the woman					fs:People,fs:Pattern
+2412773	136630	the wetsuit has writing on it					fs:Ingestion,fs:Contacting
+2412773	136631	the water is blue in color					fs:Substance,fs:Color

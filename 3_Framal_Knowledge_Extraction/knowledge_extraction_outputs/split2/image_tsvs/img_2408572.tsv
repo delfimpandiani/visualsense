@@ -1,0 +1,34 @@
+image_id	region_id	phrase	Emotions	Emotions Triggers	Values	Values Triggers	Frames
+2408572	287709	seat area of a motorcycle.					fs:Capacity,fs:RideVehicle,fs:Locale,fs:Supply,fs:Placing,fs:OperateVehicle
+2408572	287710	a crowd of people.					fs:Aggregate,fs:People
+2408572	287711	a person wearing a hat.					fs:Accoutrements,fs:People
+2408572	287712	red motorcycle on display					fs:OperateVehicle,fs:RideVehicle,fs:Color
+2408572	287713	tank of motorcycle is red					fs:Vehicle,fs:OperateVehicle,fs:RideVehicle,fs:Color
+2408572	287714	sit of motorcycle is black					fs:BeingLocated,fs:Posture,fs:RideVehicle,fs:ChangePosture,fs:Color,fs:Placing,fs:OperateVehicle
+2408572	287715	viewers observing a motorcycle is red					fs:OperateVehicle,fs:RideVehicle,fs:Color
+2408572	287716	motorcycle is on a stand					fs:OperateVehicle,fs:RideVehicle
+2408572	287717	man wear black t-shirt 					fs:People,fs:Clothing,fs:Color
+2408572	287718	person wearing glasses					fs:People
+2408572	287719	woman with long hair					fs:People,fs:HairConfiguration,fs:ObservableBodyParts,fs:DurationAttribute
+2408572	287720	man holding a white and blue bag					fs:People,fs:Containers,fs:MeasureVolume,fs:Color
+2408572	287721	handle of motorcycle is red			bhv:Power, mft:Care, folk:Leadership	https://w3id.org/framester/wn/wn30/instances/synset-manage-verb-2	fs:ResolveProblem,fs:OperateVehicle,fs:RideVehicle,fs:Color
+2408572	287722	bike in the flatform					fs:Vehicle
+2408572	287723	man holding bag and cellphone					fs:People,fs:Containers,fs:MeasureVolume
+2408572	287724	ducati red bike					fs:Vehicle,fs:Color
+2408572	287725	people looking for the bike			folk:Analysis	https://w3id.org/framester/data/framestercore/Scrutiny, https://w3id.org/framester/vn/vn31/data/Look_30030000	fs:PerceptionActive,fs:Seeking,fs:Scrutiny,fs:People,fs:Vehicle
+2408572	287726	man with tattoo and hat					fs:Accoutrements,fs:People
+2408572	287727	man wearing hoodie and hat					fs:Accoutrements,fs:People
+2408572	287728	lady holding cup					fs:People,fs:Containers
+2408572	287729	man wearing glasses					fs:People
+2408572	287730	man wearing white shirt					fs:People,fs:Clothing,fs:Color
+2408572	287731	man wearing white & blue shirt					fs:People,fs:Clothing,fs:Color
+2408572	287732	the motorcycle is red					fs:OperateVehicle,fs:RideVehicle,fs:Color
+2408572	287733	the man wears a cap					fs:Accoutrements,fs:People
+2408572	287734	the woman has long hair					fs:Ingestion,fs:HairConfiguration,fs:People,fs:DurationAttribute,fs:ObservableBodyParts
+2408572	287735	the motorcycle stand					fs:OperateVehicle,fs:RideVehicle
+2408572	287736	the man has on jeans					fs:People,fs:Ingestion
+2408572	287737	the man has a red lanyard on his neck					fs:People,fs:Ingestion,fs:ObservableBodyParts,fs:Color
+2408572	287738	the man takes a picture with his phone			mft:Authority, folk:Leadership, bhv:Power	https://w3id.org/framester/vn/vn31/data/Take_10050000, https://w3id.org/framester/data/framestercore/ChangeOfLeadership	fs:ChangeOfQuantityOfPossession,fs:Getting,fs:OpticalImage,fs:Cotheme,fs:CommunicationMeans,fs:People,fs:Sensation,fs:ChangeOfLeadership,fs:Bringing,fs:Conquering,fs:Taking,fs:Contacting,fs:Removing,fs:EarningsAndLosses
+2408572	287739	the man has on glasses					fs:People,fs:Ingestion
+2408572	287740	the bearded man is wearing a knit cap					fs:Accoutrements,fs:BodyDescriptionPart,fs:People,fs:Artifact
+2408572	287741	the seat is black					fs:Color,fs:Capacity,fs:Supply,fs:Placing

@@ -1,0 +1,51 @@
+image_id	region_id	phrase	Emotions	Emotions Triggers	Values	Values Triggers	Frames
+2408156	307542	cows					
+2408156	307543	cows bedded down			folk:Willingness	https://w3id.org/framester/wn/wn30/instances/synset-down-adjective-1, https://w3id.org/framester/data/framestercore/Willingness	fs:PersonalRelationship,fs:Willingness,fs:Placing
+2408156	307544	brown cows					fs:Animals,fs:Color,fs:BiologicalEntity
+2408156	307545	cows laying in the har					fs:Placing
+2408156	307546	cows laying down in the hay at a county fair			mft:Authority	https://w3id.org/framester/wn/wn30/instances/synset-county-noun-1	fs:Locale,fs:Placing
+2408156	307547	cows being shown at the fair					fs:CauseToPerceive
+2408156	307548	cows have yellow tags in their ears					fs:Ingestion,fs:Possession,fs:Color
+2408156	307549	lots of straw					fs:Filling,fs:Adorning
+2408156	307550	people at the fair looking at the cows			folk:Analysis, folk:Helping, mft:Fairness, mft:Care	https://w3id.org/framester/data/framestercore/Scrutiny, http://dbpedia.org/resource/Person, http://dbpedia.org/resource/Fair, https://w3id.org/framester/vn/vn31/data/Look_30030000	fs:PerceptionActive,fs:Seeking,fs:People,fs:Scrutiny
+2408156	307551	county fair showing cows			mft:Authority, bhv:Universalism, mft:Fairness, folk:Impartial	https://w3id.org/framester/wn/wn30/instances/synset-fair-adjective-1, https://w3id.org/framester/wn/wn30/instances/synset-county-noun-1, https://w3id.org/framester/data/framestercore/Legality	fs:Legality,fs:Quantity,fs:Locale,fs:CauseToPerceive
+2408156	307552	yellow tag in cows ear					fs:Attaching,fs:Color
+2408156	307553	yellow hay on floor			folk:Control, mft:Harm	https://w3id.org/framester/wn/wn30/instances/synset-floor-noun-1	fs:ArchitecturalPart,fs:Color
+2408156	307554	woman with pink sweater around her waist					fs:People,fs:ClothingParts,fs:Clothing,fs:Color
+2408156	307555	woman observing the cows					fs:People
+2408156	307556	brown cows laying in hay					fs:Placing,fs:Color
+2408156	307557	white reigns around cow's head and face					fs:Animals,fs:ObservableBodyParts,fs:FacialExpression,fs:Color
+2408156	307558	two yellow buckets					fs:Color
+2408156	307559	blue and yellow ribbons hung on pole	be:Disgust	https://w3id.org/framester/vn/vn31/data/Hang_47060000	mft:Degradation	https://w3id.org/framester/vn/vn31/data/Hang_47060000	fs:BodyMovement,fs:Placing,fs:Color,fs:InchoativeAttaching,fs:Filling,fs:Supporting,fs:CauseMotion
+2408156	307560	blue poles and beams holding up ceiling			folk:Willingness	https://w3id.org/framester/wn/wn30/instances/synset-up-adjective-1	fs:BuildingSubparts,fs:ConnectingArchitecture,fs:Color
+2408156	307561	people on second level of building					fs:Quantity,fs:Rank,fs:People,fs:Buildings,fs:OrdinalNumbers
+2408156	307562	brown cows lying down			folk:Willingness	https://w3id.org/framester/wn/wn30/instances/synset-down-adjective-1, https://w3id.org/framester/data/framestercore/Willingness	fs:BeingLocated,fs:Posture,fs:ChangePosture,fs:Color,fs:Willingness
+2408156	307563	yellow tag in cows ear					fs:Attaching,fs:Color
+2408156	307564	hay for cows to lie on					fs:ChangePosture,fs:Posture,fs:BeingLocated
+2408156	307565	cow head with a white muzzle					fs:Animals,fs:ObservableBodyParts,fs:Color
+2408156	307566	metal safety rail			bhv:Power, folk:Risk, mft:Care, folk:Strenght	https://w3id.org/framester/data/framestercore/BeingAtRisk, https://w3id.org/framester/wn/wn30/instances/synset-safety-noun-1, http://dbpedia.org/resource/Metal	fs:BeingAtRisk,fs:ArchitecturalPart
+2408156	307567	yellow bucket in cow stall					fs:Animals,fs:Containers,fs:Buildings,fs:Color
+2408156	307568	wall near cow heads			mft:Care, bhv:Security	https://w3id.org/framester/wn/wn30/instances/synset-wall-noun-1	fs:Animals,fs:ArchitecturalPart
+2408156	307569	signs hanging in background	be:Sadness	http://dbpedia.org/resource/Death	mft:Harm	http://dbpedia.org/resource/Capital_punishment, http://dbpedia.org/resource/Death	fs:Filling,fs:Placing
+2408156	307570	woman walking near cows					fs:People
+2408156	307571	eye of a cow			folk:Analysis, folk:Learning	http://dbpedia.org/resource/Eye, https://w3id.org/framester/wn/wn30/instances/synset-eye-noun-1	fs:Animals,fs:ObservableBodyParts
+2408156	307572	a brown cow lying down			folk:Willingness	https://w3id.org/framester/wn/wn30/instances/synset-down-adjective-1, https://w3id.org/framester/data/framestercore/Willingness	fs:Animals,fs:BeingLocated,fs:Posture,fs:ChangePosture,fs:Color,fs:Willingness
+2408156	307573	golden hay on the ground					fs:HairConfiguration,fs:NaturalFeatures
+2408156	307574	yellow tag on cows ear					fs:Attaching,fs:Color
+2408156	307575	a concrete wall			mft:Care, bhv:Security	https://w3id.org/framester/wn/wn30/instances/synset-wall-noun-1	fs:ArchitecturalPart,fs:Adorning,fs:Filling
+2408156	307576	a woman walking by					fs:People
+2408156	307577	a blue ceiling beam					fs:BuildingSubparts,fs:ConnectingArchitecture,fs:Color
+2408156	307578	pink sweater around woman's waist					fs:People,fs:ClothingParts,fs:Clothing,fs:Color
+2408156	307579	a picture of livestock					fs:OpticalImage,fs:Sensation
+2408156	307580	a woman in a turquoise shirt					fs:People,fs:Clothing
+2408156	307581	two blue chairs					fs:Color
+2408156	307582	woman with pink sweater around waist					fs:People,fs:ClothingParts,fs:Clothing,fs:Color
+2408156	307583	yellow buckets in hay					fs:Color
+2408156	307584	blue ribbon hanging above cows					fs:Connectors,fs:Color
+2408156	307585	large white sign with red writing					fs:Color,fs:Size,fs:Sign,fs:Dimension
+2408156	307586	yellow tag on cow's ear					fs:Animals,fs:Attaching,fs:ObservableBodyParts,fs:Color
+2408156	307587	large brown cow lying in hay					fs:Animals,fs:BeingLocated,fs:Posture,fs:Size,fs:Dimension,fs:ChangePosture,fs:Color
+2408156	307588	white rope around cow's head			folk:Control	https://w3id.org/framester/wn/wn30/instances/synset-rope-noun-1	fs:Animals,fs:ObservableBodyParts,fs:Connectors,fs:Color
+2408156	307589	brownish yellow hay covers ground					fs:NaturalFeatures,fs:Adorning,fs:Topic,fs:Color,fs:Eclipse,fs:Filling
+2408156	307590	silver metal handlebars			bhv:Power, folk:Strenght	http://dbpedia.org/resource/Metal	
+2408156	307591	boy in blue shirt					

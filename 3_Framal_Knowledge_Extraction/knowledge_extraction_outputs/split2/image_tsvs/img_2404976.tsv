@@ -1,0 +1,51 @@
+image_id	region_id	phrase	Emotions	Emotions Triggers	Values	Values Triggers	Frames
+2404976	459529	people riding a motorcycle. 					fs:Travel,fs:People,fs:OperateVehicle,fs:RideVehicle
+2404976	459530	yellow lines on the road. 					fs:Roadways,fs:Color
+2404976	459531	the road is paved. 					fs:Roadways,fs:Filling,fs:Adorning
+2404976	459532	kid in the front of the bike. 			mft:Care, mft:Harm	https://w3id.org/framester/wn/wn30/instances/synset-front-noun-1, https://w3id.org/framester/wn/wn30/instances/synset-child-noun-1	fs:PeopleByAge,fs:PartOrientational,fs:Vehicle
+2404976	459533	woman riding the bike sideways. 					fs:Travel,fs:RideVehicle,fs:People,fs:Vehicle,fs:OperateVehicle
+2404976	459534	the roof is black. 					fs:ArchitecturalPart,fs:Color
+2404976	459535	old covered wagon on side of road. 					fs:Roadways,fs:AboundingWith,fs:Age,fs:Eclipse
+2404976	459536	kids standing on a curb. 			folk:Consent	https://w3id.org/framester/wn/wn30/instances/synset-curb-noun-1	fs:BeingLocated,fs:Posture,fs:ChangePosture,fs:Placing,fs:Hindering
+2404976	459537	the grass is green. 			bhv:Benevolence, mft:Care, folk:Helping	https://w3id.org/framester/wn/wn30/instances/synset-grass-noun-1	fs:Filling,fs:Adorning,fs:Color
+2404976	459538	the sidewalk is brick. 					fs:Roadways
+2404976	459539	a street scene viewed from above					fs:Roadways,fs:LocaleByEvent,fs:Categorization
+2404976	459540	four people riding on a motorbike					fs:Travel,fs:People,fs:OperateVehicle,fs:RideVehicle
+2404976	459541	woman with long dark hair					fs:HairConfiguration,fs:Dimension,fs:People,fs:DurationAttribute,fs:ObservableBodyParts
+2404976	459542	woman sitting sideways on a motorbike					fs:BeingLocated,fs:Posture,fs:ChangePosture,fs:People,fs:Placing
+2404976	459543	woman carrying plastic bags in her left hand					fs:PartOrientational,fs:Motion,fs:SubstanceByPhase,fs:CarryGoods,fs:People,fs:Bringing,fs:ObservableBodyParts
+2404976	459544	man driving motorbike 					fs:Travel,fs:People
+2404976	459545	man on motorbike sitting beside the road					fs:BeingLocated,fs:Posture,fs:ChangePosture,fs:People,fs:Placing,fs:Roadways
+2404976	459546	person wearing a red head covering					fs:Adorning,fs:People,fs:Color,fs:Topic,fs:Eclipse,fs:Filling,fs:ObservableBodyParts
+2404976	459547	people standing on the side of the road					fs:BeingLocated,fs:Posture,fs:ChangePosture,fs:People,fs:Placing,fs:Roadways
+2404976	459548	green grass beside sidewalk			bhv:Benevolence, folk:Helping, mft:Care	https://w3id.org/framester/wn/wn30/instances/synset-grass-noun-1	fs:Roadways,fs:Filling,fs:Adorning,fs:Color
+2404976	459549	bicycle cart with people in it					fs:People,fs:Vehicle,fs:Bringing
+2404976	459550	four people riding a bike					fs:Travel,fs:RideVehicle,fs:People,fs:Vehicle,fs:OperateVehicle
+2404976	459551	two people riding a red bike					fs:Travel,fs:RideVehicle,fs:People,fs:Color,fs:Vehicle,fs:OperateVehicle
+2404976	459552	patch of green grass			bhv:Benevolence, mft:Care, folk:Helping	https://w3id.org/framester/wn/wn30/instances/synset-grass-noun-1	fs:Filling,fs:Adorning,fs:Supply,fs:Color
+2404976	459553	two people wearing yellow riding a bike					fs:Travel,fs:RideVehicle,fs:People,fs:Vehicle,fs:OperateVehicle
+2404976	459554	two people wearing white on a bike					fs:People,fs:Vehicle,fs:Color
+2404976	459555	small plastic bag					fs:Containers,fs:SubstanceByPhase,fs:Size,fs:Dimension,fs:MeasureVolume
+2404976	459556	three people standing on the sidewalk					fs:BeingLocated,fs:Posture,fs:ChangePosture,fs:People,fs:Placing,fs:Roadways
+2404976	459557	white box					fs:Containers,fs:MeasureVolume,fs:Color
+2404976	459558	light pink balloon 			folk:Control	https://w3id.org/framester/wn/wn30/instances/synset-balloon-noun-1	fs:OperateVehicle,fs:Dimension
+2404976	459559	people on a bike					fs:People,fs:Vehicle
+2404976	459560	carriage on side of street					fs:Roadways,fs:Vehicle
+2404976	459561	many people on the street					fs:Roadways,fs:People
+2404976	459562	yellow line on street					fs:Roadways,fs:Pattern,fs:Color
+2404976	459563	person sitting on their bike					fs:BeingLocated,fs:Posture,fs:ChangePosture,fs:People,fs:Placing,fs:Vehicle
+2404976	459564	hat on person's head					fs:Accoutrements,fs:People,fs:ObservableBodyParts
+2404976	459565	girl with yellow shirt on back of bike					fs:People,fs:Color,fs:ObservableBodyParts,fs:Clothing,fs:Vehicle
+2404976	459566	red carriage on street					fs:Roadways,fs:Vehicle,fs:Color
+2404976	459567	two people on bike					fs:People,fs:Vehicle
+2404976	459568	green grass next to cement			bhv:Benevolence, mft:Care, folk:Helping	https://w3id.org/framester/wn/wn30/instances/synset-grass-noun-1	fs:Attaching,fs:Adorning,fs:Color,fs:Filling
+2404976	459569	dark street filled with vehicles					fs:Roadways,fs:Filling,fs:Adorning,fs:Dimension
+2404976	459570	red wagon with grey roof by curb			folk:Consent	https://w3id.org/framester/wn/wn30/instances/synset-curb-noun-1	fs:ArchitecturalPart,fs:Hindering,fs:Color
+2404976	459571	family riding on a bicycle					fs:Travel,fs:Vehicle
+2404976	459572	passenger riding motorbike sideways					fs:Travel,fs:OperateVehicle,fs:RideVehicle
+2404976	459573	passenger with foot on the ground					
+2404976	459574	people standing on white curb			folk:Consent	https://w3id.org/framester/wn/wn30/instances/synset-curb-noun-1	fs:BeingLocated,fs:Posture,fs:ChangePosture,fs:People,fs:Color,fs:Placing,fs:Hindering
+2404976	459575	red motorcycle and driver on side of street			folk:Control	https://w3id.org/framester/wn/wn30/instances/synset-driver-noun-1	fs:RideVehicle,fs:Bringing,fs:Color,fs:Roadways,fs:CauseMotion,fs:OperateVehicle,fs:BeingEmployed
+2404976	459576	driver and passenger in white shirts			folk:Control	https://w3id.org/framester/wn/wn30/instances/synset-driver-noun-1	fs:Travel,fs:RideVehicle,fs:Bringing,fs:Color,fs:CauseMotion,fs:OperateVehicle,fs:BeingEmployed
+2404976	459577	passenger with long black hair					fs:Travel,fs:HairConfiguration,fs:RideVehicle,fs:Color,fs:DurationAttribute,fs:ObservableBodyParts,fs:OperateVehicle
+2404976	459578	patterned sidewalk next to grass			bhv:Benevolence, folk:Helping, mft:Care	https://w3id.org/framester/wn/wn30/instances/synset-grass-noun-1	fs:Roadways,fs:Filling,fs:Adorning

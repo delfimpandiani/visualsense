@@ -1,0 +1,50 @@
+image_id	region_id	phrase	Emotions	Emotions Triggers	Values	Values Triggers	Frames
+2409057	264452	the wing tip of a jet			folk:Control	https://w3id.org/framester/wn/wn30/instances/synset-jet-noun-1	fs:Motion,fs:SelfMotion,fs:RideVehicle,fs:Bringing,fs:Removing,fs:Vehicle
+2409057	264453	the low speed outer aileron of a jets wing					fs:PositionOnAScale,fs:Frequency,fs:Motion,fs:Speed,fs:RideVehicle,fs:SelfMotion,fs:PartInnerOuter
+2409057	264454	the high speed inner aileron of a jets wing					fs:PositionOnAScale,fs:Frequency,fs:Motion,fs:Speed,fs:SelfMotion,fs:RideVehicle,fs:Dimension,fs:MeasurableAttributes
+2409057	264455	a green light on the right wingtip of a jet			folk:Control	https://w3id.org/framester/wn/wn30/instances/synset-jet-noun-1	fs:PartOrientational,fs:RideVehicle,fs:Bringing,fs:LocationOfLight,fs:Color,fs:Vehicle
+2409057	264456	a mountain range to the right of the wing			bhv:Achievement, folk:Accomplishment	https://w3id.org/framester/wn/wn30/instances/synset-scope-noun-1	fs:Scope,fs:NaturalFeatures,fs:ObservableBodyParts,fs:Diversity
+2409057	264457	natural water runoff trails formed on the  summit					fs:Substance,fs:NaturalFeatures,fs:PartOrientational,fs:Reshaping,fs:Becoming,fs:RelationalNaturalFeatures,fs:ComingToBe
+2409057	264458	a haze behind the mountain peaks					fs:NaturalFeatures
+2409057	264459	a river snaking through the plains topography	be:Enjoyment	http://dbpedia.org/resource/River	folk:Fun, folk:Structure	https://w3id.org/framester/wn/wn30/instances/synset-river-noun-1, http://dbpedia.org/resource/River	fs:Motion,fs:NaturalFeatures
+2409057	264461	a mountain ridge with ski slopes					fs:Travel,fs:Motion,fs:NaturalFeatures
+2409057	264462	black and white wing.					fs:ObservableBodyParts,fs:Color
+2409057	264463	airplane wing in the air.					fs:Substance,fs:Vehicle,fs:ObservableBodyParts
+2409057	264464	airplane flying in the sky.					fs:Motion,fs:SelfMotion,fs:RideVehicle,fs:Locale,fs:Bringing,fs:Vehicle,fs:OperateVehicle
+2409057	264465	airplane wing above the ground.					fs:Vehicle,fs:NaturalFeatures,fs:ObservableBodyParts
+2409057	264466	black and white wing above land.					fs:ObservableBodyParts,fs:Color
+2409057	264467	airplane above a city.			mft:Authority	https://w3id.org/framester/wn/wn30/instances/synset-city-noun-1, https://w3id.org/framester/data/framestercore/PoliticalLocales	fs:LocaleByUse,fs:Vehicle,fs:PoliticalLocales
+2409057	264468	airplane landing in a city.			mft:Authority	https://w3id.org/framester/wn/wn30/instances/synset-city-noun-1, https://w3id.org/framester/data/framestercore/PoliticalLocales	fs:LocaleByUse,fs:ArchitecturalPart,fs:Vehicle,fs:PoliticalLocales
+2409057	264469	mountain with green grass.			bhv:Benevolence, mft:Care, folk:Helping	https://w3id.org/framester/wn/wn30/instances/synset-grass-noun-1	fs:Filling,fs:NaturalFeatures,fs:Adorning,fs:Color
+2409057	264470	plane preparing to land.					fs:Vehicle,fs:ActivityPrepare
+2409057	264471	plane flying above a city.			mft:Authority	https://w3id.org/framester/wn/wn30/instances/synset-city-noun-1, https://w3id.org/framester/data/framestercore/PoliticalLocales	fs:PoliticalLocales,fs:LocaleByUse,fs:Motion,fs:SelfMotion,fs:RideVehicle,fs:Bringing,fs:Vehicle,fs:OperateVehicle
+2409057	264472	airplane wing over valley					fs:Vehicle,fs:NaturalFeatures,fs:ObservableBodyParts
+2409057	264473	black and grey stripe over wing					fs:ObservableBodyParts,fs:Clothing,fs:Color
+2409057	264474	roadways seen from above					
+2409057	264475	grid formed by buildings and roads  					fs:Pattern,fs:Reshaping,fs:ComingToBe,fs:Becoming
+2409057	264476	curve along a mountain range			bhv:Achievement, folk:Accomplishment	https://w3id.org/framester/wn/wn30/instances/synset-scope-noun-1	fs:Scope,fs:NaturalFeatures,fs:Diversity
+2409057	264477	peaks on broad mountains					fs:Dimension
+2409057	264478	lines across a mountain					fs:NaturalFeatures
+2409057	264479	branching off of waterway					fs:NaturalFeatures
+2409057	264480	green lines reaching toward valley			folk:Giving	https://w3id.org/framester/data/framestercore/Giving	fs:PathShape,fs:NaturalFeatures,fs:Passing,fs:Giving,fs:ChangePositionOnAScale,fs:Color,fs:Arriving
+2409057	264481	solid green area of ground					fs:Locale,fs:NaturalFeatures,fs:Color
+2409057	264482	silver and white wing of airplanne					fs:ObservableBodyParts,fs:Color
+2409057	264483	photo of land below taken from airplane in the sky					fs:Inclusion,fs:Vehicle,fs:Locale,fs:Representing
+2409057	264484	snow tipped mountains					fs:Precipitation
+2409057	264485	highway as seen from airplane					fs:Roadways,fs:Vehicle
+2409057	264486	a town as viewed from airplane			mft:Authority	https://w3id.org/framester/data/framestercore/PoliticalLocales, https://w3id.org/framester/wn/wn30/instances/synset-town-noun-1	fs:Categorization,fs:Vehicle,fs:PoliticalLocales
+2409057	264487	brown and green mountians					fs:Color
+2409057	264488	black stripe on airplane wing					fs:ObservableBodyParts,fs:Vehicle,fs:Clothing,fs:Color
+2409057	264489	solid patch of green grass as seen from airplane			bhv:Benevolence, mft:Care, folk:Helping	https://w3id.org/framester/wn/wn30/instances/synset-grass-noun-1	fs:Adorning,fs:Supply,fs:Color,fs:Filling,fs:Vehicle
+2409057	264490	top of building as seen from airplane					fs:BeingLocated,fs:Posture,fs:Buildings,fs:Supply,fs:Vehicle
+2409057	264491	base of mountain made of dirt					fs:Substance,fs:NaturalFeatures,fs:Causation,fs:LocaleByUse,fs:CauseChange,fs:Appointing
+2409057	264492	black strip on airplane wing.					fs:Shapes,fs:ObservableBodyParts,fs:Vehicle,fs:Color
+2409057	264493	silver airplane wing.					fs:Vehicle,fs:ObservableBodyParts
+2409057	264494	land seen from the sky.					fs:Locale
+2409057	264495	mountain area seen from the sky.					fs:NaturalFeatures,fs:Locale
+2409057	264496	body of water seen from sky.					fs:Substance,fs:PartWhole,fs:Locale
+2409057	264497	house seen from sky.					fs:Buildings,fs:Locale
+2409057	264498	grassy area of land seen from sky.					fs:Locale
+2409057	264499	road seen from sky.					fs:Roadways,fs:Locale
+2409057	264500	small town seen from sky.			mft:Authority	https://w3id.org/framester/data/framestercore/PoliticalLocales, https://w3id.org/framester/wn/wn30/instances/synset-town-noun-1	fs:Locale,fs:PoliticalLocales,fs:Size,fs:Dimension
+2409057	264501	the wing of an airplane.					

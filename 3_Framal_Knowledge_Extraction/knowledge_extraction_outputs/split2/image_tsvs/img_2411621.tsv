@@ -1,0 +1,51 @@
+image_id	region_id	phrase	Emotions	Emotions Triggers	Values	Values Triggers	Frames
+2411621	482429	two women playing with a frisbee					fs:Competition
+2411621	482430	a white frisbee					fs:Color
+2411621	482431	a woman wearing a red hat					fs:Accoutrements,fs:People,fs:Color
+2411621	482432	a large grassy field					fs:Size,fs:Dimension
+2411621	482433	a group of houses beside a field					fs:Aggregate,fs:Organization
+2411621	482434	some birds sitting on a field					fs:ChangePosture,fs:Posture,fs:BeingLocated,fs:Placing
+2411621	482435	a black headband					fs:Accoutrements,fs:Color
+2411621	482436	a car parked on a street			folk:Fun	http://dbpedia.org/resource/Car	fs:Roadways,fs:Vehicle,fs:Placing
+2411621	482437	a red glove					
+2411621	482438	a black shoe					fs:Clothing,fs:Color
+2411621	482439	woman wearing a read beanie					fs:HaveAssociated,fs:People,fs:Accoutrements
+2411621	482440	woman throwing a frisbee					fs:People
+2411621	482441	woman wearing a white shirt					fs:People,fs:Clothing,fs:Color
+2411621	482442	woman wearing red gloves					fs:People,fs:Color
+2411621	482443	two women playing frisbee					
+2411621	482444	brown houses					fs:Color
+2411621	482445	trees with no leaves			folk:Beauty	http://dbpedia.org/resource/Tree	
+2411621	482446	green and brown muddy grass			bhv:Benevolence, mft:Care, folk:Helping	https://w3id.org/framester/wn/wn30/instances/synset-grass-noun-1	fs:BeingWet,fs:Adorning,fs:Color,fs:Filling
+2411621	482447	two women wearing black pants					fs:Clothing,fs:Color
+2411621	482448	black pants					fs:Clothing,fs:Color
+2411621	482449	the woman is wearing a black sweatband. 					fs:People,fs:Color
+2411621	482450	they are playing frisbee.					
+2411621	482451	the woman is trying to block the other woman. 			folk:Adventure	https://w3id.org/framester/vn/vn31/data/Try_61000000	fs:Thwarting,fs:People,fs:Eclipse,fs:Preventing,fs:Hindering,fs:Attempt,fs:AttemptMeans
+2411621	482452	the grass is green. 			bhv:Benevolence, mft:Care, folk:Helping	https://w3id.org/framester/wn/wn30/instances/synset-grass-noun-1	fs:Filling,fs:Adorning,fs:Color
+2411621	482453	white birds in the background. 					fs:Color
+2411621	482454	the jacket is black. 					fs:Clothing,fs:Color
+2411621	482455	brick houses in the background. 			folk:Family, bhv:Security	http://dbpedia.org/resource/House	
+2411621	482456	no leaves on the trees. 			folk:Beauty	http://dbpedia.org/resource/Tree	
+2411621	482457	the woman is wearing a pink hat. 					fs:Accoutrements,fs:People,fs:Color
+2411621	482458	the sky is white. 					fs:Color,fs:Locale
+2411621	482459	red hat on girl's head					fs:Accoutrements,fs:People,fs:ObservableBodyParts,fs:Color
+2411621	482460	white frisbee to be thrown					fs:Color
+2411621	482461	black athletic pants					fs:Clothing,fs:Color
+2411621	482462	black headband around woman's head					fs:Accoutrements,fs:People,fs:ObservableBodyParts,fs:Color
+2411621	482463	red gloves with a partial white spot					fs:Completeness,fs:Color
+2411621	482464	white sweater on lady					fs:People,fs:Clothing,fs:Color
+2411621	482465	old red houses in the background					fs:Age,fs:Color
+2411621	482466	line of trees in front of houses			mft:Harm	https://w3id.org/framester/wn/wn30/instances/synset-front-noun-1	fs:PartOrientational,fs:Pattern
+2411621	482467	two ladies playing frisbee 					
+2411621	482468	green field with partial dirt areas 					fs:Substance,fs:Color
+2411621	482469	two women are playing frisbee					
+2411621	482470	one woman playing frisbee is wearing a red hat					fs:Accoutrements,fs:People,fs:Color
+2411621	482471	the women are playing with a white frisbee					fs:Competition,fs:Color
+2411621	482472	the woman with the black jacket is wearing red gloves					fs:People,fs:Clothing,fs:Color
+2411621	482473	the woman with the red hat is wearing black gloves					fs:Accoutrements,fs:People,fs:Color
+2411621	482474	the woman with the red hat is wearing a white shirt					fs:Accoutrements,fs:People,fs:Clothing,fs:Color
+2411621	482475	the two women playing frisbee are wearing black pants					fs:Clothing,fs:Color
+2411621	482476	the woman with the black jacket is wearing a ponytail hairstyle					fs:People,fs:HairConfiguration,fs:Clothing,fs:Color
+2411621	482477	houses are in the distance of the picture					fs:OpticalImage,fs:Sensation,fs:Range
+2411621	482478	trees are shown in the background of the picture					fs:OpticalImage,fs:Sensation,fs:CauseToPerceive

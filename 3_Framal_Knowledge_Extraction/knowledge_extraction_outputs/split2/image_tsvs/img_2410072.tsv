@@ -1,0 +1,49 @@
+image_id	region_id	phrase	Emotions	Emotions Triggers	Values	Values Triggers	Frames
+2410072	215562	cows on the road					fs:Roadways
+2410072	215563	brown cow					fs:Animals,fs:Color
+2410072	215564	black cow					fs:Animals,fs:Color
+2410072	215565	man sitting behind desk-like object					fs:BeingLocated,fs:CauseChange,fs:Posture,fs:ChangePosture,fs:People,fs:Placing
+2410072	215566	man wearing a blue and white shirt					fs:People,fs:Clothing,fs:Color
+2410072	215567	man wearing grey pants					fs:People,fs:Clothing,fs:Color
+2410072	215568	man standing behind a stand containing fruit			mft:Authority, folk:Development, folk:Consideration	https://w3id.org/framester/wn/wn30/instances/synset-standing-noun-1, https://w3id.org/framester/wn/wn30/instances/synset-fruit-noun-1, https://w3id.org/framester/data/framestercore/OccupyRank	fs:OccupyRank,fs:Food,fs:People,fs:Inclusion,fs:Placing,fs:Containing
+2410072	215569	bicycle on the dirt ground					fs:Substance,fs:NaturalFeatures,fs:Vehicle
+2410072	215570	person with their arms raised above their head					fs:Motion,fs:People,fs:BodyMovement,fs:CauseChangeOfPositionOnAScale,fs:ObservableBodyParts,fs:RelativeTime
+2410072	215571	trees behind enclosed area					fs:Locale,fs:Adorning,fs:Placing
+2410072	215572	man standing watching the cattle.			folk:Analysis, mft:Authority, folk:Consideration	https://w3id.org/framester/wn/wn30/instances/synset-standing-noun-1, https://w3id.org/framester/vn/vn31/data/Watch_30020000, https://w3id.org/framester/data/framestercore/OccupyRank	fs:PerceptionActive,fs:Seeking,fs:BeingAwake,fs:OccupyRank,fs:Cotheme,fs:People
+2410072	215573	man in orange striped shirt and khaki pants.					fs:People,fs:Artifact,fs:Undressing,fs:Removing,fs:Clothing,fs:Emptying
+2410072	215574	tan/beige colored cattle.  					fs:Color
+2410072	215575	trees and shrubs behind the open air stand.					fs:Openness,fs:Substance
+2410072	215576	man's bicycle parked on dirt.					fs:People,fs:Substance,fs:Vehicle,fs:Placing
+2410072	215577	man selling vegetables.					fs:People,fs:CommerceSell
+2410072	215578	younger man with white shirt and grey hat.			mft:Authority	https://w3id.org/framester/data/framestercore/SubordinatesAndSuperiors, https://w3id.org/framester/wn/wn30/instances/synset-younger-adjectivesatellite-1	fs:Accoutrements,fs:SubordinatesAndSuperiors,fs:People,fs:Color,fs:Clothing
+2410072	215579	paved roadway.					fs:Roadways,fs:AboundingWith
+2410072	215581	garbage/trash on ground.					fs:NaturalFeatures
+2410072	215582	several young, holy animals before several stands in india					fs:Age,fs:Quantity
+2410072	215583	2 bovine near 2 bicycle					fs:Vehicle
+2410072	215584	various cream colored cow sans horns					fs:Animals,fs:Choosing
+2410072	215585	produce stand in the right hand middle distance			mft:Authority, folk:Endurance	https://w3id.org/framester/wn/wn30/instances/synset-stand-verb-1	fs:GrowingFood,fs:PartOrientational,fs:BeingLocated,fs:Food,fs:Posture,fs:Agriculture,fs:ChangePosture,fs:Placing,fs:PartInnerOuter,fs:ObservableBodyParts,fs:Range
+2410072	215586	indeterminate orange, yellow, green produce @ produce stand					fs:GrowingFood,fs:Manufacturing,fs:Food,fs:CauseToStart,fs:Agriculture,fs:IntentionallyCreate,fs:Color
+2410072	215587	a black fabric tarp covers produce stand			mft:Authority, folk:Endurance	https://w3id.org/framester/wn/wn30/instances/synset-stand-verb-1	fs:GrowingFood,fs:BeingLocated,fs:Adorning,fs:Food,fs:Posture,fs:Agriculture,fs:ChangePosture,fs:Artifact,fs:Color,fs:Topic,fs:Placing,fs:Eclipse,fs:Filling
+2410072	215589	 orange+black+off-white stripe western-type shirt worn with light color western-type khakis [unlike kerouac's, say]			mft:Harm	https://w3id.org/framester/wn/wn30/instances/synset-state-verb-1	fs:Request,fs:Communication,fs:Color,fs:Statement,fs:Clothing,fs:TextCreation
+2410072	215590	bright blue plastic tarp besides black tarp covering produce stand			mft:Authority, folk:Endurance	https://w3id.org/framester/wn/wn30/instances/synset-stand-verb-1	fs:GrowingFood,fs:BeingLocated,fs:Adorning,fs:Food,fs:Posture,fs:SubstanceByPhase,fs:Agriculture,fs:ChangePosture,fs:Color,fs:Topic,fs:LocationOfLight,fs:Placing,fs:Filling,fs:Eclipse
+2410072	215591	a neatly kept gravel road trod by cows			folk:Perseverance	https://w3id.org/framester/data/framestercore/CauseToContinue	fs:Roadways,fs:Possession,fs:CauseToContinue,fs:ActivityOngoing
+2410072	215592	brown cow in the road					fs:Roadways,fs:Animals,fs:Color
+2410072	215593	white cow facing left			mft:Harm	https://w3id.org/framester/vn/vn31/data/Face_98000000, https://w3id.org/framester/data/framestercore/HostileEncounter	fs:Animals,fs:PartOrientational,fs:ConfrontingProblem,fs:Color,fs:HostileEncounter
+2410072	215594	brown cow pushing a black cow					fs:Animals,fs:Color
+2410072	215595	brown cow facing right			mft:Harm	https://w3id.org/framester/vn/vn31/data/Face_98000000, https://w3id.org/framester/data/framestercore/HostileEncounter	fs:ConfrontingProblem,fs:Animals,fs:HostileEncounter,fs:Color
+2410072	215596	small outdoor store					fs:LocaleByUse,fs:Businesses,fs:Size,fs:Dimension
+2410072	215597	people behind a table 					
+2410072	215598	bike park on side of road					
+2410072	215599	man sitting in front a box			mft:Harm	https://w3id.org/framester/wn/wn30/instances/synset-front-noun-1	fs:PartOrientational,fs:BeingLocated,fs:Containers,fs:Posture,fs:ChangePosture,fs:People,fs:Placing,fs:MeasureVolume
+2410072	215600	light in the store					fs:LocaleByUse,fs:Businesses,fs:LocationOfLight
+2410072	215601	person selling fruits					fs:People,fs:CommerceScenario
+2410072	215602	animals on road near people					fs:Roadways,fs:People
+2410072	215603	calf head touching rear of another animal					fs:Animals,fs:ObservableBodyParts,fs:Pattern
+2410072	215604	two animals headed in different directions					
+2410072	215605	man seated at wooden table			folk:Giving	https://w3id.org/framester/data/framestercore/Giving	fs:People,fs:Capacity,fs:Giving
+2410072	215606	man standing with a bent arm 			mft:Authority, folk:Consideration	https://w3id.org/framester/wn/wn30/instances/synset-standing-noun-1, https://w3id.org/framester/data/framestercore/OccupyRank	fs:ShapedPart,fs:OccupyRank,fs:Posture,fs:People,fs:ObservableBodyParts
+2410072	215607	blue roof creating patio in front of building			mft:Harm	https://w3id.org/framester/wn/wn30/instances/synset-front-noun-1	fs:PartOrientational,fs:Manufacturing,fs:LocaleByUse,fs:ArchitecturalPart,fs:Creating,fs:CauseToStart,fs:Buildings,fs:IntentionallyCreate,fs:Color
+2410072	215608	man behind table with arms raised					fs:People,fs:Motion,fs:BodyMovement,fs:CauseChangeOfPositionOnAScale
+2410072	215609	window opening surrounded by blue and white material					fs:Substance,fs:Ingredients,fs:ConnectingArchitecture,fs:Closure,fs:LocativeRelation,fs:Besieging,fs:BodyMovement,fs:Color
+2410072	215610	white cow with staring eye			folk:Analysis	https://w3id.org/framester/vn/vn31/data/Stare_30030000, https://w3id.org/framester/wn/wn30/instances/synset-eye-noun-1	fs:Animals,fs:ObservableBodyParts,fs:PerceptionActive,fs:Color
+2410072	215611	man selling produce at stand					fs:GrowingFood,fs:Food,fs:Agriculture,fs:People,fs:CommerceSell

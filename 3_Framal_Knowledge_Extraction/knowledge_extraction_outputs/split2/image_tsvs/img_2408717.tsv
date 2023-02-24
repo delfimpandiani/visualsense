@@ -1,0 +1,51 @@
+image_id	region_id	phrase	Emotions	Emotions Triggers	Values	Values Triggers	Frames
+2408717	280592	a group of surfers at the beach.	be:Enjoyment	http://dbpedia.org/resource/Surfing	bhv:Hedonism, folk:Fun	http://dbpedia.org/resource/Surfing	fs:Aggregate,fs:Organization,fs:NaturalFeatures
+2408717	280593	a person in the background is riding a wave.					fs:Travel,fs:RideVehicle,fs:Event,fs:People,fs:OperateVehicle
+2408717	280594	the woman is fixing her hair.					fs:HairConfiguration,fs:People,fs:BailDecision,fs:IntentionallyCreate,fs:ObservableBodyParts
+2408717	280595	the woman is carrying a neon green longboard.					fs:Substance,fs:Motion,fs:CarryGoods,fs:People,fs:Bringing,fs:Color
+2408717	280596	the two women are carrying short surfboards.					fs:Motion,fs:Dimension,fs:CarryGoods,fs:Bringing,fs:DurationAttribute
+2408717	280597	the woman is wearing a white t-shirt.					fs:People,fs:Clothing,fs:Color
+2408717	280598	the surfboard has a design on it.			folk:Management	https://w3id.org/framester/wn/wn30/instances/synset-design-noun-2	fs:ComingUpWith,fs:Cogitation,fs:Ingestion
+2408717	280599	the woman is wearing a black and blue wetsuit.			folk:BadHealth	https://w3id.org/framester/data/framestercore/MedicalConditions	fs:People,fs:MedicalConditions,fs:Color
+2408717	280600	the surfers are walking on sand.	be:Enjoyment	http://dbpedia.org/resource/Surfing	bhv:Hedonism, folk:Fun	http://dbpedia.org/resource/Surfing	fs:Substance,fs:SelfMotion,fs:Cotheme
+2408717	280601	the two women are talking to each other.					fs:TalkingInto,fs:Chatting,fs:Statement,fs:CommunicationManner,fs:TextCreation
+2408717	280602	four girls with surf boards					fs:GivingIn
+2408717	280603	girl in black wet suit					fs:People,fs:Clothing,fs:Color
+2408717	280604	lime green surf board					fs:Organization,fs:GivingIn,fs:Color
+2408717	280605	lime green surf board					fs:Organization,fs:GivingIn,fs:Color
+2408717	280606	girl wearing white and black wet suit					fs:People,fs:Clothing,fs:Color
+2408717	280607	white surf boar with orange and black design			folk:Management	https://w3id.org/framester/wn/wn30/instances/synset-design-noun-2	fs:ComingUpWith,fs:Cogitation,fs:GivingIn,fs:Color
+2408717	280608	girl wearing red and black wet suit					fs:People,fs:Clothing,fs:Color
+2408717	280609	ladies black wet suit					fs:Clothing,fs:Color
+2408717	280610	white surf board with red, black and yellow design			folk:Management	https://w3id.org/framester/wn/wn30/instances/synset-design-noun-2	fs:ComingUpWith,fs:Cogitation,fs:Organization,fs:GivingIn,fs:Color
+2408717	280611	person surfing in ocean at a distance	be:Enjoyment	http://dbpedia.org/resource/Surfing	bhv:Hedonism, folk:Fun	http://dbpedia.org/resource/Surfing	fs:People,fs:NaturalFeatures,fs:Range
+2408717	280612	girls with boards 					
+2408717	280613	green board 					fs:Organization,fs:Color
+2408717	280614	four girls walking to the water 					fs:Substance,fs:SelfMotion,fs:Cotheme
+2408717	280615	girl messing with her hair 					fs:People,fs:HairConfiguration,fs:ObservableBodyParts
+2408717	280616	girl with dream catcher on surf board 			folk:Control	https://w3id.org/framester/data/framestercore/Manipulation, https://w3id.org/framester/wn/wn30/instances/synset-catcher-noun-1	fs:BecomingAware,fs:Manipulation,fs:PerceptionExperience,fs:Sleep,fs:People,fs:Organization,fs:GivingIn,fs:Participation,fs:Perception
+2408717	280617	waves in the water 					
+2408717	280618	cloudy blue sky					
+2408717	280619	sand on the beach 					fs:Substance,fs:NaturalFeatures
+2408717	280620	people preparing to surf 	be:Enjoyment	http://dbpedia.org/resource/Surfing	bhv:Hedonism, folk:Fun	http://dbpedia.org/resource/Surfing	fs:CookingCreation,fs:Motion,fs:People,fs:ActivityPrepare
+2408717	280621	young girl in white shirt 					fs:People,fs:Clothing,fs:Age,fs:Color
+2408717	280622	girl fixing her hair					fs:HairConfiguration,fs:People,fs:BailDecision,fs:IntentionallyCreate,fs:ObservableBodyParts
+2408717	280623	someone surfing the waves	be:Enjoyment	http://dbpedia.org/resource/Surfing	bhv:Hedonism, folk:Fun	http://dbpedia.org/resource/Surfing	
+2408717	280624	girls about to go surfing			folk:Analysis	https://w3id.org/framester/wn/wn30/instances/synset-travel-verb-1	fs:Travel,fs:Departing,fs:Motion
+2408717	280625	waves rolling in					fs:Reshaping,fs:ManipulateIntoShape
+2408717	280626	girl holding surfing board	be:Enjoyment	http://dbpedia.org/resource/Surfing	bhv:Hedonism, folk:Fun	http://dbpedia.org/resource/Surfing	fs:People,fs:Organization
+2408717	280627	girl dragging surfing board	be:Enjoyment	http://dbpedia.org/resource/Surfing	bhv:Hedonism, folk:Fun	http://dbpedia.org/resource/Surfing	fs:People,fs:Motion,fs:CauseMotion,fs:Organization
+2408717	280628	four girls on the beach					fs:NaturalFeatures
+2408717	280629	girls playing on the beach					fs:NaturalFeatures
+2408717	280630	girl wearing a blue shirt					fs:People,fs:Clothing,fs:Color
+2408717	280631	girl with a white shirt					fs:People,fs:Clothing,fs:Color
+2408717	280632	a group of surfers on a beach.	be:Enjoyment	http://dbpedia.org/resource/Surfing	bhv:Hedonism, folk:Fun	http://dbpedia.org/resource/Surfing	fs:Aggregate,fs:Organization,fs:NaturalFeatures
+2408717	280633	group of surfers walking on a beach.	be:Enjoyment	http://dbpedia.org/resource/Surfing	bhv:Hedonism, folk:Fun	http://dbpedia.org/resource/Surfing	fs:NaturalFeatures,fs:SelfMotion,fs:Cotheme,fs:Organization,fs:Aggregate
+2408717	280634	a group of surfers walking with surfboards.	be:Enjoyment	http://dbpedia.org/resource/Surfing	bhv:Hedonism, folk:Fun	http://dbpedia.org/resource/Surfing	fs:Aggregate,fs:Organization,fs:SelfMotion,fs:Cotheme
+2408717	280635	a group of lady surfers on a beach.	be:Enjoyment	http://dbpedia.org/resource/Surfing	bhv:Hedonism, folk:Fun	http://dbpedia.org/resource/Surfing	fs:Aggregate,fs:Organization,fs:People,fs:NaturalFeatures
+2408717	280636	girl with green surfboard.	be:Enjoyment	http://dbpedia.org/resource/Surfing	bhv:Hedonism, folk:Fun	http://dbpedia.org/resource/Surfing	fs:People,fs:Color
+2408717	280637	surfer with dark hair and surfboard.	be:Enjoyment	http://dbpedia.org/resource/Surfing	bhv:Hedonism, folk:Fun	http://dbpedia.org/resource/Surfing	fs:Motion,fs:HairConfiguration,fs:ObservableBodyParts,fs:Dimension
+2408717	280638	two girls walking with surfboards.					fs:SelfMotion,fs:Cotheme
+2408717	280639	bare feet on beach sand.					fs:NaturalFeatures,fs:Substance,fs:Wearing
+2408717	280640	brown beach sand with foot prints.					fs:PartOrientational,fs:NaturalFeatures,fs:Substance,fs:Color,fs:ObservableBodyParts
+2408717	280641	some beautiful ocean waves.					fs:NaturalFeatures

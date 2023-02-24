@@ -1,0 +1,51 @@
+image_id	region_id	phrase	Emotions	Emotions Triggers	Values	Values Triggers	Frames
+2410077	215362	a canal.			mft:Authority, bhv:Power, folk:Leadership	https://w3id.org/framester/wn/wn30/instances/synset-canal-noun-3	fs:LocaleByUse
+2410077	215363	bikes are up against the guardrail.			folk:Willingness	https://w3id.org/framester/wn/wn30/instances/synset-up-adjective-1	
+2410077	215364	the bike has a bag, for storage, over the back wheel.					fs:PartOrientational,fs:Ingestion,fs:Containers,fs:Artifact,fs:Vehicle,fs:MeasureVolume
+2410077	215365	the bike is red.					fs:Vehicle,fs:Color
+2410077	215366	the guardrail is painted green.					fs:AboundingWith,fs:Color
+2410077	215367	houseboats line the canal.			mft:Authority, bhv:Power, folk:Leadership	https://w3id.org/framester/wn/wn30/instances/synset-canal-noun-3	fs:LocaleByUse,fs:Pattern
+2410077	215368	trees line the streets.					fs:Pattern
+2410077	215369	a row of parked cars.			folk:Fun	http://dbpedia.org/resource/Car	fs:Shapes,fs:Placing
+2410077	215370	the houseboat is red and blue.					fs:Buildings,fs:Color
+2410077	215371	a row of houses.			folk:Family, bhv:Security	http://dbpedia.org/resource/House	fs:Shapes
+2410077	215372	a red bicycle parked on a bridge					fs:Roadways,fs:Placing,fs:Vehicle,fs:Color
+2410077	215373	a blue bicycle with a floral object on lying on the back of it					fs:BeingLocated,fs:ObservableBodyParts,fs:CauseChange,fs:Posture,fs:ChangePosture,fs:Color,fs:Vehicle
+2410077	215374	a boat in the water on the left					fs:PartOrientational,fs:Substance,fs:Vehicle
+2410077	215375	a white boat parked in the water 					fs:Color,fs:Substance,fs:Vehicle,fs:Placing
+2410077	215376	a red boat parked in the water	be:Enjoyment	http://dbpedia.org/resource/Boat	folk:Fun	http://dbpedia.org/resource/Boat	fs:Placing,fs:Substance,fs:Vehicle,fs:Color
+2410077	215377	several boats on each side of the water					fs:Substance,fs:Quantity
+2410077	215378	a brick building on the right side					fs:PartOrientational,fs:Buildings
+2410077	215379	a building on the left side lined with tall green trees					fs:PartOrientational,fs:Adorning,fs:Dimension,fs:BodyDescriptionHolistic,fs:Buildings,fs:MeasurableAttributes,fs:Color
+2410077	215380	cars parked in front of the building			folk:Fun, mft:Harm	https://w3id.org/framester/wn/wn30/instances/synset-front-noun-1, http://dbpedia.org/resource/Car	fs:PartOrientational,fs:Buildings,fs:Placing
+2410077	215381	a black bicycle parked on the bridge					fs:Roadways,fs:Placing,fs:Vehicle,fs:Color
+2410077	215382	several bicycles parked along a rail					fs:Placing,fs:ArchitecturalPart,fs:Quantity
+2410077	215383	a white boat in a river	be:Enjoyment	http://dbpedia.org/resource/Boat	folk:Fun, folk:Structure	http://dbpedia.org/resource/Boat, https://w3id.org/framester/wn/wn30/instances/synset-river-noun-1	fs:Vehicle,fs:NaturalFeatures,fs:Color
+2410077	215384	a river in between buildings			folk:Structure	https://w3id.org/framester/wn/wn30/instances/synset-river-noun-1	fs:MeasureLinearExtent,fs:NaturalFeatures
+2410077	215385	a row of large trees					fs:Shapes,fs:Size,fs:Dimension
+2410077	215386	a lot of cars in a parking area			folk:Fun	http://dbpedia.org/resource/Car	fs:Aggregate,fs:Locale,fs:Quantity
+2410077	215387	a white houseboat with a small boat attached					fs:Size,fs:Dimension,fs:Buildings,fs:Color,fs:Vehicle
+2410077	215388	a colorful bag attached to a bike					fs:Containers,fs:Vehicle,fs:MeasureVolume,fs:StimulusFocus
+2410077	215389	black bicycle seat					fs:Placing,fs:Vehicle,fs:Supply,fs:Color
+2410077	215390	red bicycle with its stand down			folk:Willingness	https://w3id.org/framester/wn/wn30/instances/synset-down-adjective-1, https://w3id.org/framester/data/framestercore/Willingness	fs:Willingness,fs:Vehicle,fs:Color
+2410077	215391	window to a building					fs:ConnectingArchitecture,fs:Buildings
+2410077	215392	a silver bike is leaning on the rail					fs:PathShape,fs:ArchitecturalPart,fs:Posture,fs:ChangePosture,fs:MotionDirectional,fs:Vehicle
+2410077	215393	a red bike is next to the rail					fs:ArchitecturalPart,fs:Vehicle,fs:RelativeTime,fs:Color
+2410077	215394	a bike with saddlebags					fs:Vehicle
+2410077	215395	the saddlebags have a flower motif			folk:Development	https://w3id.org/framester/data/framestercore/Progress, https://w3id.org/framester/wn/wn30/instances/synset-flower-noun-1	fs:Ingestion,fs:Possession,fs:Progress
+2410077	215396	the bikes are parked on a bridge					fs:Roadways,fs:Placing
+2410077	215397	the buildings are close together on the canal			mft:Authority, bhv:Power, folk:Leadership	https://w3id.org/framester/wn/wn30/instances/synset-canal-noun-3	fs:LocaleByUse,fs:Range
+2410077	215398	barges are docked along the canal			mft:Authority, bhv:Power, folk:Leadership	https://w3id.org/framester/wn/wn30/instances/synset-canal-noun-3	fs:LocaleByUse
+2410077	215399	cars are parked along the canal			mft:Authority, bhv:Power, folk:Fun, folk:Leadership	https://w3id.org/framester/wn/wn30/instances/synset-canal-noun-3, http://dbpedia.org/resource/Car	fs:LocaleByUse,fs:Placing
+2410077	215400	construction cranes are in the sky					fs:Building,fs:Locale
+2410077	215401	green trees are growing along the canal			folk:Leadership, folk:Development, folk:Maturity, bhv:Power, mft:Authority	https://w3id.org/framester/data/framestercore/Progress, https://w3id.org/framester/wn/wn30/instances/synset-canal-noun-3, https://w3id.org/framester/vn/vn31/data/Grow_47020000	fs:LocaleByUse,fs:CauseToMakeProgress,fs:Progress,fs:Color
+2410077	215402	a floral bag on a bicycle					
+2410077	215403	a red bicycle locked to a pole					
+2410077	215404	a white riverboat					fs:Color
+2410077	215405	four bikes locked to railing					fs:Motion,fs:InhibitMovement
+2410077	215406	the wheel of a red bicycle					fs:Vehicle,fs:Color
+2410077	215407	boats in a canal			mft:Authority, bhv:Power, folk:Leadership	https://w3id.org/framester/wn/wn30/instances/synset-canal-noun-3	fs:LocaleByUse
+2410077	215408	a white houseboat with a flat roof					fs:ArchitecturalPart,fs:Buildings,fs:Color
+2410077	215409	trees lining a canal			mft:Authority, bhv:Power, folk:Leadership	https://w3id.org/framester/wn/wn30/instances/synset-canal-noun-3	fs:LocaleByUse,fs:Adorning
+2410077	215410	cars parked along the canal			mft:Authority, bhv:Power, folk:Fun, folk:Leadership	https://w3id.org/framester/wn/wn30/instances/synset-canal-noun-3, http://dbpedia.org/resource/Car	fs:LocaleByUse,fs:Placing
+2410077	215411	apartment buildings along the canal			mft:Authority, bhv:Power, folk:Leadership	https://w3id.org/framester/wn/wn30/instances/synset-canal-noun-3	fs:BuildingSubparts,fs:LocaleByUse

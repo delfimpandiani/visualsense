@@ -1,0 +1,51 @@
+image_id	region_id	phrase	Emotions	Emotions Triggers	Values	Values Triggers	Frames
+2410923	515779	the frisbee is yellow					fs:Color
+2410923	515780	the man has on sunglasses.					fs:Ingestion,fs:People
+2410923	515781	the man has a frisbee in his hand.					fs:People,fs:Ingestion,fs:ObservableBodyParts
+2410923	515782	the man is not wearing a shirt.					fs:People,fs:Clothing
+2410923	515783	the shorts are trimmed in orange.					fs:Filling,fs:Adorning
+2410923	515784	the man is wearing black shorts.					fs:People,fs:Color
+2410923	515785	the guy is playing frisbee.					fs:People
+2410923	515786	the sky is blue and clear.			folk:Clarity	https://w3id.org/framester/wn/wn30/instances/synset-clear-adjective-1	fs:Color,fs:Locale,fs:Obviousness
+2410923	515787	the guy is licking out his tongue.			folk:Control	https://w3id.org/framester/wn/wn30/instances/synset-tongue-noun-1, https://w3id.org/framester/data/framestercore/Manipulation	fs:People,fs:ObservableBodyParts,fs:Manipulation
+2410923	515788	the man arm is stretched out.					fs:ShapedPart,fs:Expansion,fs:CauseExpansion,fs:People,fs:BodyMovement,fs:ObservableBodyParts
+2410923	515789	a man wearing sunglasses					fs:People
+2410923	515790	a yellow frisbee					fs:Color
+2410923	515791	a man wearing black shorts					fs:People,fs:Color
+2410923	515792	a man with short hair					fs:HairConfiguration,fs:Dimension,fs:People,fs:DurationAttribute,fs:ObservableBodyParts
+2410923	515793	a man with his arm stretched					fs:ShapedPart,fs:Expansion,fs:CauseExpansion,fs:People,fs:BodyMovement,fs:ObservableBodyParts
+2410923	515794	a man lifting his leg			mft:Cheating	https://w3id.org/framester/vn/vn31/data/Lift_10050000, https://w3id.org/framester/data/framestercore/Theft	fs:Theft,fs:ShapedPart,fs:Removing,fs:Motion,fs:CauseToEnd,fs:People,fs:ObservableBodyParts
+2410923	515795	a man sticking his tongue out			folk:Control	https://w3id.org/framester/wn/wn30/instances/synset-tongue-noun-1	fs:BeingAttached,fs:People,fs:Attaching,fs:Placing,fs:InchoativeAttaching,fs:ObservableBodyParts,fs:CauseMotion
+2410923	515796	white clouds in a blue sky					fs:Color,fs:Locale
+2410923	515797	a man not wearing a shirt					fs:People,fs:Clothing
+2410923	515798	a man throwing a frisbee					fs:People
+2410923	515799	a man catching a frisbee under his leg			folk:Control	https://w3id.org/framester/data/framestercore/Manipulation	fs:Getting,fs:ShapedPart,fs:Manipulation,fs:People,fs:HuntingSuccessOrFailure,fs:Taking,fs:ObservableBodyParts
+2410923	515800	a bright yellow frisbee					fs:LocationOfLight
+2410923	515801	a man's swim trunks					fs:People,fs:SelfMotion
+2410923	515802	a man's tongue sticking out of his mouth			folk:Control	https://w3id.org/framester/wn/wn30/instances/synset-tongue-noun-1, https://w3id.org/framester/wn/wn30/instances/synset-mouth-noun-1	fs:ShapedPart,fs:BeingAttached,fs:People,fs:Attaching,fs:Placing,fs:InchoativeAttaching,fs:ObservableBodyParts,fs:CauseMotion
+2410923	515803	a fluffy white cloud					fs:Color
+2410923	515804	the top of a tree					fs:Supply,fs:Posture,fs:BeingLocated,fs:BiologicalArea
+2410923	515805	a bright blue sky					
+2410923	515806	a man's extended arm					fs:People,fs:DurationAttribute,fs:ObservableBodyParts,fs:ShapedPart
+2410923	515807	a man's left ear					fs:PartOrientational,fs:People,fs:ObservableBodyParts
+2410923	515808	a man's leg					fs:People,fs:ObservableBodyParts,fs:ShapedPart
+2410923	515809	the man is wearing glasses					fs:People
+2410923	515810	the man is wearing black glasses					fs:People,fs:Color
+2410923	515811	the man is shirtless					fs:People
+2410923	515812	the man is wearing shorts					fs:People
+2410923	515813	the man is wearing orange and black shorts					fs:People,fs:Color
+2410923	515814	the man is holding a frisbee					fs:People
+2410923	515815	the man is holding a neon yellow frisbee					fs:People,fs:Substance
+2410923	515816	the sky is blue					fs:Color,fs:Locale
+2410923	515817	the sky has clouds in it					fs:Ingestion,fs:Locale
+2410923	515818	the clouds are white					fs:Color
+2410923	515819	the frisbee is yellow					fs:Color
+2410923	515820	the shorts are black					fs:Color
+2410923	515821	the shorts have orange					fs:Ingestion,fs:Possession
+2410923	515822	the man has sunglasses					fs:Ingestion,fs:People
+2410923	515823	the sky is blue					fs:Color,fs:Locale
+2410923	515824	the tree top is green					fs:BeingLocated,fs:BiologicalArea,fs:Posture,fs:Supply,fs:Color
+2410923	515825	the clouds are white					fs:Color
+2410923	515826	the frisbee has a design on it			folk:Management	https://w3id.org/framester/wn/wn30/instances/synset-design-noun-2	fs:ComingUpWith,fs:Cogitation,fs:Ingestion
+2410923	515827	the man is sticking his tongue out			folk:Control	https://w3id.org/framester/wn/wn30/instances/synset-tongue-noun-1	fs:BeingAttached,fs:People,fs:Attaching,fs:Placing,fs:InchoativeAttaching,fs:ObservableBodyParts,fs:CauseMotion
+2410923	515828	the man throws frisbee under his leg					fs:People,fs:ObservableBodyParts,fs:ShapedPart

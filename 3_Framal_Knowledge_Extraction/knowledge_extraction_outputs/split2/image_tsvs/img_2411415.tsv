@@ -1,0 +1,50 @@
+image_id	region_id	phrase	Emotions	Emotions Triggers	Values	Values Triggers	Frames
+2411415	492329	ski life at a higher elevation					fs:PositionOnAScale,fs:Existence,fs:Dimension,fs:MotionDirectional,fs:MeasurableAttributes
+2411415	492330	red ski boots on man sitting on the far right					fs:Travel,fs:PartOrientational,fs:BeingLocated,fs:Motion,fs:Posture,fs:ChangePosture,fs:People,fs:Placing
+2411415	492331	white helmet is being worn by boy sitting in middle					fs:Accoutrements,fs:BeingLocated,fs:Posture,fs:ChangePosture,fs:Color,fs:Placing,fs:PartInnerOuter
+2411415	492332	ski lift closest to camera and carrying three people					fs:CarryGoods,fs:People,fs:Motion,fs:Bringing
+2411415	492333	gray and black lap bar secures passengers in lift					fs:Getting,fs:Buildings,fs:Color,fs:ObservableBodyParts
+2411415	492334	man on far left wearing reflective sun glasses			folk:Giving, folk:Novelty, folk:Structure	https://w3id.org/framester/vn/vn31/data/Leave_15020000, https://w3id.org/framester/wn/wn30/instances/synset-far-adjective-1, https://w3id.org/framester/wn/wn30/instances/synset-sun-noun-1	
+2411415	492335	section of grey line supporting weight of passengers on lift					
+2411415	492336	ski tracks traveling down the steep hill			folk:Victory	https://w3id.org/framester/data/framestercore/BeatOpponent	fs:Travel,fs:NaturalFeatures,fs:BeatOpponent,fs:Motion,fs:SelfMotion,fs:Sending,fs:IntentionallyCreate
+2411415	492337	boy is wearing a yellow and black coat					fs:Clothing,fs:Color
+2411415	492338	bottom tips of man on left's skis are lime green			mft:Authority, folk:Consideration	https://w3id.org/framester/wn/wn30/instances/synset-bottom-adjective-1	fs:People,fs:PartOrientational,fs:Color
+2411415	492339	a person is sitting 					fs:BeingLocated,fs:Posture,fs:ChangePosture,fs:People,fs:Placing
+2411415	492340	a person is sitting 					fs:BeingLocated,fs:Posture,fs:ChangePosture,fs:People,fs:Placing
+2411415	492341	a person is sitting 					fs:BeingLocated,fs:Posture,fs:ChangePosture,fs:People,fs:Placing
+2411415	492342	a person wearing a hat 					fs:Accoutrements,fs:People
+2411415	492343	a person wearing a hat 					fs:Accoutrements,fs:People
+2411415	492344	a person wearing a hat 					fs:Accoutrements,fs:People
+2411415	492345	a person wearing a jacket 					fs:People,fs:Clothing
+2411415	492346	a person wearing a jacket 					fs:People,fs:Clothing
+2411415	492347	a person wearing a jacket 					fs:People,fs:Clothing
+2411415	492349	three people sitting on ski lift					fs:Travel,fs:BeingLocated,fs:Motion,fs:Posture,fs:ChangePosture,fs:People,fs:Placing
+2411415	492350	three pairs of skis and two helmets					
+2411415	492351	three skiers wearing ski boots					fs:Travel,fs:Motion
+2411415	492352	snow, mountain, sky, skis					fs:Precipitation,fs:NaturalFeatures,fs:Locale
+2411415	492353	mountain, snow and ski lift					fs:Travel,fs:Precipitation,fs:Motion,fs:NaturalFeatures
+2411415	492354	cord, seat, metal bar			bhv:Power, folk:Strenght	http://dbpedia.org/resource/Metal	fs:Connectors,fs:Capacity,fs:Buildings,fs:Supply,fs:Placing
+2411415	492355	three people wearing snow pants					fs:People,fs:Precipitation,fs:Clothing
+2411415	492356	a sunny clear day			folk:Clarity	https://w3id.org/framester/wn/wn30/instances/synset-clear-adjective-1	fs:MeasureDuration,fs:CalendricUnit,fs:Obviousness,fs:Creating,fs:Artifact,fs:IntentionallyCreate,fs:Timespan
+2411415	492357	mountainside snow and skier					fs:Travel,fs:Motion,fs:Precipitation,fs:NaturalFeatures
+2411415	492358	three people wearing warm jackets					fs:SubjectiveTemperature,fs:HeatPotential,fs:People,fs:AmbientTemperature,fs:Temperature
+2411415	492359	bright red ski boots					fs:Travel,fs:Motion
+2411415	492360	people riding in a ski lift					fs:Travel,fs:Motion,fs:RideVehicle,fs:People,fs:OperateVehicle
+2411415	492361	electrical poles on the top of the hill					fs:NaturalFeatures,fs:Electricity,fs:BeingLocated,fs:Posture,fs:Supply
+2411415	492362	a bright blue sky overhea					fs:Color,fs:LocationOfLight,fs:Locale
+2411415	492363	green tips on a pair of skis					fs:Aggregate,fs:Color
+2411415	492364	tracks in the clean white snow					fs:Precipitation,fs:Color
+2411415	492365	a man wearing a white hat and sunglasses					fs:Accoutrements,fs:People,fs:Color
+2411415	492366	a man putting on chapstick					fs:People,fs:Placing,fs:Causation
+2411415	492367	a woman wearing a yellow ski jacket					fs:Travel,fs:Motion,fs:People,fs:Color,fs:Clothing
+2411415	492368	the blue seat covering on the lift					fs:Capacity,fs:Supply,fs:Placing
+2411415	492369	three people on ski lift					fs:Travel,fs:People,fs:Motion
+2411415	492370	white winter hat on man					fs:Accoutrements,fs:People,fs:CalendricUnit,fs:Color
+2411415	492371	skis on people's feet					fs:People
+2411415	492372	white winter jacket on man					fs:People,fs:Clothing,fs:CalendricUnit,fs:Color
+2411415	492373	cable above ski lift					fs:Travel,fs:Motion
+2411415	492374	bar on front of ski lift			mft:Harm	https://w3id.org/framester/wn/wn30/instances/synset-front-noun-1	fs:Travel,fs:Motion,fs:PartOrientational,fs:Buildings
+2411415	492375	white helmet on skier					fs:Accoutrements,fs:Travel,fs:Motion,fs:Color
+2411415	492376	black helmet on skier					fs:Accoutrements,fs:Travel,fs:Motion,fs:Color
+2411415	492377	mirrored sunglasses on skier					fs:Travel,fs:Motion
+2411415	492378	top of snowy slope					fs:PathShape,fs:BeingLocated,fs:Posture,fs:ChangePosture,fs:MotionDirectional,fs:Supply

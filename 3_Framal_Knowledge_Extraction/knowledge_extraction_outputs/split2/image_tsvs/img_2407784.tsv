@@ -1,0 +1,51 @@
+image_id	region_id	phrase	Emotions	Emotions Triggers	Values	Values Triggers	Frames
+2407784	325279	man is sitting on curb			folk:Consent	https://w3id.org/framester/wn/wn30/instances/synset-curb-noun-1	fs:BeingLocated,fs:Posture,fs:ChangePosture,fs:People,fs:Placing,fs:Hindering
+2407784	325280	tree trunk us behind ban			bhv:Power, folk:Rigor, mft:Fairness	https://w3id.org/framester/data/framestercore/Prohibiting, https://w3id.org/framester/wn/wn30/instances/synset-prohibition-noun-2	fs:Prohibiting,fs:BiologicalArea
+2407784	325281	man is wearing orange shirt					fs:People,fs:Clothing
+2407784	325282	man is wearing khaki shorts					fs:People,fs:Artifact
+2407784	325283	man is wearing orange shoes					fs:People
+2407784	325284	man is wearing blue cap					fs:Accoutrements,fs:People,fs:Color
+2407784	325285	the man's shoes match his shirt					fs:People,fs:Compatibility,fs:Clothing
+2407784	325286	curb is grey			folk:Consent	https://w3id.org/framester/wn/wn30/instances/synset-curb-noun-1	fs:Hindering
+2407784	325287	a man is walking behind the sitting man					fs:BeingLocated,fs:Posture,fs:SelfMotion,fs:Cotheme,fs:ChangePosture,fs:People,fs:Placing
+2407784	325288	walking man is wearing green					fs:People,fs:Cotheme,fs:SelfMotion,fs:Color
+2407784	325289	sneakers are orange and grey					
+2407784	325290	he has an orange shirt on					
+2407784	325291	he has a green uniform on					
+2407784	325292	he has a reflector vest on					fs:Ingestion,fs:Gizmo,fs:Clothing
+2407784	325293	there are sunglasses on his hat					fs:Accoutrements
+2407784	325294	there is a tree behind the man			folk:Beauty	http://dbpedia.org/resource/Tree	fs:People,fs:BiologicalArea
+2407784	325295	he is sitting on the curb			folk:Consent	https://w3id.org/framester/wn/wn30/instances/synset-curb-noun-1	fs:BeingLocated,fs:Posture,fs:ChangePosture,fs:Placing,fs:Hindering
+2407784	325296	passer bys walking behind truck					fs:Vehicle,fs:SelfMotion,fs:Cotheme
+2407784	325297	dirt area for the tree					fs:Locale,fs:Substance,fs:BiologicalArea
+2407784	325298	he has khaki shorts on					
+2407784	325299	man wearing an orange shirt.					fs:People,fs:Clothing
+2407784	325300	grey nike hat on the man's head.					fs:Accoutrements,fs:People,fs:ObservableBodyParts,fs:Color
+2407784	325301	silver and orange sneakers on the man's feet.					fs:People
+2407784	325302	man wearing green and a safety vest.			folk:Risk, mft:Care	https://w3id.org/framester/data/framestercore/BeingAtRisk, https://w3id.org/framester/wn/wn30/instances/synset-safety-noun-1	fs:BeingAtRisk,fs:People,fs:Clothing,fs:Color
+2407784	325303	tree behind the sitting man.					fs:BeingLocated,fs:BiologicalArea,fs:Posture,fs:ChangePosture,fs:People,fs:Placing
+2407784	325304	www.selecta.com on van on the right.					fs:Vehicle
+2407784	325305	two vans beside the road.					fs:Roadways
+2407784	325306	photo was takin during the day.					fs:MeasureDuration,fs:Timespan,fs:CalendricUnit,fs:Representing
+2407784	325307	safety vest on the man to the right.			folk:Risk, mft:Care	https://w3id.org/framester/data/framestercore/BeingAtRisk, https://w3id.org/framester/wn/wn30/instances/synset-safety-noun-1	fs:BeingAtRisk,fs:People,fs:Clothing
+2407784	325308	man is looking down at his hands.			folk:Analysis, folk:Willingness	https://w3id.org/framester/data/framestercore/Scrutiny, https://w3id.org/framester/wn/wn30/instances/synset-down-adjective-1, https://w3id.org/framester/vn/vn31/data/Look_30030000, https://w3id.org/framester/data/framestercore/Willingness	fs:PerceptionActive,fs:Seeking,fs:Scrutiny,fs:People,fs:Willingness
+2407784	325309	this is a man 					fs:People
+2407784	325310	the man is sitted					fs:BeingLocated,fs:Posture,fs:ChangePosture,fs:People,fs:Placing
+2407784	325311	the man is holding a cell phone					fs:People,fs:Contacting,fs:Substance,fs:CommunicationMeans
+2407784	325312	the man is wearing a cap					fs:Accoutrements,fs:People
+2407784	325313	the shoe is orange in color					fs:Clothing,fs:Color
+2407784	325314	this is  a vehicle					fs:Vehicle
+2407784	325315	the man is carrying a bag					fs:Motion,fs:Containers,fs:CarryGoods,fs:People,fs:Bringing,fs:MeasureVolume
+2407784	325316	the man is wearing shorts					fs:People
+2407784	325317	a tree is behind the man			folk:Beauty	http://dbpedia.org/resource/Tree	fs:People,fs:BiologicalArea
+2407784	325318	the shirt is orange in color					fs:Clothing,fs:Color
+2407784	325319	man sitting on curb			folk:Consent	https://w3id.org/framester/wn/wn30/instances/synset-curb-noun-1	fs:BeingLocated,fs:Posture,fs:ChangePosture,fs:People,fs:Placing,fs:Hindering
+2407784	325320	man wearing glasses on cap					fs:Accoutrements,fs:People
+2407784	325321	man wearing orange shirt 					fs:People,fs:Clothing
+2407784	325322	man wearing silver and orange shoes 					fs:People
+2407784	325323	man wearing khaki shorts 					fs:People,fs:Artifact
+2407784	325324	man on cellphone					fs:People
+2407784	325325	man wearing ipod on arms 					fs:People
+2407784	325326	man dressed in green uniform 					fs:Dressing,fs:People,fs:Clothing,fs:Color
+2407784	325327	man holding black bag 					fs:People,fs:Containers,fs:MeasureVolume,fs:Color
+2407784	325328	white van parked 					fs:Color,fs:Vehicle,fs:Placing

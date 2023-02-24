@@ -1,0 +1,51 @@
+image_id	region_id	phrase	Emotions	Emotions Triggers	Values	Values Triggers	Frames
+2408281	301592	man riding dirt bike					fs:Travel,fs:Substance,fs:RideVehicle,fs:People,fs:OperateVehicle
+2408281	301593	man riding dirt bike in competition			folk:Competition	https://w3id.org/framester/wn/wn30/instances/synset-competition-noun-1	fs:Travel,fs:Substance,fs:RideVehicle,fs:People,fs:OperateVehicle
+2408281	301594	particles of dirt flying in the air					fs:Substance,fs:Motion,fs:SelfMotion,fs:RideVehicle,fs:Bringing,fs:OperateVehicle
+2408281	301595	white helmet worn by dirt bike rider					
+2408281	301596	the number 21 on a green sign			folk:Independence	https://w3id.org/framester/wn/wn30/instances/synset-number-noun-1	
+2408281	301597	dirt mound on dirt bike course			folk:Learning	https://w3id.org/framester/data/framestercore/EducationTeaching, https://w3id.org/framester/wn/wn30/instances/synset-course-noun-1	fs:EducationTeaching,fs:OperateVehicle,fs:RideVehicle,fs:Substance
+2408281	301598	rocks scattered among dirt					fs:Filling,fs:Dispersal,fs:Substance
+2408281	301599	dirt bike rider wearing black gloves					fs:Travel,fs:Substance,fs:RideVehicle,fs:Color,fs:OperateVehicle
+2408281	301600	large dirt mound behind dirt bike rider					fs:Travel,fs:Substance,fs:RideVehicle,fs:Size,fs:Dimension,fs:OperateVehicle
+2408281	301601	dirt biker rider in white, black and red jersey					fs:Travel,fs:Substance,fs:Color
+2408281	301602	tilted motocross rider on dirt					fs:Travel,fs:Substance
+2408281	301603	boot on rider's foot					fs:Travel,fs:PartOrientational,fs:Clothing,fs:ObservableBodyParts
+2408281	301604	orange fender over front tire	be:Anger	https://w3id.org/framester/wn/wn30/instances/synset-fender-noun-1	mft:Degradation	https://w3id.org/framester/data/framestercore/Repel, https://w3id.org/framester/wn/wn30/instances/synset-fender-noun-1	fs:Vehicle,fs:Repel
+2408281	301605	white number on green sign			folk:Independence	https://w3id.org/framester/wn/wn30/instances/synset-number-noun-1	fs:Color,fs:Quantity,fs:Sign
+2408281	301606	white helmet on rider's head					fs:Travel,fs:ObservableBodyParts,fs:Accoutrements,fs:Color
+2408281	301607	spokes on front wheel			mft:Harm	https://w3id.org/framester/wn/wn30/instances/synset-front-noun-1	fs:PartOrientational,fs:Artifact
+2408281	301608	words on rider's chest					fs:Travel,fs:ObservableBodyParts,fs:PartWhole
+2408281	301609	goggles over rider's eyes					fs:Travel,fs:Accoutrements
+2408281	301610	gloved hand on handlebar					fs:Vehicle,fs:Wearing,fs:ObservableBodyParts
+2408281	301611	dirt being kicked in the air					fs:Substance
+2408281	301612	rider wearing white helmet					fs:Travel,fs:Accoutrements,fs:Color
+2408281	301613	rider wearing pink goggles					fs:Travel,fs:Accoutrements,fs:Color
+2408281	301614	green plate with number on front of bike			folk:Independence, mft:Harm	https://w3id.org/framester/wn/wn30/instances/synset-number-noun-1, https://w3id.org/framester/wn/wn30/instances/synset-front-noun-1	fs:Color,fs:PartOrientational,fs:Vehicle,fs:Quantity
+2408281	301615	black tire on bike					fs:Vehicle,fs:Color
+2408281	301616	silver brake on handle bar					fs:Halt,fs:Containers,fs:Vehicle,fs:Buildings
+2408281	301617	silver brake on handle bar					fs:Halt,fs:Containers,fs:Vehicle,fs:Buildings
+2408281	301618	rider wearing black glove					fs:Travel,fs:Color
+2408281	301619	black glove on left hand					fs:PartOrientational,fs:ObservableBodyParts,fs:Color
+2408281	301620	white and black boots					fs:Color
+2408281	301621	black rear tire on bike					fs:PartOrientational,fs:Vehicle,fs:Color
+2408281	301622	a white dirt bike helmet					fs:Accoutrements,fs:Substance,fs:RideVehicle,fs:Color,fs:OperateVehicle
+2408281	301623	a man riding a dirt bike					fs:Travel,fs:Substance,fs:RideVehicle,fs:People,fs:Vehicle,fs:OperateVehicle
+2408281	301624	dirt flying up from the tire			folk:Willingness	https://w3id.org/framester/wn/wn30/instances/synset-up-adjective-1	fs:Substance,fs:Motion,fs:SelfMotion,fs:RideVehicle,fs:Bringing,fs:OperateVehicle
+2408281	301625	a race number			folk:Independence	https://w3id.org/framester/wn/wn30/instances/synset-number-noun-1	fs:Quantity
+2408281	301626	a dirt bike wheel					fs:Vehicle,fs:OperateVehicle,fs:RideVehicle,fs:Substance
+2408281	301627	the top of a tree					fs:Supply,fs:Posture,fs:BeingLocated,fs:BiologicalArea
+2408281	301628	dirt bike brake lever					fs:Halt,fs:Substance,fs:Containers,fs:RideVehicle,fs:Removing,fs:OperateVehicle,fs:Vehicle
+2408281	301629	a dirt bike					fs:Vehicle,fs:Substance
+2408281	301630	a racing track for dirt bikes					fs:Roadways,fs:Substance,fs:PathTraveled
+2408281	301631	the top of a building					fs:Supply,fs:Buildings,fs:Posture,fs:BeingLocated
+2408281	301632	biker riding a dirt bike.					fs:Travel,fs:Substance,fs:RideVehicle,fs:Vehicle,fs:OperateVehicle
+2408281	301633	man with white helmet on the head riding a dirt bike.					fs:Travel,fs:Accoutrements,fs:Substance,fs:ObservableBodyParts,fs:RideVehicle,fs:People,fs:Color,fs:Vehicle,fs:OperateVehicle
+2408281	301634	biker competing in a dirt bike show.					fs:Competition,fs:OperateVehicle,fs:RideVehicle,fs:Substance
+2408281	301635	biker riding a dirt bike at a show.					fs:Travel,fs:Substance,fs:RideVehicle,fs:Vehicle,fs:OperateVehicle
+2408281	301636	man riding a dirt bike in bike event.					fs:Travel,fs:Substance,fs:RideVehicle,fs:Event,fs:People,fs:Vehicle,fs:OperateVehicle
+2408281	301637	dirt on the bike's front wheel.			mft:Harm	https://w3id.org/framester/wn/wn30/instances/synset-front-noun-1	fs:PartOrientational,fs:Artifact,fs:Vehicle,fs:Substance
+2408281	301638	dirt bike number 21 in a bike competition.			folk:Independence, folk:Competition	https://w3id.org/framester/wn/wn30/instances/synset-number-noun-1, https://w3id.org/framester/wn/wn30/instances/synset-competition-noun-1	fs:Substance,fs:OperateVehicle,fs:RideVehicle,fs:Quantity
+2408281	301639	dirt biker wearing red and black gloves.					fs:Substance,fs:Color
+2408281	301640	biker wearing black gloves holding the handlebars.					fs:Color
+2408281	301641	dirt biker driving a dirt bike on the ground.					fs:Substance,fs:NaturalFeatures,fs:RideVehicle,fs:SelfMotion,fs:Bringing,fs:CauseMotion,fs:Vehicle,fs:OperateVehicle

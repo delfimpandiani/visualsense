@@ -1,0 +1,51 @@
+image_id	region_id	phrase	Emotions	Emotions Triggers	Values	Values Triggers	Frames
+2404456	545469	a woman holding a racket 					fs:Sounds,fs:People,fs:Sensation
+2404456	545470	a woman holding a racket 					fs:Sounds,fs:People,fs:Sensation
+2404456	545471	a woman holding a racket 					fs:Sounds,fs:People,fs:Sensation
+2404456	545472	a woman holding a racket 					fs:Sounds,fs:People,fs:Sensation
+2404456	545473	a woman holding a racket 					fs:Sounds,fs:People,fs:Sensation
+2404456	545474	a woman holding a racket 					fs:Sounds,fs:People,fs:Sensation
+2404456	545475	a woman holding a racket 					fs:Sounds,fs:People,fs:Sensation
+2404456	545476	a woman holding a racket 					fs:Sounds,fs:People,fs:Sensation
+2404456	545477	a woman holding a racket 					fs:Sounds,fs:People,fs:Sensation
+2404456	545478	a woman holding a racket 					fs:Sounds,fs:People,fs:Sensation
+2404456	545479	twelve women are standing in a line					fs:BeingLocated,fs:Pattern,fs:Posture,fs:ChangePosture,fs:Placing
+2404456	545480	the women are tennis players					
+2404456	545481	women are standing behind a net					fs:ChangePosture,fs:Posture,fs:BeingLocated,fs:Placing
+2404456	545482	three men are sitting on a bench					fs:ChangePosture,fs:Posture,fs:BeingLocated,fs:Placing
+2404456	545483	one person sitting alone					fs:BeingLocated,fs:Posture,fs:ChangePosture,fs:People,fs:Placing
+2404456	545484	a woman holding a tennis racket					fs:Sounds,fs:People,fs:Sensation
+2404456	545485	a vintage photo of tennis female players					fs:Animals,fs:Representing
+2404456	545486	a no smoking sign on wall			mft:Care, bhv:Security	https://w3id.org/framester/wn/wn30/instances/synset-wall-noun-1	fs:Sign,fs:ArchitecturalPart,fs:Quantity
+2404456	545487	a woman wearing a visor					fs:Accoutrements,fs:People
+2404456	545488	a balcony railing					fs:ArchitecturalPart,fs:Buildings
+2404456	545489	woman wearing a white visor					fs:Accoutrements,fs:People,fs:Color
+2404456	545490	spectators sitting on bench					fs:ChangePosture,fs:Posture,fs:BeingLocated,fs:Placing
+2404456	545491	a lone spectator behind the tennis players			folk:Analysis, folk:Distinctiveness	https://w3id.org/framester/data/framestercore/Scrutiny, https://w3id.org/framester/wn/wn30/instances/synset-spectator-noun-1, https://w3id.org/framester/wn/wn30/instances/synset-alone-adjectivesatellite-2	fs:PerceptionActive,fs:Seeking,fs:BeingAwake,fs:Scrutiny,fs:PerceptionExperience
+2404456	545492	woman holding tennis ball					fs:People
+2404456	545493	woman holding tennis racquet and leaning on net					fs:PathShape,fs:Posture,fs:ChangePosture,fs:People,fs:MotionDirectional
+2404456	545494	white line on floor			folk:Control, mft:Harm	https://w3id.org/framester/wn/wn30/instances/synset-floor-noun-1	fs:ArchitecturalPart,fs:Pattern,fs:Color
+2404456	545495	woman wearing dark gloves					fs:People
+2404456	545496	woman standing to the right of woman			mft:Authority, folk:Consideration, mft:Fairness, folk:Impartial	https://w3id.org/framester/wn/wn30/instances/synset-standing-noun-1, http://dbpedia.org/resource/Rights, https://w3id.org/framester/data/framestercore/OccupyRank	fs:People,fs:OccupyRank
+2404456	545497	woman wearing a headband					fs:Accoutrements,fs:People
+2404456	545498	woman wearing a cardigan sweater					fs:People,fs:Clothing
+2404456	545499	girls posing for a picture			mft:Cheating	https://w3id.org/framester/data/framestercore/Feigning, https://w3id.org/framester/data/framestercore/PosingAs	fs:OpticalImage,fs:Sensation,fs:PosingAs,fs:Feigning
+2404456	545500	women who play tennis being photographed			mft:Loyalty, folk:Partnership	https://w3id.org/framester/wn/wn30/instances/synset-play-verb-1	fs:Possession,fs:Participation,fs:CreateRepresentation
+2404456	545501	the no smoking sign on the back wall			mft:Care, bhv:Security	https://w3id.org/framester/wn/wn30/instances/synset-wall-noun-1	fs:ArchitecturalPart,fs:Sign,fs:ObservableBodyParts,fs:Quantity
+2404456	545502	the girl wearing a dark sweater with the collar popped					fs:IngestSubstance,fs:Dimension,fs:People,fs:ClothingParts,fs:Clothing
+2404456	545503	the tennis net					
+2404456	545504	the girl wearing a visor					fs:Accoutrements,fs:People
+2404456	545505	the girl with her feet crossed who is not wearing a visor					fs:Accoutrements,fs:Building,fs:Manufacturing,fs:Traversing,fs:Creating,fs:People,fs:IntentionallyCreate,fs:BodyMovement
+2404456	545506	two men and a child in the stands			mft:Care	https://w3id.org/framester/wn/wn30/instances/synset-child-noun-1	fs:PeopleByAge
+2404456	545507	a person sitting alone in the bleachers					fs:BeingLocated,fs:Posture,fs:ChangePosture,fs:People,fs:Placing
+2404456	545508	a girl with a wide stripe on her collar, sharing her racket with her neighbor					fs:Sounds,fs:PeopleByResidence,fs:Dimension,fs:People,fs:Sensation,fs:ClothingParts,fs:Clothing
+2404456	545509	tennis net					
+2404456	545510	woman holding tennis racket					fs:Sounds,fs:People,fs:Sensation
+2404456	545511	woman wearing sun visor			folk:Structure	https://w3id.org/framester/wn/wn30/instances/synset-sun-noun-1	fs:Accoutrements,fs:People,fs:Locale
+2404456	545512	woman wearing sweater twinset					fs:People,fs:Clothing
+2404456	545513	three people seated on bench			folk:Giving	https://w3id.org/framester/data/framestercore/Giving	fs:People,fs:Capacity,fs:Giving
+2404456	545514	no smoking sign painted on wall			mft:Care, bhv:Security	https://w3id.org/framester/wn/wn30/instances/synset-wall-noun-1	fs:CreatePhysicalArtwork,fs:ArchitecturalPart,fs:CommunicateCategorization,fs:IntentionallyCreate,fs:CreateRepresentation,fs:Sign
+2404456	545515	woman leaning on tennis net					fs:PathShape,fs:Posture,fs:ChangePosture,fs:People,fs:MotionDirectional
+2404456	545516	woman wearing light skirt					fs:People,fs:Clothing,fs:LocationOfLight
+2404456	545517	blond woman holding tennis ball and racket					fs:Sounds,fs:People,fs:Sensation,fs:HairConfiguration
+2404456	545518	painted stripe on tennis court			mft:Fairness	https://w3id.org/framester/wn/wn30/instances/synset-court-noun-1, https://w3id.org/framester/data/framestercore/JudicialBody	fs:AboundingWith,fs:JudicialBody,fs:Clothing

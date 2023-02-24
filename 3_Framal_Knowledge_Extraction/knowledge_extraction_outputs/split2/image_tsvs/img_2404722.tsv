@@ -1,0 +1,50 @@
+image_id	region_id	phrase	Emotions	Emotions Triggers	Values	Values Triggers	Frames
+2404722	532569	busy day at the beach					fs:MeasureDuration,fs:Timespan,fs:NaturalFeatures,fs:CalendricUnit
+2404722	532570	red, blue, and yellow beach umbrellas					fs:NaturalFeatures,fs:Color
+2404722	532571	colorful beac umbrellas					
+2404722	532572	kites being flown at the beach	be:Enjoyment	http://dbpedia.org/resource/Kite	folk:Fun	http://dbpedia.org/resource/Kite	fs:NaturalFeatures,fs:Motion,fs:SelfMotion,fs:RideVehicle,fs:Bringing,fs:OperateVehicle
+2404722	532573	man standing on beach next to umbrella			mft:Authority, folk:Consideration	https://w3id.org/framester/wn/wn30/instances/synset-standing-noun-1, https://w3id.org/framester/data/framestercore/OccupyRank	fs:OccupyRank,fs:NaturalFeatures,fs:People
+2404722	532574	rainbow colored kite					
+2404722	532575	tourists lined up on the beach					fs:NaturalFeatures,fs:Adorning,fs:BehindTheScenes,fs:Creating,fs:IntentionallyCreate
+2404722	532576	picnic at the beach					fs:NaturalFeatures
+2404722	532577	nice windy day for flying kites			folk:Excellence	https://w3id.org/framester/wn/wn30/instances/synset-nice-adjective-1	fs:MeasureDuration,fs:PathShape,fs:CalendricUnit,fs:Motion,fs:SelfMotion,fs:RideVehicle,fs:StimulusFocus,fs:Bringing,fs:Timespan,fs:OperateVehicle
+2404722	532578	sand at the beach					fs:Substance,fs:NaturalFeatures
+2404722	532579	white clouds in the sky					fs:Color,fs:Locale
+2404722	532580	blue skies overhead					
+2404722	532581	red umbrella in the sand					fs:Substance,fs:Color
+2404722	532582	glasses on man's face					fs:People,fs:ObservableBodyParts,fs:FacialExpression
+2404722	532583	blue and white ball in sand					fs:Substance,fs:Color
+2404722	532584	red and orange kite in the sky	be:Enjoyment	http://dbpedia.org/resource/Kite	folk:Fun	http://dbpedia.org/resource/Kite	fs:Locale,fs:Color
+2404722	532585	large multicolored towel in the sand			folk:Control	https://w3id.org/framester/wn/wn30/instances/synset-towel-noun-1	fs:Substance,fs:Size,fs:Dimension
+2404722	532586	man wearing blue trunks					fs:People,fs:Color
+2404722	532587	large building on the sand					fs:Buildings,fs:Substance,fs:Size,fs:Dimension
+2404722	532588	large selection of colorful kites in the sky	be:Enjoyment	http://dbpedia.org/resource/Kite	folk:Fun	http://dbpedia.org/resource/Kite	fs:Choosing,fs:Dimension,fs:Locale,fs:Size,fs:StimulusFocus
+2404722	532589	kites in the sky	be:Enjoyment	http://dbpedia.org/resource/Kite	folk:Fun	http://dbpedia.org/resource/Kite	fs:Locale
+2404722	532590	kites in the sky at the beach	be:Enjoyment	http://dbpedia.org/resource/Kite	folk:Fun	http://dbpedia.org/resource/Kite	fs:NaturalFeatures,fs:Locale
+2404722	532591	a red umbrella					fs:Color
+2404722	532592	a small boy wearing no shirt					fs:Clothing,fs:Size,fs:Dimension
+2404722	532593	a boy wearing sunglasses					
+2404722	532594	a boy wearing swim shorts					
+2404722	532595	a yellow umbrella					
+2404722	532596	a blue umbrella					fs:Color
+2404722	532597	people on the beach					fs:People,fs:NaturalFeatures
+2404722	532598	tan sand at the beach					fs:Substance,fs:NaturalFeatures,fs:Color
+2404722	532599	colorful kite above a beach	be:Enjoyment	http://dbpedia.org/resource/Kite	folk:Fun	http://dbpedia.org/resource/Kite	fs:NaturalFeatures,fs:StimulusFocus
+2404722	532600	shirtless boy in blue shirt					fs:Clothing,fs:Color
+2404722	532601	sunglasses worn by shirtless boy					
+2404722	532602	red umbrella top at beach					fs:NaturalFeatures,fs:BeingLocated,fs:Posture,fs:Supply,fs:Color
+2404722	532603	colorful towel on beach sand			folk:Control	https://w3id.org/framester/wn/wn30/instances/synset-towel-noun-1	fs:Substance,fs:NaturalFeatures,fs:StimulusFocus
+2404722	532604	yellow umbrella top at the beach					fs:NaturalFeatures,fs:BeingLocated,fs:Posture,fs:Supply,fs:Color
+2404722	532605	pink and white ice chest at the beach					fs:InchoativeChangeOfTemperature,fs:NaturalFeatures,fs:CauseTemperatureChange,fs:Color,fs:ObservableBodyParts,fs:PartWhole
+2404722	532606	building overlooking the beach					fs:Buildings,fs:NaturalFeatures
+2404722	532607	pink bucket at the beach					fs:Containers,fs:NaturalFeatures,fs:Color
+2404722	532608	partly cloudy kite filled sky above a beach	be:Enjoyment	http://dbpedia.org/resource/Kite	folk:Fun	http://dbpedia.org/resource/Kite	fs:Filling,fs:NaturalFeatures,fs:Adorning,fs:Locale
+2404722	532609	kites flying in the sky					fs:Motion,fs:SelfMotion,fs:RideVehicle,fs:Locale,fs:Bringing,fs:OperateVehicle
+2404722	532610	a red beach umbrella					fs:NaturalFeatures,fs:Color
+2404722	532611	a row of hotels by the beach			folk:Rest	http://dbpedia.org/resource/Hotel	fs:Shapes,fs:NaturalFeatures
+2404722	532612	people are on the beach					fs:People,fs:NaturalFeatures
+2404722	532613	the umbrella is yellow					fs:Color
+2404722	532614	the sky is blue					fs:Color,fs:Locale
+2404722	532616	the sand is brown					fs:Substance,fs:Color
+2404722	532617	clouds are in the sky					fs:Locale
+2404722	532618	blue towels in the sand					fs:Substance,fs:Color

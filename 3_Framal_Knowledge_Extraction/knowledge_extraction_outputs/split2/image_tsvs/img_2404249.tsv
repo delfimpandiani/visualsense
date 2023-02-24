@@ -1,0 +1,51 @@
+image_id	region_id	phrase	Emotions	Emotions Triggers	Values	Values Triggers	Frames
+2404249	555319	men riding on elephants					fs:Travel,fs:OperateVehicle,fs:RideVehicle
+2404249	555320	the men are wearing hats					
+2404249	555321	the elephants are muddy					fs:BeingWet
+2404249	555322	the water is brown					fs:ApplyHeat,fs:Substance
+2404249	555323	the water's edge is rocky					fs:LocativeRelation,fs:Substance,fs:Supply
+2404249	555324	the man has a moustache					fs:People,fs:Ingestion,fs:ObservableBodyParts
+2404249	555325	the man is wearing a blue shirt					fs:People,fs:Clothing,fs:Color
+2404249	555326	the elephant has long tusks					fs:DurationAttribute
+2404249	555327	the elephant's ear is dirty					fs:ObservableBodyParts
+2404249	555328	the tusks are white					fs:Color
+2404249	555329	two tusks of an elephant					
+2404249	555330	a white hat					fs:Accoutrements,fs:Color
+2404249	555331	a man riding an elephant					fs:Travel,fs:People,fs:OperateVehicle,fs:RideVehicle
+2404249	555332	muddy-looking water					fs:Substance
+2404249	555333	muddy terrain					fs:BeingWet
+2404249	555334	the two front legs of an elephant					
+2404249	555335	grass near the bank of a river			bhv:Benevolence, mft:Care, folk:Helping, folk:Structure	https://w3id.org/framester/wn/wn30/instances/synset-grass-noun-1, https://w3id.org/framester/wn/wn30/instances/synset-river-noun-1	fs:RelationalNaturalFeatures,fs:Filling,fs:NaturalFeatures,fs:Adorning
+2404249	555336	the trunk of an elephant					
+2404249	555337	a male carrying a wooden stick					fs:Animals,fs:Gizmo,fs:Motion,fs:CarryGoods,fs:Bringing
+2404249	555338	two elephants crossing a river			folk:Structure	https://w3id.org/framester/wn/wn30/instances/synset-river-noun-1	fs:Building,fs:Manufacturing,fs:NaturalFeatures,fs:Traversing,fs:Creating,fs:IntentionallyCreate,fs:BodyMovement
+2404249	555339	two men wearing hats					
+2404249	555340	two elephants in water					fs:Substance
+2404249	555341	two men on elephants					
+2404249	555342	man in black shirt with mustache					fs:People,fs:ObservableBodyParts,fs:Clothing,fs:Color
+2404249	555343	elephant has tusks					fs:Ingestion
+2404249	555344	man in blue shirt					fs:People,fs:Clothing,fs:Color
+2404249	555345	logs in water					fs:Substance
+2404249	555346	elephants walking out of water					fs:Substance,fs:SelfMotion,fs:Cotheme
+2404249	555347	rocks and logs on beach					fs:NaturalFeatures
+2404249	555348	something green in water					fs:Substance,fs:Color
+2404249	555349	"""two elephants walking together"""					fs:SelfMotion,fs:Cotheme
+2404249	555350	"""the elephant has large tusks"""					fs:Ingestion,fs:Size,fs:Dimension
+2404249	555351	"""the shore is muddy"""					fs:RelationalNaturalFeatures,fs:BeingWet
+2404249	555352	"""the elephants are gray"""					fs:PeopleByVocation,fs:Color
+2404249	555353	"""the men are riding on the elephants"""					fs:Travel,fs:OperateVehicle,fs:RideVehicle
+2404249	555354	"""both men are wearing hats"""					
+2404249	555355	"""they are in the water"""					fs:Substance
+2404249	555356	"""the water is orange and muddy"""					fs:BeingWet,fs:Substance,fs:Color
+2404249	555357	"""big rocks in the mud"""					fs:Substance,fs:Size,fs:Dimension
+2404249	555358	"""the man has a ring on his finger"""			folk:Control	https://w3id.org/framester/wn/wn30/instances/synset-finger-noun-1	fs:People,fs:Ingestion,fs:ObservableBodyParts
+2404249	555359	two elephants walk through the water					fs:Substance,fs:SelfMotion,fs:Cotheme
+2404249	555360	the water is murky and shallow					fs:Substance,fs:Dimension
+2404249	555361	the shoreline is muddy with small rocks					fs:BeingWet,fs:RelationalNaturalFeatures,fs:Size,fs:Dimension
+2404249	555362	there are short wooden fence posts next to the water's edge			mft:Care, bhv:Security	https://w3id.org/framester/data/framestercore/Protecting, https://w3id.org/framester/wn/wn30/instances/synset-fence-noun-1	fs:LocativeRelation,fs:Substance,fs:Supply,fs:Protecting
+2404249	555363	two men ride the elephants through the water					fs:Travel,fs:Substance,fs:Motion,fs:RideVehicle,fs:OperateVehicle
+2404249	555364	an elephant has long white tusks					
+2404249	555365	the other side of the river has green foliage 			folk:Structure	https://w3id.org/framester/wn/wn30/instances/synset-river-noun-1	
+2404249	555366	a man in black					fs:People
+2404249	555367	a man in a dark blue shirt					fs:People,fs:Clothing,fs:Color,fs:Dimension
+2404249	555368	the man is holding a blue rag			mft:Harm	https://w3id.org/framester/wn/wn30/instances/synset-rag-noun-1	fs:People,fs:CauseToFragment,fs:Grinding,fs:Color

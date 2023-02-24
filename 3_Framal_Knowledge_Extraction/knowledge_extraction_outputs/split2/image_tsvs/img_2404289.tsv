@@ -1,0 +1,51 @@
+image_id	region_id	phrase	Emotions	Emotions Triggers	Values	Values Triggers	Frames
+2404289	553419	commuter plane on tarmac					fs:Travel,fs:Filling,fs:Vehicle,fs:Adorning
+2404289	553420	open door on airplane					fs:ConnectingArchitecture,fs:Openness,fs:Vehicle
+2404289	553421	prop on front of airplane			mft:Harm	https://w3id.org/framester/wn/wn30/instances/synset-front-noun-1	fs:PartOrientational,fs:Vehicle
+2404289	553422	man walking away from plane					fs:People,fs:Vehicle,fs:SelfMotion,fs:Cotheme
+2404289	553423	man wearing safety vest			folk:Risk, mft:Care	https://w3id.org/framester/data/framestercore/BeingAtRisk, https://w3id.org/framester/wn/wn30/instances/synset-safety-noun-1	fs:BeingAtRisk,fs:People,fs:Clothing
+2404289	553424	woman bent over her backpack			folk:Impartial	https://w3id.org/framester/wn/wn30/instances/synset-bent-noun-1	fs:People,fs:Containers,fs:Inclination
+2404289	553425	two stripes down side of plane					fs:Vehicle
+2404289	553426	identification numbers on airplane			mft:Authority, folk:Vision	https://w3id.org/framester/data/framestercore/Verdict, https://w3id.org/framester/wn/wn30/instances/synset-designation-noun-3	fs:Documents,fs:Vehicle,fs:Verdict
+2404289	553427	shadow of wing on airplane					fs:OpticalImage,fs:Motion,fs:SelfMotion,fs:RideVehicle,fs:Vehicle
+2404289	553428	tires on airplane					fs:Vehicle
+2404289	553429	man wearing a tie.					fs:People,fs:Clothing
+2404289	553430	a person bending down.			folk:Willingness	https://w3id.org/framester/wn/wn30/instances/synset-down-adjective-1	
+2404289	553431	a person in an orange vest.					
+2404289	553432	five people standing by plane.					fs:BeingLocated,fs:Posture,fs:ChangePosture,fs:People,fs:Placing,fs:Vehicle
+2404289	553433	the open door of a plane.					fs:ConnectingArchitecture,fs:Openness,fs:Vehicle
+2404289	553434	black tire with white rim.					fs:Boundary,fs:Color
+2404289	553435	front window of plane.					fs:ConnectingArchitecture,fs:Vehicle
+2404289	553436	side windows of a plane.			mft:Authority, folk:Consideration	https://w3id.org/framester/wn/wn30/instances/synset-side-adjective-1	fs:Vehicle
+2404289	553437	silver and black propeller.					fs:CauseMotion,fs:Color
+2404289	553438	people standing beside plane.					fs:BeingLocated,fs:Posture,fs:ChangePosture,fs:People,fs:Placing,fs:Vehicle
+2404289	553439	white airplane on tarmac					fs:Filling,fs:Vehicle,fs:Adorning,fs:Color
+2404289	553440	black and silver airplane propeller					fs:CauseMotion,fs:Vehicle,fs:Color
+2404289	553441	white airplane tail			mft:Harm	https://w3id.org/framester/wn/wn30/instances/synset-tail-noun-1	fs:ObservableBodyParts,fs:Vehicle,fs:Color
+2404289	553442	black airplane wheel					fs:Vehicle,fs:Artifact,fs:Color
+2404289	553443	white airplane wing					fs:ObservableBodyParts,fs:Vehicle,fs:Color
+2404289	553444	red rolling suitcase					fs:Sounds,fs:Containers,fs:Color
+2404289	553445	blue carry bag					fs:Containers,fs:Transfer,fs:Bringing,fs:Color,fs:MeasureVolume
+2404289	553446	man in tie walking on tarmac					fs:People,fs:Filling,fs:Clothing,fs:Adorning
+2404289	553447	open airplane door					fs:ConnectingArchitecture,fs:Openness,fs:Vehicle
+2404289	553448	worker in orange vest holding handle of rolling suitcase			bhv:Power, mft:Care, folk:Leadership	https://w3id.org/framester/wn/wn30/instances/synset-manage-verb-2	fs:ResolveProblem,fs:Containers,fs:Clothing,fs:Employing
+2404289	553449	passenger door in open position					fs:Travel,fs:ConnectingArchitecture,fs:LocativeRelation,fs:RideVehicle,fs:Openness,fs:OperateVehicle
+2404289	553450	identifying numbers on the side			folk:Consciousness	https://w3id.org/framester/vn/vn31/data/Identify_88020000	fs:Verification,fs:Categorization
+2404289	553451	man in orange work vest					fs:People,fs:LaborProduct,fs:Clothing,fs:WorkingOn
+2404289	553452	man in a pilot's uniform			folk:Control	https://w3id.org/framester/wn/wn30/instances/synset-pilot-noun-1	fs:People,fs:Clothing,fs:OperateVehicle
+2404289	553453	man in a uniform carrying equipment					fs:People,fs:Gizmo,fs:Supply
+2404289	553454	suitcase with red on the side					fs:Containers
+2404289	553455	airplane propeller in up and down position			folk:Willingness	https://w3id.org/framester/wn/wn30/instances/synset-down-adjective-1, https://w3id.org/framester/data/framestercore/Willingness, https://w3id.org/framester/wn/wn30/instances/synset-up-adjective-1	fs:CauseMotion,fs:LocativeRelation,fs:Willingness,fs:Vehicle
+2404289	553456	airplane tail above their heads			mft:Harm	https://w3id.org/framester/wn/wn30/instances/synset-tail-noun-1	fs:ObservableBodyParts,fs:Vehicle
+2404289	553457	passenger picking up a bag			folk:Willingness	https://w3id.org/framester/wn/wn30/instances/synset-up-adjective-1	fs:Travel,fs:Containers,fs:RideVehicle,fs:Choosing,fs:GatheringUp,fs:OperateVehicle,fs:MeasureVolume
+2404289	553458	two guys in neckties watching the plane			folk:Analysis	https://w3id.org/framester/vn/vn31/data/Watch_30020000	fs:PerceptionActive,fs:Seeking,fs:BeingAwake,fs:Cotheme,fs:Vehicle
+2404289	553459	flight crew standing next to a plane			bhv:Benevolence, mft:Care, folk:Helping	https://w3id.org/framester/wn/wn30/instances/synset-crew-noun-1	fs:BeingLocated,fs:Posture,fs:RideVehicle,fs:ChangePosture,fs:Placing,fs:Vehicle
+2404289	553460	airplane identification number in black lettering			mft:Authority, folk:Vision, folk:Independence	https://w3id.org/framester/wn/wn30/instances/synset-number-noun-1, https://w3id.org/framester/data/framestercore/Verdict, https://w3id.org/framester/wn/wn30/instances/synset-number-noun-8, https://w3id.org/framester/wn/wn30/instances/synset-designation-noun-3	fs:Documents,fs:Indicating,fs:Quantity,fs:Color,fs:Vehicle,fs:Verdict,fs:NameConferral,fs:AmountingTo
+2404289	553461	small passenger aircraft					fs:Travel,fs:RideVehicle,fs:Size,fs:Dimension,fs:OperateVehicle
+2404289	553462	white plane with black and white stripes					fs:Vehicle,fs:Color
+2404289	553463	small propeller powered plane					fs:CauseMotion,fs:Vehicle,fs:Size,fs:Dimension
+2404289	553464	person bent over					fs:People,fs:ProcessCompletedState
+2404289	553465	man wearing pilot's uniform			folk:Control	https://w3id.org/framester/wn/wn30/instances/synset-pilot-noun-1	fs:People,fs:Clothing,fs:OperateVehicle
+2404289	553466	man carrying black binder					fs:Closure,fs:Motion,fs:CarryGoods,fs:People,fs:Attaching,fs:Bringing,fs:Color
+2404289	553467	tree line in the background					fs:Pattern,fs:BiologicalArea
+2404289	553468	strut holding up a wing			folk:Willingness	https://w3id.org/framester/wn/wn30/instances/synset-up-adjective-1	fs:ObservableBodyParts

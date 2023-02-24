@@ -1,0 +1,51 @@
+image_id	region_id	phrase	Emotions	Emotions Triggers	Values	Values Triggers	Frames
+2402530	636989	woman wearing brown boots.					fs:People,fs:Color
+2402530	636990	woman dragging suitcase.					fs:People,fs:Containers,fs:Motion,fs:CauseMotion
+2402530	636991	suitcase is black in color.					fs:Containers,fs:Color
+2402530	636992	woman has brown bag over shoulder.			folk:Control	https://w3id.org/framester/wn/wn30/instances/synset-shoulder-noun-1	fs:Containers,fs:ApplyHeat,fs:People,fs:ObservableBodyParts,fs:MeasureVolume
+2402530	636993	woman wearing dark coat.					fs:People,fs:Clothing,fs:Dimension
+2402530	636994	sunglasses on woman's face.					fs:People,fs:ObservableBodyParts,fs:FacialExpression
+2402530	636995	man wearing gray hat.					fs:Accoutrements,fs:People,fs:Color
+2402530	636996	man wearing dark coat.					
+2402530	636997	man wearing blue pants.					
+2402530	636998	woman wearing black boots.					fs:People,fs:Color
+2402530	636999	woman with long brown hair					fs:HairConfiguration,fs:People,fs:Color,fs:DurationAttribute,fs:ObservableBodyParts
+2402530	637000	woman wearing white jacket					fs:People,fs:Clothing,fs:Color
+2402530	637001	woman wearing brown suede boots					fs:People
+2402530	637002	woman carrying a brown leather bag					fs:Motion,fs:Containers,fs:CarryGoods,fs:People,fs:Bringing,fs:Color,fs:MeasureVolume
+2402530	637003	woman carrying a large black carry on bag					fs:Motion,fs:Containers,fs:Size,fs:Dimension,fs:CarryGoods,fs:People,fs:Bringing,fs:MeasureVolume
+2402530	637004	woman wearing a black coat					fs:People,fs:Clothing,fs:Color
+2402530	637005	woman wearing a pair of dark sunglasses					fs:Aggregate,fs:People,fs:Dimension
+2402530	637006	woman wearing black hose					fs:People,fs:Color,fs:RenderNonfunctional
+2402530	637007	man wearing red jacket					fs:People,fs:Clothing,fs:Color
+2402530	637008	woman wearing blue jeans					fs:People,fs:Color
+2402530	637009	black suitcase being pulled			folk:Control	https://w3id.org/framester/data/framestercore/Manipulation	fs:CauseMotion,fs:Containers,fs:Color,fs:Manipulation
+2402530	637010	brown purse on a woman					fs:People,fs:Containers,fs:Color
+2402530	637011	brown boots on a woman					fs:People,fs:Color
+2402530	637012	black jacket on a woman					fs:People,fs:Clothing,fs:Color
+2402530	637013	woman with brown hair					fs:People,fs:HairConfiguration,fs:ObservableBodyParts,fs:Color
+2402530	637014	man with a red jacket					fs:People,fs:Clothing,fs:Color
+2402530	637015	man with a brown jacket					fs:People,fs:Clothing,fs:Color
+2402530	637016	two women walking					fs:SelfMotion,fs:Cotheme
+2402530	637017	snow on the ground					fs:Precipitation,fs:NaturalFeatures
+2402530	637018	glasses on a woman					fs:People
+2402530	637019	k&s market awning identifier					
+2402530	637020	plowed snow in front of car			mft:Harm	https://w3id.org/framester/wn/wn30/instances/synset-front-noun-1	fs:PartOrientational,fs:Precipitation,fs:Vehicle
+2402530	637021	woman holds beverage in disposable cup			folk:Control	https://w3id.org/framester/data/framestercore/Manipulation	fs:Substance,fs:Manipulation,fs:Ingestion,fs:Containers,fs:Food,fs:People,fs:Inclusion,fs:Possession,fs:Containing
+2402530	637022	blue, black sunglasses					fs:Color
+2402530	637023	face focuses attention on photographer			folk:Alertness	https://w3id.org/framester/wn/wn30/instances/synset-attention-noun-1, https://w3id.org/framester/data/framestercore/Attention	fs:CreatePhysicalArtwork,fs:Attention,fs:FacialExpression,fs:CreateRepresentation,fs:ObservableBodyParts,fs:PlaceWeightOn
+2402530	637024	2477 street address					fs:Roadways
+2402530	637025	4 women's black boots					fs:Color
+2402530	637026	brown pocketbook rides on left hip					fs:PartOrientational,fs:Containers,fs:ObservableBodyParts,fs:PartWhole
+2402530	637027	snow melt wets street					fs:Roadways,fs:Precipitation
+2402530	637028	market worker wears red jacket behind plastic windows					fs:Clothing,fs:Employing,fs:Color
+2402530	637029	the numbers 2477 on a sign					fs:Sign
+2402530	637030	a woman pulling a black suitcase			folk:Control	https://w3id.org/framester/data/framestercore/Manipulation	fs:Manipulation,fs:Containers,fs:People,fs:Color,fs:CauseMotion
+2402530	637031	a woman wearing a white jacket					fs:People,fs:Clothing,fs:Color
+2402530	637032	a man in a grey hat					fs:Accoutrements,fs:People
+2402530	637033	a woman in a black hat					fs:Accoutrements,fs:People,fs:Color
+2402530	637034	a man with a red jacket					fs:People,fs:Clothing,fs:Color
+2402530	637035	a woman with light colored hair					fs:People,fs:HairConfiguration,fs:ObservableBodyParts,fs:Dimension
+2402530	637036	women walking on a wet street					fs:Roadways,fs:BeingWet,fs:SelfMotion,fs:Cotheme
+2402530	637037	snow piled against a car					fs:Precipitation,fs:Vehicle
+2402530	637038	brown boots					fs:Color

@@ -1,0 +1,50 @@
+image_id	region_id	phrase	Emotions	Emotions Triggers	Values	Values Triggers	Frames
+2403003	614719	a yellow tennis ball high in the air					fs:ExtremeValue,fs:Substance,fs:Color
+2403003	614720	a racquet aiming for a ball					fs:Purpose,fs:Aiming,fs:Placing,fs:Goal
+2403003	614721	a tall chain link fence			folk:Presence, mft:Loyalty, mft:Care, bhv:Security	https://w3id.org/framester/data/framestercore/SocialConnection, https://w3id.org/framester/wn/wn30/instances/synset-link-noun-1, https://w3id.org/framester/data/framestercore/Protecting, https://w3id.org/framester/wn/wn30/instances/synset-fence-noun-1	fs:MakeCognitiveConnection,fs:SocialConnection,fs:Protecting,fs:Sequence,fs:Dimension,fs:BodyDescriptionHolistic,fs:MeasurableAttributes
+2403003	614722	a gate in a chain link fence			folk:Presence, mft:Loyalty, mft:Care, bhv:Security	https://w3id.org/framester/wn/wn30/instances/synset-link-noun-1, https://w3id.org/framester/data/framestercore/Protecting, https://w3id.org/framester/data/framestercore/SocialConnection, https://w3id.org/framester/wn/wn30/instances/synset-fence-noun-1	fs:MakeCognitiveConnection,fs:SocialConnection,fs:Protecting,fs:Sequence,fs:Supply
+2403003	614723	a yellow ball hiding in a pocket					fs:ClothingParts,fs:Color,fs:IntentionallyAct
+2403003	614724	a man with bent knees preparing to hit a ball			mft:Harm	https://w3id.org/framester/data/framestercore/CauseHarm, https://w3id.org/framester/data/framestercore/ExperienceBodilyHarm	fs:HitTarget,fs:CookingCreation,fs:Posture,fs:ActivityPrepare,fs:Impact,fs:People,fs:ExperienceBodilyHarm,fs:CauseMotion,fs:CauseImpact,fs:CauseHarm
+2403003	614725	an arm stretched upward					fs:ShapedPart,fs:Expansion,fs:CauseExpansion,fs:BodyMovement,fs:ObservableBodyParts
+2403003	614726	tall poles holding up a fence	be:Fear	http://dbpedia.org/resource/Robbery	folk:Willingness, mft:Care, bhv:Security	https://w3id.org/framester/data/framestercore/Protecting, https://w3id.org/framester/wn/wn30/instances/synset-up-adjective-1, https://w3id.org/framester/wn/wn30/instances/synset-fence-noun-1	fs:BodyDescriptionHolistic,fs:Protecting,fs:MeasurableAttributes,fs:Dimension
+2403003	614727	trees on the back side of a fence			mft:Care, bhv:Security	https://w3id.org/framester/data/framestercore/Protecting, https://w3id.org/framester/wn/wn30/instances/synset-fence-noun-1	fs:PartOrientational,fs:Protecting
+2403003	614728	sky peeking out between the trees			folk:Analysis	https://w3id.org/framester/vn/vn31/data/Peek_30030000	fs:PerceptionActive,fs:Locale
+2403003	614729	the ball in his pocket					fs:ClothingParts
+2403003	614730	white tennis shoes					fs:Color
+2403003	614731	the tennis racket in his hand					fs:Sounds,fs:Sensation,fs:ObservableBodyParts
+2403003	614732	black shorts with a ball in the pocket					fs:ClothingParts,fs:Color
+2403003	614733	a man playing tennis					fs:People
+2403003	614734	a man serving a tennis ball			bhv:Benevolence, mft:Care, folk:Helping	https://w3id.org/framester/data/framestercore/Assistance	fs:People,fs:Assistance
+2403003	614735	the tennis ball in the air					fs:Substance
+2403003	614736	the ball high above his head					fs:ExtremeValue,fs:ObservableBodyParts
+2403003	614737	a yellow tennis ball way up in the air					fs:Means,fs:Substance,fs:Color
+2403003	614738	a man practicing his tennis serve			folk:Satisfaction, bhv:Benevolence, mft:Care, folk:Helping	https://w3id.org/framester/wn/wn30/instances/synset-serve-verb-1, https://w3id.org/framester/data/framestercore/Assistance	fs:Practice,fs:People,fs:Assistance,fs:Sufficiency
+2403003	614739	yellow tennis ball in the air 					fs:Substance,fs:Color
+2403003	614741	tennis racket with white tape 					fs:Sounds,fs:Attaching,fs:Sensation,fs:Color
+2403003	614742	man hitting the tennis ball 			mft:Harm	https://w3id.org/framester/data/framestercore/CauseHarm, https://w3id.org/framester/data/framestercore/ExperienceBodilyHarm	fs:HitTarget,fs:Impact,fs:People,fs:ExperienceBodilyHarm,fs:CauseImpact,fs:CauseHarm
+2403003	614743	metal chain link fence 			folk:Presence, mft:Loyalty, mft:Care, bhv:Security	https://w3id.org/framester/data/framestercore/SocialConnection, https://w3id.org/framester/wn/wn30/instances/synset-link-noun-1, https://w3id.org/framester/data/framestercore/Protecting, https://w3id.org/framester/wn/wn30/instances/synset-fence-noun-1	fs:Sequence,fs:MakeCognitiveConnection,fs:SocialConnection,fs:Protecting
+2403003	614744	blue and green clay tennis court			mft:Fairness	https://w3id.org/framester/wn/wn30/instances/synset-court-noun-1, https://w3id.org/framester/data/framestercore/JudicialBody	fs:JudicialBody,fs:Substance,fs:Color
+2403003	614745	white socks and sneakers 			folk:Comfort	http://dbpedia.org/resource/Sock	fs:Color
+2403003	614746	black shorts worn by  a man 					fs:People,fs:Color
+2403003	614747	white arm straight in the air 					fs:Color,fs:ObservableBodyParts,fs:Substance,fs:ShapedPart
+2403003	614748	overhand serve with a tennis racket 			folk:Satisfaction	https://w3id.org/framester/wn/wn30/instances/synset-serve-verb-1	fs:Sounds,fs:Sensation,fs:Sufficiency
+2403003	614749	older male tennis player serving			folk:Competition	https://w3id.org/framester/wn/wn30/instances/synset-player-noun-1	
+2403003	614750	yellow tennis ball high in the air					fs:ExtremeValue,fs:Substance,fs:Color
+2403003	614751	black shorts on tennis player			folk:Competition	https://w3id.org/framester/wn/wn30/instances/synset-player-noun-1	fs:Participation,fs:Color
+2403003	614752	white shirt on tennis player			folk:Competition	https://w3id.org/framester/wn/wn30/instances/synset-player-noun-1	fs:Participation,fs:Clothing,fs:Color
+2403003	614753	black, red, and yellow tennis racket being held by player			folk:Competition	https://w3id.org/framester/wn/wn30/instances/synset-player-noun-1	fs:Participation,fs:Color
+2403003	614754	green hat on older tennis player			folk:Competition	https://w3id.org/framester/wn/wn30/instances/synset-player-noun-1	fs:Accoutrements,fs:Participation,fs:Age,fs:Color
+2403003	614755	yellow ball in pocket of player's black shorts			folk:Competition	https://w3id.org/framester/wn/wn30/instances/synset-player-noun-1	fs:Participation,fs:ClothingParts,fs:Color
+2403003	614756	white wristband on tennis player			folk:Competition	https://w3id.org/framester/wn/wn30/instances/synset-player-noun-1	fs:Participation,fs:ClothingParts,fs:Color
+2403003	614757	white baseline on tennis court			mft:Fairness	https://w3id.org/framester/wn/wn30/instances/synset-court-noun-1, https://w3id.org/framester/data/framestercore/JudicialBody	fs:JudicialBody,fs:Color
+2403003	614758	white shoe on tennis player			folk:Competition	https://w3id.org/framester/wn/wn30/instances/synset-player-noun-1	fs:Participation,fs:Clothing,fs:Color
+2403003	614759	man playing tennis.					fs:People
+2403003	614760	a pair of white socks.					fs:Aggregate,fs:Color
+2403003	614761	a pair of black shorts.					fs:Aggregate,fs:Color
+2403003	614762	a yellow tennis ball in pocket.					fs:ClothingParts,fs:Color
+2403003	614763	a white tee shirt.					fs:LocaleByUse,fs:Locale,fs:LocaleByEvent,fs:Color,fs:Clothing
+2403003	614764	white bandage around right wrist.					fs:Color,fs:PartOrientational,fs:ShapedPart,fs:ObservableBodyParts
+2403003	614765	tennis raquet in right hand.					fs:PartOrientational,fs:ObservableBodyParts
+2403003	614766	left arm raised in the air.					fs:Substance,fs:PartOrientational,fs:ShapedPart,fs:Motion,fs:CauseChangeOfPositionOnAScale,fs:BodyMovement,fs:ObservableBodyParts
+2403003	614767	man's shadow on the ground.					fs:People,fs:OpticalImage,fs:NaturalFeatures
+2403003	614768	a chain link fence.			folk:Presence, mft:Loyalty, mft:Care, bhv:Security	https://w3id.org/framester/wn/wn30/instances/synset-link-noun-1, https://w3id.org/framester/data/framestercore/Protecting, https://w3id.org/framester/data/framestercore/SocialConnection, https://w3id.org/framester/wn/wn30/instances/synset-fence-noun-1	fs:Sequence,fs:MakeCognitiveConnection,fs:SocialConnection,fs:Protecting

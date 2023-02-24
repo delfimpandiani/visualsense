@@ -1,0 +1,51 @@
+image_id	region_id	phrase	Emotions	Emotions Triggers	Values	Values Triggers	Frames
+2406104	405529	person riding a skateboard					fs:Travel,fs:People,fs:OperateVehicle,fs:RideVehicle
+2406104	405530	person taking a picture			folk:Helping, mft:Care, folk:Leadership, bhv:Power, mft:Authority	http://dbpedia.org/resource/Person, https://w3id.org/framester/vn/vn31/data/Take_10050000, https://w3id.org/framester/data/framestercore/ChangeOfLeadership	fs:ChangeOfQuantityOfPossession,fs:Getting,fs:OpticalImage,fs:Cotheme,fs:People,fs:Sensation,fs:ChangeOfLeadership,fs:Conquering,fs:Bringing,fs:Taking,fs:Removing,fs:EarningsAndLosses
+2406104	405531	helmet on a persons head					fs:Accoutrements,fs:ObservableBodyParts
+2406104	405532	hat on a persons head					fs:Accoutrements,fs:ObservableBodyParts
+2406104	405533	camera in a persons hands					
+2406104	405534	two shoes on feet					
+2406104	405535	wheels on a skateboard					fs:OperateVehicle
+2406104	405536	chin strap on a helmet 					fs:Accoutrements,fs:ObservableBodyParts,fs:Connectors,fs:ClothingParts
+2406104	405537	shoe laces on a shoe					fs:Clothing
+2406104	405538	electronic device in a persons hand					fs:Gizmo,fs:ObservableBodyParts
+2406104	405539	checkered hat on the man with the camera.					fs:Accoutrements,fs:People
+2406104	405540	helmet the kid on the skateboard is wearing.			mft:Care	https://w3id.org/framester/wn/wn30/instances/synset-child-noun-1	fs:PeopleByAge,fs:Accoutrements,fs:OperateVehicle
+2406104	405541	the skateboard the kid is standing on.			mft:Care	https://w3id.org/framester/wn/wn30/instances/synset-child-noun-1	fs:BeingLocated,fs:Posture,fs:ChangePosture,fs:Placing,fs:PeopleByAge,fs:OperateVehicle
+2406104	405542	the kid's sneakers.			mft:Care	https://w3id.org/framester/wn/wn30/instances/synset-child-noun-1	fs:PeopleByAge
+2406104	405543	pants worn by the kid.			mft:Care	https://w3id.org/framester/wn/wn30/instances/synset-child-noun-1	fs:PeopleByAge,fs:Clothing
+2406104	405544	front wheels of the skateboard.					fs:OperateVehicle
+2406104	405545	back wheels of the skateboard.					fs:PartOrientational,fs:OperateVehicle
+2406104	405546	design on the guy's shirt.			folk:Management	https://w3id.org/framester/wn/wn30/instances/synset-design-noun-2	fs:ComingUpWith,fs:Cogitation,fs:People,fs:Clothing
+2406104	405547	strap of the camera.					fs:ClothingParts,fs:Connectors
+2406104	405548	the camera in the guy's hands.					fs:People
+2406104	405549	a black and white photo					fs:Color,fs:Representing
+2406104	405550	a person on a skateboard					fs:People,fs:OperateVehicle
+2406104	405551	a person with a camera					fs:People
+2406104	405552	a person wearing a hat					fs:Accoutrements,fs:People
+2406104	405553	a person wearing a checked hat					fs:Accoutrements,fs:People
+2406104	405554	a person wearing a helmet					fs:Accoutrements,fs:People
+2406104	405555	a person standing on a skateboard			mft:Authority, folk:Consideration	https://w3id.org/framester/wn/wn30/instances/synset-standing-noun-1, https://w3id.org/framester/data/framestercore/OccupyRank	fs:People,fs:OccupyRank,fs:OperateVehicle
+2406104	405556	a person wearing a plaid jacket					fs:People,fs:Artifact,fs:Clothing
+2406104	405557	feet on a skateboard					fs:OperateVehicle
+2406104	405558	a person bent over			mft:Authority	https://w3id.org/framester/data/framestercore/PoliticalLocales	fs:People,fs:PoliticalLocales
+2406104	405559	young man wearing jacket					fs:People,fs:Clothing,fs:Age
+2406104	405560	young man wearing jacket					fs:People,fs:Clothing,fs:Age
+2406104	405561	young man wearing jeans					fs:People,fs:Age
+2406104	405562	young man wearing jeans					fs:People,fs:Age
+2406104	405563	young man wearing shiny helmet					fs:Accoutrements,fs:People,fs:LocationOfLight,fs:LightMovement,fs:Age
+2406104	405564	yuong man on skateboard					fs:People,fs:OperateVehicle
+2406104	405565	tree in black and white photo					fs:Color,fs:BiologicalArea,fs:Representing
+2406104	405566	grass in black and white photo			bhv:Benevolence, mft:Care, folk:Helping	https://w3id.org/framester/wn/wn30/instances/synset-grass-noun-1	fs:Filling,fs:Adorning,fs:Color,fs:Representing
+2406104	405567	grass in black and white photo			bhv:Benevolence, mft:Care, folk:Helping	https://w3id.org/framester/wn/wn30/instances/synset-grass-noun-1	fs:Filling,fs:Adorning,fs:Color,fs:Representing
+2406104	405568	grass in black and white photo			bhv:Benevolence, mft:Care, folk:Helping	https://w3id.org/framester/wn/wn30/instances/synset-grass-noun-1	fs:Filling,fs:Adorning,fs:Color,fs:Representing
+2406104	405569	person taking a picture			folk:Helping, mft:Care, folk:Leadership, bhv:Power, mft:Authority	http://dbpedia.org/resource/Person, https://w3id.org/framester/vn/vn31/data/Take_10050000, https://w3id.org/framester/data/framestercore/ChangeOfLeadership	fs:ChangeOfQuantityOfPossession,fs:Getting,fs:OpticalImage,fs:Cotheme,fs:People,fs:Sensation,fs:ChangeOfLeadership,fs:Conquering,fs:Bringing,fs:Taking,fs:Removing,fs:EarningsAndLosses
+2406104	405570	person riding a long board					fs:Travel,fs:RideVehicle,fs:People,fs:Organization,fs:DurationAttribute,fs:OperateVehicle
+2406104	405571	wooden long board on the street					fs:Roadways,fs:Organization,fs:DurationAttribute
+2406104	405572	small rubber skateboard wheel					fs:Adorning,fs:Size,fs:Dimension,fs:Artifact,fs:Filling,fs:OperateVehicle
+2406104	405573	small rubber skateboard wheel					fs:Adorning,fs:Size,fs:Dimension,fs:Artifact,fs:Filling,fs:OperateVehicle
+2406104	405574	medium sized plastic helmet					fs:PositionOnAScale,fs:Accoutrements,fs:SubstanceByPhase
+2406104	405575	person wearing hat and carrying camera					fs:Accoutrements,fs:Motion,fs:CarryGoods,fs:People,fs:Bringing
+2406104	405576	black plastic camera					fs:SubstanceByPhase,fs:Color
+2406104	405577	person wearing skateboard helmet					fs:Accoutrements,fs:People,fs:OperateVehicle
+2406104	405578	person wearing plaid shirt					fs:People,fs:Artifact,fs:Clothing

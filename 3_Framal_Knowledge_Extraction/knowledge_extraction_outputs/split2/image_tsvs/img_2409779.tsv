@@ -1,0 +1,51 @@
+image_id	region_id	phrase	Emotions	Emotions Triggers	Values	Values Triggers	Frames
+2409779	229612	man riding bike behind a bus					fs:Travel,fs:People,fs:Vehicle
+2409779	229613	man wearing a glowing vest					fs:People,fs:Clothing
+2409779	229614	a standing man looks at his phone			folk:Analysis, mft:Authority, folk:Consideration	https://w3id.org/framester/wn/wn30/instances/synset-standing-noun-1, https://w3id.org/framester/vn/vn31/data/Look_30030000, https://w3id.org/framester/data/framestercore/Scrutiny, https://w3id.org/framester/data/framestercore/OccupyRank	fs:PerceptionActive,fs:Seeking,fs:Scrutiny,fs:OccupyRank,fs:People,fs:Contacting,fs:CommunicationMeans
+2409779	229615	a person riding a moped					fs:Travel,fs:People,fs:OperateVehicle,fs:RideVehicle
+2409779	229616	man kneeling by a curb			folk:Consent	https://w3id.org/framester/wn/wn30/instances/synset-curb-noun-1	fs:People,fs:Hindering
+2409779	229617	the back of a double decker bus					fs:People,fs:ObservableBodyParts,fs:Vehicle,fs:Quantity
+2409779	229618	tiles on a sidewalk					fs:Roadways
+2409779	229619	dashes on a street					fs:Roadways
+2409779	229620	a street curb			folk:Consent	https://w3id.org/framester/wn/wn30/instances/synset-curb-noun-1	fs:Roadways,fs:Hindering
+2409779	229621	man holding a red bag					fs:People,fs:Containers,fs:MeasureVolume,fs:Color
+2409779	229622	the man is squatting on the ground					fs:ChangePosture,fs:People,fs:NaturalFeatures,fs:Posture
+2409779	229623	his pants are black					fs:Clothing,fs:Color
+2409779	229624	his jacket is black					fs:Clothing,fs:Color
+2409779	229625	the bus is red					fs:Vehicle,fs:Color
+2409779	229626	he has a backpack on his back					fs:Ingestion,fs:Containers,fs:ObservableBodyParts
+2409779	229627	the shoes are white					
+2409779	229628	the tiles are sruare in shape					
+2409779	229629	the scene is a night time scene					fs:CalendricUnit,fs:EventInstance,fs:LocaleByEvent,fs:LocationInTime,fs:Timespan
+2409779	229630	the bus has two floors					fs:Ingestion,fs:Vehicle
+2409779	229631	the line are white					fs:Pattern,fs:Color
+2409779	229632	aman sitting on the sidewalk.					fs:BeingLocated,fs:Posture,fs:ChangePosture,fs:Placing,fs:Roadways
+2409779	229633	a pair of black shoes.					fs:Aggregate,fs:Color
+2409779	229634	person riding bike on road.					fs:Travel,fs:People,fs:Vehicle,fs:Roadways
+2409779	229635	man with lit up jacket.					fs:People,fs:Clothing
+2409779	229636	man in black jacket and blue hat.					fs:Accoutrements,fs:People,fs:Clothing,fs:Color
+2409779	229637	red double decker bus.					fs:People,fs:Quantity,fs:Vehicle,fs:Color
+2409779	229638	motorcycle driving down street.			folk:Willingness	https://w3id.org/framester/wn/wn30/instances/synset-down-adjective-1, https://w3id.org/framester/data/framestercore/Willingness	fs:RideVehicle,fs:SelfMotion,fs:Bringing,fs:Roadways,fs:CauseMotion,fs:Willingness,fs:OperateVehicle
+2409779	229639	greena nd white bus sign.					fs:Sign,fs:Vehicle,fs:Color
+2409779	229640	man standing on sidewalk with cellphone.			mft:Authority, folk:Consideration	https://w3id.org/framester/wn/wn30/instances/synset-standing-noun-1, https://w3id.org/framester/data/framestercore/OccupyRank	fs:Roadways,fs:OccupyRank,fs:People
+2409779	229641	red and black shopping bag.					fs:Containers,fs:MeasureVolume,fs:Color,fs:Shopping
+2409779	229642	a double-decker bus.					fs:Vehicle
+2409779	229643	the man is crouching on the edge of the sidewalk.					fs:LocativeRelation,fs:Posture,fs:ChangePosture,fs:People,fs:Supply,fs:Roadways
+2409779	229644	a person on a bicycle.					fs:People,fs:Vehicle
+2409779	229645	the person has reflective clothing on.					fs:People,fs:Ingestion,fs:Clothing,fs:SocialInteractionEvaluation
+2409779	229646	the man is wearing a leather jacket.					fs:People,fs:Clothing
+2409779	229647	a scooter.					
+2409779	229648	a large building in the background.					fs:Buildings,fs:Size,fs:Dimension
+2409779	229649	the man is wearing a blue and black jacket.					fs:People,fs:Clothing,fs:Color
+2409779	229650	the man is wearing glasses.					fs:People
+2409779	229651	the man is looking at his cellphone.			folk:Analysis	https://w3id.org/framester/data/framestercore/Scrutiny, https://w3id.org/framester/vn/vn31/data/Look_30030000	fs:PerceptionActive,fs:Seeking,fs:People,fs:Scrutiny
+2409779	229652	man standing in foreground with black beret			mft:Authority, folk:Consideration	https://w3id.org/framester/wn/wn30/instances/synset-standing-noun-1, https://w3id.org/framester/data/framestercore/OccupyRank	fs:Accoutrements,fs:OccupyRank,fs:People,fs:Color
+2409779	229653	man standing in foreground wearing black leather jacket			mft:Authority, folk:Consideration	https://w3id.org/framester/wn/wn30/instances/synset-standing-noun-1, https://w3id.org/framester/data/framestercore/OccupyRank	fs:OccupyRank,fs:People,fs:Clothing,fs:Color
+2409779	229654	red double decker bus on city street			mft:Authority	https://w3id.org/framester/data/framestercore/PoliticalLocales, https://w3id.org/framester/wn/wn30/instances/synset-city-noun-1	fs:PoliticalLocales,fs:LocaleByUse,fs:Quantity,fs:People,fs:Color,fs:Roadways,fs:Vehicle
+2409779	229655	night time english city scene			mft:Authority	https://w3id.org/framester/data/framestercore/PoliticalLocales, https://w3id.org/framester/wn/wn30/instances/synset-city-noun-1	fs:CalendricUnit,fs:PoliticalLocales,fs:LocaleByUse,fs:EventInstance,fs:LocaleByEvent,fs:LocationInTime,fs:Timespan
+2409779	229656	cyclist on bike following bus					fs:Vehicle,fs:OperateVehicle,fs:Bringing
+2409779	229657	paved city sidewalk with grey concrete tiles			mft:Authority	https://w3id.org/framester/data/framestercore/PoliticalLocales, https://w3id.org/framester/wn/wn30/instances/synset-city-noun-1	fs:Adorning,fs:PoliticalLocales,fs:LocaleByUse,fs:AboundingWith,fs:Roadways,fs:Filling
+2409779	229658	man wearing grey coat crouching					fs:People,fs:Clothing,fs:Color
+2409779	229659	man crouching wearing white sneakers					fs:People,fs:Color
+2409779	229660	man wearing blue coat looking at phone			folk:Analysis	https://w3id.org/framester/data/framestercore/Scrutiny, https://w3id.org/framester/vn/vn31/data/Look_30030000	fs:PerceptionActive,fs:Seeking,fs:Scrutiny,fs:CommunicationMeans,fs:People,fs:Color,fs:Contacting,fs:Clothing
+2409779	229661	man standing in foreground holding red and black bag			mft:Authority, folk:Consideration	https://w3id.org/framester/wn/wn30/instances/synset-standing-noun-1, https://w3id.org/framester/data/framestercore/OccupyRank	fs:OccupyRank,fs:Containers,fs:People,fs:Color,fs:MeasureVolume

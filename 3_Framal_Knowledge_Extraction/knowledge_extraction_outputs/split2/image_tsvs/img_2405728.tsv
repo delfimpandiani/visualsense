@@ -1,0 +1,51 @@
+image_id	region_id	phrase	Emotions	Emotions Triggers	Values	Values Triggers	Frames
+2405728	423529	two rowboats on shore					fs:RelationalNaturalFeatures
+2405728	423530	rope hanging from boat			folk:Control	https://w3id.org/framester/wn/wn30/instances/synset-rope-noun-1	fs:Vehicle,fs:Connectors
+2405728	423531	white sea foam on sand					fs:Building,fs:Substance,fs:NaturalFeatures,fs:ComingUpWith,fs:Creating,fs:CauseToStart,fs:IntentionallyCreate,fs:Color
+2405728	423532	oars inside of boat					fs:Vehicle
+2405728	423533	seaweed on beach sand					fs:Substance,fs:NaturalFeatures
+2405728	423534	orange handles on sand					fs:Substance
+2405728	423535	cloud covered mountain top					fs:NaturalFeatures,fs:Adorning,fs:BeingLocated,fs:Posture,fs:Supply,fs:Topic,fs:Eclipse,fs:Filling
+2405728	423536	trees overlooking water's edge					fs:LocativeRelation,fs:Substance,fs:Supply
+2405728	423537	bottom of boat on beach	be:Enjoyment	http://dbpedia.org/resource/Boat	folk:Fun	http://dbpedia.org/resource/Boat	fs:PartOrientational
+2405728	423538	small crashing wave near shore					
+2405728	423539	two boats on the beach shore					
+2405728	423540	rain clouds on top of the mountain					fs:Precipitation,fs:NaturalFeatures,fs:BeingLocated,fs:Posture,fs:Supply
+2405728	423541	seaweed on the beach					fs:NaturalFeatures
+2405728	423542	the water ripples onto the shore					fs:RelationalNaturalFeatures,fs:Substance
+2405728	423543	orange and white oars inside the boat					fs:Vehicle,fs:Color
+2405728	423544	rope attached to the end of the boat			folk:Control	https://w3id.org/framester/wn/wn30/instances/synset-rope-noun-1	fs:Vehicle,fs:ProcessEnd,fs:Connectors
+2405728	423545	lots of trees in the background					
+2405728	423546	a tall mountain					fs:BodyDescriptionHolistic,fs:NaturalFeatures,fs:MeasurableAttributes,fs:Dimension
+2405728	423547	a gloomy looking sky			folk:Analysis	https://w3id.org/framester/data/framestercore/Scrutiny	fs:Seeking,fs:Scrutiny,fs:Locale,fs:Dimension
+2405728	423548	very calm waters of the ocean					fs:Identicality,fs:ExperiencerFocus,fs:NaturalFeatures
+2405728	423549	white boat anchored on shore					fs:RelationalNaturalFeatures,fs:Vehicle,fs:Attaching,fs:Color
+2405728	423550	white boat anchored on shore					fs:RelationalNaturalFeatures,fs:Vehicle,fs:Attaching,fs:Color
+2405728	423551	fog on mountain top					fs:Supply,fs:NaturalFeatures,fs:BeingLocated,fs:Posture
+2405728	423552	hillside at a distance					fs:NaturalFeatures,fs:Range
+2405728	423553	mountain top at a distance					fs:NaturalFeatures,fs:BeingLocated,fs:Posture,fs:Supply,fs:Range
+2405728	423554	white caps on top of wave					fs:BeingLocated,fs:Posture,fs:Event,fs:Supply,fs:Color
+2405728	423555	suds washed up from water			mft:Care	https://w3id.org/framester/data/framestercore/Grooming	fs:Building,fs:Grooming,fs:Substance,fs:ComingUpWith,fs:Creating,fs:CauseToStart,fs:IntentionallyCreate
+2405728	423556	anchor rope holding boat to shore	be:Enjoyment	http://dbpedia.org/resource/Boat	folk:Control, folk:Fun	http://dbpedia.org/resource/Boat, https://w3id.org/framester/wn/wn30/instances/synset-rope-noun-1	fs:Connectors,fs:Closure,fs:Attaching,fs:InchoativeAttaching,fs:Vehicle
+2405728	423557	anchor rope holding boat to shore	be:Enjoyment	http://dbpedia.org/resource/Boat	folk:Control, folk:Fun	http://dbpedia.org/resource/Boat, https://w3id.org/framester/wn/wn30/instances/synset-rope-noun-1	fs:Connectors,fs:Closure,fs:Attaching,fs:InchoativeAttaching,fs:Vehicle
+2405728	423558	ripples in water					fs:Substance
+2405728	423559	a mountain					fs:NaturalFeatures
+2405728	423560	a cloud covers the top of the mountain					fs:NaturalFeatures,fs:Adorning,fs:BeingLocated,fs:Posture,fs:Supply,fs:Topic,fs:Eclipse,fs:Filling
+2405728	423561	boats on the shore					fs:RelationalNaturalFeatures
+2405728	423562	two boats on the shore					fs:RelationalNaturalFeatures
+2405728	423563	two boats at the edge of the water					fs:LocativeRelation,fs:Substance,fs:Supply
+2405728	423564	trees along the shoreline			folk:Beauty	http://dbpedia.org/resource/Tree	fs:RelationalNaturalFeatures
+2405728	423565	a large body of water					fs:Substance,fs:PartWhole,fs:Size,fs:Dimension
+2405728	423566	two small boats			folk:Control	https://w3id.org/framester/data/framestercore/Manipulation	fs:Animals,fs:Manipulation,fs:Size,fs:Dimension,fs:BiologicalEntity,fs:Aggregate
+2405728	423567	the boats have ropes on the sand	be:Enjoyment	http://dbpedia.org/resource/Boat	folk:Fun	http://dbpedia.org/resource/Boat	fs:Ingestion,fs:Possession,fs:Substance
+2405728	423568	tow ores can be seen in the boat			folk:Control	https://w3id.org/framester/wn/wn30/instances/synset-tow-noun-1	fs:PerceptionExperience,fs:Vehicle
+2405728	423569	two boats on the shore. 					fs:RelationalNaturalFeatures
+2405728	423570	the beach is muddy.					fs:BeingWet,fs:NaturalFeatures
+2405728	423571	the water is brown.					fs:ApplyHeat,fs:Substance
+2405728	423572	the boat is tan.	be:Enjoyment	http://dbpedia.org/resource/Boat	folk:Fun	http://dbpedia.org/resource/Boat	fs:Vehicle,fs:Color
+2405728	423573	orange and silver sticks in the boat.	be:Enjoyment	http://dbpedia.org/resource/Boat	folk:Fun	http://dbpedia.org/resource/Boat	fs:Vehicle
+2405728	423574	strings on the boat.					fs:Vehicle
+2405728	423575	tree covered hill in the distance. 					fs:NaturalFeatures,fs:Adorning,fs:BiologicalArea,fs:Topic,fs:Eclipse,fs:Filling,fs:Range
+2405728	423576	the water is grey.					fs:Substance
+2405728	423577	a tall mountain in the distance. 					fs:NaturalFeatures,fs:Dimension,fs:BodyDescriptionHolistic,fs:MeasurableAttributes,fs:Range
+2405728	423578	the sky is cloudy. 					fs:Locale

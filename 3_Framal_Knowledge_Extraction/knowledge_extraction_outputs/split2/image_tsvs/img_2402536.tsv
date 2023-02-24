@@ -1,0 +1,51 @@
+image_id	region_id	phrase	Emotions	Emotions Triggers	Values	Values Triggers	Frames
+2402536	636739	two men getting ready to play tennis.			mft:Loyalty, folk:Partnership	https://w3id.org/framester/wn/wn30/instances/synset-play-verb-1	fs:Getting,fs:Becoming,fs:CookingCreation,fs:ActivityPrepare,fs:BoardVehicle,fs:Participation,fs:Possession
+2402536	636740	a white shirt with green trim.					fs:Filling,fs:Clothing,fs:Adorning,fs:Color
+2402536	636741	man on left has white wristband on arm.					fs:PartOrientational,fs:ClothingParts,fs:ShapedPart,fs:Ingestion,fs:People,fs:Color,fs:ObservableBodyParts
+2402536	636742	man on right has white wristband on arm.					fs:ClothingParts,fs:ShapedPart,fs:Ingestion,fs:People,fs:Color,fs:ObservableBodyParts
+2402536	636743	man on right has white and black band around leg.					fs:ShapedPart,fs:Ingestion,fs:People,fs:Color,fs:Aggregate,fs:ObservableBodyParts
+2402536	636744	signs on left are green and white.					fs:PartOrientational,fs:Color
+2402536	636745	the word monde in white letters.					fs:SimpleName,fs:Color
+2402536	636746	the word rico on sign on right.					fs:SimpleName,fs:Sign
+2402536	636747	the number 204 on sign on right.			folk:Independence	https://w3id.org/framester/wn/wn30/instances/synset-number-noun-1	fs:Sign,fs:Quantity
+2402536	636748	part of a website, ricoh.com.					fs:Membership
+2402536	636749	racquet in a hand					fs:ObservableBodyParts
+2402536	636750	man in green and white uniform					fs:People,fs:Clothing,fs:Color
+2402536	636751	man holding a ball					fs:People
+2402536	636752	green and white sign					fs:Color,fs:Sign
+2402536	636753	two men with dark skin			mft:Harm	https://w3id.org/framester/wn/wn30/instances/synset-skin-noun-1, https://w3id.org/framester/data/framestercore/ExperienceBodilyHarm	fs:ExperienceBodilyHarm,fs:Dimension
+2402536	636754	man in a black hat					fs:Accoutrements,fs:People,fs:Color
+2402536	636755	silver rail on stairs					fs:ArchitecturalPart
+2402536	636756	tennis ball in a hand					fs:ObservableBodyParts
+2402536	636757	hat on a  man					fs:Accoutrements,fs:People
+2402536	636758	brown ground on a tennis court			mft:Fairness	https://w3id.org/framester/wn/wn30/instances/synset-court-noun-1, https://w3id.org/framester/data/framestercore/JudicialBody	fs:JudicialBody,fs:NaturalFeatures,fs:Color
+2402536	636759	players walking on tennis court			mft:Fairness	https://w3id.org/framester/wn/wn30/instances/synset-court-noun-1, https://w3id.org/framester/data/framestercore/JudicialBody	fs:JudicialBody,fs:SelfMotion,fs:Cotheme
+2402536	636760	two players walking on tennis court			mft:Fairness	https://w3id.org/framester/wn/wn30/instances/synset-court-noun-1	
+2402536	636761	couple players walking on tennis court			mft:Loyalty, mft:Fairness, folk:Association	https://w3id.org/framester/wn/wn30/instances/synset-court-noun-1, https://w3id.org/framester/wn/wn30/instances/synset-couple-noun-1	
+2402536	636762	some players walking on tennis court			mft:Fairness	https://w3id.org/framester/wn/wn30/instances/synset-court-noun-1, https://w3id.org/framester/data/framestercore/JudicialBody	fs:JudicialBody,fs:SelfMotion,fs:Cotheme
+2402536	636763	men walking on tennis court			mft:Fairness	https://w3id.org/framester/wn/wn30/instances/synset-court-noun-1, https://w3id.org/framester/data/framestercore/JudicialBody	fs:JudicialBody,fs:SelfMotion,fs:Cotheme
+2402536	636764	two men walking on tennis court			mft:Fairness	https://w3id.org/framester/wn/wn30/instances/synset-court-noun-1, https://w3id.org/framester/data/framestercore/JudicialBody	fs:JudicialBody,fs:SelfMotion,fs:Cotheme
+2402536	636765	couple men walking on tennis court			mft:Loyalty, mft:Fairness, folk:Association	https://w3id.org/framester/wn/wn30/instances/synset-court-noun-1, https://w3id.org/framester/wn/wn30/instances/synset-couple-noun-1, https://w3id.org/framester/data/framestercore/JudicialBody	fs:PersonalRelationship,fs:JudicialBody,fs:SelfMotion,fs:Cotheme
+2402536	636766	guys walking on tennis court			mft:Fairness	https://w3id.org/framester/wn/wn30/instances/synset-court-noun-1, https://w3id.org/framester/data/framestercore/JudicialBody	fs:JudicialBody,fs:SelfMotion,fs:Cotheme
+2402536	636767	couple guys walking on tennis court			mft:Loyalty, mft:Fairness, folk:Association	https://w3id.org/framester/wn/wn30/instances/synset-court-noun-1, https://w3id.org/framester/wn/wn30/instances/synset-couple-noun-1, https://w3id.org/framester/data/framestercore/JudicialBody	fs:PersonalRelationship,fs:JudicialBody,fs:SelfMotion,fs:Cotheme
+2402536	636768	men walking together on tennis court			mft:Fairness	https://w3id.org/framester/wn/wn30/instances/synset-court-noun-1, https://w3id.org/framester/data/framestercore/JudicialBody	fs:JudicialBody,fs:SelfMotion,fs:Cotheme
+2402536	636769	brace on man's knee.					fs:ChangeResistance,fs:People,fs:InchoativeAttaching,fs:ObservableBodyParts,fs:Supporting
+2402536	636770	numbers on electronic sign.					fs:Sign
+2402536	636771	white writing on green board.					fs:Organization,fs:Color
+2402536	636772	clay on court surface.			mft:Fairness	https://w3id.org/framester/wn/wn30/instances/synset-court-noun-1, https://w3id.org/framester/data/framestercore/JudicialBody	fs:PartInnerOuter,fs:Substance,fs:JudicialBody
+2402536	636773	strings on tennis racquet.					
+2402536	636774	handle of the racquet.			folk:Leadership, mft:Care, bhv:Power	https://w3id.org/framester/wn/wn30/instances/synset-manage-verb-2	fs:ResolveProblem
+2402536	636775	sweatband on man's wrist.					fs:People,fs:ObservableBodyParts,fs:ShapedPart
+2402536	636776	official standing off the court.			mft:Authority, bhv:Universalism, mft:Fairness, folk:Consideration	https://w3id.org/framester/wn/wn30/instances/synset-standing-noun-1, https://w3id.org/framester/wn/wn30/instances/synset-court-noun-1, http://dbpedia.org/resource/Court, https://w3id.org/framester/data/framestercore/JudicialBody, https://w3id.org/framester/data/framestercore/OccupyRank	fs:OccupyRank,fs:JudicialBody
+2402536	636777	tennis ball in man's hand.					fs:People,fs:ObservableBodyParts
+2402536	636778	gate near the bleachers.					fs:Supply
+2402536	636779	two male tennis players					
+2402536	636780	a man holding a tennis racket					fs:Sounds,fs:People,fs:Sensation
+2402536	636781	a man holding a tennis racket and tennis ball					fs:Sounds,fs:People,fs:Sensation
+2402536	636782	a man holding a tennis ball					fs:People
+2402536	636783	a man wearing a white shirt with a green collar					fs:People,fs:ClothingParts,fs:Clothing,fs:Color
+2402536	636784	a man wearing black pants					fs:People,fs:Clothing,fs:Color
+2402536	636785	a standium with people sitting					fs:BeingLocated,fs:Posture,fs:ChangePosture,fs:People,fs:Placing
+2402536	636786	a man wearing a black hat					fs:Accoutrements,fs:People,fs:Color
+2402536	636787	a man wearing a black suit					fs:People,fs:Clothing,fs:Color
+2402536	636788	a green advertising sign					fs:Color,fs:Sign

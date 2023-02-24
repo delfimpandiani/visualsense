@@ -1,0 +1,52 @@
+image_id	region_id	phrase	Emotions	Emotions Triggers	Values	Values Triggers	Frames
+2413809	86872	the man is on a skate board.					fs:People,fs:Organization
+2413809	86873	the man is preforming a trick.					fs:People
+2413809	86874	the boy is on a skateboard.					fs:OperateVehicle
+2413809	86875	the man is wearing a hat.					fs:Accoutrements,fs:People
+2413809	86876	the man is wearing a white t shirt.					fs:People,fs:Clothing,fs:Color
+2413809	86877	the man is in front of a bench.			mft:Harm	https://w3id.org/framester/wn/wn30/instances/synset-front-noun-1	fs:People,fs:PartOrientational
+2413809	86878	the boy is wearing a football t shirt.					fs:Clothing
+2413809	86879	the man is wearing black sneakers.					fs:People,fs:Color
+2413809	86880	the girl is wearing a cowboy hat.					fs:Accoutrements,fs:People
+2413809	86881	the boy is wearing a blue hat.					fs:Accoutrements,fs:Color
+2413809	86882	a skateboard wheel					fs:Artifact,fs:OperateVehicle
+2413809	86883	a black sneaker with laces					fs:Color
+2413809	86884	black cap with chicago written on it			mft:Authority	https://w3id.org/framester/data/framestercore/PoliticalLocales, https://w3id.org/framester/wn/wn30/instances/synset-Chicago-noun-1	fs:Accoutrements,fs:PoliticalLocales,fs:Locale,fs:SpellingAndPronouncing,fs:Color,fs:TextCreation
+2413809	86885	pink shorts					fs:Color
+2413809	86886	child standing on a skateboard			mft:Authority, mft:Care, folk:Consideration	https://w3id.org/framester/wn/wn30/instances/synset-standing-noun-1, https://w3id.org/framester/wn/wn30/instances/synset-child-noun-1, https://w3id.org/framester/data/framestercore/OccupyRank	fs:PeopleByAge,fs:OccupyRank,fs:OperateVehicle
+2413809	86887	a girl standing by the wall			mft:Authority, mft:Care, folk:Consideration, bhv:Security	https://w3id.org/framester/wn/wn30/instances/synset-standing-noun-1, https://w3id.org/framester/wn/wn30/instances/synset-wall-noun-1, https://w3id.org/framester/data/framestercore/OccupyRank	fs:People,fs:ArchitecturalPart,fs:OccupyRank
+2413809	86888	chicago in white letters			mft:Authority	https://w3id.org/framester/data/framestercore/PoliticalLocales, https://w3id.org/framester/wn/wn30/instances/synset-Chicago-noun-1	fs:Color,fs:Locale,fs:PoliticalLocales
+2413809	86889	a wooden bench on the pavement					fs:Filling,fs:Adorning
+2413809	86890	a man performing a skateboard stunt			bhv:Achievement, folk:Accomplishment	https://w3id.org/framester/wn/wn30/instances/synset-stunt-noun-1	fs:People,fs:OperateVehicle,fs:IntentionallyAct
+2413809	86891	a girl looking behind her			folk:Analysis	https://w3id.org/framester/data/framestercore/Scrutiny, https://w3id.org/framester/vn/vn31/data/Look_30030000	fs:People,fs:Seeking,fs:PerceptionActive,fs:Scrutiny
+2413809	86892	man wearing dark brown shorts					fs:People,fs:Color,fs:Dimension
+2413809	86893	skateboard with black tread					fs:OperateVehicle,fs:SelfMotion,fs:Color
+2413809	86894	girl in pink shorts					
+2413809	86895	girl in pink cowboy hat					
+2413809	86896	girl carrying white and blue bottle					fs:Motion,fs:Containers,fs:CarryGoods,fs:People,fs:Bringing,fs:Color,fs:MeasureVolume
+2413809	86897	girl wearing floral shirt					fs:People,fs:Clothing
+2413809	86898	gray t-shirt with football design			folk:Management	https://w3id.org/framester/wn/wn30/instances/synset-design-noun-2	fs:ComingUpWith,fs:Cogitation,fs:Clothing,fs:Color
+2413809	86899	brown cap with chicago emblem			mft:Authority	https://w3id.org/framester/data/framestercore/PoliticalLocales, https://w3id.org/framester/wn/wn30/instances/synset-Chicago-noun-1	fs:Accoutrements,fs:Locale,fs:Color,fs:PoliticalLocales
+2413809	86900	left hand gripping skateboard			folk:Control	https://w3id.org/framester/data/framestercore/Manipulation	fs:PartOrientational,fs:ObservableBodyParts,fs:OperateVehicle,fs:Manipulation
+2413809	86901	silver metal bench			bhv:Power, folk:Strenght	http://dbpedia.org/resource/Metal	
+2413809	86902	skateboarder doing tricks on his skateboard					fs:OperateVehicle
+2413809	86903	a black skateboard					fs:OperateVehicle,fs:Color
+2413809	86904	a black shoe					fs:Clothing,fs:Color
+2413809	86905	white ankle socks					fs:ObservableBodyParts,fs:Color
+2413809	86906	a black and gray baseball cap					fs:Accoutrements,fs:Color
+2413809	86907	a metal bench					
+2413809	86908	"a girl is leaning against a wall
+"			mft:Care, bhv:Security	https://w3id.org/framester/wn/wn30/instances/synset-wall-noun-1	fs:PathShape,fs:ArchitecturalPart,fs:Posture,fs:ChangePosture,fs:People,fs:MotionDirectional
+2413809	86909	skateboarder has on a black pair of shorts					fs:Aggregate,fs:Ingestion,fs:OperateVehicle,fs:Color
+2413809	86910	a kid is riding a skateboard			mft:Care	https://w3id.org/framester/wn/wn30/instances/synset-child-noun-1	fs:PeopleByAge,fs:Travel,fs:OperateVehicle,fs:RideVehicle
+2413809	86911	girl is wearing a pink cowboy hat					fs:Accoutrements,fs:People,fs:Color
+2413809	86912	boy wearing black cap					fs:Accoutrements,fs:Color
+2413809	86913	boy on skateboard 					fs:OperateVehicle
+2413809	86914	boy wearing black sneakers					fs:Color
+2413809	86915	boy wearing white shirt					fs:Clothing,fs:Color
+2413809	86916	bench on the side of skateboard ramp					fs:PathShape,fs:Posture,fs:ChangePosture,fs:MotionDirectional,fs:Supply,fs:OperateVehicle
+2413809	86917	lady standing with red hat			mft:Authority, folk:Consideration	https://w3id.org/framester/wn/wn30/instances/synset-standing-noun-1, https://w3id.org/framester/data/framestercore/OccupyRank	fs:Accoutrements,fs:OccupyRank,fs:People,fs:Color
+2413809	86918	boy on skateboard watching boy skate			folk:Analysis	https://w3id.org/framester/vn/vn31/data/Watch_30020000	fs:PerceptionActive,fs:Seeking,fs:BeingAwake,fs:Cotheme,fs:OperateVehicle
+2413809	86919	boys standing in the background					fs:ChangePosture,fs:Posture,fs:BeingLocated,fs:Placing
+2413809	86920	brick covered wall			mft:Care, bhv:Security	https://w3id.org/framester/wn/wn30/instances/synset-wall-noun-1	fs:Adorning,fs:ArchitecturalPart,fs:Eclipse,fs:Topic,fs:Filling
+2413809	86921	boy wearing black shorts					fs:Color

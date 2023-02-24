@@ -1,0 +1,51 @@
+image_id	region_id	phrase	Emotions	Emotions Triggers	Values	Values Triggers	Frames
+2402814	623809	a girl riding a motorcycle					fs:Travel,fs:People,fs:OperateVehicle,fs:RideVehicle
+2402814	623810	an artsy helmet on a head			folk:Education	http://dbpedia.org/resource/Art	fs:Accoutrements,fs:ObservableBodyParts
+2402814	623811	a silver shoes touching the street			folk:Control	https://w3id.org/framester/data/framestercore/Manipulation	fs:Roadways,fs:Manipulation
+2402814	623812	a girl wearing a yellow jacket and black gloves					fs:People,fs:Clothing,fs:Color
+2402814	623813	a company name on motorcycle			mft:Authority, mft:Loyalty	https://w3id.org/framester/wn/wn30/instances/synset-company-noun-1, http://dbpedia.org/resource/Company	fs:ReferringByName,fs:Businesses,fs:BeingNamed,fs:RideVehicle,fs:OperateVehicle
+2402814	623814	a leather black fanny pack					fs:Color,fs:Placing
+2402814	623815	a couple strolling along the sidewalk			mft:Loyalty, folk:Association	https://w3id.org/framester/wn/wn30/instances/synset-couple-noun-1	fs:Roadways,fs:PersonalRelationship,fs:SelfMotion
+2402814	623816	a white pole with a circle lock					fs:Shapes,fs:ConnectingArchitecture,fs:Closure,fs:Containers,fs:Attaching,fs:Color,fs:InchoativeAttaching,fs:Supporting,fs:CauseMotion
+2402814	623817	a dark blue suv driving down the street					fs:RideVehicle,fs:SelfMotion,fs:Dimension,fs:Bringing,fs:Color,fs:Roadways,fs:CauseMotion,fs:OperateVehicle
+2402814	623818	a large yellow and red adverstisement					fs:Color,fs:Size,fs:Dimension
+2402814	623819	the woman on the motorcycle					fs:People,fs:OperateVehicle,fs:RideVehicle
+2402814	623820	the motorcycle the woman is on					fs:People,fs:OperateVehicle,fs:RideVehicle
+2402814	623821	the name suzuki on the motorcycle					fs:OperateVehicle,fs:RideVehicle,fs:ReferringByName,fs:BeingNamed
+2402814	623822	the white helmet on the woman					fs:Accoutrements,fs:People,fs:Color
+2402814	623823	the people walking on the sidewalk					fs:Roadways,fs:People,fs:SelfMotion,fs:Cotheme
+2402814	623824	the two bicycles parked on the sidewalk					fs:Roadways,fs:Placing
+2402814	623825	the front end of the white car					fs:Vehicle,fs:ProcessEnd,fs:Color
+2402814	623826	the back end of a white car					fs:PartOrientational,fs:ProcessEnd,fs:Vehicle,fs:Color
+2402814	623827	the circular light on the building					fs:Shapes,fs:Buildings,fs:LocationOfLight
+2402814	623828	tire on the back of the suv					fs:ObservableBodyParts
+2402814	623829	a very recent brand new motorcycle.			folk:Experience	https://w3id.org/framester/wn/wn30/instances/synset-recent-adjectivesatellite-1, https://w3id.org/framester/wn/wn30/instances/synset-new-adjective-1	
+2402814	623830	a sexy young woman riding a bike.					
+2402814	623831	a beautiful helmet above a woman's head.			folk:Beauty	https://w3id.org/framester/wn/wn30/instances/synset-beautiful-adjective-1	fs:Accoutrements,fs:People,fs:ObservableBodyParts,fs:Aesthetics
+2402814	623832	one the wheels of the motorcycle.					fs:OperateVehicle,fs:RideVehicle
+2402814	623833	a young man taking a walk on the sidewalk.					fs:SelfMotion,fs:Cotheme,fs:People,fs:Bringing,fs:Taking,fs:Roadways,fs:Removing,fs:Age
+2402814	623834	an suv car riding on the other direction.			folk:Fun	http://dbpedia.org/resource/Car	fs:Travel,fs:Vehicle,fs:Roadways
+2402814	623835	a nice casual shoe on a young woman's foot.			folk:Excellence	https://w3id.org/framester/wn/wn30/instances/synset-nice-adjective-1	fs:PartOrientational,fs:StimulusFocus,fs:People,fs:ObservableBodyParts,fs:Clothing,fs:Age
+2402814	623836	the brand of a japanese company.			mft:Authority	https://w3id.org/framester/wn/wn30/instances/synset-company-noun-1	fs:Businesses
+2402814	623837	a car riding in the same road as the motorcycle.			folk:Novelty, folk:Fun	https://w3id.org/framester/wn/wn30/instances/synset-same-adjective-1, http://dbpedia.org/resource/Car	fs:Travel,fs:Roadways,fs:RideVehicle,fs:Identicality,fs:Vehicle,fs:OperateVehicle
+2402814	623838	a black pair of pants worn by a young woman.					fs:People,fs:Color,fs:Aggregate,fs:Clothing,fs:Age
+2402814	623839	the woman is wearing a yellow jacket					fs:People,fs:Clothing,fs:Color
+2402814	623840	the motorcycle is white					fs:OperateVehicle,fs:RideVehicle,fs:Color
+2402814	623841	the woman is wearing a helmet					fs:Accoutrements,fs:People
+2402814	623842	the helmet is white with a design			folk:Management	https://w3id.org/framester/wn/wn30/instances/synset-design-noun-2	fs:Accoutrements,fs:ComingUpWith,fs:Cogitation,fs:Color
+2402814	623843	the woman's shoes are silver					fs:People
+2402814	623844	spare tire on the back of the car					fs:BodyDescriptionHolistic,fs:ObservableBodyParts,fs:Vehicle
+2402814	623845	the woman has a ponytail					fs:People,fs:HairConfiguration,fs:Ingestion
+2402814	623846	people walking on the sidewalk					fs:Roadways,fs:People,fs:SelfMotion,fs:Cotheme
+2402814	623847	the light is on					fs:LocationOfLight
+2402814	623848	the bike is parked					fs:Vehicle,fs:Placing
+2402814	623849	the woman is wearing a yellow jacket					fs:People,fs:Clothing,fs:Color
+2402814	623850	the woman's helmet is white with a butterfly on it					fs:Accoutrements,fs:People,fs:Color
+2402814	623851	the woman is riding a white motorcycle					fs:Travel,fs:RideVehicle,fs:People,fs:Color,fs:OperateVehicle
+2402814	623852	three people walking in the same direction			folk:Novelty	https://w3id.org/framester/wn/wn30/instances/synset-same-adjective-1	fs:Roadways,fs:SelfMotion,fs:Cotheme,fs:People,fs:Identicality
+2402814	623853	a sign for a hair salon					fs:LocaleByUse,fs:HairConfiguration,fs:ObservableBodyParts,fs:Sign
+2402814	623854	a sign for an eyeglass store					fs:LocaleByUse,fs:Businesses,fs:Sign
+2402814	623855	a reflection of blue lights					fs:Color
+2402814	623856	the motorcycle is sitting on pavement					fs:BeingLocated,fs:Adorning,fs:Posture,fs:RideVehicle,fs:ChangePosture,fs:Placing,fs:Filling,fs:OperateVehicle
+2402814	623857	a grey suv					
+2402814	623858	three people wearing black jackets					fs:People,fs:Color

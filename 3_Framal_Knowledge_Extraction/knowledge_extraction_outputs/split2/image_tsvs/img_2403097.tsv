@@ -1,0 +1,50 @@
+image_id	region_id	phrase	Emotions	Emotions Triggers	Values	Values Triggers	Frames
+2403097	610119	three men eating donuts					fs:Ingestion
+2403097	610120	man holds a donut on right hand					fs:People,fs:PartOrientational,fs:ObservableBodyParts
+2403097	610121	donut has been eaten 					fs:Ingestion
+2403097	610122	man wears a helmet					fs:Accoutrements,fs:People
+2403097	610123	chocolate donut					
+2403097	610124	person stand on border 			mft:Authority, folk:Endurance	https://w3id.org/framester/wn/wn30/instances/synset-stand-verb-1	fs:BeingLocated,fs:Posture,fs:ChangePosture,fs:People,fs:Placing
+2403097	610125	man has moustache					fs:People,fs:Ingestion,fs:ObservableBodyParts
+2403097	610126	strap hung from helmet					fs:Accoutrements
+2403097	610128	white cloud floating in the sky					fs:Color,fs:Motion,fs:Locale
+2403097	610129	three tasty donuts			folk:Beauty	https://w3id.org/framester/wn/wn30/instances/synset-tasty-adjective-1	fs:Chemical-senseDescription,fs:Aesthetics
+2403097	610130	three individuals holding delicious donuts 					fs:StimulusFocus
+2403097	610131	a chocolate glaze bitten donut					fs:Filling
+2403097	610132	a man looking in the distance			folk:Analysis	https://w3id.org/framester/data/framestercore/Scrutiny, https://w3id.org/framester/vn/vn31/data/Look_30030000	fs:PerceptionActive,fs:Seeking,fs:Scrutiny,fs:People,fs:Range
+2403097	610133	a man wearing a helmet					fs:Accoutrements,fs:People
+2403097	610134	a water bottle					fs:Containers,fs:Substance,fs:MeasureVolume
+2403097	610135	a big gray building					fs:Color,fs:Buildings,fs:Size,fs:Dimension
+2403097	610136	a man wearing a jacket					fs:People,fs:Clothing
+2403097	610137	the cloudy sky					fs:Locale
+2403097	610138	the cement ground					fs:Attaching,fs:NaturalFeatures,fs:Adorning,fs:Filling
+2403097	610139	donut in a human hand.					fs:ObservableBodyParts
+2403097	610140	chocolate covered donut.					fs:Filling,fs:Eclipse,fs:Adorning,fs:Topic
+2403097	610141	chocolate sugar covered donut.					fs:Adorning,fs:Food,fs:Eclipse,fs:Topic,fs:Filling
+2403097	610142	man wearing a safety helmet.			folk:Risk, mft:Care	https://w3id.org/framester/data/framestercore/BeingAtRisk, https://w3id.org/framester/wn/wn30/instances/synset-safety-noun-1	fs:Accoutrements,fs:BeingAtRisk,fs:People
+2403097	610143	brick building in an odd shape.					fs:Reshaping,fs:Buildings,fs:RelationalQuantity
+2403097	610144	human head with a mustache.					fs:ObservableBodyParts
+2403097	610145	person standing on a hillside.			mft:Authority, folk:Consideration	https://w3id.org/framester/wn/wn30/instances/synset-standing-noun-1, https://w3id.org/framester/data/framestercore/OccupyRank	fs:People,fs:OccupyRank,fs:NaturalFeatures
+2403097	610146	section of a cloud in a sky.					fs:Locale,fs:PerformingArts
+2403097	610147	section of cloud filled sky.					fs:Filling,fs:Adorning,fs:Locale,fs:PerformingArts
+2403097	610148	blanket wrapped around a man.					fs:People,fs:Filling,fs:Placing
+2403097	610149	three partially eaten doughnuts					
+2403097	610150	three men eating doughnuts					fs:Ingestion
+2403097	610151	black and blue bicycle helmet					fs:Accoutrements,fs:Vehicle,fs:Color
+2403097	610152	brown mustache above his mouth			folk:Control	https://w3id.org/framester/wn/wn30/instances/synset-mouth-noun-1	fs:ObservableBodyParts,fs:ShapedPart,fs:Color
+2403097	610153	man looking at the view			folk:Analysis	https://w3id.org/framester/data/framestercore/Scrutiny, https://w3id.org/framester/vn/vn31/data/Look_30030000	fs:PerceptionActive,fs:Seeking,fs:Scrutiny,fs:People,fs:Range
+2403097	610154	mountainous landscape in the background			mft:Authority	https://w3id.org/framester/wn/wn30/instances/synset-landscape-noun-1	
+2403097	610155	partly cloudy day					fs:MeasureDuration,fs:Timespan,fs:CalendricUnit
+2403097	610156	gray fleece blanket					fs:Color
+2403097	610157	light gray side door					fs:ConnectingArchitecture,fs:Color,fs:Dimension
+2403097	610158	large hard gray rocks			folk:Challenge	https://w3id.org/framester/wn/wn30/instances/synset-difficult-adjective-1	
+2403097	610159	a man holding a donut.					
+2403097	610160	a water bottle.					fs:Containers,fs:Substance,fs:MeasureVolume
+2403097	610161	a half-eaten donut.					
+2403097	610162	someone standing in the background.			mft:Authority, folk:Consideration	https://w3id.org/framester/wn/wn30/instances/synset-standing-noun-1, https://w3id.org/framester/data/framestercore/OccupyRank	fs:OccupyRank
+2403097	610163	a guy wearing a helmet and holding a donut.					fs:Accoutrements,fs:People
+2403097	610164	a guy holding a half-eaten donut.					fs:People
+2403097	610165	a half eaten donut.					
+2403097	610166	a donut in a guy's hand.					fs:People,fs:ObservableBodyParts
+2403097	610167	a cloud in the background					
+2403097	610168	an off-white door					fs:ConnectingArchitecture

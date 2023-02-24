@@ -1,0 +1,51 @@
+image_id	region_id	phrase	Emotions	Emotions Triggers	Values	Values Triggers	Frames
+2402277	649179	man and woman sitting on bench					fs:BeingLocated,fs:Posture,fs:ChangePosture,fs:People,fs:Placing
+2402277	649180	woman with a ponytail					fs:People,fs:HairConfiguration
+2402277	649181	waiter taking an order			folk:Helping, mft:Care, folk:Leadership, bhv:Benevolence, bhv:Power, mft:Authority	https://w3id.org/framester/wn/wn30/instances/synset-waiter-noun-1, https://w3id.org/framester/vn/vn31/data/Take_10050000, https://w3id.org/framester/data/framestercore/ChangeOfLeadership	fs:ChangeOfQuantityOfPossession,fs:Getting,fs:Request,fs:Cotheme,fs:ChangeOfLeadership,fs:Conquering,fs:Bringing,fs:Taking,fs:Removing,fs:EarningsAndLosses,fs:PeopleByVocation
+2402277	649182	people ordering at a resturant					fs:People,fs:Motion,fs:Request
+2402277	649183	outdoor restaurant table					fs:LocaleByUse,fs:PartInnerOuter
+2402277	649184	large black sun umbrella			folk:Structure	https://w3id.org/framester/wn/wn30/instances/synset-sun-noun-1	fs:Color,fs:Locale,fs:Size,fs:Dimension
+2402277	649185	pink flowers surrounded by metal fence			mft:Care, bhv:Security	https://w3id.org/framester/data/framestercore/Protecting, https://w3id.org/framester/wn/wn30/instances/synset-fence-noun-1	fs:LocativeRelation,fs:Protecting,fs:Color,fs:Besieging
+2402277	649186	backpack sitting on bench					fs:ChangePosture,fs:Posture,fs:BeingLocated,fs:Placing
+2402277	649187	red brick pavement					fs:Filling,fs:Adorning,fs:Color
+2402277	649188	man in red t-shirt					fs:People,fs:Clothing,fs:Color
+2402277	649189	wooden benches on brick pavement					fs:Filling,fs:Adorning
+2402277	649190	restaurant with outside sitting					fs:BeingLocated,fs:LocaleByUse,fs:Posture,fs:ChangePosture,fs:Placing
+2402277	649191	a waiter taking an order from guests			bhv:Benevolence, folk:Helping, mft:Care	https://w3id.org/framester/wn/wn30/instances/synset-waiter-noun-1	fs:Request,fs:TakingTime,fs:RequiredEvent,fs:Needing,fs:PeopleByVocation,fs:HaveAsRequirement
+2402277	649192	a couple sitting on the bench			mft:Loyalty, folk:Association	https://w3id.org/framester/wn/wn30/instances/synset-couple-noun-1	fs:PersonalRelationship,fs:BeingLocated,fs:Posture,fs:ChangePosture,fs:Placing
+2402277	649193	beautiful pink flowers			folk:Beauty	https://w3id.org/framester/wn/wn30/instances/synset-beautiful-adjective-1	fs:Color,fs:Aesthetics
+2402277	649194	a teenage couple on the bench			mft:Loyalty, folk:Association	https://w3id.org/framester/wn/wn30/instances/synset-couple-noun-1	fs:PersonalRelationship
+2402277	649195	summer time 					fs:Timespan,fs:EventInstance,fs:CalendricUnit,fs:LocationInTime
+2402277	649196	six tables outside a restaurant					fs:LocaleByUse
+2402277	649197	brick pavement					fs:Filling,fs:Adorning
+2402277	649198	iron railing 					fs:ArchitecturalPart,fs:Substance
+2402277	649199	person wearing blue shirt.					fs:People,fs:Clothing,fs:Color
+2402277	649200	person has brown hair.					fs:People,fs:HairConfiguration,fs:ObservableBodyParts,fs:ApplyHeat
+2402277	649201	person is holding cell phone.					fs:People,fs:Contacting,fs:Substance,fs:CommunicationMeans
+2402277	649202	person is sitting on a bench.					fs:BeingLocated,fs:Posture,fs:ChangePosture,fs:People,fs:Placing
+2402277	649203	person has dark hair.					fs:Ingestion,fs:HairConfiguration,fs:Dimension,fs:People,fs:ObservableBodyParts
+2402277	649204	person has glasses on face.					fs:People,fs:Ingestion,fs:ObservableBodyParts,fs:FacialExpression
+2402277	649205	person is wearing tan shorts.					fs:People,fs:Color
+2402277	649206	person is wearing black shoes.					fs:People,fs:Color
+2402277	649207	person has brown hair.					fs:People,fs:HairConfiguration,fs:ObservableBodyParts,fs:ApplyHeat
+2402277	649208	person is wearing black outfit.					fs:People,fs:Color
+2402277	649209	two people sitting down on a wooden bench			folk:Willingness	https://w3id.org/framester/wn/wn30/instances/synset-down-adjective-1, https://w3id.org/framester/data/framestercore/Willingness	fs:BeingLocated,fs:Posture,fs:ChangePosture,fs:People,fs:Placing,fs:Willingness
+2402277	649210	a bed of pretty pink flowers			folk:Beauty	https://w3id.org/framester/wn/wn30/instances/synset-pretty-adjectivesatellite-1	fs:BuildingSubparts,fs:BehindTheScenes,fs:Causation,fs:Creating,fs:Supply,fs:Color,fs:IntentionallyCreate,fs:Placing,fs:Aesthetics
+2402277	649211	a woman sitting on a bench using a cell phone					fs:Substance,fs:BeingLocated,fs:Using,fs:Posture,fs:ChangePosture,fs:People,fs:IntentionallyAffect,fs:Placing,fs:Contacting,fs:CommunicationMeans
+2402277	649212	a brick patio					fs:LocaleByUse
+2402277	649213	a waiter taking someone's order			folk:Helping, mft:Care, folk:Leadership, bhv:Benevolence, bhv:Power, mft:Authority	https://w3id.org/framester/wn/wn30/instances/synset-waiter-noun-1, https://w3id.org/framester/vn/vn31/data/Take_10050000, https://w3id.org/framester/data/framestercore/ChangeOfLeadership	fs:ChangeOfQuantityOfPossession,fs:Getting,fs:Request,fs:Cotheme,fs:ChangeOfLeadership,fs:Conquering,fs:Bringing,fs:Taking,fs:Removing,fs:EarningsAndLosses,fs:PeopleByVocation
+2402277	649214	a man's tennis shoes					fs:People
+2402277	649215	an umbrella					
+2402277	649216	a woman's sandals 					fs:People
+2402277	649217	a woman's bag					fs:People,fs:Containers,fs:MeasureVolume
+2402277	649218	a tall tree trunk					fs:BodyDescriptionHolistic,fs:MeasurableAttributes,fs:BiologicalArea,fs:Dimension
+2402277	649219	a couple sitting on a park bench talking			mft:Loyalty, folk:Association	https://w3id.org/framester/wn/wn30/instances/synset-couple-noun-1	fs:PersonalRelationship,fs:BeingLocated,fs:Posture,fs:ChangePosture,fs:Placing
+2402277	649220	a woman with her hair braided sitting on a park bench alone					fs:BeingLocated,fs:RopeManipulation,fs:HairConfiguration,fs:Posture,fs:ChangePosture,fs:People,fs:Placing,fs:ObservableBodyParts
+2402277	649221	an outdoor cafe with tables, chairs and black umbrellas					fs:LocaleByUse,fs:PartInnerOuter,fs:Color
+2402277	649222	a flower bed with yellow and pink flowers			folk:Development	https://w3id.org/framester/data/framestercore/Progress, https://w3id.org/framester/wn/wn30/instances/synset-flower-noun-1	fs:BuildingSubparts,fs:Planting,fs:Causation,fs:Progress,fs:BiologicalEntity,fs:Supply,fs:Color,fs:Placing,fs:Filling
+2402277	649223	a flower bed with pink flowers			folk:Development	https://w3id.org/framester/data/framestercore/Progress, https://w3id.org/framester/wn/wn30/instances/synset-flower-noun-1	fs:BuildingSubparts,fs:Planting,fs:Causation,fs:Progress,fs:BiologicalEntity,fs:Supply,fs:Placing,fs:Color,fs:Filling
+2402277	649224	the man's black athletic shoes					fs:People,fs:Color
+2402277	649225	a waiter with a white shirt taking an order			folk:Helping, mft:Care, folk:Leadership, bhv:Benevolence, bhv:Power, mft:Authority	https://w3id.org/framester/wn/wn30/instances/synset-waiter-noun-1, https://w3id.org/framester/vn/vn31/data/Take_10050000, https://w3id.org/framester/data/framestercore/ChangeOfLeadership	fs:ChangeOfQuantityOfPossession,fs:Getting,fs:EarningsAndLosses,fs:Request,fs:Cotheme,fs:ChangeOfLeadership,fs:Bringing,fs:Conquering,fs:Color,fs:Taking,fs:Removing,fs:Clothing,fs:PeopleByVocation
+2402277	649226	a black awning on the building with white lettering					fs:Buildings,fs:Color
+2402277	649227	the brick ground of the park sitting area					
+2402277	649228	a brown trunk of a tree in the park			folk:Beauty	http://dbpedia.org/resource/Tree	

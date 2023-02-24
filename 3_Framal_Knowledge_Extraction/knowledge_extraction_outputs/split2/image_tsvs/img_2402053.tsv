@@ -1,0 +1,51 @@
+image_id	region_id	phrase	Emotions	Emotions Triggers	Values	Values Triggers	Frames
+2402053	660029	minnesota twins jersey					
+2402053	660030	woman holding cell phone					fs:People,fs:Contacting,fs:Substance,fs:CommunicationMeans
+2402053	660031	man looking at woman			folk:Analysis	https://w3id.org/framester/data/framestercore/Scrutiny, https://w3id.org/framester/vn/vn31/data/Look_30030000	fs:People,fs:Seeking,fs:PerceptionActive,fs:Scrutiny
+2402053	660032	man looking at woman holding cellphone			folk:Analysis	https://w3id.org/framester/data/framestercore/Scrutiny, https://w3id.org/framester/vn/vn31/data/Look_30030000	fs:People,fs:Seeking,fs:PerceptionActive,fs:Scrutiny
+2402053	660033	woman holding train pass					fs:People,fs:Vehicle
+2402053	660034	metal handle on yellow wall			mft:Care, folk:Strenght, folk:Leadership, bhv:Security, bhv:Power	https://w3id.org/framester/wn/wn30/instances/synset-wall-noun-1, https://w3id.org/framester/wn/wn30/instances/synset-manage-verb-2, http://dbpedia.org/resource/Metal	fs:ResolveProblem,fs:ArchitecturalPart,fs:Color
+2402053	660035	woman wearing necklace					fs:Accoutrements,fs:People
+2402053	660036	man wearing baseball jersey					fs:People
+2402053	660037	woman making phone call					fs:Building,fs:Manufacturing,fs:CookingCreation,fs:CauseChange,fs:ActivityPrepare,fs:Creating,fs:People,fs:IntentionallyCreate,fs:Contacting,fs:CommunicationMeans
+2402053	660038	woman's hand with a ring					fs:People,fs:ObservableBodyParts
+2402053	660039	couple sitting on train			mft:Loyalty, folk:Association	https://w3id.org/framester/wn/wn30/instances/synset-couple-noun-1	fs:PersonalRelationship,fs:BeingLocated,fs:Posture,fs:ChangePosture,fs:Placing,fs:Vehicle
+2402053	660040	woman looking at cell phone			folk:Analysis	https://w3id.org/framester/data/framestercore/Scrutiny, https://w3id.org/framester/vn/vn31/data/Look_30030000	fs:PerceptionActive,fs:Substance,fs:Seeking,fs:Scrutiny,fs:People,fs:Contacting,fs:CommunicationMeans
+2402053	660041	red word with white outline			mft:Harm	https://w3id.org/framester/wn/wn30/instances/synset-outline-noun-1	fs:Color,fs:SimpleName,fs:CreateRepresentation,fs:CreatePhysicalArtwork
+2402053	660042	ring on woman's finger			folk:Control	https://w3id.org/framester/wn/wn30/instances/synset-finger-noun-1	fs:People,fs:ObservableBodyParts
+2402053	660043	jewelry on woman's neck					fs:Accoutrements,fs:People,fs:ObservableBodyParts
+2402053	660044	ticket in woman's hand					fs:People,fs:ObservableBodyParts,fs:Supply
+2402053	660045	baseball uniform shirt on man					fs:People,fs:Clothing
+2402053	660046	strap on woman's top					fs:Connectors,fs:BeingLocated,fs:Posture,fs:People,fs:Supply,fs:ClothingParts
+2402053	660047	metal bar behind seat					fs:Capacity,fs:Supply,fs:Placing,fs:Buildings
+2402053	660048	buttons on man's shirt					fs:People,fs:Clothing
+2402053	660049	fashion jewelry with pendant					fs:Accoutrements,fs:Means
+2402053	660050	silver flip cellular phone			bhv:Achievement, folk:Accomplishment	https://w3id.org/framester/wn/wn30/instances/synset-somersault-noun-1	fs:Contacting,fs:CommunicationMeans
+2402053	660051	man and woman sitting next to each other					fs:BeingLocated,fs:Posture,fs:ChangePosture,fs:People,fs:Placing
+2402053	660052	red words with white outlining					fs:Color
+2402053	660053	tan and brown floral tank top					fs:BeingLocated,fs:Posture,fs:Supply,fs:Color,fs:Vehicle
+2402053	660054	spaghetti straps on tank top					fs:Supply,fs:Vehicle,fs:Posture,fs:BeingLocated
+2402053	660055	metal safety hand rail			bhv:Power, folk:Risk, mft:Care, folk:Strenght	https://w3id.org/framester/data/framestercore/BeingAtRisk, https://w3id.org/framester/wn/wn30/instances/synset-safety-noun-1, http://dbpedia.org/resource/Metal	fs:BeingAtRisk,fs:ArchitecturalPart,fs:ObservableBodyParts
+2402053	660056	brown mole on woman's forehead 					fs:People,fs:ObservableBodyParts,fs:Color
+2402053	660057	glass window on a metal door			bhv:Power, folk:Strenght	http://dbpedia.org/resource/Metal	
+2402053	660058	blue button down shirt with white t-shirt underneath					
+2402053	660059	a silver cell phone					fs:Contacting,fs:Substance,fs:CommunicationMeans
+2402053	660060	a woman holding a silver cellphone					fs:People
+2402053	660061	a woman wearing a ring					fs:People
+2402053	660062	a woman wearing a necklace 					fs:Accoutrements,fs:People
+2402053	660063	a woman wearing a tank top					fs:BeingLocated,fs:Posture,fs:People,fs:Supply,fs:Vehicle
+2402053	660064	a woman holding a white ticket					fs:People,fs:Supply,fs:Color
+2402053	660065	a man wearing a baseball jersey					fs:People
+2402053	660066	a red white and blue baseball jersey					fs:Color
+2402053	660067	a man with brown hair					fs:People,fs:HairConfiguration,fs:ObservableBodyParts,fs:Color
+2402053	660068	a woman with brown hair					fs:People,fs:HairConfiguration,fs:ObservableBodyParts,fs:Color
+2402053	660069	the finger of a person 			folk:Control	https://w3id.org/framester/wn/wn30/instances/synset-finger-noun-1	fs:People,fs:ObservableBodyParts
+2402053	660070	the finger of a person 			folk:Control	https://w3id.org/framester/wn/wn30/instances/synset-finger-noun-1	fs:People,fs:ObservableBodyParts
+2402053	660071	the finger of a person 			folk:Control	https://w3id.org/framester/wn/wn30/instances/synset-finger-noun-1	fs:People,fs:ObservableBodyParts
+2402053	660072	the finger of a person 			folk:Control	https://w3id.org/framester/wn/wn30/instances/synset-finger-noun-1	fs:People,fs:ObservableBodyParts
+2402053	660073	the finger of a person 			folk:Control	https://w3id.org/framester/wn/wn30/instances/synset-finger-noun-1	fs:People,fs:ObservableBodyParts
+2402053	660074	the finger of a person 			folk:Control	https://w3id.org/framester/wn/wn30/instances/synset-finger-noun-1	fs:People,fs:ObservableBodyParts
+2402053	660075	the finger of a person 			folk:Control	https://w3id.org/framester/wn/wn30/instances/synset-finger-noun-1	fs:People,fs:ObservableBodyParts
+2402053	660076	the eye of a person 			folk:Analysis, folk:Learning	http://dbpedia.org/resource/Eye, https://w3id.org/framester/wn/wn30/instances/synset-eye-noun-1	fs:People,fs:ObservableBodyParts
+2402053	660077	the eye of a person 			folk:Analysis, folk:Learning	http://dbpedia.org/resource/Eye, https://w3id.org/framester/wn/wn30/instances/synset-eye-noun-1	fs:People,fs:ObservableBodyParts
+2402053	660078	the eye of a person 			folk:Analysis, folk:Learning	http://dbpedia.org/resource/Eye, https://w3id.org/framester/wn/wn30/instances/synset-eye-noun-1	fs:People,fs:ObservableBodyParts

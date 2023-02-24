@@ -1,0 +1,50 @@
+image_id	region_id	phrase	Emotions	Emotions Triggers	Values	Values Triggers	Frames
+2409965	220712	a train near a platform					fs:Vehicle
+2409965	220713	man walking away from train entrance					fs:SelfMotion,fs:Cotheme,fs:People,fs:Arriving,fs:Vehicle
+2409965	220714	man wearing white shirt					fs:People,fs:Clothing,fs:Color
+2409965	220715	person seen through window of train					fs:ConnectingArchitecture,fs:People,fs:Vehicle
+2409965	220716	man with his arm wrapped around train entrance					fs:ShapedPart,fs:People,fs:Placing,fs:Arriving,fs:Filling,fs:ObservableBodyParts,fs:Vehicle
+2409965	220717	person pointing 					fs:Evidence,fs:People,fs:Adducing,fs:CauseToPerceive
+2409965	220718	person wearing red shirt					fs:People,fs:Clothing,fs:Color
+2409965	220719	people struggling to get out of train			mft:Authority, folk:Intuitive	https://w3id.org/framester/wn/wn30/instances/synset-get-verb-1	fs:Getting,fs:Becoming,fs:BoardVehicle,fs:People,fs:Possession,fs:Vehicle
+2409965	220720	man wearing a black shirt					fs:People,fs:Clothing,fs:Color
+2409965	220721	fence behind train			mft:Care, bhv:Security	https://w3id.org/framester/data/framestercore/Protecting, https://w3id.org/framester/wn/wn30/instances/synset-fence-noun-1	fs:Vehicle,fs:Protecting
+2409965	220722	a brown metal man hole cover					fs:People,fs:Color
+2409965	220723	the head of a man					
+2409965	220724	a red and white tennis shoe					fs:Clothing,fs:Color
+2409965	220725	a brown shoe on a man					fs:People,fs:Clothing,fs:Color
+2409965	220726	a pair of blue jeans					fs:Aggregate,fs:Color
+2409965	220727	a train window					fs:ConnectingArchitecture,fs:Vehicle
+2409965	220728	a gray pair of khakis					fs:Aggregate,fs:Color
+2409965	220729	a tan shirt on a man					fs:People,fs:Clothing,fs:Color
+2409965	220730	a black and red shirt on a man					fs:People,fs:Clothing,fs:Color
+2409965	220731	the hand of a man					fs:People,fs:ObservableBodyParts
+2409965	220732	subway train					fs:Roadways,fs:Vehicle
+2409965	220733	windows of subway train					fs:Roadways,fs:Vehicle
+2409965	220734	man holding a booklet					fs:People,fs:Containers,fs:Text
+2409965	220735	man holding open door for passengers					fs:ConnectingArchitecture,fs:Openness,fs:People
+2409965	220736	group of passengers leaving train			folk:Giving	https://w3id.org/framester/vn/vn31/data/Leave_15020000, https://w3id.org/framester/data/framestercore/Giving	fs:FormingRelationships,fs:Abandonment,fs:Giving,fs:Organization,fs:Aggregate,fs:Vehicle
+2409965	220737	man in red shirt					fs:People,fs:Clothing,fs:Color
+2409965	220738	man in black shirt walking					fs:People,fs:Clothing,fs:Color
+2409965	220739	man holding open doors					fs:Openness,fs:People
+2409965	220740	name of train manufacturers					fs:Vehicle,fs:ReferringByName,fs:BeingNamed
+2409965	220741	cement loading dock					fs:Filling,fs:Attaching,fs:Adorning,fs:Placing
+2409965	220742	a person holding the door					fs:ConnectingArchitecture,fs:People
+2409965	220743	a person trying to go against the flow			folk:Analysis, folk:Adventure	https://w3id.org/framester/wn/wn30/instances/synset-travel-verb-1, https://w3id.org/framester/vn/vn31/data/Try_61000000	fs:Travel,fs:Motion,fs:People,fs:ProcessEnd,fs:Attempt,fs:AttemptMeans
+2409965	220744	a person wearing white shoes					fs:People,fs:Color
+2409965	220745	a cover on an opening					fs:Closure,fs:BodyMovement
+2409965	220746	train car number 11			folk:Independence	https://w3id.org/framester/wn/wn30/instances/synset-number-noun-1	fs:Vehicle,fs:Quantity
+2409965	220747	a person holding his right arm up for balance			folk:Versatility	https://w3id.org/framester/wn/wn30/instances/synset-balance-noun-1	fs:ShapedPart,fs:People,fs:PerformersAndRoles,fs:ObservableBodyParts,fs:Suitability
+2409965	220748	man wearing tan pants					fs:People,fs:Clothing,fs:Color
+2409965	220750	two windows in a train car					fs:Vehicle
+2409965	220751	a man in brown shoes					fs:People,fs:Color
+2409965	220752	people rushing of the train car.					fs:Motion,fs:SelfMotion,fs:FluidicMotion,fs:People,fs:Vehicle
+2409965	220753	people at the train station.					fs:LocaleByUse,fs:People,fs:Vehicle
+2409965	220754	people running off the train.					fs:Escaping,fs:OperatingASystem,fs:SelfMotion,fs:Impact,fs:People,fs:Departing,fs:CauseMotion,fs:CauseImpact,fs:Vehicle,fs:Fleeing
+2409965	220755	train window.					fs:ConnectingArchitecture,fs:Vehicle
+2409965	220756	people commuting.					fs:People
+2409965	220757	train at the station.					fs:LocaleByUse,fs:Vehicle
+2409965	220758	passengers at the train terminal.					fs:Buildings,fs:Vehicle
+2409965	220759	people rushing to work.					fs:WorkingOn,fs:Motion,fs:SelfMotion,fs:FluidicMotion,fs:People,fs:BeingEmployed
+2409965	220760	train terminal.					fs:Buildings,fs:Vehicle
+2409965	220761	people traveling to work at the station.			folk:Victory	https://w3id.org/framester/data/framestercore/BeatOpponent	fs:Travel,fs:BeatOpponent,fs:WorkingOn,fs:LocaleByUse,fs:Motion,fs:SelfMotion,fs:Sending,fs:People,fs:IntentionallyCreate,fs:BeingEmployed

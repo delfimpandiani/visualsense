@@ -1,0 +1,51 @@
+image_id	region_id	phrase	Emotions	Emotions Triggers	Values	Values Triggers	Frames
+2409628	237012	several people carrying surfboards					
+2409628	237013	people walking along in front of ocean			mft:Harm	https://w3id.org/framester/wn/wn30/instances/synset-front-noun-1	fs:PartOrientational,fs:NaturalFeatures,fs:SelfMotion,fs:Cotheme,fs:People
+2409628	237014	people moving across wet sand					fs:Travel,fs:Substance,fs:Motion,fs:People,fs:BodyMovement,fs:CauseChangeOfPositionOnAScale,fs:ChangePositionOnAScale,fs:CauseMotion,fs:BeingWet
+2409628	237015	two people carrying two surfboards					fs:CarryGoods,fs:People,fs:Motion,fs:Bringing
+2409628	237016	dry sand surrounded by wet sand					fs:Substance,fs:BeingDry,fs:LocativeRelation,fs:Besieging,fs:BeingWet
+2409628	237017	surfers wearing red and black					fs:Color
+2409628	237018	surfers walking while barefoot	be:Enjoyment	http://dbpedia.org/resource/Surfing	bhv:Hedonism, folk:Fun	http://dbpedia.org/resource/Surfing	fs:SelfMotion,fs:Cotheme
+2409628	237019	surfer holding board under arm	be:Enjoyment	http://dbpedia.org/resource/Surfing	bhv:Hedonism, folk:Fun	http://dbpedia.org/resource/Surfing	fs:Organization,fs:Motion,fs:ObservableBodyParts,fs:ShapedPart
+2409628	237020	surfers reflected in shallow water					fs:Cogitation,fs:Substance,fs:NaturalFeatures
+2409628	237021	two lines of white surf					fs:GivingIn,fs:Color
+2409628	237022	person wearing black wetsuit					fs:People,fs:Color
+2409628	237023	person wearing black wetsuit					fs:People,fs:Color
+2409628	237024	person wearing black wetsuit					fs:People,fs:Color
+2409628	237025	person wearing black wetsuit					fs:People,fs:Color
+2409628	237026	white wooden surfboard					fs:Color
+2409628	237027	person wearing red and black wetsuit					fs:People,fs:Color
+2409628	237028	person wearing red and black wetsuit					fs:People,fs:Color
+2409628	237029	person carrying a surfboard					fs:CarryGoods,fs:People,fs:Motion,fs:Bringing
+2409628	237030	group of people carrying surfboards					fs:Motion,fs:CarryGoods,fs:Organization,fs:People,fs:Bringing,fs:Aggregate
+2409628	237031	person carrying a surfboard					fs:CarryGoods,fs:People,fs:Motion,fs:Bringing
+2409628	237032	seven people with surfboards					fs:People
+2409628	237033	two men holding a white and a blue surfboard					fs:Color
+2409628	237034	two people holding a white and a green surfboard					fs:People,fs:Color
+2409628	237035	people wearing red and black wetsuits					fs:People,fs:Color
+2409628	237036	ocean wave rising from the ocean			folk:Development	https://w3id.org/framester/data/framestercore/Progress	fs:Travel,fs:PathShape,fs:NaturalFeatures,fs:SiderealAppearance,fs:Progress,fs:Event,fs:ChangePosture,fs:MotionDirectional,fs:ChangePositionOnAScale,fs:GettingUp
+2409628	237037	wet sand along the beach shore					fs:RelationalNaturalFeatures,fs:BeingWet,fs:Substance,fs:NaturalFeatures
+2409628	237038	person wearing a fully black wetsuit					fs:People,fs:Color
+2409628	237039	sailboat in the ocean					fs:NaturalFeatures
+2409628	237040	bare feet walking in the sand					fs:Substance,fs:Wearing,fs:SelfMotion,fs:Cotheme
+2409628	237041	red surfboard being carried	be:Enjoyment	http://dbpedia.org/resource/Surfing	bhv:Hedonism, folk:Fun	http://dbpedia.org/resource/Surfing	fs:CarryGoods,fs:Motion,fs:Bringing,fs:Color
+2409628	237042	sailboat in the distance					fs:Range
+2409628	237043	waves lapping against the shore					fs:Ingestion,fs:RelationalNaturalFeatures
+2409628	237044	surfers walking on the beach					fs:NaturalFeatures,fs:SelfMotion,fs:Cotheme
+2409628	237045	surfer dragging a surfboard	be:Enjoyment	http://dbpedia.org/resource/Surfing	bhv:Hedonism, folk:Fun	http://dbpedia.org/resource/Surfing	fs:CauseMotion,fs:Motion
+2409628	237046	two surfers carrying two surfboards	be:Enjoyment	http://dbpedia.org/resource/Surfing	bhv:Hedonism, folk:Fun	http://dbpedia.org/resource/Surfing	fs:CarryGoods,fs:Motion,fs:Bringing
+2409628	237047	surfers wearing orange and black wetsuits	be:Enjoyment	http://dbpedia.org/resource/Surfing	bhv:Hedonism, folk:Fun	http://dbpedia.org/resource/Surfing	fs:Color
+2409628	237048	mist coming off the waves					fs:Filling,fs:Arriving
+2409628	237049	reflections on the water					fs:Substance
+2409628	237050	orange surfboard					
+2409628	237051	wet sand					fs:BeingWet,fs:Substance
+2409628	237052	a group of people walking on a beach.					fs:NaturalFeatures,fs:SelfMotion,fs:Cotheme,fs:People,fs:Organization,fs:Aggregate
+2409628	237053	several surfers walking together.					fs:SelfMotion,fs:Cotheme,fs:Quantity
+2409628	237054	multiple surfers walking with boards.					fs:SelfMotion,fs:Cotheme
+2409628	237055	several surfers with their boards on a beach.	be:Enjoyment	http://dbpedia.org/resource/Surfing	bhv:Hedonism, folk:Fun	http://dbpedia.org/resource/Surfing	fs:NaturalFeatures,fs:Quantity
+2409628	237056	two people carrying surfboard on beach.	be:Enjoyment	http://dbpedia.org/resource/Surfing	bhv:Hedonism, folk:Fun	http://dbpedia.org/resource/Surfing	fs:NaturalFeatures,fs:Motion,fs:CarryGoods,fs:People,fs:Bringing
+2409628	237057	surfers wearing red and black.					fs:Color
+2409628	237058	surfers with a green and white surfboard.	be:Enjoyment	http://dbpedia.org/resource/Surfing	bhv:Hedonism, folk:Fun	http://dbpedia.org/resource/Surfing	fs:Color
+2409628	237059	surfers with a blue and white surfboard.	be:Enjoyment	http://dbpedia.org/resource/Surfing	bhv:Hedonism, folk:Fun	http://dbpedia.org/resource/Surfing	fs:Color
+2409628	237060	some wet beach sand.					fs:BeingWet,fs:Substance,fs:NaturalFeatures
+2409628	237061	some really beautiful ocean waves.					fs:NaturalFeatures

@@ -1,0 +1,50 @@
+image_id	region_id	phrase	Emotions	Emotions Triggers	Values	Values Triggers	Frames
+2408974	268602	people forming semicircle in water					fs:Substance,fs:Reshaping,fs:Becoming,fs:People,fs:ComingToBe
+2408974	268603	man riding wave on white board					fs:Travel,fs:Event,fs:People,fs:Organization,fs:Color
+2408974	268604	water splashing off top of wave					fs:Substance,fs:BeingLocated,fs:MotionNoise,fs:CauseFluidicMotion,fs:Posture,fs:Event,fs:FluidicMotion,fs:Supply,fs:Filling
+2408974	268606	water lifting and about to crest					fs:Closure,fs:Substance
+2408974	268607	green hues in wave					fs:Color,fs:Event
+2408974	268608	arms extended out into water			folk:Giving	https://w3id.org/framester/data/framestercore/Giving	fs:Offering,fs:Substance,fs:Giving
+2408974	268609	feet floating behind body					fs:Motion,fs:PartWhole
+2408974	268610	lifted leg of person floating			mft:Cheating	https://w3id.org/framester/vn/vn31/data/Lift_10050000, https://w3id.org/framester/data/framestercore/Theft	fs:Theft,fs:ShapedPart,fs:Removing,fs:Motion,fs:CauseToEnd,fs:People,fs:ObservableBodyParts
+2408974	268611	two people in water facing each other			mft:Harm	https://w3id.org/framester/vn/vn31/data/Face_98000000, https://w3id.org/framester/data/framestercore/HostileEncounter	fs:ConfrontingProblem,fs:People,fs:Substance,fs:HostileEncounter
+2408974	268612	a surfer waiting for a wave	be:Enjoyment	http://dbpedia.org/resource/Surfing	bhv:Hedonism, folk:Fun	http://dbpedia.org/resource/Surfing	fs:Motion,fs:Event,fs:Expectation,fs:Waiting,fs:HoldingOffOn
+2408974	268613	a surfer riding a medium size wave	be:Enjoyment	http://dbpedia.org/resource/Surfing	bhv:Hedonism, folk:Fun	http://dbpedia.org/resource/Surfing	fs:Travel,fs:Motion,fs:InherentPurpose,fs:RideVehicle,fs:Event,fs:Categorization,fs:Differentiation,fs:OperateVehicle
+2408974	268614	white sea foam churned by breaking waves	be:Disgust	https://w3id.org/framester/vn/vn31/data/Break_45010000	mft:Degradation, mft:Harm	https://w3id.org/framester/vn/vn31/data/Break_45010000, https://w3id.org/framester/data/framestercore/CauseHarm, https://w3id.org/framester/data/framestercore/ExperienceBodilyHarm	fs:Building,fs:BecomingSeparated,fs:CauseToFragment,fs:NaturalFeatures,fs:ComingUpWith,fs:Motion,fs:RenderNonfunctional,fs:Creating,fs:CauseToStart,fs:BreakingApart,fs:GivingIn,fs:IntentionallyCreate,fs:Color,fs:BreakingOff,fs:ExperienceBodilyHarm,fs:Separating,fs:CauseHarm
+2408974	268615	the sufboards fin leaves a small wake like a boat			folk:Giving	https://w3id.org/framester/vn/vn31/data/Leave_15020000, https://w3id.org/framester/data/framestercore/Giving	fs:ObjectiveInfluence,fs:ObservableBodyParts,fs:Causation,fs:FormingRelationships,fs:Abandonment,fs:BeingInEffect,fs:Giving,fs:Size,fs:Dimension,fs:Vehicle
+2408974	268616	a small white surfboard					fs:Color,fs:Size,fs:Dimension
+2408974	268617	the surfer is wearing a black surboard	be:Enjoyment	http://dbpedia.org/resource/Surfing	bhv:Hedonism, folk:Fun	http://dbpedia.org/resource/Surfing	fs:Motion,fs:Color
+2408974	268618	the wave is forming on the right side of the surfer					
+2408974	268619	the color of the water is lime green					
+2408974	268620	the water is smooth and calm behind the wave					fs:ExperiencerFocus,fs:Substance,fs:Event
+2408974	268621	this surfer is sitting on his surfboard	be:Enjoyment	http://dbpedia.org/resource/Surfing	bhv:Hedonism, folk:Fun	http://dbpedia.org/resource/Surfing	fs:BeingLocated,fs:Motion,fs:Posture,fs:ChangePosture,fs:Placing
+2408974	268622	there are 7 people isible in the water					fs:People,fs:Substance
+2408974	268623	there is one lone surfer in the front			folk:Distinctiveness, mft:Harm	https://w3id.org/framester/wn/wn30/instances/synset-front-noun-1, https://w3id.org/framester/wn/wn30/instances/synset-alone-adjectivesatellite-2	fs:Motion,fs:PartOrientational
+2408974	268624	the surfer in the front caught a wave	be:Enjoyment	http://dbpedia.org/resource/Surfing	folk:Control, folk:Fun, bhv:Hedonism, mft:Harm	http://dbpedia.org/resource/Surfing, https://w3id.org/framester/data/framestercore/Manipulation, https://w3id.org/framester/wn/wn30/instances/synset-front-noun-1	fs:Getting,fs:PartOrientational,fs:Manipulation,fs:Motion,fs:Event,fs:HuntingSuccessOrFailure,fs:Taking
+2408974	268625	the surfer in the front is on a white surfboard	be:Enjoyment	http://dbpedia.org/resource/Surfing	bhv:Hedonism, folk:Fun, mft:Harm	http://dbpedia.org/resource/Surfing, https://w3id.org/framester/wn/wn30/instances/synset-front-noun-1	fs:Motion,fs:PartOrientational,fs:Color
+2408974	268626	there are people in the back laying on their surfboard					fs:People,fs:ObservableBodyParts,fs:Placing
+2408974	268627	the surfer in the front has both feet on the surfboard	be:Enjoyment	http://dbpedia.org/resource/Surfing	bhv:Hedonism, folk:Fun, mft:Harm	http://dbpedia.org/resource/Surfing, https://w3id.org/framester/wn/wn30/instances/synset-front-noun-1	fs:Ingestion,fs:Motion,fs:PartOrientational
+2408974	268628	the water is calm behind the wave					fs:ExperiencerFocus,fs:Substance,fs:Event
+2408974	268629	the surfer in the front is wearing a wetsuit	be:Enjoyment	http://dbpedia.org/resource/Surfing	bhv:Hedonism, folk:Fun, mft:Harm	http://dbpedia.org/resource/Surfing, https://w3id.org/framester/wn/wn30/instances/synset-front-noun-1	fs:Motion,fs:PartOrientational
+2408974	268630	the wave caps are white					fs:Color,fs:Event
+2408974	268631	the surfer in the front is wearing a black wetsuit	be:Enjoyment	http://dbpedia.org/resource/Surfing	bhv:Hedonism, folk:Fun, mft:Harm	http://dbpedia.org/resource/Surfing, https://w3id.org/framester/wn/wn30/instances/synset-front-noun-1	fs:Motion,fs:PartOrientational,fs:Color
+2408974	268632	a surfer standing up on his board	be:Enjoyment	http://dbpedia.org/resource/Surfing	bhv:Hedonism, folk:Fun, folk:Willingness	http://dbpedia.org/resource/Surfing, https://w3id.org/framester/wn/wn30/instances/synset-up-adjective-1	fs:BeingLocated,fs:Motion,fs:Posture,fs:ChangePosture,fs:Organization,fs:Placing
+2408974	268633	a white surfboard					fs:Color
+2408974	268634	a surfer riding on a wave	be:Enjoyment	http://dbpedia.org/resource/Surfing	bhv:Hedonism, folk:Fun	http://dbpedia.org/resource/Surfing	fs:Travel,fs:Motion,fs:Event
+2408974	268635	the ocean wave crashing in					fs:NaturalFeatures,fs:Event
+2408974	268636	a surfer laying down on his board	be:Enjoyment	http://dbpedia.org/resource/Surfing	bhv:Hedonism, folk:Fun, folk:Willingness	http://dbpedia.org/resource/Surfing, https://w3id.org/framester/wn/wn30/instances/synset-down-adjective-1, https://w3id.org/framester/data/framestercore/Willingness	fs:Organization,fs:Motion,fs:Willingness,fs:Placing
+2408974	268637	two people swimming in the ocean					fs:People,fs:NaturalFeatures,fs:SelfMotion
+2408974	268638	the ocean					fs:NaturalFeatures
+2408974	268639	a person laying down on their surfboard			folk:Willingness	https://w3id.org/framester/wn/wn30/instances/synset-down-adjective-1, https://w3id.org/framester/data/framestercore/Willingness	fs:People,fs:Willingness,fs:Placing
+2408974	268640	a person floating in the ocean					fs:People,fs:Motion,fs:NaturalFeatures
+2408974	268641	people swimming in the ocean					fs:People,fs:NaturalFeatures,fs:SelfMotion
+2408974	268642	surfer in a wave	be:Enjoyment	http://dbpedia.org/resource/Surfing	bhv:Hedonism, folk:Fun	http://dbpedia.org/resource/Surfing	fs:Motion,fs:Event
+2408974	268643	surfboard is white 	be:Enjoyment	http://dbpedia.org/resource/Surfing	bhv:Hedonism, folk:Fun	http://dbpedia.org/resource/Surfing	fs:Color
+2408974	268644	person lying in a surfboard					fs:ChangePosture,fs:People,fs:Posture,fs:BeingLocated
+2408974	268645	person wears black suit					fs:People,fs:Clothing,fs:Color
+2408974	268646	people bathing in the sea					fs:People,fs:NaturalFeatures
+2408974	268647	person lying in a surboard					fs:ChangePosture,fs:People,fs:Posture,fs:BeingLocated
+2408974	268648	shadow of person on the water					fs:People,fs:OpticalImage,fs:Substance
+2408974	268649	wave is white					fs:Color,fs:Event
+2408974	268650	water is calm					fs:ExperiencerFocus,fs:Substance
+2408974	268651	water is choppy					fs:Weather,fs:Substance

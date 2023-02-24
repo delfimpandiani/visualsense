@@ -1,0 +1,51 @@
+image_id	region_id	phrase	Emotions	Emotions Triggers	Values	Values Triggers	Frames
+2408670	282942	group of black black, brown, and white cows					fs:Aggregate,fs:Organization,fs:Color
+2408670	282943	shady dirt under tree					fs:SecrecyStatus,fs:Substance,fs:BiologicalArea
+2408670	282944	large rocks under tree in shade			folk:Beauty	http://dbpedia.org/resource/Tree	fs:Size,fs:BiologicalArea,fs:Dimension
+2408670	282945	grass growing next to rock			bhv:Benevolence, mft:Care, folk:Excellence, folk:Helping	https://w3id.org/framester/wn/wn30/instances/synset-rock-verb-1, https://w3id.org/framester/vn/vn31/data/Rock_49000000, https://w3id.org/framester/wn/wn30/instances/synset-grass-noun-1, https://w3id.org/framester/data/framestercore/Desirability	fs:GrowingFood,fs:Adorning,fs:Expansion,fs:Creating,fs:Agriculture,fs:CauseExpansion,fs:IntentionallyCreate,fs:MovingInPlace,fs:Desirability,fs:Filling,fs:RelativeTime
+2408670	282946	two black cows standing in shade					fs:BeingLocated,fs:Posture,fs:ChangePosture,fs:Placing,fs:Color
+2408670	282947	trees near water in the distance					fs:Substance,fs:Range
+2408670	282948	trees in water next to land					fs:Substance,fs:Arriving
+2408670	282949	clear blue cloudless sky			folk:Clarity	https://w3id.org/framester/wn/wn30/instances/synset-clear-adjective-1	fs:Color,fs:Locale,fs:Obviousness
+2408670	282950	white cow walking up hill			folk:Willingness	https://w3id.org/framester/wn/wn30/instances/synset-up-adjective-1	fs:Animals,fs:NaturalFeatures,fs:SelfMotion,fs:Cotheme,fs:Color
+2408670	282951	group of cows walking up hill			folk:Willingness	https://w3id.org/framester/wn/wn30/instances/synset-up-adjective-1	fs:NaturalFeatures,fs:SelfMotion,fs:Cotheme,fs:Organization,fs:Aggregate
+2408670	282952	a large group of cows.					fs:Aggregate,fs:Organization,fs:Size,fs:Dimension
+2408670	282953	a variety of cows.					fs:Aggregate,fs:Diversity
+2408670	282954	a group of cows by some water.					fs:Aggregate,fs:Organization,fs:Substance
+2408670	282955	several cows out together.					fs:Quantity
+2408670	282956	multiple cows together on a sunny day.					fs:MeasureDuration,fs:Timespan,fs:CalendricUnit
+2408670	282957	two dark colored cows.					fs:BehindTheScenes,fs:Creating,fs:Dimension,fs:IntentionallyCreate,fs:Color
+2408670	282958	one white cow outside .					fs:Animals,fs:Color
+2408670	282959	an area of murky water.					fs:Substance,fs:Locale
+2408670	282960	some healthy green trees.			folk:BadHealth, mft:Care	https://w3id.org/framester/wn/wn30/instances/synset-healthy-adjective-1, https://w3id.org/framester/data/framestercore/MedicalConditions, http://dbpedia.org/resource/Health	fs:MedicalConditions,fs:Color
+2408670	282961	beautiful clear blue sky.			folk:Beauty, folk:Clarity	https://w3id.org/framester/wn/wn30/instances/synset-clear-adjective-1, https://w3id.org/framester/wn/wn30/instances/synset-beautiful-adjective-1	fs:Color,fs:Aesthetics,fs:Locale,fs:Obviousness
+2408670	282962	first black cow on right					fs:Animals,fs:OrdinalNumbers,fs:Color
+2408670	282963	second black cow on right					fs:Animals,fs:OrdinalNumbers,fs:Color
+2408670	282964	white cow in the center					fs:PartInnerOuter,fs:Animals,fs:Color
+2408670	282965	first black cow on left					fs:Animals,fs:PartOrientational,fs:OrdinalNumbers,fs:Color
+2408670	282966	brown and white cow in center			mft:Authority	https://w3id.org/framester/data/framestercore/PoliticalLocales	fs:PartInnerOuter,fs:Animals,fs:Color,fs:PoliticalLocales
+2408670	282967	rocks next to cows					fs:RelativeTime
+2408670	282968	body of water on right					fs:Substance,fs:PartWhole
+2408670	282969	tree line in the distance					fs:Pattern,fs:Range,fs:BiologicalArea
+2408670	282970	clear blue sky in upper portion			mft:Authority, folk:Consideration, folk:Clarity	https://w3id.org/framester/wn/wn30/instances/synset-clear-adjective-1, https://w3id.org/framester/wn/wn30/instances/synset-upper-adjectivesatellite-1, https://w3id.org/framester/data/framestercore/OccupyRank	fs:PartOrientational,fs:Membership,fs:Obviousness,fs:OccupyRank,fs:Locale,fs:Color
+2408670	282971	black and white cow					fs:Animals,fs:Color
+2408670	282972	a group of cows stand around on the edge of a river			mft:Authority, folk:Endurance, folk:Structure	https://w3id.org/framester/wn/wn30/instances/synset-stand-verb-1, https://w3id.org/framester/wn/wn30/instances/synset-river-noun-1	fs:NaturalFeatures,fs:BeingLocated,fs:LocativeRelation,fs:Posture,fs:ChangePosture,fs:Organization,fs:Supply,fs:Placing,fs:Aggregate
+2408670	282973	a black cow standing on the edge of a river			mft:Authority, folk:Structure, folk:Consideration	https://w3id.org/framester/wn/wn30/instances/synset-standing-noun-1, https://w3id.org/framester/wn/wn30/instances/synset-river-noun-1, https://w3id.org/framester/data/framestercore/OccupyRank	fs:Animals,fs:NaturalFeatures,fs:OccupyRank,fs:LocativeRelation,fs:Supply,fs:Color
+2408670	282974	a boulder lying on the ground near some cows					fs:ChangePosture,fs:NaturalFeatures,fs:BeingLocated,fs:Posture
+2408670	282975	trees in the background					
+2408670	282976	the sandy soil by the river has boulders and weeds growing	be:Enjoyment, be:Disgust	https://w3id.org/framester/wn/wn30/instances/synset-dirt-noun-2, http://dbpedia.org/resource/River	folk:Fun, folk:Structure	https://w3id.org/framester/wn/wn30/instances/synset-river-noun-1, http://dbpedia.org/resource/River	fs:GrowingFood,fs:NaturalFeatures,fs:Adorning,fs:Ingestion,fs:Expansion,fs:CauseChange,fs:Creating,fs:Agriculture,fs:CauseExpansion,fs:IntentionallyCreate,fs:Filling
+2408670	282977	a large white cow					fs:Color,fs:Animals,fs:Size,fs:Dimension
+2408670	282978	the rear of a black cow					fs:Animals,fs:Pattern,fs:Color
+2408670	282979	part of a river is seen			folk:Structure	https://w3id.org/framester/wn/wn30/instances/synset-river-noun-1	fs:NaturalFeatures,fs:Membership
+2408670	282980	cloudless blue sky					fs:Color,fs:Locale
+2408670	282981	a herd of cows walking by the side of the water					fs:Substance,fs:SelfMotion,fs:Cotheme
+2408670	282982	a group of animals					fs:Aggregate,fs:Organization
+2408670	282983	large gray rocks are in the foreground					fs:Color,fs:Size,fs:Dimension
+2408670	282984	two the animals in the foreground are all black					fs:Quantity,fs:Color
+2408670	282985	a body of water is in the background					fs:Substance,fs:PartWhole
+2408670	282986	trees are in the background					
+2408670	282987	picture was taken in the daytime					fs:MeasureDuration,fs:OpticalImage,fs:CalendricUnit,fs:Inclusion,fs:Sensation,fs:LocationInTime,fs:Timespan
+2408670	282988	the sky is clear			folk:Clarity	https://w3id.org/framester/wn/wn30/instances/synset-clear-adjective-1	fs:Locale,fs:Obviousness
+2408670	282989	animals faces are in the direction to the left					fs:Roadways,fs:PartOrientational
+2408670	282990	animal in the background is brown					fs:Animals,fs:Color
+2408670	282991	green wild plant is growing near rock			folk:Alertness, folk:Maturity, mft:Harm	https://w3id.org/framester/wn/wn30/instances/synset-rock-noun-1, https://w3id.org/framester/wn/wn30/instances/synset-near-adjective-1, https://w3id.org/framester/vn/vn31/data/Grow_45040000	

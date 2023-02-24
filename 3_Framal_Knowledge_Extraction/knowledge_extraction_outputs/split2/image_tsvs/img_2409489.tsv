@@ -1,0 +1,14 @@
+image_id	region_id	phrase	Emotions	Emotions Triggers	Values	Values Triggers	Frames
+2409489	243762	brake lights reflected on the street					fs:Halt,fs:Cogitation,fs:Containers,fs:Roadways,fs:Vehicle
+2409489	243763	the purple umbrella					
+2409489	243764	trash can on the sidewalk			folk:Potential, mft:Harm	https://w3id.org/framester/data/framestercore/Capability, https://w3id.org/framester/data/framestercore/CauseHarm, https://w3id.org/framester/wn/wn30/instances/synset-can-verb-1	fs:Preserving,fs:Capability,fs:IntentionallyCreate,fs:Roadways,fs:CauseHarm
+2409489	243765	cars lined up across the street					fs:Adorning,fs:BehindTheScenes,fs:Creating,fs:IntentionallyCreate,fs:Roadways
+2409489	243766	shoes of the woman crossing the street					fs:Building,fs:Manufacturing,fs:Traversing,fs:Creating,fs:People,fs:IntentionallyCreate,fs:BodyMovement,fs:Roadways
+2409489	243767	bag on the woman's waist					fs:People,fs:Containers,fs:ClothingParts,fs:MeasureVolume
+2409489	243768	yellow line in the middle of the road					fs:PartInnerOuter,fs:Pattern,fs:Roadways,fs:Color
+2409489	243769	square cover behind the person with the umbrella					fs:People
+2409489	243770	light pole behind the person with the umbrella					
+2409489	243771	white circle on the umbrella					fs:Shapes,fs:Color
+2409489	243772	purple umbrella					fs:Color
+2409489	243773	woman wearing long green coat					fs:People,fs:DurationAttribute,fs:Clothing,fs:Color
+2409489	243774	cup holding in hand					fs:Containers,fs:ObservableBodyParts

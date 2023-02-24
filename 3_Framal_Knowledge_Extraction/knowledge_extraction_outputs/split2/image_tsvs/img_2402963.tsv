@@ -1,0 +1,51 @@
+image_id	region_id	phrase	Emotions	Emotions Triggers	Values	Values Triggers	Frames
+2402963	616659	man sitting on chair					fs:BeingLocated,fs:Posture,fs:ChangePosture,fs:People,fs:Placing
+2402963	616660	two soda cans on ground					fs:NaturalFeatures
+2402963	616661	yellow leaves on grass			bhv:Benevolence, mft:Care, folk:Helping	https://w3id.org/framester/wn/wn30/instances/synset-grass-noun-1	fs:Filling,fs:Adorning,fs:Color
+2402963	616662	green grass in park			bhv:Benevolence, mft:Care, folk:Helping	https://w3id.org/framester/wn/wn30/instances/synset-grass-noun-1	fs:Filling,fs:Adorning,fs:Color
+2402963	616663	foot path in distance			folk:Management	https://w3id.org/framester/wn/wn30/instances/synset-way-noun-5	fs:Conduct,fs:PartOrientational,fs:Range,fs:ObservableBodyParts
+2402963	616664	man wearing white sandals					fs:People,fs:Color
+2402963	616665	man wearing black leather coat					fs:People,fs:Clothing,fs:Color
+2402963	616666	man with white hair					fs:People,fs:HairConfiguration,fs:ObservableBodyParts,fs:Color
+2402963	616667	man talking on cell phone					fs:People,fs:Contacting,fs:Substance,fs:CommunicationMeans
+2402963	616668	black wooden chair					fs:Color
+2402963	616669	two soda cans on the ground					fs:NaturalFeatures
+2402963	616670	leaves scattered in the dirt					fs:Filling,fs:Dispersal,fs:Substance
+2402963	616671	a narrow metal and wood bench			bhv:Power, folk:Strenght	http://dbpedia.org/resource/Metal	fs:Dimension
+2402963	616672	a sandy area surrounding a concrete pad					fs:Adorning,fs:LocativeRelation,fs:HairConfiguration,fs:Locale,fs:Besieging,fs:Filling
+2402963	616673	a concrete pad under a narrow bench					fs:Dimension
+2402963	616674	green grass with fallen leaves			folk:Willingness, bhv:Benevolence, mft:Care, folk:Helping	https://w3id.org/framester/wn/wn30/instances/synset-grass-noun-1, https://w3id.org/framester/data/framestercore/Willingness, https://w3id.org/framester/wn/wn30/instances/synset-fallen-adjectivesatellite-1	fs:Filling,fs:Willingness,fs:Adorning,fs:Color
+2402963	616675	sandals and socks on a man's feet			folk:Comfort	http://dbpedia.org/resource/Sock	fs:People
+2402963	616676	the base of a tree trunk					fs:LocaleByUse,fs:BiologicalArea
+2402963	616677	a leather jacket on a man					fs:People,fs:Clothing
+2402963	616678	a man with white hair leaning on his hand					fs:PathShape,fs:HairConfiguration,fs:Posture,fs:ChangePosture,fs:MotionDirectional,fs:People,fs:Color,fs:ObservableBodyParts
+2402963	616679	old man on chair					fs:People,fs:Age
+2402963	616680	two cans next to man					fs:People
+2402963	616681	brown dirt on ground					fs:Substance,fs:NaturalFeatures,fs:Color
+2402963	616682	legs of chair on ground			folk:Rest	http://dbpedia.org/resource/Chair	fs:NaturalFeatures
+2402963	616683	leaves on the dirt					fs:Substance
+2402963	616684	green grass in field			bhv:Benevolence, mft:Care, folk:Helping	https://w3id.org/framester/wn/wn30/instances/synset-grass-noun-1	fs:Filling,fs:Adorning,fs:Color
+2402963	616685	dirt walkway next to grass			bhv:Benevolence, mft:Care, folk:Helping	https://w3id.org/framester/wn/wn30/instances/synset-grass-noun-1	fs:Substance,fs:Adorning,fs:SelfMotion,fs:Cotheme,fs:Roadways,fs:Filling
+2402963	616686	man with a leather jacket					fs:People,fs:Clothing
+2402963	616687	man with hand to head					fs:People,fs:ObservableBodyParts
+2402963	616688	man with back to camera					fs:People,fs:ObservableBodyParts
+2402963	616689	two soda cans on the ground.					fs:NaturalFeatures
+2402963	616690	black lawn chair on ground.					fs:NaturalFeatures,fs:Color
+2402963	616691	white sandals on the  person.					fs:People,fs:Color
+2402963	616692	person wearing white socks.					
+2402963	616693	white haired person sitting.					
+2402963	616694	concrete and sand area in park.					fs:Filling,fs:Substance,fs:Adorning,fs:Locale
+2402963	616695	grassy area in park.					fs:Locale
+2402963	616696	bench in the distance.					fs:Range
+2402963	616697	trunk of the tree in the background.			folk:Beauty	http://dbpedia.org/resource/Tree	fs:BiologicalArea
+2402963	616698	trail in the background.					fs:Roadways
+2402963	616699	a man sitting in a chair					fs:BeingLocated,fs:Posture,fs:ChangePosture,fs:People,fs:Placing
+2402963	616700	two cans of drink					fs:Ingestion
+2402963	616701	two cans sitting on the ground					fs:NaturalFeatures,fs:BeingLocated,fs:Posture,fs:ChangePosture,fs:Placing
+2402963	616702	two red cans next to each other					
+2402963	616703	a wooden chair					
+2402963	616704	a man with white socks					fs:People,fs:Color
+2402963	616705	an old man sitting down			folk:Willingness	https://w3id.org/framester/wn/wn30/instances/synset-down-adjective-1, https://w3id.org/framester/data/framestercore/Willingness	fs:BeingLocated,fs:Posture,fs:ChangePosture,fs:People,fs:Placing,fs:Willingness,fs:Age
+2402963	616706	a man sitting on a wooden chair					fs:BeingLocated,fs:Posture,fs:ChangePosture,fs:People,fs:Placing
+2402963	616707	grass with fallen leaves			folk:Willingness, bhv:Benevolence, mft:Care, folk:Helping	https://w3id.org/framester/wn/wn30/instances/synset-grass-noun-1, https://w3id.org/framester/data/framestercore/Willingness, https://w3id.org/framester/wn/wn30/instances/synset-fallen-adjectivesatellite-1	fs:Filling,fs:Willingness,fs:Adorning
+2402963	616708	a man that has white hair					fs:Ingestion,fs:HairConfiguration,fs:People,fs:Color,fs:ObservableBodyParts

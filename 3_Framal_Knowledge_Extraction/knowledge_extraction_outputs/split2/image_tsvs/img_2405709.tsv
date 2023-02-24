@@ -1,0 +1,50 @@
+image_id	region_id	phrase	Emotions	Emotions Triggers	Values	Values Triggers	Frames
+2405709	424479	black skate board on gray sand at beach					fs:Organization,fs:Substance,fs:NaturalFeatures,fs:Color
+2405709	424480	distant buildings by beach					fs:NaturalFeatures,fs:Range
+2405709	424481	gray sand at beach					
+2405709	424482	gray sand and white shells at beach					
+2405709	424483	gray sand and white shells at beach					fs:Substance,fs:NaturalFeatures,fs:Color
+2405709	424484	gray sand and white shells at beach					fs:Substance,fs:NaturalFeatures,fs:Color
+2405709	424485	blue and white ocean					fs:NaturalFeatures,fs:Color
+2405709	424486	blue and white ocean					fs:NaturalFeatures,fs:Color
+2405709	424487	white clouds against blue sky					fs:Color,fs:Locale
+2405709	424488	white clouds against blue sky					fs:Color,fs:Locale
+2405709	424489	a skateboard abandoned on the beach					fs:NaturalFeatures,fs:QuittingAPlace,fs:Abandonment,fs:Departing,fs:OperateVehicle
+2405709	424490	animal tracks around the skateboard					fs:Animals,fs:OperateVehicle
+2405709	424491	ocean waves in the distance					fs:NaturalFeatures,fs:Range
+2405709	424492	the tide is going out					fs:Travel,fs:Departing,fs:Motion
+2405709	424493	there are trees in the distance					fs:Range
+2405709	424494	broken shells are laying on the beach					fs:NaturalFeatures,fs:Placing
+2405709	424495	the sand is very dark					fs:Identicality,fs:Substance,fs:Dimension
+2405709	424496	the ocean is very blue					fs:Identicality,fs:NaturalFeatures,fs:Color
+2405709	424497	the wheels of the skateboard are sunken into the sand					fs:Travel,fs:Motion,fs:Substance,fs:OperateVehicle
+2405709	424498	the skateboard is black					fs:OperateVehicle,fs:Color
+2405709	424499	part of a sandy beach					fs:NaturalFeatures,fs:Membership
+2405709	424500	surface of a skateboard					fs:PartInnerOuter,fs:OperateVehicle
+2405709	424501	part of a white rock			mft:Harm	https://w3id.org/framester/wn/wn30/instances/synset-rock-noun-1, https://w3id.org/framester/data/framestercore/CauseHarm	fs:Color,fs:CauseHarm,fs:Membership
+2405709	424502	part of some wheels					fs:Membership
+2405709	424503	part of the shore					fs:RelationalNaturalFeatures,fs:Membership
+2405709	424504	part of some waves					fs:Membership
+2405709	424505	part of a forest					fs:BiologicalArea,fs:Membership
+2405709	424506	edge of a skateboard					fs:LocativeRelation,fs:OperateVehicle,fs:Supply
+2405709	424507	part of a wall			mft:Care, bhv:Security	https://w3id.org/framester/wn/wn30/instances/synset-wall-noun-1	fs:ArchitecturalPart,fs:Membership
+2405709	424508	part of the sky					fs:Locale,fs:Membership
+2405709	424509	skateboard on top of wet sand					fs:Substance,fs:BeingLocated,fs:Posture,fs:Supply,fs:BeingWet,fs:OperateVehicle
+2405709	424510	black skateboard with pink edge					fs:LocativeRelation,fs:OperateVehicle,fs:Supply,fs:Color
+2405709	424511	blue ocean water with low waves					fs:PositionOnAScale,fs:Substance,fs:NaturalFeatures,fs:Color
+2405709	424512	shells on the sand surface					fs:PartInnerOuter,fs:Substance
+2405709	424513	wheels extended out from board			folk:Giving	https://w3id.org/framester/data/framestercore/Giving	fs:Offering,fs:Giving,fs:Organization
+2405709	424514	buildings and trees on other side of water					fs:Substance
+2405709	424515	small dark holes in the sand					fs:Substance,fs:Size,fs:Dimension
+2405709	424516	chipped end of skateboard					fs:ProcessEnd,fs:OperateVehicle
+2405709	424517	lighter sky above the ocean					fs:NaturalFeatures,fs:Locale
+2405709	424518	footprint in the dark sand					fs:Shapes,fs:Substance,fs:Dimension
+2405709	424519	skateboard in beach sand					fs:NaturalFeatures,fs:Substance,fs:OperateVehicle
+2405709	424520	skateboard wheel sunk into sand					fs:Travel,fs:Substance,fs:Motion,fs:Artifact,fs:OperateVehicle
+2405709	424521	shadow of skateboard on beach					fs:OpticalImage,fs:NaturalFeatures,fs:OperateVehicle
+2405709	424523	rocks in beach sand					fs:Substance,fs:NaturalFeatures
+2405709	424524	small waves close to shore					fs:Closure,fs:BodyMovement,fs:Size,fs:Dimension
+2405709	424525	white cap on crashing wave					fs:Accoutrements,fs:MotionNoise,fs:Color,fs:Event
+2405709	424526	land with trees on horizon			folk:Beauty	http://dbpedia.org/resource/Tree	fs:Roadways
+2405709	424527	white cloud low in the sky					fs:Color,fs:Locale
+2405709	424528	choppy waters off shore					fs:RelationalNaturalFeatures,fs:Weather

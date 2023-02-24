@@ -1,0 +1,51 @@
+image_id	region_id	phrase	Emotions	Emotions Triggers	Values	Values Triggers	Frames
+2410888	517479	little girl petting a horse.			folk:Control, bhv:Benevolence, mft:Care, folk:Helping	https://w3id.org/framester/data/framestercore/Assistance, https://w3id.org/framester/vn/vn31/data/Pet_36020000, https://w3id.org/framester/wn/wn30/instances/synset-horse-noun-1	fs:People,fs:Assistance,fs:Size,fs:Dimension
+2410888	517480	girl has hand on muzzle of horse			bhv:Benevolence, mft:Care, folk:Helping	https://w3id.org/framester/data/framestercore/Assistance, https://w3id.org/framester/wn/wn30/instances/synset-horse-noun-1	fs:People,fs:Ingestion,fs:ObservableBodyParts,fs:Assistance
+2410888	517481	person typing on cell phone.					fs:Substance,fs:People,fs:Contacting,fs:CommunicationMeans,fs:TextCreation
+2410888	517482	index on cell phone.					fs:Contacting,fs:Substance,fs:CommunicationMeans
+2410888	517483	cell phone screen is black					fs:Substance,fs:Color,fs:PartInnerOuter,fs:Contacting,fs:CommunicationMeans
+2410888	517484	border of cell phone is white.					fs:Contacting,fs:Substance,fs:CommunicationMeans,fs:Color
+2410888	517485	person wearing red shirt					fs:People,fs:Clothing,fs:Color
+2410888	517486	person wearing white tank.					fs:People,fs:Vehicle,fs:Color
+2410888	517487	man holding a strap.					fs:People,fs:ClothingParts,fs:Connectors
+2410888	517488	little girl is smiling.					
+2410888	517489	the girl is touching the horse.			bhv:Benevolence, folk:Helping, mft:Care	https://w3id.org/framester/wn/wn30/instances/synset-horse-noun-1	
+2410888	517490	a lady with a red shirt on.					fs:People,fs:Clothing,fs:Color
+2410888	517491	the girl has on a pink shirt.					fs:People,fs:Ingestion,fs:Clothing,fs:Color
+2410888	517492	a person taking a picture.			folk:Helping, mft:Care, folk:Leadership, bhv:Power, mft:Authority	http://dbpedia.org/resource/Person, https://w3id.org/framester/vn/vn31/data/Take_10050000, https://w3id.org/framester/data/framestercore/ChangeOfLeadership	fs:ChangeOfQuantityOfPossession,fs:Getting,fs:OpticalImage,fs:Cotheme,fs:People,fs:Sensation,fs:ChangeOfLeadership,fs:Conquering,fs:Bringing,fs:Taking,fs:Removing,fs:EarningsAndLosses
+2410888	517493	the girl is smiling.					fs:People,fs:MakingFaces
+2410888	517494	people are petting the horses.			folk:Control	https://w3id.org/framester/vn/vn31/data/Pet_36020000	fs:People
+2410888	517495	the little girl has a bang.					fs:Sounds,fs:Ingestion,fs:Size,fs:Dimension,fs:People
+2410888	517496	the horse has a big mouth			folk:Control, bhv:Benevolence, mft:Care, folk:Helping	https://w3id.org/framester/data/framestercore/Assistance, https://w3id.org/framester/wn/wn30/instances/synset-mouth-noun-1, https://w3id.org/framester/wn/wn30/instances/synset-horse-noun-1	fs:ShapedPart,fs:Ingestion,fs:Size,fs:Dimension,fs:ObservableBodyParts,fs:Assistance
+2410888	517497	someone is holding the horse by the head			bhv:Benevolence, folk:Helping, mft:Care	https://w3id.org/framester/data/framestercore/Assistance, https://w3id.org/framester/wn/wn30/instances/synset-horse-noun-1	fs:ObservableBodyParts,fs:Assistance
+2410888	517498	a lady has a phone in her hand					fs:Ingestion,fs:People,fs:Contacting,fs:ObservableBodyParts,fs:CommunicationMeans
+2410888	517499	young girl petting horse			folk:Control, bhv:Benevolence, mft:Care, folk:Helping	https://w3id.org/framester/data/framestercore/Assistance, https://w3id.org/framester/vn/vn31/data/Pet_36020000, https://w3id.org/framester/wn/wn30/instances/synset-horse-noun-1	fs:People,fs:Assistance,fs:Age
+2410888	517500	gold chain on horses bridle			folk:Consent, mft:Oppression	https://w3id.org/framester/wn/wn30/instances/synset-bridle-verb-2	fs:Sequence,fs:Hindering
+2410888	517501	mobile phone in white case					fs:StateOfEntity,fs:Contacting,fs:CommunicationMeans,fs:Color
+2410888	517502	blond woman in red shirt					fs:People,fs:HairConfiguration,fs:Clothing,fs:Color
+2410888	517503	woman taking picture on phone					fs:OpticalImage,fs:Cotheme,fs:People,fs:Sensation,fs:Bringing,fs:Taking,fs:Contacting,fs:Removing,fs:CommunicationMeans
+2410888	517504	young girl with brown hair					fs:HairConfiguration,fs:People,fs:Color,fs:ObservableBodyParts,fs:Age
+2410888	517505	horse wearing a leather bridle			folk:Consent, bhv:Benevolence, mft:Care, folk:Helping	https://w3id.org/framester/data/framestercore/Assistance, https://w3id.org/framester/wn/wn30/instances/synset-bridle-noun-1, https://w3id.org/framester/wn/wn30/instances/synset-horse-noun-1	fs:Assistance,fs:Hindering
+2410888	517506	child wearing a gray tshirt			mft:Care	https://w3id.org/framester/wn/wn30/instances/synset-child-noun-1	fs:PeopleByAge,fs:Color
+2410888	517507	brown horse with gray muzzle			bhv:Benevolence, mft:Care, folk:Helping	https://w3id.org/framester/data/framestercore/Assistance, https://w3id.org/framester/wn/wn30/instances/synset-horse-noun-1	fs:Assistance,fs:Color
+2410888	517508	smiling girl in pink shirt					fs:People,fs:MakingFaces,fs:Clothing,fs:Color
+2410888	517509	part of a bicep					fs:Membership
+2410888	517510	part of a shirt					fs:Clothing,fs:Membership
+2410888	517511	hair of a boy					fs:HairConfiguration,fs:ObservableBodyParts
+2410888	517512	part  of an arm					fs:ObservableBodyParts,fs:ShapedPart,fs:Membership
+2410888	517513	part of a mouth			folk:Control	https://w3id.org/framester/wn/wn30/instances/synset-mouth-noun-1	fs:ObservableBodyParts,fs:ShapedPart,fs:Membership
+2410888	517514	part of a chain					fs:Sequence,fs:Membership
+2410888	517515	part of an elbow			folk:Control, mft:Harm	https://w3id.org/framester/wn/wn30/instances/synset-elbow-noun-1	fs:ObservableBodyParts,fs:Membership
+2410888	517516	screen of a phone					fs:PartInnerOuter,fs:Contacting,fs:CommunicationMeans
+2410888	517517	part of  a chin					fs:ObservableBodyParts,fs:Membership
+2410888	517518	part of a top					fs:Supply,fs:Posture,fs:BeingLocated,fs:Membership
+2410888	517519	girl pets horse's nose			folk:Control, bhv:Benevolence, mft:Care, folk:Helping	https://w3id.org/framester/data/framestercore/Assistance, https://w3id.org/framester/wn/wn30/instances/synset-nose-noun-1, https://w3id.org/framester/wn/wn30/instances/synset-horse-noun-1	fs:People,fs:ObservableBodyParts,fs:Assistance
+2410888	517520	girl with brown hair					fs:People,fs:HairConfiguration,fs:ObservableBodyParts,fs:Color
+2410888	517521	using phone to take a picture			mft:Authority, folk:Leadership, bhv:Power	https://w3id.org/framester/wn/wn30/instances/synset-lead-verb-1, https://w3id.org/framester/vn/vn31/data/Take_10050000, https://w3id.org/framester/data/framestercore/ChangeOfLeadership	fs:ChangeOfQuantityOfPossession,fs:Getting,fs:OpticalImage,fs:Using,fs:Cotheme,fs:CommunicationMeans,fs:Sensation,fs:ChangeOfLeadership,fs:IntentionallyAffect,fs:Bringing,fs:Conquering,fs:Taking,fs:Contacting,fs:Removing,fs:EarningsAndLosses
+2410888	517522	someone wearing a red shirt with white lettering					fs:Clothing,fs:Color
+2410888	517523	someone holding the reigns					
+2410888	517524	two horses with reigns					
+2410888	517525	girl in pink and white shirt					fs:People,fs:Clothing,fs:Color
+2410888	517526	girl smiling when petting horse			folk:Control, bhv:Benevolence, mft:Care, folk:Helping	https://w3id.org/framester/data/framestercore/Assistance, https://w3id.org/framester/vn/vn31/data/Pet_36020000, https://w3id.org/framester/wn/wn30/instances/synset-horse-noun-1	fs:Assistance,fs:People,fs:FacialExpression
+2410888	517527	woman wearing white tank top using phone					fs:BeingLocated,fs:Using,fs:Posture,fs:People,fs:IntentionallyAffect,fs:Supply,fs:Color,fs:Contacting,fs:Vehicle,fs:CommunicationMeans
+2410888	517528	woman taking picture			mft:Authority, folk:Leadership, bhv:Power	https://w3id.org/framester/vn/vn31/data/Take_10050000, https://w3id.org/framester/data/framestercore/ChangeOfLeadership	fs:ChangeOfQuantityOfPossession,fs:Getting,fs:OpticalImage,fs:Cotheme,fs:People,fs:Sensation,fs:ChangeOfLeadership,fs:Conquering,fs:Bringing,fs:Taking,fs:Removing,fs:EarningsAndLosses

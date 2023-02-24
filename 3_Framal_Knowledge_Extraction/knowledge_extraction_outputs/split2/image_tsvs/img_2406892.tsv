@@ -1,0 +1,51 @@
+image_id	region_id	phrase	Emotions	Emotions Triggers	Values	Values Triggers	Frames
+2406892	367779	black back pack on the skier's back.	be:Enjoyment	http://dbpedia.org/resource/Skiing	bhv:Stimulation, folk:Fun	http://dbpedia.org/resource/Skiing	fs:Travel,fs:Motion,fs:Containers,fs:Color,fs:Placing,fs:ObservableBodyParts
+2406892	367780	the sunglasses the skier is wearing.	be:Enjoyment	http://dbpedia.org/resource/Skiing	bhv:Stimulation, folk:Fun	http://dbpedia.org/resource/Skiing	fs:Travel,fs:Motion
+2406892	367781	the yellow coat the skier is wearing.	be:Enjoyment	http://dbpedia.org/resource/Skiing	bhv:Stimulation, folk:Fun	http://dbpedia.org/resource/Skiing	fs:Travel,fs:Motion,fs:Clothing,fs:Color
+2406892	367782	the left glove the skier is wearing.	be:Enjoyment	http://dbpedia.org/resource/Skiing	bhv:Stimulation, folk:Fun	http://dbpedia.org/resource/Skiing	fs:Travel,fs:Motion,fs:PartOrientational
+2406892	367783	the right glove the skier is wearing.					fs:Travel,fs:Motion,fs:PartOrientational
+2406892	367784	the black pants the skier is wearing.	be:Enjoyment	http://dbpedia.org/resource/Skiing	bhv:Stimulation, folk:Fun	http://dbpedia.org/resource/Skiing	fs:Travel,fs:Motion,fs:Clothing,fs:Color
+2406892	367785	left ski pole.					fs:Travel,fs:PartOrientational,fs:Motion,fs:InchoativeAttaching,fs:Supporting,fs:CauseMotion
+2406892	367786	the right ski pole.					fs:Travel,fs:PartOrientational,fs:Motion,fs:InchoativeAttaching,fs:Supporting,fs:CauseMotion
+2406892	367787	the left ski the skier is standing on.	be:Enjoyment	http://dbpedia.org/resource/Skiing	bhv:Stimulation, folk:Fun	http://dbpedia.org/resource/Skiing	fs:Travel,fs:PartOrientational,fs:BeingLocated,fs:Motion,fs:Posture,fs:ChangePosture,fs:Placing
+2406892	367788	the right ski the skier is standing on.	be:Enjoyment	http://dbpedia.org/resource/Skiing	bhv:Stimulation, folk:Fun	http://dbpedia.org/resource/Skiing	fs:Travel,fs:PartOrientational,fs:BeingLocated,fs:Motion,fs:Posture,fs:ChangePosture,fs:Placing
+2406892	367789	a man on skis					fs:People
+2406892	367790	a cloudless blue sky					fs:Color,fs:Locale
+2406892	367791	snow covered slope					fs:PathShape,fs:Precipitation,fs:Adorning,fs:Posture,fs:ChangePosture,fs:MotionDirectional,fs:Topic,fs:Eclipse,fs:Filling
+2406892	367792	a yellow ski jacket					fs:Travel,fs:Motion,fs:Clothing,fs:Color
+2406892	367793	skier is looking down the slope	be:Enjoyment	http://dbpedia.org/resource/Skiing	folk:Analysis, bhv:Stimulation, folk:Fun	https://w3id.org/framester/data/framestercore/Scrutiny, https://w3id.org/framester/vn/vn31/data/Look_30030000, http://dbpedia.org/resource/Skiing	fs:Travel,fs:PerceptionActive,fs:PathShape,fs:Seeking,fs:Scrutiny,fs:Motion,fs:Posture,fs:ChangePosture,fs:MotionDirectional
+2406892	367794	snow covered rocks					fs:Precipitation,fs:Adorning,fs:Eclipse,fs:Topic,fs:Filling
+2406892	367795	poles marking the course			folk:Learning, mft:Harm	https://w3id.org/framester/data/framestercore/EducationTeaching, https://w3id.org/framester/wn/wn30/instances/synset-course-noun-1, https://w3id.org/framester/vn/vn31/data/Mark_25010000	fs:Motion,fs:Placing,fs:EducationTeaching,fs:Aiming,fs:Sign
+2406892	367796	shadow of a person on the snow					fs:People,fs:OpticalImage,fs:Precipitation
+2406892	367797	skier wearing black pants	be:Enjoyment	http://dbpedia.org/resource/Skiing	bhv:Stimulation, folk:Fun	http://dbpedia.org/resource/Skiing	fs:Travel,fs:Motion,fs:Clothing,fs:Color
+2406892	367798	skier with a black backpack	be:Enjoyment	http://dbpedia.org/resource/Skiing	bhv:Stimulation, folk:Fun	http://dbpedia.org/resource/Skiing	fs:Travel,fs:Motion,fs:Containers,fs:Color
+2406892	367799	male skier wearing a yellow jacket	be:Enjoyment	http://dbpedia.org/resource/Skiing	bhv:Stimulation, folk:Fun	http://dbpedia.org/resource/Skiing	fs:Travel,fs:Motion,fs:Clothing,fs:Color
+2406892	367800	shadow of a person taking a picture			mft:Authority, folk:Leadership, bhv:Power	https://w3id.org/framester/vn/vn31/data/Take_10050000, https://w3id.org/framester/data/framestercore/ChangeOfLeadership	fs:ChangeOfQuantityOfPossession,fs:Getting,fs:OpticalImage,fs:Cotheme,fs:People,fs:Sensation,fs:ChangeOfLeadership,fs:Bringing,fs:Conquering,fs:Taking,fs:Removing,fs:EarningsAndLosses
+2406892	367801	black backpack 					fs:Containers,fs:Color
+2406892	367802	set of skies and poles					fs:Aggregate
+2406892	367803	mountain covered in snow					fs:Precipitation,fs:NaturalFeatures,fs:Adorning,fs:Topic,fs:Eclipse,fs:Filling
+2406892	367804	snow goggles 					fs:Accoutrements,fs:Precipitation
+2406892	367805	skiing pole in the snow	be:Enjoyment	http://dbpedia.org/resource/Skiing	bhv:Stimulation, folk:Fun	http://dbpedia.org/resource/Skiing	fs:InchoativeAttaching,fs:Precipitation,fs:Supporting,fs:CauseMotion
+2406892	367806	white snow covering the mountain					fs:Precipitation,fs:NaturalFeatures,fs:Adorning,fs:Color,fs:Topic,fs:Eclipse,fs:Filling
+2406892	367807	black ski pants					fs:Travel,fs:Motion,fs:Clothing,fs:Color
+2406892	367808	dark blue sky					fs:Color,fs:Locale,fs:Dimension
+2406892	367809	the man is skiing					fs:People
+2406892	367810	shadow of person with camera					fs:People,fs:OpticalImage
+2406892	367811	a lot of snow on hill					fs:Aggregate,fs:Precipitation,fs:NaturalFeatures,fs:Quantity
+2406892	367812	pole in the snow					fs:InchoativeAttaching,fs:Precipitation,fs:Supporting,fs:CauseMotion
+2406892	367813	man is wearing yellow jacket					fs:People,fs:Clothing,fs:Color
+2406892	367814	man has black backpack					fs:People,fs:Containers,fs:Ingestion,fs:Color
+2406892	367815	man is wearing sunglasses					fs:People
+2406892	367816	the sky is blue against snow					fs:Color,fs:Precipitation,fs:Locale
+2406892	367817	arm of skier with pole	be:Enjoyment	http://dbpedia.org/resource/Skiing	bhv:Stimulation, folk:Fun	http://dbpedia.org/resource/Skiing	fs:Travel,fs:ShapedPart,fs:Motion,fs:InchoativeAttaching,fs:ObservableBodyParts,fs:Supporting,fs:CauseMotion
+2406892	367818	shadow of skier in snow	be:Enjoyment	http://dbpedia.org/resource/Skiing	bhv:Stimulation, folk:Fun	http://dbpedia.org/resource/Skiing	fs:Travel,fs:Motion,fs:OpticalImage,fs:Precipitation
+2406892	367819	person is wearing yellow jacket					fs:People,fs:Clothing,fs:Color
+2406892	367820	a person's shadow in the snow					fs:People,fs:OpticalImage,fs:Precipitation
+2406892	367821	two skis on person's feet					fs:People
+2406892	367822	person holding ski poles					fs:Travel,fs:People,fs:Motion
+2406892	367823	ground is covered in white snow					fs:Precipitation,fs:NaturalFeatures,fs:Adorning,fs:Color,fs:Topic,fs:Eclipse,fs:Filling
+2406892	367824	person is wearing black back pack					fs:Containers,fs:People,fs:Color,fs:Placing,fs:ObservableBodyParts
+2406892	367825	sunglasses on man's face					
+2406892	367826	person has dark hair on head					
+2406892	367827	person is wearing dark boots					fs:People,fs:Dimension
+2406892	367828	man is skiing down a mountain	be:Enjoyment	http://dbpedia.org/resource/Skiing	bhv:Stimulation, folk:Fun, folk:Willingness	https://w3id.org/framester/wn/wn30/instances/synset-down-adjective-1, https://w3id.org/framester/data/framestercore/Willingness, http://dbpedia.org/resource/Skiing	fs:People,fs:Willingness,fs:NaturalFeatures

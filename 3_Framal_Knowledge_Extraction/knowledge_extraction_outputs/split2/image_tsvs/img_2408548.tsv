@@ -1,0 +1,51 @@
+image_id	region_id	phrase	Emotions	Emotions Triggers	Values	Values Triggers	Frames
+2408548	288792	a silver car					fs:Vehicle
+2408548	288793	a man riding a bull					fs:Travel,fs:People,fs:OperateVehicle,fs:RideVehicle
+2408548	288794	a brown and white bull					fs:Color
+2408548	288795	a woman in the parking lot					fs:Aggregate,fs:People,fs:Quantity
+2408548	288796	a tan hand bag					fs:Containers,fs:ObservableBodyParts,fs:MeasureVolume,fs:Color
+2408548	288797	a boy wearing a blue t shirt					fs:Clothing,fs:Color
+2408548	288798	blue jeans					fs:Color
+2408548	288799	a pair of tan high heels					fs:PositionOnAScale,fs:Dimension,fs:MeasurableAttributes,fs:Color,fs:Aggregate
+2408548	288800	a purple and white top					fs:Supply,fs:Posture,fs:BeingLocated,fs:Color
+2408548	288801	small bushes 					fs:Size,fs:Dimension
+2408548	288802	person travels on a bull					fs:People
+2408548	288803	horns of bull has c shape					fs:Ingestion,fs:Reshaping
+2408548	288804	man wears bluejeans					fs:People
+2408548	288805	cow is white and brown					fs:Animals,fs:Color
+2408548	288806	cow head is brown					fs:Animals,fs:ApplyHeat,fs:ObservableBodyParts
+2408548	288807	man carrying plastic bags					fs:Motion,fs:SubstanceByPhase,fs:CarryGoods,fs:People,fs:Bringing
+2408548	288808	woman wearing a purple jacket					fs:People,fs:Clothing
+2408548	288809	car parking in park lot			folk:Fun	http://dbpedia.org/resource/Car	fs:Aggregate,fs:Vehicle,fs:Quantity
+2408548	288810	orange building 					fs:Buildings
+2408548	288811	cars parking in parking lot			folk:Fun	http://dbpedia.org/resource/Car	fs:Aggregate,fs:Quantity
+2408548	288812	a woman wearing high tops, blue jeans, and a purple shirt is watching the cowboy on the bull					fs:PositionOnAScale,fs:Seeking,fs:BeingAwake,fs:Cotheme,fs:Dimension,fs:People,fs:MeasurableAttributes,fs:Color,fs:Clothing
+2408548	288813	boy is wearing a blue shirt with tan pants					fs:Clothing,fs:Color
+2408548	288814	this cowboy is riding the bull just like it is a horse			bhv:Benevolence, mft:Care, folk:Helping	https://w3id.org/framester/data/framestercore/Assistance, https://w3id.org/framester/wn/wn30/instances/synset-horse-noun-1	fs:Travel,fs:OperateVehicle,fs:Assistance,fs:RideVehicle
+2408548	288815	the bull is brown and white					fs:Color
+2408548	288816	this man is talking to the cowboy on the bull					fs:TalkingInto,fs:Chatting,fs:People,fs:Statement,fs:CommunicationManner,fs:TextCreation
+2408548	288817	little boy is watching the cowboy on the bull					fs:Seeking,fs:BeingAwake,fs:Size,fs:Cotheme,fs:Dimension
+2408548	288818	man is caring the families belongings 			mft:Loyalty, folk:Family	http://dbpedia.org/resource/Family	fs:People,fs:Possession,fs:LocaleByOwnership
+2408548	288819	black sudan			mft:Authority, mft:Loyalty, folk:Community	https://w3id.org/framester/data/framestercore/PoliticalLocales, https://w3id.org/framester/wn/wn30/instances/synset-Sudan-noun-1	fs:Color,fs:PoliticalLocales
+2408548	288820	silver passenger car					fs:Travel,fs:Vehicle,fs:OperateVehicle,fs:RideVehicle
+2408548	288821	there is green bushes around the brick 					
+2408548	288822	lady walking looking at man riding bull			folk:Analysis	https://w3id.org/framester/vn/vn31/data/Look_30030000	
+2408548	288823	boy walking and  looking at man riding bull			folk:Analysis	https://w3id.org/framester/data/framestercore/Scrutiny, https://w3id.org/framester/vn/vn31/data/Look_30030000	fs:Travel,fs:PerceptionActive,fs:Seeking,fs:Scrutiny,fs:People
+2408548	288824	man walking and looking at man riding bull			folk:Analysis	https://w3id.org/framester/data/framestercore/Scrutiny, https://w3id.org/framester/vn/vn31/data/Look_30030000	fs:Travel,fs:PerceptionActive,fs:Seeking,fs:Scrutiny,fs:People
+2408548	288825	man standing and looking at man on bull			folk:Analysis, mft:Authority, folk:Consideration	https://w3id.org/framester/wn/wn30/instances/synset-standing-noun-1, https://w3id.org/framester/vn/vn31/data/Look_30030000, https://w3id.org/framester/data/framestercore/Scrutiny, https://w3id.org/framester/data/framestercore/OccupyRank	fs:PerceptionActive,fs:Seeking,fs:Scrutiny,fs:OccupyRank,fs:People
+2408548	288826	man riding bull					fs:Travel,fs:People
+2408548	288827	lady wearing purple cardigan					fs:People,fs:Color
+2408548	288828	boy wearing blue shirt					fs:Clothing,fs:Color
+2408548	288829	man wearing green shirt 					fs:People,fs:Clothing,fs:Color
+2408548	288830	man carrying parcels					fs:People
+2408548	288831	saddle on bull					fs:Attaching
+2408548	288832	shrubs in a brick planter.					fs:PeopleByVocation
+2408548	288833	the bricks are red and brown.					fs:Color
+2408548	288834	a man riding on top of a cow.					fs:Travel,fs:Animals,fs:PartOrientational,fs:People
+2408548	288835	a large parking lot.					fs:Aggregate,fs:Quantity,fs:Size,fs:Dimension
+2408548	288836	the four people are walking through the parking lot.					fs:SelfMotion,fs:Cotheme,fs:Quantity,fs:People,fs:Aggregate
+2408548	288837	the boy is wearing a blue t-shirt.					fs:Clothing,fs:Color
+2408548	288838	the man is carrying bags in both hands.					fs:CarryGoods,fs:People,fs:Motion,fs:Bringing
+2408548	288839	a black suv.					fs:Color
+2408548	288840	a large brick building is behind the wall.			mft:Care, bhv:Security	https://w3id.org/framester/wn/wn30/instances/synset-wall-noun-1	fs:ArchitecturalPart,fs:Buildings,fs:Size,fs:Dimension
+2408548	288841	the cow has large horns.					fs:Animals,fs:Ingestion,fs:Size,fs:Dimension

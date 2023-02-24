@@ -1,0 +1,50 @@
+image_id	region_id	phrase	Emotions	Emotions Triggers	Values	Values Triggers	Frames
+2409155	259702	a man's feet strapped to a board			mft:Cheating, mft:Harm	https://w3id.org/framester/data/framestercore/CauseHarm, https://w3id.org/framester/vn/vn31/data/Strap_18030000	fs:CorporalPunishment,fs:Organization,fs:Attaching,fs:People,fs:CauseHarm
+2409155	259703	a man holding a line					fs:People,fs:Pattern
+2409155	259704	a man jumping in midair					fs:People,fs:ChangePositionOnAScale
+2409155	259705	a man riding a parasail					fs:Travel,fs:People,fs:OperateVehicle,fs:RideVehicle
+2409155	259706	colorful swimtrunks					fs:StimulusFocus
+2409155	259707	a thin cloud					fs:Dimension
+2409155	259708	a rope and bar for grasping			folk:Control	https://w3id.org/framester/wn/wn30/instances/synset-rope-noun-1	fs:Buildings,fs:Connectors
+2409155	259709	a man secured to a line					fs:People,fs:Pattern
+2409155	259710	a man riding a white board					fs:Travel,fs:RideVehicle,fs:People,fs:Organization,fs:Color,fs:OperateVehicle
+2409155	259711	a man's head					fs:People,fs:ObservableBodyParts
+2409155	259712	man's feet attached to board					fs:People,fs:Organization
+2409155	259713	wake board is white in color					fs:ObjectiveInfluence,fs:Causation,fs:BeingInEffect,fs:Organization,fs:Color
+2409155	259714	man doing trick on wake board					fs:ObjectiveInfluence,fs:Causation,fs:BeingInEffect,fs:People,fs:Organization
+2409155	259715	man wearing white and black shirt					fs:People,fs:Clothing,fs:Color
+2409155	259716	man holding on to handle			folk:Leadership, mft:Care, bhv:Power	https://w3id.org/framester/wn/wn30/instances/synset-manage-verb-2	fs:People,fs:ResolveProblem
+2409155	259717	white clips attach man's feet to board					fs:People,fs:Attaching,fs:Color,fs:Organization
+2409155	259718	multi colored swim trunks					fs:SelfMotion
+2409155	259719	clear blue sky behind man			folk:Clarity	https://w3id.org/framester/wn/wn30/instances/synset-clear-adjective-1	fs:Color,fs:People,fs:Locale,fs:Obviousness
+2409155	259720	man has dark hair on head					fs:Ingestion,fs:HairConfiguration,fs:Dimension,fs:People,fs:ObservableBodyParts
+2409155	259721	man is in the air					fs:People,fs:Substance
+2409155	259722	man in the air on a white surfboard.	be:Enjoyment	http://dbpedia.org/resource/Surfing	bhv:Hedonism, folk:Fun	http://dbpedia.org/resource/Surfing	fs:People,fs:Substance,fs:Color
+2409155	259724	man holding a kite with his hands.	be:Enjoyment	http://dbpedia.org/resource/Kite	folk:Fun	http://dbpedia.org/resource/Kite	fs:People
+2409155	259725	man kite surfing under the sky.					fs:People,fs:Locale
+2409155	259726	blue sky above the surfer.	be:Enjoyment	http://dbpedia.org/resource/Surfing	bhv:Hedonism, folk:Fun	http://dbpedia.org/resource/Surfing	fs:Animals,fs:Motion,fs:Locale,fs:BiologicalEntity,fs:Color
+2409155	259727	man kite surfing on a white surfboard.					fs:People,fs:Color
+2409155	259728	rod and strings attached to a kite.	be:Enjoyment	http://dbpedia.org/resource/Kite	folk:Fun	http://dbpedia.org/resource/Kite	fs:Gizmo
+2409155	259729	kite with rod and strings.	be:Enjoyment	http://dbpedia.org/resource/Kite	folk:Fun	http://dbpedia.org/resource/Kite	fs:Gizmo
+2409155	259730	surfer holding a rod attached to kite.	be:Enjoyment	http://dbpedia.org/resource/Surfing	bhv:Hedonism, folk:Fun	http://dbpedia.org/resource/Surfing	fs:Motion,fs:Gizmo
+2409155	259731	surfer wearing a surfboard on feet.	be:Enjoyment	http://dbpedia.org/resource/Surfing	bhv:Hedonism, folk:Fun	http://dbpedia.org/resource/Surfing	fs:Motion
+2409155	259732	white board 					fs:Organization,fs:Color
+2409155	259733	bare feet strapped to board 			mft:Cheating, mft:Harm	https://w3id.org/framester/data/framestercore/CauseHarm, https://w3id.org/framester/vn/vn31/data/Strap_18030000	fs:CorporalPunishment,fs:Organization,fs:Attaching,fs:Wearing,fs:CauseHarm
+2409155	259734	red, white, green, and yellow board shorts					fs:Organization,fs:Color
+2409155	259735	black and white shirt on man 					fs:People,fs:Clothing,fs:Color
+2409155	259736	blue sky 					fs:Color,fs:Locale
+2409155	259737	man holding on to rope 			folk:Control, mft:Authority, folk:Intuitive	https://w3id.org/framester/wn/wn30/instances/synset-lasso-verb-1, https://w3id.org/framester/data/framestercore/Manipulation	fs:People,fs:Connectors,fs:Manipulation
+2409155	259738	man flying in the air on board 					fs:Substance,fs:Motion,fs:SelfMotion,fs:RideVehicle,fs:People,fs:Organization,fs:Bringing,fs:OperateVehicle
+2409155	259739	harness attached to chesr					
+2409155	259740	white man with a closed mouth 			folk:Control	https://w3id.org/framester/wn/wn30/instances/synset-mouth-noun-1	fs:ShapedPart,fs:Openness,fs:People,fs:Color,fs:ObservableBodyParts
+2409155	259741	hands above head 					fs:ObservableBodyParts
+2409155	259742	a white kiteboard with foot straps					fs:Color,fs:PartOrientational,fs:ObservableBodyParts
+2409155	259743	the foot straps on the kiteboard are white					fs:Color,fs:Attaching,fs:PartOrientational,fs:ObservableBodyParts
+2409155	259744	a pair of colorful surfer shorts	be:Enjoyment	http://dbpedia.org/resource/Surfing	bhv:Hedonism, folk:Fun	http://dbpedia.org/resource/Surfing	fs:Aggregate,fs:Motion,fs:StimulusFocus
+2409155	259745	the kiteboarder is holding the control bar			mft:Authority, bhv:Power, folk:Control, folk:Leadership	https://w3id.org/framester/data/framestercore/BeInControl, https://w3id.org/framester/wn/wn30/instances/synset-control-noun-1	fs:Buildings,fs:BeInControl
+2409155	259746	the kiteboarder is wearing a black waist harness					fs:ClothingParts,fs:Color
+2409155	259747	the kiteboarder is wearing a black and white wetsuit					fs:Color
+2409155	259748	the foot straps are mounted on the top of the kiteboard					fs:PartOrientational,fs:BeingLocated,fs:Traversing,fs:Posture,fs:Attaching,fs:Supply,fs:Placing,fs:ObservableBodyParts
+2409155	259749	the blue sky is cloud free			mft:Oppression, bhv:SelfDirection	https://w3id.org/framester/wn/wn30/instances/synset-free-adjective-1	fs:Color,fs:Locale
+2409155	259750	the control bar cables			mft:Authority, bhv:Power, folk:Control, folk:Leadership	https://w3id.org/framester/data/framestercore/BeInControl, https://w3id.org/framester/wn/wn30/instances/synset-control-noun-1	fs:Buildings,fs:BeInControl
+2409155	259751	the safety strap from the harness to the control bar			folk:Risk, mft:Care, folk:Leadership, bhv:Power, folk:Control, mft:Authority	https://w3id.org/framester/data/framestercore/BeInControl, https://w3id.org/framester/data/framestercore/BeingAtRisk, https://w3id.org/framester/wn/wn30/instances/synset-safety-noun-1, https://w3id.org/framester/wn/wn30/instances/synset-control-noun-1	fs:Connectors,fs:BeingAtRisk,fs:Buildings,fs:ClothingParts,fs:BeInControl

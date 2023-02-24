@@ -1,0 +1,51 @@
+image_id	region_id	phrase	Emotions	Emotions Triggers	Values	Values Triggers	Frames
+2402214	652129	black dkny sunglasses					
+2402214	652130	a white plastic chair					fs:SubstanceByPhase,fs:Color
+2402214	652131	silver bird earrings					
+2402214	652132	a woman eating a sandwich					fs:Ingestion,fs:People
+2402214	652133	a woman wearing a white t-shirt					fs:People,fs:Clothing,fs:Color
+2402214	652134	half a sandwich sitting on paper					fs:Substance,fs:Ingredients,fs:BeingLocated,fs:Posture,fs:ChangePosture,fs:Placing,fs:Filling
+2402214	652135	a clear blue sky			folk:Clarity	https://w3id.org/framester/wn/wn30/instances/synset-clear-adjective-1	fs:Color,fs:Locale,fs:Obviousness
+2402214	652136	fingernails that are not painted					fs:IntentionallyCreate,fs:CommunicateCategorization,fs:CreateRepresentation,fs:CreatePhysicalArtwork
+2402214	652137	a white truck					fs:Vehicle,fs:Color
+2402214	652138	a nose with a piercing stud			folk:Control	https://w3id.org/framester/wn/wn30/instances/synset-nose-noun-1	fs:ObservableBodyParts
+2402214	652139	woman eating a sandwich outside					fs:People,fs:Ingestion
+2402214	652140	half of a sandwich					
+2402214	652141	white paper wrapped around sandwich					
+2402214	652142	plastic resin chair sitting outdoors			folk:Control, folk:Rest	https://w3id.org/framester/wn/wn30/instances/synset-resin-noun-1, http://dbpedia.org/resource/Chair	
+2402214	652143	dkny sunglasses on a woman					fs:People,fs:Businesses
+2402214	652144	silver earring on a woman					fs:Accoutrements,fs:People
+2402214	652145	white truck parked on the gravel					fs:Adorning,fs:Color,fs:Placing,fs:Filling,fs:Vehicle
+2402214	652146	blue sky in the distance					fs:Color,fs:Range,fs:Locale
+2402214	652147	nose ring on woman			folk:Control	https://w3id.org/framester/wn/wn30/instances/synset-nose-noun-1	fs:People,fs:ObservableBodyParts
+2402214	652148	black metal table woman is sitting at					fs:BeingLocated,fs:Posture,fs:ChangePosture,fs:People,fs:Color,fs:Placing
+2402214	652149	black sunglasses on a woman's face. 					fs:People,fs:ObservableBodyParts,fs:FacialExpression,fs:Color
+2402214	652150	half a sandwich lying on white paper. 					fs:Substance,fs:Ingredients,fs:BeingLocated,fs:Posture,fs:ChangePosture,fs:Color,fs:Filling
+2402214	652151	piece of green lettuce on half a sandwich lying on white paper. 					fs:Building,fs:Substance,fs:Ingredients,fs:BeingLocated,fs:Posture,fs:Creating,fs:ChangePosture,fs:Color,fs:Filling,fs:PartWhole
+2402214	652152	fingertips of a woman's right hand. 					fs:People,fs:PartOrientational,fs:ObservableBodyParts
+2402214	652153	silver ring on a woman's right hand finger. 			folk:Control	https://w3id.org/framester/wn/wn30/instances/synset-finger-noun-1	fs:People,fs:PartOrientational,fs:ObservableBodyParts
+2402214	652154	gray chair sitting in the sun. 			folk:Structure, folk:Rest	http://dbpedia.org/resource/Chair, https://w3id.org/framester/wn/wn30/instances/synset-sun-noun-1	fs:BeingLocated,fs:Posture,fs:Locale,fs:ChangePosture,fs:Color,fs:Placing
+2402214	652155	white food truck with black wheels. 			bhv:Benevolence, mft:Care, folk:Helping	https://w3id.org/framester/wn/wn30/instances/synset-food-noun-1	fs:Food,fs:Vehicle,fs:Color
+2402214	652156	pierced nose on a woman eating. 			folk:Control, mft:Care	https://w3id.org/framester/wn/wn30/instances/synset-nose-noun-1, https://w3id.org/framester/wn/wn30/instances/synset-eating-noun-1	fs:People,fs:ObservableBodyParts
+2402214	652157	little earring in a woman's nose. 			folk:Control	https://w3id.org/framester/wn/wn30/instances/synset-nose-noun-1	fs:Accoutrements,fs:Size,fs:Dimension,fs:People,fs:ObservableBodyParts
+2402214	652158	silver earring in a woman's left ear. 					fs:PartOrientational,fs:People,fs:ObservableBodyParts,fs:Accoutrements
+2402214	652159	wedding ring on finger			folk:Control	https://w3id.org/framester/wn/wn30/instances/synset-finger-noun-1	fs:ObservableBodyParts,fs:FormingRelationships
+2402214	652160	black designer logo sunglasses					fs:PeopleByVocation
+2402214	652161	hands holding sandwich					
+2402214	652162	beige plastic outdoor chair					fs:SubstanceByPhase,fs:Color
+2402214	652163	metal earring shaped like a bird			bhv:Power, folk:Strenght	http://dbpedia.org/resource/Metal	fs:Reshaping,fs:IntentionallyCreate,fs:ManipulateIntoShape
+2402214	652164	woman eating a sandwich					fs:People,fs:Ingestion
+2402214	652165	woman with short dark hair					fs:HairConfiguration,fs:Dimension,fs:People,fs:DurationAttribute,fs:ObservableBodyParts
+2402214	652166	earlobe pierced for earrings					fs:ObservableBodyParts,fs:Arriving
+2402214	652167	sandwich on a roll with lettuce					fs:Text
+2402214	652168	sandwich resting of white paper					fs:Filling,fs:Substance,fs:Ingredients,fs:Color
+2402214	652169	the finger of a person 			folk:Control	https://w3id.org/framester/wn/wn30/instances/synset-finger-noun-1	fs:People,fs:ObservableBodyParts
+2402214	652170	the finger of a person 			folk:Control	https://w3id.org/framester/wn/wn30/instances/synset-finger-noun-1	fs:People,fs:ObservableBodyParts
+2402214	652171	the finger of a person 			folk:Control	https://w3id.org/framester/wn/wn30/instances/synset-finger-noun-1	fs:People,fs:ObservableBodyParts
+2402214	652172	the finger of a person 			folk:Control	https://w3id.org/framester/wn/wn30/instances/synset-finger-noun-1	fs:People,fs:ObservableBodyParts
+2402214	652173	the finger of a person 			folk:Control	https://w3id.org/framester/wn/wn30/instances/synset-finger-noun-1	fs:People,fs:ObservableBodyParts
+2402214	652174	the finger of a person 			folk:Control	https://w3id.org/framester/wn/wn30/instances/synset-finger-noun-1	fs:People,fs:ObservableBodyParts
+2402214	652175	a tree in a distance 					fs:Range,fs:BiologicalArea
+2402214	652176	a tree in a distance 					fs:Range,fs:BiologicalArea
+2402214	652177	a tree in a distance 					fs:Range,fs:BiologicalArea
+2402214	652178	a tree in a distance 					fs:Range,fs:BiologicalArea

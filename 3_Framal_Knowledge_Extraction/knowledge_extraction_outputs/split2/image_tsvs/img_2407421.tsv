@@ -1,0 +1,49 @@
+image_id	region_id	phrase	Emotions	Emotions Triggers	Values	Values Triggers	Frames
+2407421	342579	part of a green ground					fs:NaturalFeatures,fs:Color,fs:Membership
+2407421	342580	part of a  yellow jacket					fs:Clothing,fs:Color,fs:Membership
+2407421	342581	part of a red top					fs:BeingLocated,fs:Membership,fs:Posture,fs:Supply,fs:Color
+2407421	342582	part of a round white baseball					fs:Ammunition,fs:Color,fs:Membership
+2407421	342583	part of some black pant					fs:Clothing,fs:Color,fs:Membership
+2407421	342584	part of a white line					fs:Pattern,fs:Color,fs:Membership
+2407421	342586	part of some green trees					fs:Color,fs:Membership
+2407421	342588	part of the sky					fs:Locale,fs:Membership
+2407421	342589	the shirt is red					fs:Clothing,fs:Color
+2407421	342590	the grass is green			bhv:Benevolence, mft:Care, folk:Helping	https://w3id.org/framester/wn/wn30/instances/synset-grass-noun-1	fs:Filling,fs:Adorning,fs:Color
+2407421	342591	the line is yellow					fs:Pattern,fs:Color
+2407421	342592	the sky is gray					fs:Locale,fs:Color
+2407421	342593	the jacket is yellow					fs:Clothing,fs:Color
+2407421	342594	the woman is wearing shorts					fs:People
+2407421	342595	the short is black					fs:Color
+2407421	342596	the shirt is gray					fs:Clothing,fs:Color
+2407421	342597	the woman threw the ball					fs:People
+2407421	342598	the short is beige					fs:Color
+2407421	342599	ball flying through the air. 					fs:Substance,fs:Motion,fs:SelfMotion,fs:RideVehicle,fs:Bringing,fs:OperateVehicle
+2407421	342600	person standing in red shirt. 					fs:People,fs:Clothing,fs:Color
+2407421	342601	guy standing in background looking at ball. 			folk:Analysis	https://w3id.org/framester/data/framestercore/Scrutiny, https://w3id.org/framester/vn/vn31/data/Look_30030000	fs:PerceptionActive,fs:Seeking,fs:People,fs:Scrutiny
+2407421	342602	tennis shoes on a girl throwing baseball. 					fs:People
+2407421	342603	electric pole in the distance. 					fs:Electricity,fs:Supporting,fs:InchoativeAttaching,fs:Range,fs:CauseMotion
+2407421	342604	silver colored bleachers 					
+2407421	342605	big 0 on a field. 					fs:Size,fs:Dimension
+2407421	342606	dark yellow building in the background. 					fs:Buildings,fs:Color,fs:Dimension
+2407421	342607	people standing around in distance. 					fs:BeingLocated,fs:Posture,fs:ChangePosture,fs:People,fs:Placing,fs:Range
+2407421	342608	baseball in the air. 					fs:Substance
+2407421	342609	a woman throwing a softball.					fs:People
+2407421	342610	a softball in motion.					fs:Gesture
+2407421	342611	a small red bat being swung.					fs:Travel,fs:UndergoChange,fs:PathShape,fs:CauseToMoveInPlace,fs:Motion,fs:SelfMotion,fs:Size,fs:Dimension,fs:ChangeDirection,fs:ChangePositionOnAScale,fs:BodyMovement,fs:Color,fs:MovingInPlace
+2407421	342612	a person about to hit the softball.			mft:Harm	https://w3id.org/framester/data/framestercore/CauseHarm, https://w3id.org/framester/data/framestercore/ExperienceBodilyHarm	fs:HitTarget,fs:People,fs:Impact,fs:ExperienceBodilyHarm,fs:CauseMotion,fs:CauseImpact,fs:CauseHarm
+2407421	342613	a large yellow hoodie jacket.					fs:Color,fs:Clothing,fs:Size,fs:Dimension
+2407421	342614	a football field for a high school.			mft:Authority	https://w3id.org/framester/wn/wn30/instances/synset-school-noun-1	fs:PositionOnAScale,fs:LocaleByUse,fs:MeasurableAttributes,fs:Dimension
+2407421	342615	grey metal bleachers by the field.					
+2407421	342616	a large silver light pole.					fs:Size,fs:Dimension,fs:LocationOfLight,fs:InchoativeAttaching,fs:Supporting,fs:CauseMotion
+2407421	342617	a kid in a red shirt wearing a baseball glove.			mft:Care	https://w3id.org/framester/wn/wn30/instances/synset-child-noun-1	fs:PeopleByAge,fs:Clothing,fs:Color
+2407421	342618	a large white soccer net.					fs:Color,fs:Size,fs:Dimension
+2407421	342619	ball is in motion					fs:Gesture
+2407421	342620	person trying to hit ball			folk:Adventure, mft:Harm	https://w3id.org/framester/data/framestercore/CauseHarm, https://w3id.org/framester/vn/vn31/data/Try_61000000, https://w3id.org/framester/data/framestercore/ExperienceBodilyHarm	fs:HitTarget,fs:CauseHarm,fs:People,fs:Impact,fs:ExperienceBodilyHarm,fs:CauseMotion,fs:CauseImpact,fs:Attempt,fs:AttemptMeans
+2407421	342621	people playing on a field					fs:People
+2407421	342622	woman wearing red shirt					fs:People,fs:Clothing,fs:Color
+2407421	342623	the sky is gray					fs:Locale,fs:Color
+2407421	342624	people in the background					fs:People
+2407421	342625	a goal			folk:Management	https://w3id.org/framester/wn/wn30/instances/synset-goal-noun-1	fs:Purpose
+2407421	342626	trees in the back					fs:ObservableBodyParts
+2407421	342627	woman has on sneakers					fs:People,fs:Ingestion
+2407421	342628	man has on shorts					fs:People,fs:Ingestion

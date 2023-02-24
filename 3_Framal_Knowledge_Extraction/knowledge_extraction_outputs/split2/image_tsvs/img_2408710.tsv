@@ -1,0 +1,50 @@
+image_id	region_id	phrase	Emotions	Emotions Triggers	Values	Values Triggers	Frames
+2408710	280942	sheep standing on green grass			mft:Care, folk:Helping, bhv:Benevolence, folk:Consideration, mft:Authority	https://w3id.org/framester/wn/wn30/instances/synset-standing-noun-1, https://w3id.org/framester/wn/wn30/instances/synset-grass-noun-1, https://w3id.org/framester/data/framestercore/OccupyRank	fs:OccupyRank,fs:Filling,fs:Adorning,fs:Color
+2408710	280943	sheep standing on green grass			mft:Care, folk:Helping, bhv:Benevolence, folk:Consideration, mft:Authority	https://w3id.org/framester/wn/wn30/instances/synset-standing-noun-1, https://w3id.org/framester/wn/wn30/instances/synset-grass-noun-1, https://w3id.org/framester/data/framestercore/OccupyRank	fs:OccupyRank,fs:Filling,fs:Adorning,fs:Color
+2408710	280944	sheep standing on and eatiang green grass			mft:Care, folk:Helping, bhv:Benevolence, folk:Consideration, mft:Authority	https://w3id.org/framester/wn/wn30/instances/synset-standing-noun-1, https://w3id.org/framester/wn/wn30/instances/synset-grass-noun-1, https://w3id.org/framester/data/framestercore/OccupyRank	fs:OccupyRank,fs:Filling,fs:Adorning,fs:Color
+2408710	280945	sheep lying on green grass			bhv:Benevolence, mft:Care, folk:Helping	https://w3id.org/framester/wn/wn30/instances/synset-grass-noun-1	fs:Animals,fs:Adorning,fs:BiologicalEntity,fs:Color,fs:Filling
+2408710	280946	four white sheep					fs:Animals,fs:Color
+2408710	280947	green pasture			bhv:Benevolence, folk:Helping, mft:Care	https://w3id.org/framester/wn/wn30/instances/synset-pasture-noun-1	fs:Color,fs:BiologicalArea
+2408710	280948	black face of a sheep					fs:Animals,fs:ObservableBodyParts,fs:FacialExpression,fs:Color
+2408710	280949	black face of a sheep					fs:Animals,fs:ObservableBodyParts,fs:FacialExpression,fs:Color
+2408710	280950	black face of a sheep with blue mark on back			bhv:Achievement, folk:Accomplishment	https://w3id.org/framester/wn/wn30/instances/synset-mark-noun-1	fs:Animals,fs:Color,fs:Assessing,fs:ObservableBodyParts,fs:FacialExpression
+2408710	280951	line of green trees					fs:Pattern,fs:Color
+2408710	280952	sheep on a flat hill					fs:Animals,fs:NaturalFeatures
+2408710	280953	sheep with blue mark on back			bhv:Achievement, folk:Accomplishment	https://w3id.org/framester/wn/wn30/instances/synset-mark-noun-1	fs:Assessing,fs:Animals,fs:ObservableBodyParts,fs:Color
+2408710	280954	sheep with legs curled under and resting					fs:Animals,fs:Reshaping,fs:GoIntoShape,fs:HairConfiguration,fs:ManipulateIntoShape
+2408710	280955	sheep standing on the edge of hill			mft:Authority, folk:Consideration	https://w3id.org/framester/wn/wn30/instances/synset-standing-noun-1, https://w3id.org/framester/data/framestercore/OccupyRank	fs:OccupyRank,fs:LocativeRelation,fs:NaturalFeatures,fs:Supply
+2408710	280956	sheep grazing on grass			bhv:Benevolence, mft:Care, folk:Helping	https://w3id.org/framester/wn/wn30/instances/synset-grass-noun-1	fs:Filling,fs:Adorning
+2408710	280957	sheep passing through two raised edges on hill			folk:Management	https://w3id.org/framester/wn/wn30/instances/synset-pass-noun-3	fs:Motion,fs:NaturalFeatures,fs:BodyMovement,fs:CauseChangeOfPositionOnAScale
+2408710	280958	sheep looking toward other sheep			folk:Analysis	https://w3id.org/framester/data/framestercore/Scrutiny, https://w3id.org/framester/vn/vn31/data/Look_30030000	fs:Animals,fs:Seeking,fs:PerceptionActive,fs:Scrutiny
+2408710	280959	broad valley beneath hill					fs:NaturalFeatures,fs:Dimension
+2408710	280960	trees creating raised design over valley			folk:Management	https://w3id.org/framester/wn/wn30/instances/synset-design-noun-2	fs:Manufacturing,fs:NaturalFeatures,fs:ComingUpWith,fs:Cogitation,fs:Motion,fs:Creating,fs:CauseToStart,fs:BodyMovement,fs:CauseChangeOfPositionOnAScale,fs:IntentionallyCreate
+2408710	280961	wide tan structure behind trees 			folk:Beauty	http://dbpedia.org/resource/Tree	fs:Buildings,fs:Color,fs:Dimension
+2408710	280962	grassy green pasture the sheep are shown in			bhv:Benevolence, mft:Care, folk:Helping	https://w3id.org/framester/wn/wn30/instances/synset-pasture-noun-1	fs:Animals,fs:BiologicalArea,fs:Color,fs:CauseToPerceive
+2408710	280963	brown surface at the top of a green hill					fs:NaturalFeatures,fs:BeingLocated,fs:Posture,fs:Supply,fs:Color,fs:PartInnerOuter
+2408710	280964	sheep in the foreground					fs:Animals
+2408710	280965	sheep that is laying down			folk:Willingness	https://w3id.org/framester/wn/wn30/instances/synset-down-adjective-1, https://w3id.org/framester/data/framestercore/Willingness	fs:Animals,fs:Willingness
+2408710	280966	sheep in the middle of the three in the back					fs:PartInnerOuter,fs:Animals,fs:ObservableBodyParts
+2408710	280967	sheep with its head down grazing			folk:Giving, folk:Willingness	https://w3id.org/framester/wn/wn30/instances/synset-down-adjective-1, https://w3id.org/framester/data/framestercore/Willingness, https://w3id.org/framester/data/framestercore/Giving	fs:Animals,fs:ObservableBodyParts,fs:Giving,fs:Impact,fs:CauseImpact,fs:Willingness
+2408710	280968	hazy sky in the background					fs:Locale
+2408710	280969	line of bushes on the grass surface behind the one the sheep are on			bhv:Benevolence, mft:Care, folk:Helping	https://w3id.org/framester/wn/wn30/instances/synset-grass-noun-1	fs:Animals,fs:Adorning,fs:Pattern,fs:PartInnerOuter,fs:Filling
+2408710	280970	small dwelling far off in the distance			folk:Novelty	https://w3id.org/framester/wn/wn30/instances/synset-far-adjective-1	fs:Buildings,fs:Range,fs:Size,fs:Dimension
+2408710	280971	back legs of the sheep in the foreground					fs:Animals,fs:PartOrientational
+2408710	280973	in the background a sheep is feeding on grass			bhv:Benevolence, mft:Care, folk:Helping	https://w3id.org/framester/vn/vn31/data/Feed_39060000, https://w3id.org/framester/wn/wn30/instances/synset-grass-noun-1	fs:Ingestion,fs:Filling,fs:Adorning,fs:Animals
+2408710	280974	a white sheep in the background					fs:Animals,fs:Color
+2408710	280975	a sheep is lying on the grass			bhv:Benevolence, mft:Care, folk:Helping	https://w3id.org/framester/wn/wn30/instances/synset-grass-noun-1	fs:Animals,fs:Adorning,fs:BeingLocated,fs:Posture,fs:ChangePosture,fs:Filling
+2408710	280976	the sheep is marked with blue paint			mft:Harm	https://w3id.org/framester/vn/vn31/data/Mark_25010000	fs:Animals,fs:Adorning,fs:Motion,fs:Placing,fs:Color,fs:Filling,fs:Aiming,fs:Sign
+2408710	280977	the countryside is seen in the valley below					fs:LocaleByUse,fs:PerceptionExperience,fs:NaturalFeatures
+2408710	280978	the sky is hazy					fs:Locale
+2408710	280979	a sheep is facing away from the camera			mft:Harm	https://w3id.org/framester/vn/vn31/data/Face_98000000, https://w3id.org/framester/data/framestercore/HostileEncounter	fs:ConfrontingProblem,fs:Animals,fs:HostileEncounter
+2408710	280980	a white sheep with a black face					fs:Animals,fs:ObservableBodyParts,fs:FacialExpression,fs:Color
+2408710	280981	the hill is covered in grass			bhv:Benevolence, mft:Care, folk:Helping	https://w3id.org/framester/wn/wn30/instances/synset-grass-noun-1	fs:NaturalFeatures,fs:Adorning,fs:Eclipse,fs:Topic,fs:Filling
+2408710	280982	sheep are grazing in the countryside			folk:Giving	https://w3id.org/framester/data/framestercore/Giving	fs:Animals,fs:LocaleByUse,fs:Giving,fs:Impact,fs:CauseImpact
+2408710	280983	the sheep has a blue mark on its back			bhv:Achievement, folk:Accomplishment	https://w3id.org/framester/wn/wn30/instances/synset-mark-noun-1	fs:Animals,fs:Ingestion,fs:Color,fs:Assessing,fs:ObservableBodyParts
+2408710	280984	the sheep is lying down in the meadow			folk:Willingness	https://w3id.org/framester/wn/wn30/instances/synset-down-adjective-1, https://w3id.org/framester/data/framestercore/Willingness	fs:Animals,fs:BeingLocated,fs:BiologicalArea,fs:Posture,fs:ChangePosture,fs:Willingness
+2408710	280985	the grass is green as far as the eye can see			mft:Care, folk:Helping, bhv:Benevolence, folk:Analysis, folk:Intuitive	https://w3id.org/framester/wn/wn30/instances/synset-grass-noun-1, https://w3id.org/framester/wn/wn30/instances/synset-see-verb-1, https://w3id.org/framester/wn/wn30/instances/synset-eye-noun-1	fs:Adorning,fs:PerceptionExperience,fs:Color,fs:Filling,fs:ObservableBodyParts
+2408710	280986	a patchwork of meadows bordered by trees and bushes					fs:CauseToAmalgamate,fs:Building,fs:LocativeRelation,fs:Creating
+2408710	280987	the sheep are on top of a hill					
+2408710	280988	it is misty on the horizon					
+2408710	280989	a few houses are on the vale					fs:NaturalFeatures
+2408710	280990	the sheep's head and ears are black					fs:Animals,fs:ObservableBodyParts,fs:Color
+2408710	280991	the sheep's tail and feet are black			mft:Harm	https://w3id.org/framester/wn/wn30/instances/synset-tail-noun-1	fs:Animals,fs:ObservableBodyParts,fs:Color

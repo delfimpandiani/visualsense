@@ -1,0 +1,51 @@
+image_id	region_id	phrase	Emotions	Emotions Triggers	Values	Values Triggers	Frames
+2409756	230662	the boy is wearing a green cap					fs:Accoutrements,fs:Color
+2409756	230663	a decorated christmas tree is in the background					fs:AboundingWith,fs:CalendricUnit,fs:BiologicalArea
+2409756	230664	a black and yellow toy truck is in front of the tree			mft:Harm	https://w3id.org/framester/wn/wn30/instances/synset-front-noun-1	fs:PartOrientational,fs:BiologicalArea,fs:Conduct,fs:Color,fs:Vehicle
+2409756	230665	the boy is wearing a sweater					fs:Clothing
+2409756	230666	an ashtray with cigarette butts is on the table					fs:Intoxicants
+2409756	230667	a doily on the table is white					fs:Color
+2409756	230668	red bows are on the christmas tree					fs:Color,fs:CalendricUnit,fs:BiologicalArea,fs:BiologicalEntity
+2409756	230669	a price code is on the black box			folk:Rigor, mft:Fairness	https://w3id.org/framester/wn/wn30/instances/synset-code-noun-1, https://w3id.org/framester/data/framestercore/Law	fs:Containers,fs:Law,fs:MeasureVolume,fs:Color
+2409756	230670	a christmas ornament is on the tree					fs:CalendricUnit,fs:BiologicalArea,fs:Adorning,fs:Placing,fs:Arranging,fs:Filling
+2409756	230671	the child has his mouth open in surprise	be:Surprise	https://w3id.org/framester/wn/wn30/instances/synset-surprise-noun-1	folk:Control, mft:Care	https://w3id.org/framester/wn/wn30/instances/synset-mouth-noun-1, https://w3id.org/framester/wn/wn30/instances/synset-child-noun-1	fs:ShapedPart,fs:Ingestion,fs:PeopleByAge,fs:ObservableBodyParts,fs:EmotionDirected
+2409756	230672	little boy playing with a tractor. 					fs:Competition,fs:Size,fs:Dimension
+2409756	230673	the tractor is a cat.					fs:Animals
+2409756	230674	there is an ashtray with cigarettes next to the boy.					
+2409756	230675	the boy is wearing a green hat. 					fs:Accoutrements,fs:Color
+2409756	230676	a christmas tree in the background. 					fs:CalendricUnit,fs:BiologicalArea
+2409756	230677	red bows on a tree.			folk:Beauty	http://dbpedia.org/resource/Tree	fs:Color,fs:Animals,fs:BiologicalArea,fs:BiologicalEntity
+2409756	230678	bulbs on a tree.			folk:Beauty	http://dbpedia.org/resource/Tree	fs:BiologicalArea
+2409756	230679	tinsel on the christmas tree. 					fs:CalendricUnit,fs:Connectors,fs:BiologicalArea
+2409756	230680	the table is wooden.					
+2409756	230681	the sofa has a floral pattern. 					fs:Ingestion,fs:Pattern
+2409756	230682	the little boy is wearing a green.					fs:Size,fs:Color,fs:Dimension
+2409756	230683	the boy is playing with a toy truck.					fs:Competition,fs:Conduct,fs:Vehicle
+2409756	230684	the toy truck is sitting on a box.					fs:BeingLocated,fs:Containers,fs:Posture,fs:ChangePosture,fs:Conduct,fs:Placing,fs:Vehicle,fs:MeasureVolume
+2409756	230685	the toy truck is black.					fs:Vehicle,fs:Conduct,fs:Color
+2409756	230686	the toy truck has big tires.					fs:Ingestion,fs:Size,fs:Dimension,fs:Conduct,fs:Vehicle
+2409756	230687	the boy is standing beside a christmas tree.					fs:BeingLocated,fs:CalendricUnit,fs:BiologicalArea,fs:Posture,fs:ChangePosture,fs:Placing
+2409756	230688	the christmas tree is decorated.					fs:Placing,fs:CalendricUnit,fs:Adorning,fs:BiologicalArea
+2409756	230689	there are candy canes on the tree.					fs:Food,fs:BiologicalArea
+2409756	230690	there are red bows on the christmas tree.					fs:Color,fs:CalendricUnit,fs:BiologicalArea,fs:BiologicalEntity
+2409756	230691	brightly colored ornaments hang on the tree.					fs:BiologicalArea,fs:Closure,fs:Attaching,fs:Placing,fs:InchoativeAttaching,fs:Filling
+2409756	230692	the yellow and black toy truck					fs:Vehicle,fs:Conduct,fs:Color
+2409756	230693	green hat the boy is wearing					fs:Accoutrements
+2409756	230694	christmas tree behind the boy					fs:CalendricUnit,fs:BiologicalArea
+2409756	230695	the wheels of the toy truck					fs:Vehicle,fs:Conduct
+2409756	230696	black box the truck is sitting on					fs:BeingLocated,fs:Containers,fs:Posture,fs:ChangePosture,fs:Color,fs:Placing,fs:Vehicle,fs:MeasureVolume
+2409756	230697	ash tray with cigarette butts					fs:Intoxicants,fs:MeasureVolume
+2409756	230698	name on the side of the truck					fs:Vehicle,fs:ReferringByName,fs:BeingNamed
+2409756	230699	bar code on the bottom of the box			folk:Rigor, mft:Fairness	https://w3id.org/framester/wn/wn30/instances/synset-code-noun-1, https://w3id.org/framester/data/framestercore/Law	fs:PartOrientational,fs:Containers,fs:Buildings,fs:Law,fs:MeasureVolume
+2409756	230700	red bow under the blue onrament					fs:Color
+2409756	230701	the boy's ear					fs:ObservableBodyParts
+2409756	230702	yellow cat truck with black roof					fs:Animals,fs:ArchitecturalPart,fs:Vehicle,fs:Color
+2409756	230703	little boy opening yellow truck					fs:Vehicle,fs:Size,fs:Color,fs:Dimension
+2409756	230704	this is an indoor christmas scene					fs:LocaleByEvent,fs:CalendricUnit
+2409756	230705	little boy wearing green hat					fs:Accoutrements,fs:Size,fs:Color,fs:Dimension
+2409756	230706	green hat with blue lettering					fs:Accoutrements,fs:Color
+2409756	230707	christmas tree with red ribbons					fs:Color,fs:CalendricUnit,fs:BiologicalArea
+2409756	230708	boy wearing black shirt					fs:Clothing,fs:Color
+2409756	230709	boy wearing red and grey and white argyle vest					fs:Clothing,fs:Color
+2409756	230710	black box underneath yellow truck					
+2409756	230711	flowered sofa in background			folk:Development	https://w3id.org/framester/vn/vn31/data/Flower_47020000	

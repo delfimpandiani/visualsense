@@ -1,0 +1,50 @@
+image_id	region_id	phrase	Emotions	Emotions Triggers	Values	Values Triggers	Frames
+2407279	349439	the bear is brown					fs:ApplyHeat
+2407279	349440	the bear is walking on the log 			mft:Harm	https://w3id.org/framester/wn/wn30/instances/synset-log-noun-1	fs:SelfMotion,fs:Cotheme
+2407279	349441	there are rocks on the riverbank 					fs:RelationalNaturalFeatures
+2407279	349442	the water is calm					fs:ExperiencerFocus,fs:Substance
+2407279	349443	the rocks are holding the log in place 			folk:Control, mft:Harm	https://w3id.org/framester/data/framestercore/Manipulation, https://w3id.org/framester/wn/wn30/instances/synset-log-noun-1	fs:Inclusion,fs:Possession,fs:Containing,fs:Manipulation
+2407279	349444	the photo was taken outdoors 			mft:Authority, folk:Leadership, bhv:Power	https://w3id.org/framester/vn/vn31/data/Take_10050000, https://w3id.org/framester/data/framestercore/ChangeOfLeadership	fs:Getting,fs:ChangeOfQuantityOfPossession,fs:Cotheme,fs:Representing,fs:ChangeOfLeadership,fs:Conquering,fs:Bringing,fs:Taking,fs:Removing,fs:EarningsAndLosses
+2407279	349445	there is reflection in the water					fs:Substance
+2407279	349446	there are trees in the background					
+2407279	349447	the bear is balancing on the log 			folk:Versatility, mft:Harm	https://w3id.org/framester/vn/vn31/data/Balance_47060000, https://w3id.org/framester/wn/wn30/instances/synset-log-noun-1	
+2407279	349448	the roots are uprooted 			mft:Harm	https://w3id.org/framester/data/framestercore/Destroying	fs:Motion,fs:Destroying
+2407279	349449	picture of bear crossing water on a fallen tree.			folk:Willingness	https://w3id.org/framester/data/framestercore/Willingness, https://w3id.org/framester/wn/wn30/instances/synset-fallen-adjectivesatellite-1	fs:Building,fs:OpticalImage,fs:Substance,fs:Manufacturing,fs:BiologicalArea,fs:Traversing,fs:Creating,fs:Sensation,fs:IntentionallyCreate,fs:BodyMovement,fs:Willingness
+2407279	349450	roots of a fallen tree.			folk:Willingness	https://w3id.org/framester/data/framestercore/Willingness, https://w3id.org/framester/wn/wn30/instances/synset-fallen-adjectivesatellite-1	fs:Willingness,fs:BiologicalArea
+2407279	349451	fallen tree laying across water.			folk:Willingness	https://w3id.org/framester/data/framestercore/Willingness, https://w3id.org/framester/wn/wn30/instances/synset-fallen-adjectivesatellite-1	fs:Placing,fs:Substance,fs:Willingness,fs:BiologicalArea
+2407279	349452	bear walking on fallen tree.			folk:Willingness	https://w3id.org/framester/data/framestercore/Willingness, https://w3id.org/framester/wn/wn30/instances/synset-fallen-adjectivesatellite-1	fs:Willingness,fs:BiologicalArea
+2407279	349453	a bear's head.					fs:ObservableBodyParts
+2407279	349454	ears on a bear's head.					fs:ObservableBodyParts
+2407279	349455	left front leg of bear.			folk:Giving	https://w3id.org/framester/vn/vn31/data/Leave_15020000, https://w3id.org/framester/data/framestercore/Giving	fs:ShapedPart,fs:FormingRelationships,fs:Abandonment,fs:Giving,fs:ObservableBodyParts
+2407279	349456	back left leg of bear.			folk:Giving	https://w3id.org/framester/vn/vn31/data/Leave_15020000, https://w3id.org/framester/data/framestercore/Giving	fs:PartOrientational,fs:ShapedPart,fs:FormingRelationships,fs:Abandonment,fs:Giving,fs:ObservableBodyParts
+2407279	349457	rocks on the left side.					fs:PartOrientational
+2407279	349458	water flowing under fallen tree.			folk:Willingness, mft:Care	https://w3id.org/framester/data/framestercore/Willingness, https://w3id.org/framester/wn/wn30/instances/synset-fallen-adjectivesatellite-1, https://w3id.org/framester/vn/vn31/data/Flow_47020000	fs:Substance,fs:BiologicalArea,fs:FluidicMotion,fs:MassMotion,fs:Filling,fs:Willingness
+2407279	349459	bear on the log.			mft:Harm	https://w3id.org/framester/wn/wn30/instances/synset-log-noun-1	
+2407279	349460	brown bear on the log.			mft:Harm	https://w3id.org/framester/wn/wn30/instances/synset-log-noun-1	fs:Color
+2407279	349461	green grass on the hill.			bhv:Benevolence, mft:Care, folk:Helping	https://w3id.org/framester/wn/wn30/instances/synset-grass-noun-1	fs:Filling,fs:NaturalFeatures,fs:Adorning,fs:Color
+2407279	349462	water under the log.			mft:Harm	https://w3id.org/framester/wn/wn30/instances/synset-log-noun-1	fs:Substance
+2407279	349463	grass by the log.			bhv:Benevolence, mft:Care, folk:Helping, mft:Harm	https://w3id.org/framester/wn/wn30/instances/synset-grass-noun-1, https://w3id.org/framester/wn/wn30/instances/synset-log-noun-1	fs:Filling,fs:Adorning
+2407279	349464	logs on the hill.					fs:NaturalFeatures
+2407279	349465	end of the log.			mft:Harm	https://w3id.org/framester/wn/wn30/instances/synset-log-noun-1	fs:ProcessEnd
+2407279	349466	rock on the water.			mft:Harm	https://w3id.org/framester/wn/wn30/instances/synset-rock-noun-1, https://w3id.org/framester/data/framestercore/CauseHarm	fs:Substance,fs:CauseHarm
+2407279	349467	claws on the bear.					
+2407279	349468	grass on the log.			bhv:Benevolence, mft:Care, folk:Helping, mft:Harm	https://w3id.org/framester/wn/wn30/instances/synset-grass-noun-1, https://w3id.org/framester/wn/wn30/instances/synset-log-noun-1	fs:Filling,fs:Adorning
+2407279	349469	wide log crossing over stream			mft:Harm	https://w3id.org/framester/wn/wn30/instances/synset-log-noun-1	fs:PathShape,fs:Building,fs:NaturalFeatures,fs:Manufacturing,fs:Traversing,fs:Creating,fs:Dimension,fs:IntentionallyCreate,fs:BodyMovement,fs:ComeTogether
+2407279	349470	brown bear walking on top of log			mft:Harm	https://w3id.org/framester/wn/wn30/instances/synset-log-noun-1	fs:Supply,fs:Posture,fs:BeingLocated,fs:Color
+2407279	349471	tree root jutting out in jagged forms			folk:Structure	https://w3id.org/framester/data/framestercore/SetOfInterrelatedEntities, https://w3id.org/framester/wn/wn30/instances/synset-root-noun-1	fs:ShapedPart,fs:SetOfInterrelatedEntities,fs:BiologicalArea
+2407279	349472	smooth surface of water					fs:PartInnerOuter,fs:Substance
+2407279	349473	water gently moving under log			mft:Harm	https://w3id.org/framester/wn/wn30/instances/synset-log-noun-1	
+2407279	349474	fallen logs on other side of stream			folk:Willingness	https://w3id.org/framester/wn/wn30/instances/synset-fallen-adjectivesatellite-1	
+2407279	349475	bear looking ahead while walking			folk:Analysis	https://w3id.org/framester/data/framestercore/Scrutiny, https://w3id.org/framester/vn/vn31/data/Look_30030000	fs:PerceptionActive,fs:Seeking,fs:Scrutiny,fs:SelfMotion,fs:Cotheme
+2407279	349476	tall rock on edge of stream			mft:Harm	https://w3id.org/framester/wn/wn30/instances/synset-rock-noun-1, https://w3id.org/framester/data/framestercore/CauseHarm	fs:NaturalFeatures,fs:LocativeRelation,fs:Dimension,fs:BodyDescriptionHolistic,fs:MeasurableAttributes,fs:Supply,fs:CauseHarm
+2407279	349477	reflection of rocks on water					fs:Substance
+2407279	349478	grass growing behind rocks			folk:Helping, mft:Care, folk:Development, bhv:Benevolence, folk:Maturity	https://w3id.org/framester/data/framestercore/Progress, https://w3id.org/framester/wn/wn30/instances/synset-grass-noun-1, https://w3id.org/framester/vn/vn31/data/Grow_47020000	fs:Filling,fs:Progress,fs:Adorning,fs:CauseToMakeProgress
+2407279	349480	the bear is walking on a trunk					fs:SelfMotion,fs:Cotheme
+2407279	349481	the water is green					fs:Substance,fs:Color
+2407279	349482	the grass is green			bhv:Benevolence, mft:Care, folk:Helping	https://w3id.org/framester/wn/wn30/instances/synset-grass-noun-1	fs:Filling,fs:Adorning,fs:Color
+2407279	349483	the bear has four legs					fs:Ingestion
+2407279	349484	the bear has two ears					fs:Ingestion
+2407279	349485	the rock is big			mft:Harm	https://w3id.org/framester/wn/wn30/instances/synset-rock-noun-1, https://w3id.org/framester/data/framestercore/CauseHarm	fs:Size,fs:CauseHarm,fs:Dimension
+2407279	349486	the rock is gray			mft:Harm	https://w3id.org/framester/wn/wn30/instances/synset-rock-noun-1, https://w3id.org/framester/data/framestercore/CauseHarm	fs:Color,fs:CauseHarm
+2407279	349487	the ground is brown					fs:ApplyHeat,fs:NaturalFeatures
+2407279	349488	the tree branch is gray			folk:Beauty	http://dbpedia.org/resource/Tree	fs:Color,fs:BiologicalArea

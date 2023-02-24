@@ -1,0 +1,51 @@
+image_id	region_id	phrase	Emotions	Emotions Triggers	Values	Values Triggers	Frames
+2403019	613919	girl and boy on bus					fs:People,fs:Vehicle
+2403019	613920	man wearing black glasses					fs:People,fs:Color
+2403019	613921	girl in wool coat					fs:Artifact,fs:People,fs:Clothing
+2403019	613922	clothing ad on bus wall			mft:Care, bhv:Security	https://w3id.org/framester/wn/wn30/instances/synset-wall-noun-1	fs:ArchitecturalPart,fs:Vehicle,fs:Clothing
+2403019	613923	silver pole separating bus seat					fs:FormingRelationships,fs:Capacity,fs:Supply,fs:Placing,fs:InchoativeAttaching,fs:Vehicle,fs:Supporting,fs:CauseMotion
+2403019	613924	girl with dark hair					fs:People,fs:HairConfiguration,fs:ObservableBodyParts,fs:Dimension
+2403019	613925	boy looking at phone			folk:Analysis	https://w3id.org/framester/data/framestercore/Scrutiny, https://w3id.org/framester/vn/vn31/data/Look_30030000	fs:PerceptionActive,fs:Seeking,fs:Scrutiny,fs:Contacting,fs:CommunicationMeans
+2403019	613926	people facing opposite directions			folk:Novelty, mft:Harm	https://w3id.org/framester/data/framestercore/Increment, https://w3id.org/framester/vn/vn31/data/Face_98000000, https://w3id.org/framester/wn/wn30/instances/synset-opposite-adjectivesatellite-1, https://w3id.org/framester/data/framestercore/HostileEncounter	fs:ConfrontingProblem,fs:People,fs:Increment,fs:HostileEncounter
+2403019	613927	dress on ad					fs:Clothing
+2403019	613928	girl with no expression on face					fs:People,fs:ObservableBodyParts,fs:FacialExpression,fs:ExpressingPublicly
+2403019	613929	the man is looking at his cellphone			folk:Analysis	https://w3id.org/framester/data/framestercore/Scrutiny, https://w3id.org/framester/vn/vn31/data/Look_30030000	fs:PerceptionActive,fs:Seeking,fs:People,fs:Scrutiny
+2403019	613930	poster on the wall			mft:Care, bhv:Security	https://w3id.org/framester/wn/wn30/instances/synset-wall-noun-1	fs:Attaching,fs:ArchitecturalPart
+2403019	613931	the woman is wearing a checkered jacket					fs:People,fs:Clothing
+2403019	613932	the man is wearing glasses					fs:People
+2403019	613933	they're sitting back to back					fs:PartOrientational,fs:BeingLocated,fs:Posture,fs:ChangePosture,fs:Placing
+2403019	613934	the woman has long hair					fs:Ingestion,fs:HairConfiguration,fs:People,fs:DurationAttribute,fs:ObservableBodyParts
+2403019	613935	metal pole in the seats			bhv:Power, folk:Strenght	http://dbpedia.org/resource/Metal	fs:InchoativeAttaching,fs:Supporting,fs:CauseMotion
+2403019	613936	picture of clothes on the poster					fs:OpticalImage,fs:Attaching,fs:Sensation,fs:Clothing
+2403019	613937	man has a hood on his jacket			mft:Harm	https://w3id.org/framester/wn/wn30/instances/synset-hood-noun-1	fs:People,fs:Ingestion,fs:Clothing,fs:PeopleByMorality
+2403019	613938	the cellphone is silver					
+2403019	613939	mature woman sitting on transit					fs:BeingLocated,fs:Posture,fs:ChangePosture,fs:People,fs:Placing
+2403019	613940	mature man sitting on transit					fs:BeingLocated,fs:Posture,fs:ChangePosture,fs:People,fs:Placing
+2403019	613941	two people riding transit					fs:Travel,fs:People,fs:OperateVehicle,fs:RideVehicle
+2403019	613942	shiny cell phone in man's hand					fs:Substance,fs:People,fs:LocationOfLight,fs:LightMovement,fs:Contacting,fs:ObservableBodyParts,fs:CommunicationMeans
+2403019	613943	advertisement of dresses on wall			mft:Care, bhv:Security	https://w3id.org/framester/wn/wn30/instances/synset-wall-noun-1	fs:ArchitecturalPart
+2403019	613944	emergency cable against window					fs:ConnectingArchitecture
+2403019	613945	thick dark eyeliner and mascara					fs:BodyDecoration,fs:MeasurableAttributes,fs:Dimension
+2403019	613946	tailored plaid business top					fs:BeingLocated,fs:Businesses,fs:Posture,fs:Artifact,fs:Supply
+2403019	613947	dark black eyeglasses on man					fs:People,fs:Color,fs:Dimension
+2403019	613948	sunlight reflecting off transit wall			mft:Care, bhv:Security	https://w3id.org/framester/wn/wn30/instances/synset-wall-noun-1	fs:Weather,fs:ArchitecturalPart,fs:Cogitation
+2403019	613949	picture taken indoors.			mft:Authority, folk:Leadership, bhv:Power	https://w3id.org/framester/vn/vn31/data/Take_10050000, https://w3id.org/framester/data/framestercore/ChangeOfLeadership	fs:ChangeOfQuantityOfPossession,fs:Getting,fs:OpticalImage,fs:Cotheme,fs:Sensation,fs:ChangeOfLeadership,fs:Conquering,fs:Bringing,fs:Taking,fs:Removing,fs:EarningsAndLosses
+2403019	613950	picture is black and white.					fs:OpticalImage,fs:Sensation,fs:Color
+2403019	613951	two people sitting on a commuter train.					fs:Travel,fs:BeingLocated,fs:Posture,fs:ChangePosture,fs:People,fs:Placing,fs:Vehicle
+2403019	613952	a man is looking at his phone.			folk:Analysis	https://w3id.org/framester/data/framestercore/Scrutiny, https://w3id.org/framester/vn/vn31/data/Look_30030000	fs:PerceptionActive,fs:Seeking,fs:Scrutiny,fs:People,fs:Contacting,fs:CommunicationMeans
+2403019	613953	the people are back to back.					fs:People,fs:PartOrientational
+2403019	613954	the man and the woman are seated.			folk:Giving	https://w3id.org/framester/data/framestercore/Giving	fs:People,fs:Capacity,fs:Giving
+2403019	613955	the man is wearing glasses.					fs:People
+2403019	613956	the woman's hair is long.					fs:People,fs:HairConfiguration,fs:ObservableBodyParts,fs:DurationAttribute
+2403019	613957	the man is wearing a hoodie.					fs:People
+2403019	613958	the man has short hair.					fs:Ingestion,fs:HairConfiguration,fs:Dimension,fs:People,fs:DurationAttribute,fs:ObservableBodyParts
+2403019	613959	two people sitting on public transportation					
+2403019	613960	two people sitting back to back					
+2403019	613961	an advertisement on the wall			mft:Care, bhv:Security	https://w3id.org/framester/wn/wn30/instances/synset-wall-noun-1	fs:ArchitecturalPart
+2403019	613962	woman wearing tweed jacket					fs:People,fs:Artifact,fs:Clothing
+2403019	613963	man wearing eye glasses			folk:Analysis	https://w3id.org/framester/wn/wn30/instances/synset-eye-noun-1	fs:People,fs:ObservableBodyParts
+2403019	613964	man holding cell phone					fs:People,fs:Contacting,fs:Substance,fs:CommunicationMeans
+2403019	613965	a window is behind the people					fs:ConnectingArchitecture,fs:People
+2403019	613966	a woman with long hair					fs:People,fs:HairConfiguration,fs:ObservableBodyParts,fs:DurationAttribute
+2403019	613967	an emergency pull cord over window			folk:Control	https://w3id.org/framester/data/framestercore/Manipulation, https://w3id.org/framester/wn/wn30/instances/synset-pull-noun-1	fs:ConnectingArchitecture,fs:Connectors,fs:Manipulation
+2403019	613968	a silver bar between two people 					fs:People,fs:Buildings

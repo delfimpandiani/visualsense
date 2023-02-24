@@ -1,0 +1,46 @@
+image_id	region_id	phrase	Emotions	Emotions Triggers	Values	Values Triggers	Frames
+2402079	658729	a dead leaf on the ground 					fs:NaturalFeatures,fs:DeadOrAlive
+2402079	658730	a dead leaf on the ground 					fs:NaturalFeatures,fs:DeadOrAlive
+2402079	658731	a dead leaf on the ground 					fs:NaturalFeatures,fs:DeadOrAlive
+2402079	658732	a dead leaf on the ground 					fs:NaturalFeatures,fs:DeadOrAlive
+2402079	658733	a dead leaf on the ground 					fs:NaturalFeatures,fs:DeadOrAlive
+2402079	658734	a dead leaf on the ground 					fs:NaturalFeatures,fs:DeadOrAlive
+2402079	658735	a dead leaf on the ground 					fs:NaturalFeatures,fs:DeadOrAlive
+2402079	658736	a dead leaf on the ground 					fs:NaturalFeatures,fs:DeadOrAlive
+2402079	658737	a dead leaf on the ground 					fs:NaturalFeatures,fs:DeadOrAlive
+2402079	658738	a dead leaf on the ground 					fs:NaturalFeatures,fs:DeadOrAlive
+2402079	658739	the cat is sleeping on a bench					fs:Animals,fs:BeingLocated,fs:Sleep
+2402079	658740	the cat is an orange tabby					fs:Animals
+2402079	658741	the wooden bench is gray					fs:Color
+2402079	658742	a person is walking a dog					fs:Animals,fs:People,fs:SelfMotion,fs:Cotheme
+2402079	658743	the dog is on a leash					fs:Closure,fs:Animals,fs:Attaching
+2402079	658744	the dog has silver fur					fs:Animals,fs:Ingestion
+2402079	658745	the dog has a black nose			folk:Control	https://w3id.org/framester/wn/wn30/instances/synset-nose-noun-1	fs:Animals,fs:Ingestion,fs:ObservableBodyParts,fs:Color
+2402079	658746	the man is wearing white pants					fs:People,fs:Clothing,fs:Color
+2402079	658747	the man is wearing dark sandals					fs:People,fs:Dimension
+2402079	658748	leaves are scattered on the ground					fs:Filling,fs:Dispersal,fs:NaturalFeatures
+2402079	658751	a dead leaf on the ground 					fs:NaturalFeatures,fs:DeadOrAlive
+2402079	658752	a dead leaf on the ground 					
+2402079	658754	a dead leaf on the ground 					fs:NaturalFeatures,fs:DeadOrAlive
+2402079	658756	a dead leaf on the ground 					fs:NaturalFeatures,fs:DeadOrAlive
+2402079	658758	a dead leaf on the ground 					fs:NaturalFeatures,fs:DeadOrAlive
+2402079	658759	a tiger cat					fs:Animals
+2402079	658760	a tiger cat sitting on a bench					fs:Animals,fs:BeingLocated,fs:Posture,fs:ChangePosture,fs:Placing
+2402079	658761	someone walking a small dog					fs:Animals,fs:SelfMotion,fs:Cotheme,fs:Size,fs:Dimension
+2402079	658762	cat suspiciously eyeing a small grey dog			folk:Analysis	https://w3id.org/framester/data/framestercore/Scrutiny, https://w3id.org/framester/vn/vn31/data/Eye_30020000	fs:Animals,fs:PerceptionActive,fs:Scrutiny,fs:Size,fs:Dimension,fs:Categorization
+2402079	658763	un raked leaves on the ground					fs:NaturalFeatures
+2402079	658764	khaki pants					fs:Artifact,fs:Clothing
+2402079	658765	a park in autumn					fs:CalendricUnit
+2402079	658766	a dog on a leash					fs:Closure,fs:Animals,fs:Attaching
+2402079	658767	a bench occupied only by a cat			folk:Distinctiveness	https://w3id.org/framester/data/framestercore/SoleInstance, https://w3id.org/framester/wn/wn30/instances/synset-lone-adjectivesatellite-3	fs:Animals,fs:SoleInstance,fs:Residence
+2402079	658768	a sidewalk with leaves and foot traffic					fs:Roadways,fs:PartOrientational,fs:ObservableBodyParts
+2402079	658769	a orange cat					fs:Animals
+2402079	658770	a grey dog					fs:Animals
+2402079	658771	a grey dog being walked					fs:Animals,fs:Existence,fs:SelfMotion,fs:Cotheme,fs:Color
+2402079	658772	a orange cat sleeping 					fs:Animals,fs:BeingLocated,fs:Sleep
+2402079	658773	a brown wooden bench					fs:Color
+2402079	658774	a person walking a grey dog					fs:Animals,fs:People,fs:SelfMotion,fs:Cotheme
+2402079	658775	green grass in park			bhv:Benevolence, mft:Care, folk:Helping	https://w3id.org/framester/wn/wn30/instances/synset-grass-noun-1	fs:Filling,fs:Adorning,fs:Color
+2402079	658776	grass covered in fallen leaves			folk:Willingness, bhv:Benevolence, mft:Care, folk:Helping	https://w3id.org/framester/wn/wn30/instances/synset-grass-noun-1, https://w3id.org/framester/data/framestercore/Willingness, https://w3id.org/framester/wn/wn30/instances/synset-fallen-adjectivesatellite-1	fs:Adorning,fs:Eclipse,fs:Topic,fs:Filling,fs:Willingness
+2402079	658777	black shoes being worn					fs:Color
+2402079	658778	green shrubs					fs:Color

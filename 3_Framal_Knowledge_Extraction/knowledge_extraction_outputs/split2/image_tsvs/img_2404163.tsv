@@ -1,0 +1,50 @@
+image_id	region_id	phrase	Emotions	Emotions Triggers	Values	Values Triggers	Frames
+2404163	559419	dog in red scarf					fs:Animals,fs:Clothing,fs:Color
+2404163	559420	a woman is petting the dog			folk:Control	https://w3id.org/framester/vn/vn31/data/Pet_36020000	fs:Animals,fs:People
+2404163	559421	woman's feet with red sandals on					fs:People,fs:Color
+2404163	559422	red and white scarf					
+2404163	559423	the dog wears a red collar					
+2404163	559424	the dog looks up as he is being pet			folk:Analysis, folk:Willingness	https://w3id.org/framester/data/framestercore/Scrutiny, https://w3id.org/framester/vn/vn31/data/Look_30030000, https://w3id.org/framester/wn/wn30/instances/synset-up-adjective-1	fs:Animals,fs:Seeking,fs:PerceptionActive,fs:Scrutiny
+2404163	559425	the ground is covered in dirt and small branches					fs:Substance,fs:NaturalFeatures,fs:Adorning,fs:Size,fs:Dimension,fs:Topic,fs:Eclipse,fs:Filling
+2404163	559426	gold bracelet on arm					fs:Accoutrements,fs:ObservableBodyParts,fs:ShapedPart
+2404163	559427	person petting dog is wearing red scarf			folk:Control	https://w3id.org/framester/vn/vn31/data/Pet_36020000	fs:Animals,fs:People,fs:Clothing,fs:Color
+2404163	559428	person petting dog is wearing a black dress			folk:Control	https://w3id.org/framester/vn/vn31/data/Pet_36020000	fs:Animals,fs:People,fs:Clothing,fs:Color
+2404163	559429	woman wearing read sandals					fs:HaveAssociated,fs:People
+2404163	559430	woman and black dog					fs:Animals,fs:People,fs:Color
+2404163	559431	black dog with red and white scarf					fs:Animals,fs:Clothing,fs:Color
+2404163	559432	woman with fringe of red scarf and gold colored watch					fs:Accoutrements,fs:Boundary,fs:People,fs:Color,fs:Clothing
+2404163	559433	woman wearing black dress and red shoes					fs:People,fs:Clothing,fs:Color
+2404163	559434	woman and dog wearing red accesories					fs:Animals,fs:People,fs:Color,fs:BiologicalEntity
+2404163	559435	dirt and sticks on ground					fs:Substance,fs:NaturalFeatures
+2404163	559436	dog with red leash					fs:Animals,fs:Closure,fs:Attaching,fs:Color
+2404163	559437	woman with red shoes standing on ground outside					fs:NaturalFeatures,fs:BeingLocated,fs:Posture,fs:ChangePosture,fs:People,fs:Color,fs:Placing
+2404163	559438	woman and dog outside					fs:Animals,fs:People
+2404163	559439	beautiful black and white adult dog			folk:Beauty	https://w3id.org/framester/wn/wn30/instances/synset-beautiful-adjective-1	fs:PeopleByAge,fs:Animals,fs:Color,fs:Aesthetics
+2404163	559440	red and white scarf wrapped around dog					fs:Animals,fs:Color,fs:Placing,fs:Filling,fs:Clothing
+2404163	559441	solid red harness on dogs neck					fs:ObservableBodyParts,fs:Color
+2404163	559442	big beautiful dog eye			folk:Analysis, folk:Beauty	https://w3id.org/framester/wn/wn30/instances/synset-beautiful-adjective-1, https://w3id.org/framester/wn/wn30/instances/synset-eye-noun-1	fs:Animals,fs:Size,fs:Dimension,fs:ObservableBodyParts,fs:Aesthetics
+2404163	559443	gold bracelet on ladies wrist					fs:Accoutrements,fs:ObservableBodyParts,fs:ShapedPart
+2404163	559444	beautiful red dress shoes					fs:Clothing
+2404163	559445	bottom hem of ladies skirt			mft:Authority, folk:Consideration	https://w3id.org/framester/wn/wn30/instances/synset-bottom-adjective-1	fs:PartOrientational,fs:ClothingParts,fs:Clothing
+2404163	559446	nice manicured thumb nail			folk:Excellence	https://w3id.org/framester/wn/wn30/instances/synset-nice-adjective-1	fs:ObservableBodyParts,fs:Connectors,fs:StimulusFocus
+2404163	559447	very wet doggy nose			folk:Control	https://w3id.org/framester/wn/wn30/instances/synset-nose-noun-1	fs:Animals,fs:MakeNoise,fs:Identicality,fs:BeingWet,fs:ObservableBodyParts,fs:CommunicationNoise
+2404163	559448	dirty, grave, sandy road					fs:Roadways,fs:HairConfiguration
+2404163	559449	a gold bracelet					fs:Accoutrements
+2404163	559450	red leather high heels					
+2404163	559451	woman in a black dress					fs:People,fs:Clothing,fs:Color
+2404163	559452	a dog being pet					fs:Animals
+2404163	559453	a black and white dog					fs:Animals,fs:Color
+2404163	559454	a dog wearing a red and white scarf					fs:Animals,fs:Clothing,fs:Color,fs:BiologicalEntity
+2404163	559455	a ed dog harness					fs:Animals
+2404163	559456	twigs and dirt					fs:Substance
+2404163	559457	a womans hand with painted fingernails					fs:AboundingWith,fs:ObservableBodyParts
+2404163	559458	painted toenails					fs:AboundingWith
+2404163	559459	a dog					fs:Animals
+2404163	559461	a dog wearing a scarf					fs:Animals,fs:Clothing
+2404163	559462	the dog is wearing a red and white scarf					fs:Animals,fs:Clothing,fs:Color,fs:BiologicalEntity
+2404163	559463	the woman has red shoes					fs:People,fs:Ingestion,fs:Color
+2404163	559464	the dog looks up at the woman			folk:Analysis, folk:Willingness	https://w3id.org/framester/data/framestercore/Scrutiny, https://w3id.org/framester/vn/vn31/data/Look_30030000, https://w3id.org/framester/wn/wn30/instances/synset-up-adjective-1	fs:Animals,fs:PerceptionActive,fs:Seeking,fs:Scrutiny,fs:People
+2404163	559465	the dog is wearing a red halter style lead			mft:Authority, folk:Leadership, bhv:Power	https://w3id.org/framester/wn/wn30/instances/synset-lead-verb-1, https://w3id.org/framester/vn/vn31/data/Lead_51070000	fs:Means,fs:Animals,fs:Color,fs:Cotheme
+2404163	559466	the woman has a gold bracelet					fs:Accoutrements,fs:People,fs:Ingestion
+2404163	559467	a woman reaches down to a dog			folk:Giving, folk:Willingness	https://w3id.org/framester/wn/wn30/instances/synset-down-adjective-1, https://w3id.org/framester/data/framestercore/Willingness, https://w3id.org/framester/data/framestercore/Giving	fs:Animals,fs:PathShape,fs:Passing,fs:Giving,fs:People,fs:ChangePositionOnAScale,fs:Arriving,fs:Willingness
+2404163	559468	the woman in the red shoes pets the dog			folk:Control	https://w3id.org/framester/vn/vn31/data/Pet_36020000	fs:Animals,fs:People,fs:Color

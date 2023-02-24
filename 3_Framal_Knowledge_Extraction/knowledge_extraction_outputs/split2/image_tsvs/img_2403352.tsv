@@ -1,0 +1,51 @@
+image_id	region_id	phrase	Emotions	Emotions Triggers	Values	Values Triggers	Frames
+2403352	597869	red netting bordering a ski slope					fs:Travel,fs:PathShape,fs:Motion,fs:LocativeRelation,fs:Posture,fs:ChangePosture,fs:MotionDirectional,fs:Color
+2403352	597870	trees along a ski slope					fs:Travel,fs:PathShape,fs:Motion,fs:Posture,fs:ChangePosture,fs:MotionDirectional
+2403352	597871	marker poles outlining a path			folk:Management	https://w3id.org/framester/wn/wn30/instances/synset-way-noun-5	fs:Conduct,fs:Sign
+2403352	597872	a person standing and watching skiers 			mft:Authority, folk:Consideration	https://w3id.org/framester/wn/wn30/instances/synset-standing-noun-1, https://w3id.org/framester/data/framestercore/OccupyRank	fs:Seeking,fs:BeingAwake,fs:OccupyRank,fs:Cotheme,fs:People
+2403352	597873	a skier coming down a slope	be:Enjoyment	http://dbpedia.org/resource/Skiing	bhv:Stimulation, folk:Fun, folk:Willingness	https://w3id.org/framester/wn/wn30/instances/synset-down-adjective-1, https://w3id.org/framester/data/framestercore/Willingness, http://dbpedia.org/resource/Skiing	fs:Travel,fs:PathShape,fs:Motion,fs:Posture,fs:ChangePosture,fs:MotionDirectional,fs:Arriving,fs:Willingness
+2403352	597874	ski tracks in the snow					fs:Travel,fs:Motion,fs:Precipitation
+2403352	597875	posts supporting a barrier net					fs:Hindering,fs:TakingSides
+2403352	597876	a bare tree					fs:BiologicalArea
+2403352	597877	a person walking in the snow					fs:People,fs:Precipitation
+2403352	597878	a tall pole					fs:Dimension,fs:BodyDescriptionHolistic,fs:MeasurableAttributes,fs:InchoativeAttaching,fs:Supporting,fs:CauseMotion
+2403352	597879	a person skiing 					fs:People
+2403352	597880	a person standing on snow			mft:Authority, folk:Consideration	https://w3id.org/framester/wn/wn30/instances/synset-standing-noun-1, https://w3id.org/framester/data/framestercore/OccupyRank	fs:People,fs:Precipitation,fs:OccupyRank
+2403352	597881	a colored pole in snow					fs:InchoativeAttaching,fs:Precipitation,fs:Supporting,fs:CauseMotion
+2403352	597882	a snow covered ski trail	be:Enjoyment	http://dbpedia.org/resource/Skiing	bhv:Stimulation, folk:Fun	http://dbpedia.org/resource/Skiing	fs:Travel,fs:Precipitation,fs:Adorning,fs:Motion,fs:Topic,fs:Eclipse,fs:Roadways,fs:Filling
+2403352	597883	an orange fence			mft:Care, bhv:Security	https://w3id.org/framester/data/framestercore/Protecting, https://w3id.org/framester/wn/wn30/instances/synset-fence-noun-1	fs:Protecting
+2403352	597884	people standing on snow					fs:Precipitation,fs:BeingLocated,fs:Posture,fs:ChangePosture,fs:People,fs:Placing
+2403352	597885	a person wearing a jacker					fs:People
+2403352	597886	a person wearing a helmet					
+2403352	597887	a person wearing skis 					
+2403352	597888	a person holding ski poles					fs:Travel,fs:People,fs:Motion
+2403352	597889	person is skiing down hill	be:Enjoyment	http://dbpedia.org/resource/Skiing	bhv:Stimulation, folk:Fun, folk:Willingness	https://w3id.org/framester/wn/wn30/instances/synset-down-adjective-1, https://w3id.org/framester/data/framestercore/Willingness, http://dbpedia.org/resource/Skiing	fs:People,fs:Willingness,fs:NaturalFeatures
+2403352	597890	person is holding ski pole					fs:Travel,fs:Motion,fs:InchoativeAttaching,fs:People,fs:CauseMotion,fs:Supporting
+2403352	597891	person is wearing red jacket					fs:People,fs:Clothing,fs:Color
+2403352	597892	red wire fence is on side			mft:Care, bhv:Security	https://w3id.org/framester/data/framestercore/Protecting, https://w3id.org/framester/wn/wn30/instances/synset-fence-noun-1	fs:Connectors,fs:Protecting,fs:Color
+2403352	597893	7 people on ski slope					fs:Travel,fs:PathShape,fs:Motion,fs:Posture,fs:ChangePosture,fs:People,fs:MotionDirectional
+2403352	597894	trees are on side of wire fence			mft:Care, bhv:Security	https://w3id.org/framester/data/framestercore/Protecting, https://w3id.org/framester/wn/wn30/instances/synset-fence-noun-1	fs:Connectors,fs:Protecting
+2403352	597895	red poles sticking in snow					fs:Precipitation,fs:BeingAttached,fs:Attaching,fs:Color,fs:Placing,fs:InchoativeAttaching,fs:CauseMotion
+2403352	597896	metal pole sticking in snow			bhv:Power, folk:Strenght	http://dbpedia.org/resource/Metal	fs:InchoativeAttaching,fs:Precipitation,fs:Supporting,fs:CauseMotion
+2403352	597897	tracks all throughout snow					fs:Precipitation
+2403352	597898	person has hat on					fs:Accoutrements,fs:People,fs:Ingestion
+2403352	597899	person skiing down a snowy slope	be:Enjoyment	http://dbpedia.org/resource/Skiing	bhv:Stimulation, folk:Fun	http://dbpedia.org/resource/Skiing	fs:PathShape,fs:Posture,fs:ChangePosture,fs:People,fs:MotionDirectional
+2403352	597900	bright red fencing on snow			mft:Care, bhv:Security	https://w3id.org/framester/wn/wn30/instances/synset-fence-noun-1, https://w3id.org/framester/data/framestercore/Protecting	fs:Precipitation,fs:LocationOfLight,fs:Protecting,fs:Color
+2403352	597901	man standing on a snowy slop			mft:Care, folk:Helping, bhv:Benevolence, folk:Consideration, mft:Authority	https://w3id.org/framester/wn/wn30/instances/synset-standing-noun-1, https://w3id.org/framester/data/framestercore/OccupyRank, https://w3id.org/framester/wn/wn30/instances/synset-slop-noun-1	fs:Ingestion,fs:OccupyRank,fs:People
+2403352	597902	pine trees near snowy hill					fs:NaturalFeatures
+2403352	597903	person standing near red fence			mft:Care, bhv:Security	https://w3id.org/framester/data/framestercore/Protecting, https://w3id.org/framester/wn/wn30/instances/synset-fence-noun-1	fs:People,fs:Protecting,fs:Color
+2403352	597904	red and blue ski poles					fs:Travel,fs:Motion,fs:Color
+2403352	597905	person with red and black winter jacket					fs:People,fs:Clothing,fs:CalendricUnit,fs:Color
+2403352	597906	person walking up a ski slope			folk:Willingness	https://w3id.org/framester/wn/wn30/instances/synset-up-adjective-1	fs:Travel,fs:PathShape,fs:Motion,fs:Posture,fs:SelfMotion,fs:Cotheme,fs:ChangePosture,fs:People,fs:MotionDirectional
+2403352	597907	yellow object near a pole					fs:CauseChange,fs:Color,fs:InchoativeAttaching,fs:Supporting,fs:CauseMotion
+2403352	597908	people on a ski mountain hill	be:Enjoyment	http://dbpedia.org/resource/Skiing	bhv:Stimulation, folk:Fun	http://dbpedia.org/resource/Skiing	fs:Travel,fs:People,fs:Motion,fs:NaturalFeatures
+2403352	597909	red flexible fence			mft:Care, bhv:Security	https://w3id.org/framester/data/framestercore/Protecting, https://w3id.org/framester/wn/wn30/instances/synset-fence-noun-1	fs:Protecting,fs:Color
+2403352	597910	person standing near red fence			mft:Care, bhv:Security	https://w3id.org/framester/data/framestercore/Protecting, https://w3id.org/framester/wn/wn30/instances/synset-fence-noun-1	fs:People,fs:Protecting,fs:Color
+2403352	597911	person skiing down mountain					fs:People,fs:NaturalFeatures
+2403352	597912	trees to the right of fence			mft:Care, bhv:Security	https://w3id.org/framester/data/framestercore/Protecting, https://w3id.org/framester/wn/wn30/instances/synset-fence-noun-1	fs:Protecting
+2403352	597913	metal pole to the right of fence			bhv:Power, mft:Care, bhv:Security, folk:Strenght	https://w3id.org/framester/data/framestercore/Protecting, http://dbpedia.org/resource/Metal, https://w3id.org/framester/wn/wn30/instances/synset-fence-noun-1	fs:InchoativeAttaching,fs:Protecting,fs:CauseMotion,fs:Supporting
+2403352	597914	yellow object at the base of the pole					fs:LocaleByUse,fs:CauseChange,fs:Color,fs:InchoativeAttaching,fs:Supporting,fs:CauseMotion
+2403352	597915	person standing on mountain			mft:Authority, folk:Consideration	https://w3id.org/framester/wn/wn30/instances/synset-standing-noun-1, https://w3id.org/framester/data/framestercore/OccupyRank	fs:People,fs:OccupyRank,fs:NaturalFeatures
+2403352	597916	slalom poles on mountain					fs:NaturalFeatures
+2403352	597917	person to the left of fence			mft:Care, bhv:Security	https://w3id.org/framester/data/framestercore/Protecting, https://w3id.org/framester/wn/wn30/instances/synset-fence-noun-1	fs:People,fs:PartOrientational,fs:Protecting
+2403352	597918	skier to the left of fence	be:Enjoyment	http://dbpedia.org/resource/Skiing	bhv:Stimulation, folk:Fun, mft:Care, bhv:Security	https://w3id.org/framester/data/framestercore/Protecting, http://dbpedia.org/resource/Skiing, https://w3id.org/framester/wn/wn30/instances/synset-fence-noun-1	fs:Travel,fs:Motion,fs:PartOrientational,fs:Protecting

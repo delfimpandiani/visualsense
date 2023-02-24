@@ -1,0 +1,51 @@
+image_id	region_id	phrase	Emotions	Emotions Triggers	Values	Values Triggers	Frames
+2403526	589619	the head of a person 					
+2403526	589620	the head of a person 					fs:People,fs:ObservableBodyParts
+2403526	589621	the head of a person 					fs:People,fs:ObservableBodyParts
+2403526	589622	the head of a person 					fs:People,fs:ObservableBodyParts
+2403526	589623	the head of a person 					fs:People,fs:ObservableBodyParts
+2403526	589624	the head of a person 					fs:People,fs:ObservableBodyParts
+2403526	589625	the head of a person 					fs:People,fs:ObservableBodyParts
+2403526	589626	the head of a person 					fs:People,fs:ObservableBodyParts
+2403526	589627	a person alighting 					fs:People
+2403526	589628	a plane in the sky					fs:Vehicle,fs:Locale
+2403526	589629	wind blowing in woman's hair					fs:People,fs:HairConfiguration,fs:ObservableBodyParts,fs:Weather
+2403526	589630	people watching helicopter fly			folk:Analysis	https://w3id.org/framester/vn/vn31/data/Watch_30020000	fs:PerceptionActive,fs:Seeking,fs:BeingAwake,fs:Cotheme,fs:People,fs:Vehicle
+2403526	589631	helicopter with red front			mft:Harm	https://w3id.org/framester/wn/wn30/instances/synset-front-noun-1	fs:PartOrientational,fs:Vehicle,fs:Color
+2403526	589632	person with white hair					fs:People,fs:HairConfiguration,fs:ObservableBodyParts,fs:Color
+2403526	589633	person dropping from helicopter					fs:Travel,fs:PathShape,fs:CommercePay,fs:MotionDirectional,fs:People,fs:ChangePosture,fs:BodyMovement,fs:CauseChangeOfPositionOnAScale,fs:ChangePositionOnAScale,fs:CauseMotion,fs:Vehicle
+2403526	589634	two men looking in same direction			folk:Analysis, folk:Novelty	https://w3id.org/framester/data/framestercore/Scrutiny, https://w3id.org/framester/wn/wn30/instances/synset-same-adjective-1, https://w3id.org/framester/vn/vn31/data/Look_30030000	fs:PerceptionActive,fs:Seeking,fs:Roadways,fs:Scrutiny,fs:Identicality
+2403526	589635	a cloudy sky					fs:Locale
+2403526	589636	man taking a picture with cell phone			mft:Authority, folk:Leadership, bhv:Power	https://w3id.org/framester/vn/vn31/data/Take_10050000, https://w3id.org/framester/data/framestercore/ChangeOfLeadership	fs:ChangeOfQuantityOfPossession,fs:Getting,fs:OpticalImage,fs:Substance,fs:Cotheme,fs:CommunicationMeans,fs:People,fs:Sensation,fs:ChangeOfLeadership,fs:Bringing,fs:Conquering,fs:Taking,fs:Contacting,fs:Removing,fs:EarningsAndLosses
+2403526	589637	woman wearing a striped orange shirt					fs:People,fs:Clothing
+2403526	589638	green grassy field					fs:Color
+2403526	589639	a black helicopter blade					fs:Vehicle,fs:Color
+2403526	589640	a person lowering from the helicopter					fs:People,fs:Vehicle
+2403526	589641	the head of a man					fs:People,fs:ObservableBodyParts
+2403526	589642	the ear of a man					fs:People,fs:ObservableBodyParts
+2403526	589643	the head of a woman					fs:People,fs:ObservableBodyParts
+2403526	589644	the wheel of a helicopter					fs:Vehicle,fs:Artifact
+2403526	589645	a blonde woman's hair					fs:People,fs:HairConfiguration,fs:ObservableBodyParts
+2403526	589646	the tail of a helicopter			mft:Harm	https://w3id.org/framester/wn/wn30/instances/synset-tail-noun-1	fs:Vehicle,fs:ObservableBodyParts
+2403526	589647	a gray sweat shirt	be:Disgust	https://w3id.org/framester/wn/wn30/instances/synset-perspiration-noun-1	mft:Degradation	https://w3id.org/framester/wn/wn30/instances/synset-perspiration-noun-1, https://w3id.org/framester/data/framestercore/Excreting	fs:Clothing,fs:Color,fs:Excreting
+2403526	589648	the nose of a helicopter			folk:Control	https://w3id.org/framester/wn/wn30/instances/synset-nose-noun-1	fs:Vehicle,fs:ObservableBodyParts
+2403526	589649	helicopter preparing to land					fs:CookingCreation,fs:Vehicle,fs:ActivityPrepare,fs:Arriving
+2403526	589650	man hanging in the air from a helicopter					fs:People,fs:Vehicle,fs:Substance
+2403526	589651	man holding a rope			folk:Control	https://w3id.org/framester/wn/wn30/instances/synset-rope-noun-1	fs:People,fs:Connectors
+2403526	589652	man being dropped holding a rope from the helicopter			folk:Control	https://w3id.org/framester/wn/wn30/instances/synset-rope-noun-1	fs:Travel,fs:PathShape,fs:Connectors,fs:CommercePay,fs:ChangePosture,fs:MotionDirectional,fs:People,fs:BodyMovement,fs:CauseChangeOfPositionOnAScale,fs:ChangePositionOnAScale,fs:CauseMotion,fs:Vehicle
+2403526	589653	spectators watching the man dropped from helicopter			folk:Analysis	https://w3id.org/framester/vn/vn31/data/Watch_30020000	fs:Travel,fs:PathShape,fs:PerceptionActive,fs:Seeking,fs:BeingAwake,fs:CommercePay,fs:Cotheme,fs:ChangePosture,fs:MotionDirectional,fs:People,fs:BodyMovement,fs:CauseChangeOfPositionOnAScale,fs:ChangePositionOnAScale,fs:CauseMotion,fs:Vehicle
+2403526	589654	man photographing the helicopter scene					fs:People,fs:LocaleByEvent,fs:CreateRepresentation,fs:Possession,fs:Vehicle
+2403526	589655	people watching the man being dropped from the helicopter			folk:Analysis	https://w3id.org/framester/vn/vn31/data/Watch_30020000	fs:PerceptionActive,fs:Seeking,fs:BeingAwake,fs:Cotheme,fs:ChangePosture,fs:People,fs:BodyMovement,fs:ChangePositionOnAScale,fs:Vehicle
+2403526	589656	woman's hair blowing in the air					fs:People,fs:HairConfiguration,fs:Substance,fs:ObservableBodyParts
+2403526	589657	man performing a stunt from the helicopter			bhv:Achievement, folk:Accomplishment	https://w3id.org/framester/wn/wn30/instances/synset-stunt-noun-1	fs:People,fs:Vehicle,fs:IntentionallyAct
+2403526	589658	black propeller on the helicopter					fs:CauseMotion,fs:Vehicle,fs:Color
+2403526	589659	a helecopter					
+2403526	589660	a red and white helecopter					fs:Color
+2403526	589661	a man is lowered from a helecopter					fs:People,fs:Motion,fs:CauseChangeOfPositionOnAScale
+2403526	589662	bystanders watch the man decend from the helecopter			folk:Analysis	https://w3id.org/framester/vn/vn31/data/Watch_30020000	fs:PerceptionActive,fs:Seeking,fs:BeingAwake,fs:Cotheme,fs:People
+2403526	589663	people stand watching the helecopter			folk:Analysis, mft:Authority, folk:Endurance	https://w3id.org/framester/vn/vn31/data/Stand_31020000, https://w3id.org/framester/wn/wn30/instances/synset-stand-verb-1, https://w3id.org/framester/vn/vn31/data/Watch_30020000, https://w3id.org/framester/data/framestercore/Tolerating	fs:PerceptionActive,fs:Seeking,fs:BeingAwake,fs:BeingLocated,fs:Posture,fs:Cotheme,fs:TakePlaceOf,fs:People,fs:Replacing,fs:Tolerating
+2403526	589664	it is a cloudy day					fs:MeasureDuration,fs:Timespan,fs:CalendricUnit
+2403526	589665	the helecopter is still as a man decends from it					fs:People,fs:Motion
+2403526	589666	the man holds onto a wire					fs:People,fs:Connectors
+2403526	589667	the helecopter has it's tires down			folk:Willingness	https://w3id.org/framester/wn/wn30/instances/synset-down-adjective-1, https://w3id.org/framester/data/framestercore/Willingness	fs:Ingestion,fs:Willingness
+2403526	589668	the helecopter is over a grass field			bhv:Benevolence, mft:Care, folk:Helping	https://w3id.org/framester/wn/wn30/instances/synset-grass-noun-1	fs:Filling,fs:Adorning

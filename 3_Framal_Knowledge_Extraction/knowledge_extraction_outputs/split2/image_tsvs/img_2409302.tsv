@@ -1,0 +1,51 @@
+image_id	region_id	phrase	Emotions	Emotions Triggers	Values	Values Triggers	Frames
+2409302	252502	it is raining in the city			mft:Authority	https://w3id.org/framester/wn/wn30/instances/synset-city-noun-1, https://w3id.org/framester/data/framestercore/PoliticalLocales	fs:LocaleByUse,fs:PoliticalLocales
+2409302	252503	people walking on the sidewalk in the rain					fs:Precipitation,fs:SelfMotion,fs:Cotheme,fs:People,fs:Roadways
+2409302	252504	a couple sharing an umbrella			mft:Loyalty, folk:Association	https://w3id.org/framester/wn/wn30/instances/synset-couple-noun-1	fs:PersonalRelationship
+2409302	252505	a lady with a black hoodie on					fs:People,fs:Color
+2409302	252506	a lady carrying a black backpack					fs:Motion,fs:Containers,fs:CarryGoods,fs:People,fs:Bringing,fs:Color
+2409302	252507	the signal light is green					fs:Gesture,fs:LocationOfLight,fs:Color
+2409302	252508	a double decker bus is on the street					fs:Roadways,fs:People,fs:Vehicle,fs:Quantity
+2409302	252509	a lady is carrying an open black umbrella					fs:Motion,fs:CarryGoods,fs:Openness,fs:People,fs:Bringing,fs:Color
+2409302	252510	a biker is riding in the rain					fs:Travel,fs:Precipitation,fs:OperateVehicle,fs:RideVehicle
+2409302	252511	three double decker buses on the street					fs:Roadways,fs:People
+2409302	252512	woman with umbrella on busy street looks distressed			folk:Analysis, mft:Harm	https://w3id.org/framester/data/framestercore/Scrutiny, https://w3id.org/framester/wn/wn30/instances/synset-distressed-adjectivesatellite-1	fs:Roadways,fs:People,fs:Seeking,fs:Scrutiny
+2409302	252513	woman wearing tan raincoat					fs:People,fs:Clothing,fs:Color
+2409302	252514	woman holding black umbrella opened					fs:People,fs:Closure,fs:BodyMovement,fs:Color
+2409302	252515	three people hurrying in the rain			mft:Harm	https://w3id.org/framester/data/framestercore/CauseHarm	fs:Precipitation,fs:Grinding,fs:SelfMotion,fs:People,fs:CauseHarm
+2409302	252516	person with black coat and blue pants					fs:People,fs:Clothing,fs:Color
+2409302	252517	person riding bicycle with umbrella in hand					fs:Travel,fs:People,fs:ObservableBodyParts,fs:Vehicle
+2409302	252518	traffic lights					
+2409302	252519	double deck bus in the background					fs:Vehicle,fs:Quantity
+2409302	252520	person in black jacket carrying black back pack					fs:Motion,fs:Containers,fs:CarryGoods,fs:People,fs:Bringing,fs:Color,fs:Placing,fs:ObservableBodyParts,fs:Clothing
+2409302	252521	street is wet					
+2409302	252522	tree branches with green leaves			folk:Beauty	http://dbpedia.org/resource/Tree	
+2409302	252523	woman holding black umbrella					fs:People,fs:Color
+2409302	252524	couple carrying yellow shopping bags			mft:Loyalty, folk:Association	https://w3id.org/framester/wn/wn30/instances/synset-couple-noun-1	fs:PersonalRelationship,fs:Motion,fs:Shopping,fs:CarryGoods,fs:Bringing
+2409302	252525	person wearing purple pants riding a bicycle					fs:Travel,fs:RideVehicle,fs:OperateVehicle,fs:People,fs:Color,fs:Vehicle,fs:Clothing
+2409302	252526	traffic lights					
+2409302	252527	wet sidewalk					fs:Roadways,fs:BeingWet
+2409302	252528	store name displayed on storefront windows					fs:LocaleByUse,fs:ReferringByName,fs:Businesses,fs:BeingNamed
+2409302	252529	double decker buses					fs:People
+2409302	252530	street light mounted on side of building					fs:Traversing,fs:Attaching,fs:Buildings,fs:LocationOfLight,fs:Roadways
+2409302	252531	man crossing street while holding blue umbrella					fs:Building,fs:Manufacturing,fs:Traversing,fs:Creating,fs:People,fs:IntentionallyCreate,fs:BodyMovement,fs:Color,fs:Roadways
+2409302	252532	a scene of a city in the rain			mft:Authority	https://w3id.org/framester/wn/wn30/instances/synset-city-noun-1, https://w3id.org/framester/data/framestercore/PoliticalLocales	fs:LocaleByUse,fs:Precipitation,fs:LocaleByEvent,fs:PoliticalLocales
+2409302	252533	a lady with an umbrella					fs:People
+2409302	252534	a woman with an umbrella					fs:People
+2409302	252535	a person with an umbrella					fs:People
+2409302	252536	a lady with a blue umbrella					fs:People,fs:Color
+2409302	252537	person with purple pants					fs:People,fs:Clothing,fs:Color
+2409302	252538	person with white hoodie					fs:People,fs:Color
+2409302	252539	person on a bicycle					fs:People,fs:Vehicle
+2409302	252540	people with a yellow bag					fs:People,fs:Containers,fs:MeasureVolume,fs:Color
+2409302	252541	person carrying a back pack					fs:Motion,fs:CarryGoods,fs:People,fs:Bringing,fs:Placing,fs:ObservableBodyParts
+2409302	252542	woman in raincoat holding umbrella					fs:People,fs:Clothing
+2409302	252543	black street lights with green light lit up			folk:Willingness	https://w3id.org/framester/wn/wn30/instances/synset-up-adjective-1	fs:Roadways,fs:LocationOfLight,fs:Color
+2409302	252544	people walking on sidewalks with umbrellas					fs:People,fs:SelfMotion,fs:Cotheme
+2409302	252545	wet sidewalk with puddles because of rain					fs:BeingWet,fs:Precipitation,fs:Roadways
+2409302	252546	tan raincoat with brown buttons					fs:Clothing,fs:Color
+2409302	252547	black backpack on woman's shoulder			folk:Control	https://w3id.org/framester/wn/wn30/instances/synset-shoulder-noun-1	fs:People,fs:Containers,fs:ObservableBodyParts,fs:Color
+2409302	252548	woman with pink pants riding bike in rain					fs:Travel,fs:Precipitation,fs:RideVehicle,fs:OperateVehicle,fs:People,fs:Color,fs:Vehicle,fs:Clothing
+2409302	252549	yellow plastic bags carried by people on sidewalk					fs:Motion,fs:SubstanceByPhase,fs:CarryGoods,fs:People,fs:Bringing,fs:Roadways
+2409302	252550	tall buildings lining city street			mft:Authority	https://w3id.org/framester/wn/wn30/instances/synset-city-noun-1, https://w3id.org/framester/data/framestercore/PoliticalLocales	fs:Adorning,fs:PoliticalLocales,fs:LocaleByUse,fs:Dimension,fs:BodyDescriptionHolistic,fs:MeasurableAttributes,fs:Roadways
+2409302	252551	tall green leafy tree on sidewalk			folk:Beauty	http://dbpedia.org/resource/Tree	fs:BiologicalArea,fs:Dimension,fs:BodyDescriptionHolistic,fs:MeasurableAttributes,fs:Color,fs:Roadways
