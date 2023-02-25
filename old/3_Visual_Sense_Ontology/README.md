@@ -2,7 +2,7 @@
 
 Visual Sense ontology is an ontology that aims to formally represent Visual Genome’s annotation components and their interrelationships, and to connect these components to the Framester schema, so as to further ground visual data to language. The ontology was developed following the XD ontology design methodology. Below we present how the Visual Sense ontology has reused ontology design patterns (ODPs) and been aligned to and reused other ontologies while presenting its T-Box [Fig. 3], with explanations of its crucial classes and properties. Further details of all classes and properties are available in LODE-Powered Visual Sense Ontology Documentation. LODE is a tool for producing human-readable documentation of the ontologies. The Visual Sense ontology has been published at the following permanent IRI: https://w3id.org/visualsense.
 
-<img width="1041" alt="Screenshot 2021-09-24 at 14 05 20" src="https://user-images.githubusercontent.com/12375920/135296442-1bcfed67-a5e8-4604-b067-fe794144648d.png">
+<img width="1041" alt="135296442-1bcfed67-a5e8-4604-b067-fe794144648d" src="https://user-images.githubusercontent.com/44606644/221356190-e44f5aa7-2a1b-4f36-b4ef-3371288f7373.png">
 Figure 4. T-Box of the Visual Sense ontology. The ontology is aligned to Dolce Ultra Light and the Framester Schema, and reuses Ontology Design Patterns.
 
 ## Ontology and Ontology Design Pattern (ODP) Alignment and Reuse
