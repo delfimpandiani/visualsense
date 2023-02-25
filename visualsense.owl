@@ -14,8 +14,10 @@
         <rdfs:comment>This is the ontological module formalizing the schema of the Visual Genome model, aiming to represent the relations between objects in specific Regions of an Image. It implements some Ontology Design Patterns like Description and Situation and N-ary relation. It is furthermore aligned to DUL - Dolce Ultralight foundational Ontology and imports frame evocation classes from the Framester hub.</rdfs:comment>
         <owl:versionInfo>1.0 - Adding classes and properties.
 1.1 - DUL import and alignement + frame evocation properties import from Framester schema.
-1.2 - Introduced data properties aligned with DUL + refined classes axiomatization
-1.3 - URI control</owl:versionInfo>
+1.2 - Introduced data properties aligned with DUL + refined classes axiomatization.
+1.3 - URI control.
+1.4 - Refined classes axiomatization.
+</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -260,15 +262,15 @@
     
 
 
-    <!-- https://w3id.org/visualsense#FREDFrameEvokedBy -->
+    <!-- https://w3id.org/visualsense#isEvokedBy -->
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/visualsense#FREDFrameEvokedBy">
+    <owl:ObjectProperty rdf:about="https://w3id.org/visualsense#ConceptualFrame">
         <rdfs:subPropertyOf rdf:resource="https://w3id.org/framester/schema/evokedBy"/>
-        <owl:inverseOf rdf:resource="https://w3id.org/visualsense#evokesFREDFrame"/>
+        <owl:inverseOf rdf:resource="https://w3id.org/visualsense#evokes"/>
         <rdfs:domain rdf:resource="https://w3id.org/framester/schema/ConceptualFrame"/>
         <rdfs:range rdf:resource="https://w3id.org/visualsense#DepictedRegion"/>
         <rdfs:comment xml:lang="en">Some ConceptualFrame is evoked by some Entity in the FRED graph produced by some Description of some DepictedRegion.</rdfs:comment>
-        <rdfs:label xml:lang="en">FRED frame evoked by</rdfs:label>
+        <rdfs:label xml:lang="en">evoked by</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -319,6 +321,8 @@
         <rdfs:label xml:lang="en">depicts</rdfs:label>
     </owl:ObjectProperty>
     
+ 
+    
 
 
     <!-- https://w3id.org/visualsense#evokedBy -->
@@ -348,17 +352,6 @@
         <rdfs:range rdf:resource="https://w3id.org/visualsense#WnSynsetFrame"/>
         <rdfs:comment>Some Entity evokes some ConceptualFrame or WordNet 3.0 synset.</rdfs:comment>
         <rdfs:label xml:lang="en">evokes</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://w3id.org/visualsense#evokesFREDFrame -->
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/visualsense#evokesFREDFrame">
-        <rdfs:subPropertyOf rdf:resource="https://w3id.org/framester/schema/evokes"/>
-        <rdfs:domain rdf:resource="https://w3id.org/visualsense#DepictedRegion"/>
-        <rdfs:comment>Some DepictedRegion evokes some ConceptualFrame. (Note that the ConceptualFrame is evoked in the graph produced by FRED as output of the description of the DepictedRegion.</rdfs:comment>
-        <rdfs:label xml:lang="en">evokes FRED frame</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -488,7 +481,7 @@
 
 
     <!-- https://w3id.org/visualsense#isAttributeOf -->
-
+<!-- 
     <owl:ObjectProperty rdf:about="https://w3id.org/visualsense#isAttributeOf">
         <owl:inverseOf rdf:resource="https://w3id.org/visualsense/hasAttribute"/>
         <rdfs:domain rdf:resource="https://w3id.org/visualsense#ObjectAttribute"/>
@@ -497,7 +490,7 @@
         <rdfs:label xml:lang="en">attribute of</rdfs:label>
     </owl:ObjectProperty>
     
-
+ -->
 
     <!-- https://w3id.org/visualsense#isClassifiedBy -->
 
@@ -668,7 +661,7 @@
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="https://w3id.org/visualsense#DepictedObject"/>
-                    <rdf:Description rdf:about="https://w3id.org/visualsense#ObjectAttribute"/>
+                    <!-- <rdf:Description rdf:about="https://w3id.org/visualsense#ObjectAttribute"/> -->
                     <rdf:Description rdf:about="https://w3id.org/visualsense#ObjectRelation"/>
                 </owl:unionOf>
             </owl:Class>
@@ -688,7 +681,7 @@
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="https://w3id.org/visualsense#DepictedObject"/>
-                    <rdf:Description rdf:about="https://w3id.org/visualsense#ObjectAttribute"/>
+                    <!-- <rdf:Description rdf:about="https://w3id.org/visualsense#ObjectAttribute"/> -->
                     <rdf:Description rdf:about="https://w3id.org/visualsense#ObjectRelation"/>
                 </owl:unionOf>
             </owl:Class>
@@ -727,12 +720,12 @@
 
     <!-- https://w3id.org/visualsense/hasAttribute -->
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/visualsense/hasAttribute">
+<!--     <owl:ObjectProperty rdf:about="https://w3id.org/visualsense/hasAttribute">
         <rdfs:domain rdf:resource="https://w3id.org/visualsense#DepictedObject"/>
         <rdfs:range rdf:resource="https://w3id.org/visualsense#ObjectAttribute"/>
         <rdfs:comment xml:lang="en">A relation between a depicted object and its attribute.</rdfs:comment>
         <rdfs:label xml:lang="en">has attribute</rdfs:label>
-    </owl:ObjectProperty>
+    </owl:ObjectProperty> -->
     
 
 
@@ -783,6 +776,28 @@
         <rdfs:label xml:lang="en">has object attribute</rdfs:label>
     </owl:DatatypeProperty>
     
+
+    <!-- https://w3id.org/visualsense#hasFrameType -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/visualsense#hasFrameType">
+        <rdfs:domain rdf:resource="https://w3id.org/visualsense#ConceptualFrame"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">Some Conceptual Frame has as type some string such as "frame", "value" or "emotion".</rdfs:comment>
+        <rdfs:label xml:lang="en">has frame type</rdfs:label>
+    </owl:DatatypeProperty>
+
+    
+
+   <!-- https://w3id.org/visualsense#hasPathURL -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/visualsense#hasPathURL">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/visualsense#isAbout"/>
+        <owl:inverseOf rdf:resource="https://w3id.org/visualsense#isPathURLOf"/>
+        <rdfs:domain rdf:resource="https://w3id.org/visualsense#ImageObject"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">Some ImageObject has a URL path to a jpg provided by Visual Genome.</rdfs:comment>
+        <rdfs:label xml:lang="en">has path URL</rdfs:label>
+    </owl:ObjectProperty>
 
 
     <!-- https://w3id.org/visualsense#hasRegionDataValue -->
@@ -983,7 +998,7 @@
                 <owl:someValuesFrom rdf:resource="https://w3id.org/visualsense#ImageBox"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment xml:lang="en">The Space Region physically occupied by some Entity in an ImageRegion. i.e. the box that bounds some Entity parametrized by some coordinates, measured in pixels. Defined in the Visual Genome annotation methodology.</rdfs:comment>
+        <rdfs:comment xml:lang="en">The Space Region physically occupied by some Entity in an ImageBox. i.e. the box that bounds some Entity parametrized by some coordinates, measured in pixels. Defined in the Visual Genome annotation methodology.</rdfs:comment>
         <rdfs:label xml:lang="en">Bounding Box</rdfs:label>
     </owl:Class>
     
@@ -1123,7 +1138,7 @@
 
     <!-- https://w3id.org/visualsense#ObjectAttribute -->
 
-    <owl:Class rdf:about="https://w3id.org/visualsense#ObjectAttribute">
+<!--     <owl:Class rdf:about="https://w3id.org/visualsense#ObjectAttribute">
         <owl:equivalentClass>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/visualsense#isAttributeOf"/>
@@ -1133,7 +1148,7 @@
         <rdfs:subClassOf rdf:resource="https://w3id.org/visualsense#Object"/>
         <rdfs:comment xml:lang="en">An attribute of a specific DepictedObject.</rdfs:comment>
         <rdfs:label xml:lang="en">Object Attribute</rdfs:label>
-    </owl:Class>
+    </owl:Class> -->
     
 
 
@@ -1204,4 +1219,3 @@
 
 
 <!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
-
