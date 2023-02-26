@@ -11,7 +11,7 @@ def initialize_globals():
     global headers
     headers = {
         'accept': 'text/turtle',
-        'Authorization': 'Bearer a7727b8c-aa1e-39d4-8b34-3977ec1c73f5',
+        'Authorization': '', #insert FRED key, to ask for one please contact ?????
     }
     global all_names
     all_names = [Namespace("https://w3id.org/framester/wn/wn30/"), Namespace("https://w3id.org/framester/vn/vn31/data/"), Namespace("<http://dbpedia.org/resource/"), Namespace("https://w3id.org/framester/data/framestercore/"), Namespace("https://w3id.org/framester/pb/pbdata/"), Namespace("https://w3id.org/framester/framenet/abox/gfe/"), Namespace("https://w3id.org/framester/pb/pbschema/"), Namespace("https://w3id.org/framester/wn/wn30/wordnet-verbnountropes/"), Namespace("https://w3id.org/framester/data/framesterrole/"), Namespace("http://babelnet.org/rdf/"), Namespace("https://w3id.org/framester/framenet/abox/fe/"), Namespace("https://w3id.org/framester/framenet/abox/frame/"), Namespace("https://w3id.org/framester/data/framestersyn/") ]
@@ -23,8 +23,6 @@ def initialize_globals():
     valuefile = "knowledge_extraction_sources/mftriggers_dictionary.csv"
     global emofile
     emofile = "knowledge_extraction_sources/BE_emotion_dictionary.csv"
-    global isfile
-    isfile = '/Users/sdg/Desktop/ImageSchemaNet/isnet_quokka_dictionary.csv'
     global bhvfile
     bhvfile = 'knowledge_extraction_sources/bhv_dictionary.csv'
     global folkfile
