@@ -2,7 +2,7 @@ import json
 from PIL import Image, ImageDraw
 
 def draw_boxes(image_id, frame_file_path, box_file_path):
-    image_path = "../image_scrapping/KG_v1/images/" + image_id + ".jpg"
+    image_path = "image_scrapping/KG_v1/images/" + image_id + ".jpg"
     # Load the image
     image = Image.open(image_path)
 
@@ -73,7 +73,7 @@ def draw_boxes(image_id, frame_file_path, box_file_path):
     result.save('result.jpg')
     return
 
-image_id = "2410072"
-frame_file_path = "2410072_draw.json"
+image_id = "2411415"
+frame_file_path = image_id + "_draw.json"
 box_file_path = "../4_KG_Generation/sources/region_graphs.json"
 draw_boxes(image_id, frame_file_path, box_file_path)

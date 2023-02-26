@@ -1,0 +1,40 @@
+{
+   "images": [
+      {
+         "image_id": 2411415,
+         "regions": [
+            {
+               "region_id": 492337,
+               "phrase": "boy is wearing a yellow and black coat",
+               "frames": ["fs:Clothing"]
+            },
+            {
+               "region_id": 492336,
+               "phrase": "ski tracks traveling down the steep hill",
+               "frames": ["fs:NaturalFeatures"]
+            },
+            {
+               "region_id": 492358,
+               "phrase": "three people wearing warm jackets",
+               "frames": ["fs:Temperature"]
+            },
+            {
+               "region_id": 492360,
+               "phrase": "people riding in a ski lift",
+               "frames": ["fs:RideVehicle"]
+            },
+                        {
+               "region_id": 492361,
+               "phrase": "electrical poles on the top of the hill",
+               "frames": ["fs:Electricity"]
+            },
+                        {
+               "region_id": 492369,
+               "phrase": "three people on ski lift",
+               "frames": ["fs:Travel"]
+            }
+
+         ]
+      }
+   ]
+}
