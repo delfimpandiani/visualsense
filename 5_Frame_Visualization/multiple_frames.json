@@ -1,0 +1,54 @@
+
+
+
+
+{
+   "images": [
+      {
+         "image_id": 2413809,
+         "regions": [
+            {
+               "region_id": 86890,
+               "phrase": "a man performing a skateboard stunt",
+               "frames": [
+                  "bhv:Achievement",
+                  "folk:Accomplishment",
+                  "fs:IntentionallyAct"
+               ]
+            },
+            {
+               "region_id": 86900,
+               "phrase": "left hand gripping skateboard",
+               "frames": [
+                  "folk:Control",
+                  "fs:ObservableBodyParts",
+                  "fs:OperateVehicle"
+               ]
+            },
+            {
+               "region_id": 86877,
+               "phrase": "the man is in front of a bench",
+               "frames": [
+                  "mft:Harm"
+               ]
+            },
+            {
+               "region_id": 86891,
+               "phrase": "a girl looking behind her",
+               "frames": [
+                  "fs:Scrutiny",
+                  "fs:PerceptionActive"
+               ]
+            },
+            {
+               "region_id": 86908,
+               "phrase": "a girl is leaning against a wall",
+               "frames": [
+                  "bhv:Security",
+                  "fs:Posture"
+               ]
+            }
+         ]
+      }
+   ]
+}

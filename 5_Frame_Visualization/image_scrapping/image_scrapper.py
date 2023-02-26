@@ -8,7 +8,7 @@ from PIL import Image, ImageDraw
 
 
 def get_v1_imgs_list(split_name):
-    top_images_path = '../VG_data/VG_data_ranked/composite_ranked/split2_verbal_images_ranked_c.json'
+    top_images_path = '../../VG_data/VG_data_ranked/composite_ranked/split2_verbal_images_ranked_c.json'
     image_ids_list = []
     with open(top_images_path, 'r') as f:
         # Load the list from the file
