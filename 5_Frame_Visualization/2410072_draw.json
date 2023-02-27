@@ -1,0 +1,35 @@
+{
+   "images": [
+      {
+         "image_id": 2410072,
+         "regions": [
+            {
+               "region_id": 215570,
+               "phrase": "person with their arms raised above their head",
+               "frames": ["folk:BodyMovement"]
+            },
+            {
+               "region_id": 215563,
+               "phrase": "brown cow.",
+               "frames": ["fs:Animals"]
+            },
+            {
+               "region_id": 215579,
+               "phrase": "paved roadway.",
+               "frames": ["fs:Roadways"]
+            },
+            {
+               "region_id": 215601,
+               "phrase": "person selling fruits",
+               "frames": ["fs:CommerceScenario"]
+            },
+                        {
+               "region_id": 215596,
+               "phrase": "small outdoor store",
+               "frames": ["fs:Businesses"]
+            }
+
+         ]
+      }
+   ]
+}

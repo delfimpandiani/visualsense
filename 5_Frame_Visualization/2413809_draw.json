@@ -1,0 +1,50 @@
+{
+   "images": [
+      {
+         "image_id": 2403021,
+         "regions": [
+            {
+               "region_id": 613845,
+               "phrase": "musician standing behind singer.",
+               "frames": ["be:Enjoyment"]
+            },
+            {
+               "region_id": 613829,
+               "phrase": "singer wearing suit and sunglasses",
+               "frames": ["fs:Performers"]
+            },
+            {
+               "region_id": 86877,
+               "phrase": "man playing red bass guitar",
+               "frames": ["fs:NoiseMakers"]
+            },
+            {
+               "region_id": 613840,
+               "phrase": "man holding an electric guitar.",
+               "frames": ["fs:Electricity"]
+            },
+            {
+               "region_id": 613844,
+               "phrase": "section of purple light.",
+               "frames": ["fs:LocationOfLight"]
+            },
+            {
+               "region_id": 613865,
+               "phrase": "man in grey shirt playing drums",
+               "frames": ["fs:BehindTheScenes"]
+            },
+                        {
+               "region_id": 613834,
+               "phrase": "man wearing suit and pointing to himself",
+               "frames": ["fs:CauseToPerceive"]
+            },
+                        {
+               "region_id": 613864,
+               "phrase": "spectators watching performance",
+               "frames": ["fs:PerceptionActive"]
+            }
+
+         ]
+      }
+   ]
+}

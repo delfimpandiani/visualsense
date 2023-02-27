@@ -1,0 +1,35 @@
+{
+   "images": [
+      {
+         "image_id": 2402536,
+         "regions": [
+            {
+               "region_id": 636739,
+               "phrase": "two men getting ready to play tennis.",
+               "frames": ["folk:Partnership"]
+            },
+            {
+               "region_id": 636747,
+               "phrase": "the number 204 on sign on right.",
+               "frames": ["fs:Quantity"]
+            },
+            {
+               "region_id": 636755,
+               "phrase": "silver rail on stairs.",
+               "frames": ["fs:ArchitecturalPart"]
+            },
+            {
+               "region_id": 636776,
+               "phrase": "official standing off the court",
+               "frames": ["fs:Authority"]
+            },
+                       {
+               "region_id": 636742,
+               "phrase": "man on right has white wristband on arm.",
+               "frames": ["fs:ClothingParts"]
+            }
+
+         ]
+      }
+   ]
+}

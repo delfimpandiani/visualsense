@@ -23,8 +23,6 @@ def initialize_globals():
     valuefile = "knowledge_extraction_sources/mftriggers_dictionary.csv"
     global emofile
     emofile = "knowledge_extraction_sources/BE_emotion_dictionary.csv"
-    global isfile
-    isfile = '/Users/sdg/Desktop/ImageSchemaNet/isnet_quokka_dictionary.csv'
     global bhvfile
     bhvfile = 'knowledge_extraction_sources/bhv_dictionary.csv'
     global folkfile
