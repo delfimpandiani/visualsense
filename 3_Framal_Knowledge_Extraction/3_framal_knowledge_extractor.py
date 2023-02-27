@@ -11,7 +11,7 @@ def initialize_globals():
     global headers
     headers = {
         'accept': 'text/turtle',
-        'Authorization': '', #insert FRED key, to ask for one please contact ?????
+        'Authorization': 'insert FRED key', # if you don't have one, please contact stefano.de.giorgis@gmail.com
     }
     global all_names
     all_names = [Namespace("https://w3id.org/framester/wn/wn30/"), Namespace("https://w3id.org/framester/vn/vn31/data/"), Namespace("<http://dbpedia.org/resource/"), Namespace("https://w3id.org/framester/data/framestercore/"), Namespace("https://w3id.org/framester/pb/pbdata/"), Namespace("https://w3id.org/framester/framenet/abox/gfe/"), Namespace("https://w3id.org/framester/pb/pbschema/"), Namespace("https://w3id.org/framester/wn/wn30/wordnet-verbnountropes/"), Namespace("https://w3id.org/framester/data/framesterrole/"), Namespace("http://babelnet.org/rdf/"), Namespace("https://w3id.org/framester/framenet/abox/fe/"), Namespace("https://w3id.org/framester/framenet/abox/frame/"), Namespace("https://w3id.org/framester/data/framestersyn/") ]
