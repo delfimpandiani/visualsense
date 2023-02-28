@@ -1,0 +1,13 @@
+@prefix owlunit: <https://w3id.org/OWLunit/ontology/> .
+@prefix visualsense: <https://w3id.org/visualsense/> .
+@prefix td: <https://raw.githubusercontent.com/visualsense/test/iv/toydatasets/> .
+@prefix tc: <https://raw.githubusercontent.com/visualsense/test/iv/testcases/> .
+
+
+visualsense:TestCase_IV01.ttl a owlunit:InferenceVerification ;
+	owlunit:hasInputData td:Toyset_IV01.ttl ;
+	owlunit:hasSPARQLUnitTest "PREFIX  visualsense: <https://w3id.org/visualsense/> ASK { visualsense:ImageRegion rdfs:subClassOf visualsense:Region }" ;
+	owlunit:hasReasoner owlunit:HermiT ;
+	owlunit:hasExpectedResult true ;
+ 	owlunit:testsOntology visualsense: .
+

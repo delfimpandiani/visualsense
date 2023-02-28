@@ -1,0 +1,12 @@
+@prefix owlunit: <https://w3id.org/OWLunit/ontology/> .
+@prefix td: <https://raw.githubusercontent.com/delfimpandiani/visualsense/main/7_Ontology_Testing/CQ/ToyDataSets/> .
+@prefix tc: <https://raw.githubusercontent.com/delfimpandiani/visualsense/main/7_Ontology_Testing/CQ/TestCases/> .
+@prefix visualsense: <https://www.w3id.org/visualsense#> .
+
+tc:TestCase_CQ09.ttl a owlunit:CompetencyQuestionVerification ;
+ 	owlunit:hasCompetencyQuestion "Which depicted objects does a depicted region include?" ;
+ 	owlunit:hasSPARQLUnitTest "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX visualsense: <https://www.w3id.org/visualsense#> SELECT ?depictedObject WHERE { ?depictedRegion a visualsense:DepictedRegion . ?depictedObject a visualsense:DepictedObject . ?depictedRegion vs:includesDepictedObject ?depictedObject .}" ;
+	owlunit:hasInputData td:Toyset_CQ09.ttl ;
+	owlunit:hasInputTestDataCategory owlunit:ToyDataset ;
+	owlunit:hasExpectedResult "{ \"head\": {  \"vars\": [  \"depictedObject\" ] } ,  \"results\": {  \"bindings\": [ {  \"depictedObject\": {  \"type\":  \"uri\" ,  \"value\":  \"https://w3id.org/visualsense/test/CQ/ToyDatasets/Toyset_CQ09.ttl#depicted_object_691251\" } } ] } }";
+	owlunit:testsOntology visualsense: .

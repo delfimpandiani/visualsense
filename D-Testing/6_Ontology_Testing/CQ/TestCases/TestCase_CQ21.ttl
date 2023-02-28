@@ -1,0 +1,12 @@
+@prefix owlunit: <https://w3id.org/OWLunit/ontology/> .
+@prefix td: <https://raw.githubusercontent.com/delfimpandiani/visualsense/main/7_Ontology_Testing/CQ/ToyDataSets/> .
+@prefix tc: <https://raw.githubusercontent.com/delfimpandiani/visualsense/main/7_Ontology_Testing/CQ/TestCases/> .
+@prefix visualsense: <https://www.w3id.org/visualsense#> .
+
+tc:TestCase_CQ21.ttl a owlunit:CompetencyQuestionVerification ;
+ 	owlunit:hasCompetencyQuestion "Which are the object attributes of a depicted object?" ;
+ 	owlunit:hasSPARQLUnitTest "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX visualsense: <https://www.w3id.org/visualsense#> SELECT ?objectAttribute WHERE { ?depictedObject a visualsense:DepictedObject . ?objectAttribute a visualsense:ObjectAttribute . ?depictedObject visualsense:hasObjAttribute ?objectAttribute .}" ;
+	owlunit:hasInputData td:Toyset_CQ21.ttl ;
+	owlunit:hasInputTestDataCategory owlunit:ToyDataset ;
+	owlunit:hasExpectedResult "{ \"head\": {  \"vars\": [  \"depictedObject\" ] } ,  \"results\": {  \"bindings\": [ {  \"depictedObject\": {  \"type\":  \"string\" ,  \"value\":  \"silver\" } } ] } }";
+	owlunit:testsOntology visualsense: .

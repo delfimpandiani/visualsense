@@ -1,0 +1,8 @@
+@prefix : <https://raw.githubusercontent.com/delfimpandiani/visualsense/main/7_Ontology_Testing/CQ/ToyDataSets/Toyset_CQ10.ttl#> .
+@prefix visualsense: <https://www.w3id.org/visualsense#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+
+:object_relationship_1831850 a visualsense:ObjectRelationship .
+:depicted_region_1891512 a visualsense:DepictedRegion ;
+    visualsense:includesObjectRel :object_relationship_1831850 .

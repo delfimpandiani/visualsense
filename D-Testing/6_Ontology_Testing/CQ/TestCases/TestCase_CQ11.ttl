@@ -1,0 +1,12 @@
+@prefix owlunit: <https://w3id.org/OWLunit/ontology/> .
+@prefix td: <https://raw.githubusercontent.com/delfimpandiani/visualsense/main/7_Ontology_Testing/CQ/ToyDataSets/> .
+@prefix tc: <https://raw.githubusercontent.com/delfimpandiani/visualsense/main/7_Ontology_Testing/CQ/TestCases/> .
+@prefix visualsense: <https://www.w3id.org/visualsense#> .
+
+tc:TestCase_CQ11.ttl a owlunit:CompetencyQuestionVerification ;
+ 	owlunit:hasCompetencyQuestion "Which Wn synset frame does a depicted region evoke?" ;
+ 	owlunit:hasSPARQLUnitTest "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX visualsense: <https://www.w3id.org/visualsense#> SELECT ?WnSynsetFrame WHERE { ?depictedRegion a visualsense:DepictedRegion . ?WnSynsetFrame a visualsense:WnSynsetFrame . ?depictedRegion vs:evokes ?WnSynsetFrame .}" ;
+	owlunit:hasInputData td:Toyset_CQ11.ttl ;
+	owlunit:hasInputTestDataCategory owlunit:ToyDataset ;
+	owlunit:hasExpectedResult "{ \"head\": {  \"vars\": [  \"WnSynsetFrame\" ] } ,  \"results\": {  \"bindings\": [ {  \"WnSynsetFrame\": {  \"type\":  \"uri\" ,  \"value\":  \"https://w3id.org/visualsense/test/CQ/ToyDatasets/Toyset_CQ11.ttl#Hair\" } } ] } }";
+	owlunit:testsOntology visualsense: .

@@ -1,0 +1,12 @@
+@prefix owlunit: <https://w3id.org/OWLunit/ontology/> .
+@prefix td: <https://raw.githubusercontent.com/delfimpandiani/visualsense/main/7_Ontology_Testing/CQ/ToyDataSets/> .
+@prefix tc: <https://raw.githubusercontent.com/delfimpandiani/visualsense/main/7_Ontology_Testing/CQ/TestCases/> .
+@prefix visualsense: <https://www.w3id.org/visualsense#> .
+
+tc:TestCase_CQ02.ttl a owlunit:CompetencyQuestionVerification ;
+ 	owlunit:hasCompetencyQuestion "Which regions are depicted in an image?" ;
+ 	owlunit:hasSPARQLUnitTest "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX visualsense: <https://www.w3id.org/visualsense#> SELECT ?depictedRegion WHERE { ?imageObject a visualsense:ImageObject . ?depictedRegion a visualsense:DepictedRegion . ?depictedRegion visualsense:isDepictedIn ?imageObject .}" ;
+	owlunit:hasInputData td:Toyset_CQ02.ttl ;
+	owlunit:hasInputTestDataCategory owlunit:ToyDataset ;
+	owlunit:hasExpectedResult "{  \"head\": {  \"vars\": [  \"depictedRegion\" ] } ,  \"results\": {  \"bindings\": [ {  \"depictedRegion\": {  \"type\":  \"uri\" ,  \"value\":  \"https://w3id.org/visualsense/test/CQ/ToyDatasets/Toyset_CQ02.ttl#depicted_region_1891498\" } } ] } }" ;
+	owlunit:testsOntology visualsense: .

@@ -1,0 +1,8 @@
+@prefix : <https://raw.githubusercontent.com/delfimpandiani/visualsense/main/7_Ontology_Testing/CQ/ToyDataSets/Toyset_CQ18.ttl#> .
+@prefix visualsense: <https://www.w3id.org/visualsense#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+:bb_region_1891498 a visualsense:BoundingBox .
+
+:depicted_region_1891498 a visualsense:DepictedRegion ;
+    visualsense:hasLocation :bb_region_1891498 .

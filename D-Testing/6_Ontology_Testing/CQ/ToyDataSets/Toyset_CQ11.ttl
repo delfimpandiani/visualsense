@@ -1,0 +1,7 @@
+@prefix : <https://raw.githubusercontent.com/delfimpandiani/visualsense/main/7_Ontology_Testing/CQ/ToyDataSets/Toyset_CQ11.ttl#> .
+@prefix visualsense: <https://www.w3id.org/visualsense#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+:Hair a visualsense:WnSynsetFrame .
+:depicted_region_1891500 a visualsense:DepictedRegion ;
+    visualsense:evokes :Hair .

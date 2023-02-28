@@ -1,0 +1,8 @@
+@prefix : <https://raw.githubusercontent.com/delfimpandiani/visualsense/main/7_Ontology_Testing/CQ/ToyDataSets/Toyset_CQ22.ttl#> .
+@prefix visualsense: <https://www.w3id.org/visualsense#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+:image_object_2384656 a visualsense:ImageObject .
+
+:Clothing a visualsense:ConceptualFrame ;
+    visualsense:isEvokedBy :image_object_2384656 .

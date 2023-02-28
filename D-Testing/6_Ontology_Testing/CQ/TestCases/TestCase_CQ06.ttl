@@ -1,0 +1,12 @@
+@prefix owlunit: <https://w3id.org/OWLunit/ontology/> .
+@prefix td: <https://raw.githubusercontent.com/delfimpandiani/visualsense/main/7_Ontology_Testing/CQ/ToyDataSets/> .
+@prefix tc: <https://raw.githubusercontent.com/delfimpandiani/visualsense/main/7_Ontology_Testing/CQ/TestCases/> .
+@prefix visualsense: <https://www.w3id.org/visualsense#> .
+
+tc:TestCase_CQ06.ttl a owlunit:CompetencyQuestionVerification ;
+ 	owlunit:hasCompetencyQuestion "What is the x coordinate of the bounding box?" ;
+ 	owlunit:hasSPARQLUnitTest "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>  PREFIX visualsense: <https://www.w3id.org/visualsense#>  SELECT ?xCoordinate WHERE { ?boundingBox a visualsense:Boundingbox . ?boundingBox visualsense:hasXCoordinate ?xCoordinate .}" ;
+	owlunit:hasInputData td:Toyset_CQ06.ttl ;
+	owlunit:hasInputTestDataCategory owlunit:ToyDataset ;
+	owlunit:hasExpectedResult "{ \"head\": {  \"vars\": [  \"xCoordinate\" ] } ,  \"results\": {  \"bindings\": [ {  \"xCoordinate\": {  \"type\":  \"integer\" ,  \"value\":  \"128\" } } ] } }";
+	owlunit:testsOntology visualsense: .
