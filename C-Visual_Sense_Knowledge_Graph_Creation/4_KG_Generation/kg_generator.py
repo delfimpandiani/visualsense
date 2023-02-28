@@ -130,7 +130,7 @@ def generate_image_KG(image_data, region_graphs, scene_graphs, frame_data):
             try:
                 synset = depicted_object["synsets"][0]
                 synset = format_synset(synset)
-                synset_URI = URIRef(f'http://etna.istc.cnr.it/framester2/data/framestersyn/{synset}')
+                synset_URI = URIRef(f'https://w3id.org/framester/data/framestersyn/{synset}')
                 g.add((depicted_object_uri, VS.isTypedBy, synset_URI))
             except:
                 continue
@@ -165,7 +165,7 @@ def generate_image_KG(image_data, region_graphs, scene_graphs, frame_data):
             try:
                 synset = relationship["synsets"][0]
                 synset = format_synset(synset)
-                synset_URI = URIRef(f'http://etna.istc.cnr.it/framester2/data/framestersyn/{synset}')
+                synset_URI = URIRef(f'https://w3id.org/framester/data/framestersyn/{synset}')
                 g.add((relationship_uri, VS.isTypedBy, synset_URI))
             except:
                 continue
